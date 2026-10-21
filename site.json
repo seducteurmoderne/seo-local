@@ -1,0 +1,162 @@
+{
+  "nom": "Devis Élagage Lux",
+  "moteur": "../../moteur",
+  "fuseau": "Europe/Luxembourg",
+  "verticales": [
+    {
+      "categorie": "Élagage",
+      "besoin": "elagage",
+      "mere": "elagage",
+      "sitemap": "Élagage",
+      "motif": "formes"
+    },
+    {
+      "categorie": "Abattage",
+      "besoin": "abattage",
+      "mere": "abattage-arbre",
+      "sitemap": "Abattage",
+      "motif": "formes"
+    },
+    {
+      "categorie": "Plantation",
+      "besoin": "plantation",
+      "mere": "plantation",
+      "sitemap": "Plantation",
+      "motif": "formes"
+    }
+  ],
+  "categorie_locale": {
+    "cluster": "Ville",
+    "motif": "local"
+  },
+  "motif_defaut": "formes",
+  "alt_images_une": {
+    "formes": "Illustration abstraite",
+    "local": "Illustration : collines boisées"
+  },
+  "formulaire": {
+    "endpoint": "/wp-json/leads/v1/lead",
+    "politique": "/politique-de-confidentialite/",
+    "besoins": [
+      {
+        "cle": "elagage",
+        "libelle": "Élagage",
+        "libelle_court": "Élagage",
+        "champs": []
+      },
+      {
+        "cle": "abattage",
+        "libelle": "Abattage d'arbre",
+        "libelle_court": "Abattage",
+        "champs": []
+      },
+      {
+        "cle": "dessouchage",
+        "libelle": "Dessouchage",
+        "libelle_court": "Dessouchage",
+        "champs": []
+      },
+      {
+        "cle": "haubanage",
+        "libelle": "Haubanage",
+        "libelle_court": "Haubanage",
+        "champs": []
+      },
+      {
+        "cle": "plantation",
+        "libelle": "Plantation",
+        "libelle_court": "Plantation",
+        "champs": []
+      }
+    ],
+    "delais": [
+      "Dès que possible",
+      "Dans le mois",
+      "Dans les trois mois",
+      "Pas pressé"
+    ],
+    "code_postal": {
+      "regex": "^(L-?)?[0-9]{4}$",
+      "longueur": 6,
+      "exemple": "L-8521",
+      "erreur": "Indiquez un code postal belge (6700) ou luxembourgeois (L-8521)."
+    },
+    "consentement": "J’accepte que ma demande soit transmise à un professionnel de ma région, uniquement pour être recontacté à son sujet.",
+    "bouton": "Être recontacté",
+    "succes": "Demande envoyée. Un professionnel de votre région va vous recontacter rapidement.",
+    "mode": "simple",
+    "sous_titre": "Renseignez vos coordonnées pour être recontacté rapidement par un professionnel de votre région.",
+    "placeholder_message": "Décrivez votre demande"
+  },
+  "couleurs": {
+    "accent": "#A8431A",
+    "accent_fonce": "#8E3813",
+    "fond": "#FBFAF7",
+    "bord": "#D9D3C8",
+    "bord_champ": "#C9C1B4",
+    "texte_champ": "#23262B",
+    "succes": "#2F5D46",
+    "fond_une": "#23262B"
+  },
+  "habillage_css": ".bcp-article a{color:#A8431A;text-decoration:underline}.bcp-article a:hover{color:#8E3813}",
+  "publication": {
+    "delai_min_heures": 2,
+    "ecart_min_heures": 18,
+    "fenetre_heures": 12,
+    "heure_debut": 7,
+    "heure_fin": 22
+  },
+  "audit_exclus": [
+    "devis",
+    "politique-de-confidentialite"
+  ],
+  "formules_bannies_en_plus": [],
+  "seo": {
+    "brief_locales_facultatif": true
+  },
+  "design": 2,
+  "theme": {
+    "slug": "twentytwentyfive",
+    "polices": [
+      {
+        "nom": "Source Serif 4",
+        "slug": "source-serif-4",
+        "pile": "'Source Serif 4', Georgia, serif",
+        "fichier": "polices/source-serif-4-latin.woff2",
+        "graisse": "400 700"
+      },
+      {
+        "nom": "Familjen Grotesk",
+        "slug": "familjen-grotesk",
+        "pile": "'Familjen Grotesk', system-ui, sans-serif",
+        "fichier": "polices/familjen-grotesk-latin.woff2",
+        "graisse": "400 700"
+      }
+    ]
+  },
+  "sommaire": {
+    "position": "apres_en_bref",
+    "label": "Sommaire"
+  },
+  "schema_service": {
+    "organisation": "https://elagage-luxembourg.com/#organization",
+    "exclure": [
+      "accueil",
+      "devis"
+    ],
+    "zone": [
+      {
+        "@type": "Country",
+        "name": "Luxembourg"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Province de Luxembourg",
+        "containedInPlace": {
+          "@type": "Country",
+          "name": "Belgique"
+        }
+      }
+    ]
+  }
+}

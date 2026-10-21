@@ -1,0 +1,234 @@
+{
+  "settings": {
+    "color": {
+      "palette": {
+        "theme": [
+          {
+            "slug": "base",
+            "name": "Fond",
+            "color": "#F2EFE9"
+          },
+          {
+            "slug": "contrast",
+            "name": "Encre",
+            "color": "#23262B"
+          },
+          {
+            "slug": "accent-1",
+            "name": "Rouille",
+            "color": "#A8431A"
+          },
+          {
+            "slug": "accent-2",
+            "name": "Papier",
+            "color": "#FBFAF7"
+          },
+          {
+            "slug": "accent-3",
+            "name": "Sapin",
+            "color": "#2F5D46"
+          },
+          {
+            "slug": "accent-4",
+            "name": "Gris",
+            "color": "#5B5E63"
+          },
+          {
+            "slug": "accent-5",
+            "name": "Écorce clair",
+            "color": "#F3E6DC"
+          },
+          {
+            "slug": "accent-6",
+            "name": "Filet",
+            "color": "#D9D3C8"
+          }
+        ],
+        "custom": [
+          {
+            "slug": "fond",
+            "name": "Fond",
+            "color": "#F2EFE9"
+          },
+          {
+            "slug": "papier",
+            "name": "Papier",
+            "color": "#FBFAF7"
+          },
+          {
+            "slug": "encre",
+            "name": "Encre",
+            "color": "#23262B"
+          },
+          {
+            "slug": "gris",
+            "name": "Gris",
+            "color": "#5B5E63"
+          },
+          {
+            "slug": "filet",
+            "name": "Filet",
+            "color": "#D9D3C8"
+          },
+          {
+            "slug": "rouille",
+            "name": "Rouille",
+            "color": "#A8431A"
+          },
+          {
+            "slug": "rouille-f",
+            "name": "Rouille foncée",
+            "color": "#8E3813"
+          },
+          {
+            "slug": "sapin",
+            "name": "Sapin",
+            "color": "#2F5D46"
+          },
+          {
+            "slug": "blanc",
+            "name": "Blanc",
+            "color": "#FFFFFF"
+          }
+        ]
+      }
+    },
+    "layout": {
+      "contentSize": "760px",
+      "wideSize": "1080px"
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "var:preset|color|fond",
+      "text": "var:preset|color|encre"
+    },
+    "typography": {
+      "fontFamily": "var:preset|font-family|source-serif-4",
+      "fontSize": "1.1875rem",
+      "fontWeight": "400",
+      "lineHeight": "1.65",
+      "letterSpacing": "normal"
+    },
+    "spacing": {
+      "blockGap": "1.25rem",
+      "padding": {
+        "top": "0px",
+        "bottom": "0px",
+        "left": "20px",
+        "right": "20px"
+      }
+    },
+    "elements": {
+      "link": {
+        "color": {
+          "text": "var:preset|color|rouille"
+        },
+        "typography": {
+          "textDecoration": "underline"
+        },
+        ":hover": {
+          "color": {
+            "text": "#8E3813"
+          }
+        }
+      },
+      "heading": {
+        "color": {
+          "text": "var:preset|color|encre"
+        },
+        "typography": {
+          "fontFamily": "var:preset|font-family|source-serif-4",
+          "fontWeight": "700",
+          "letterSpacing": "-0.015em",
+          "lineHeight": "1.12"
+        }
+      },
+      "h1": {
+        "typography": {
+          "fontSize": "clamp(2.25rem, 1.6rem + 2.4vw, 3.375rem)",
+          "lineHeight": "1.08"
+        }
+      },
+      "h2": {
+        "typography": {
+          "fontSize": "clamp(1.75rem, 1.4rem + 1.2vw, 2.25rem)",
+          "lineHeight": "1.15"
+        }
+      },
+      "h3": {
+        "typography": {
+          "fontSize": "1.5rem",
+          "lineHeight": "1.2"
+        }
+      },
+      "h4": {
+        "typography": {
+          "fontSize": "1.25rem",
+          "lineHeight": "1.25"
+        }
+      },
+      "button": {
+        "color": {
+          "background": "var:preset|color|rouille",
+          "text": "#FFFFFF"
+        },
+        "border": {
+          "radius": "0px"
+        },
+        "typography": {
+          "fontFamily": "var:preset|font-family|familjen-grotesk",
+          "fontWeight": "700",
+          "fontSize": "1rem",
+          "lineHeight": "1.2"
+        },
+        "spacing": {
+          "padding": {
+            "top": "0.9rem",
+            "bottom": "0.9rem",
+            "left": "1.5rem",
+            "right": "1.5rem"
+          }
+        },
+        ":hover": {
+          "color": {
+            "background": "#8E3813",
+            "text": "#FFFFFF"
+          }
+        }
+      },
+      "caption": {
+        "typography": {
+          "fontSize": "0.9rem"
+        },
+        "color": {
+          "text": "var:preset|color|gris"
+        }
+      }
+    },
+    "blocks": {
+      "core/navigation": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|familjen-grotesk",
+          "fontSize": "0.95rem",
+          "fontWeight": "600"
+        }
+      },
+      "core/post-title": {
+        "typography": {
+          "fontWeight": "700"
+        }
+      },
+      "core/quote": {
+        "typography": {
+          "fontSize": "1.1875rem"
+        }
+      },
+      "core/separator": {
+        "color": {
+          "text": "var:preset|color|filet"
+        }
+      }
+    }
+  }
+}

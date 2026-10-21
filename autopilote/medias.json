@@ -1,0 +1,122 @@
+{
+ "media/photos/elagueur-grimpeur-encorde-dans-un-pin.webp": {
+  "id": 72,
+  "url": "https://elagage-luxembourg.com/wp-content/uploads/2026/10/elagueur-grimpeur-encorde-dans-un-pin-4.webp",
+  "w": 1200,
+  "h": 800,
+  "empreinte": "2016c09e5769d8e3",
+  "alt": "Élagueuse grimpeuse encordée sur une charpentière de pin, tronçonneuse à la ceinture, après la coupe des branches"
+ },
+ "media/une/elagage.webp": {
+  "id": 23,
+  "url": "https://elagage-luxembourg.com/wp-content/uploads/2026/10/elagage.webp",
+  "w": 1600,
+  "h": 900,
+  "empreinte": "60836b3614912bcf",
+  "alt": "Illustration abstraite"
+ },
+ "media/photos/abattage-arbre-demontage-tronc-tronconneuse.webp": {
+  "id": 43,
+  "url": "https://elagage-luxembourg.com/wp-content/uploads/2026/10/abattage-arbre-demontage-tronc-tronconneuse-2.webp",
+  "w": 1200,
+  "h": 800,
+  "empreinte": "9c869951572c2bb8",
+  "alt": "Arboriste grimpeur encordé au tronc, qui démonte un arbre par tronçons à la tronçonneuse"
+ },
+ "media/photos/rogneuse-de-souche-dessouchage.webp": {
+  "id": 45,
+  "url": "https://elagage-luxembourg.com/wp-content/uploads/2026/10/rogneuse-de-souche-dessouchage-2.webp",
+  "w": 867,
+  "h": 578,
+  "empreinte": "952717315eb42e17",
+  "alt": "Rogneuse de souche thermique qui broie une souche d'arbre au ras du sol, dans une pelouse"
+ },
+ "media/photos/haubanage-arbre-cable-dynamique-hetre.webp": {
+  "id": 47,
+  "url": "https://elagage-luxembourg.com/wp-content/uploads/2026/10/haubanage-arbre-cable-dynamique-hetre-2.webp",
+  "w": 1200,
+  "h": 800,
+  "empreinte": "5b984793aebeb093",
+  "alt": "Câble de haubanage dynamique tendu entre deux charpentières d'un hêtre, sous le feuillage"
+ },
+ "media/photos/plantation-jeunes-arbres-manchons.webp": {
+  "id": 49,
+  "url": "https://elagage-luxembourg.com/wp-content/uploads/2026/10/plantation-jeunes-arbres-manchons-2.webp",
+  "w": 867,
+  "h": 578,
+  "empreinte": "a9b12b56cdcb8574",
+  "alt": "Jeune plantation d'arbres en rangées, chaque plant protégé par un manchon"
+ },
+ "media/une/politique-de-confidentialite.webp": {
+  "id": 87,
+  "url": "https://elagage-luxembourg.com/wp-content/uploads/2026/10/politique-de-confidentialite.webp",
+  "w": 1600,
+  "h": 900,
+  "empreinte": "81e91cfa95109f0c",
+  "alt": "Illustration abstraite"
+ },
+ "media/une/devis.webp": {
+  "id": 90,
+  "url": "https://elagage-luxembourg.com/wp-content/uploads/2026/10/devis.webp",
+  "w": 1600,
+  "h": 900,
+  "empreinte": "b555a5fdeca6a022",
+  "alt": "Illustration abstraite"
+ },
+ "media/une/elagage-luxembourg.webp": {
+  "id": 104,
+  "url": "https://elagage-luxembourg.com/wp-content/uploads/2026/10/elagage-luxembourg.webp",
+  "w": 1600,
+  "h": 900,
+  "empreinte": "d12dbc1e9ee40205",
+  "alt": "Illustration abstraite"
+ },
+ "media/une/abattage-arbre-luxembourg.webp": {
+  "id": 111,
+  "url": "https://elagage-luxembourg.com/wp-content/uploads/2026/10/abattage-arbre-luxembourg.webp",
+  "w": 1600,
+  "h": 900,
+  "empreinte": "f7be8cf8acb25930",
+  "alt": "Illustration abstraite"
+ },
+ "media/une/elagage-province-de-luxembourg.webp": {
+  "id": 116,
+  "url": "https://elagage-luxembourg.com/wp-content/uploads/2026/10/elagage-province-de-luxembourg.webp",
+  "w": 1600,
+  "h": 900,
+  "empreinte": "edf8d2d876b41f67",
+  "alt": "Illustration abstraite"
+ },
+ "media/une/abattage-arbre-province-de-luxembourg.webp": {
+  "id": 122,
+  "url": "https://elagage-luxembourg.com/wp-content/uploads/2026/10/abattage-arbre-province-de-luxembourg.webp",
+  "w": 1600,
+  "h": 900,
+  "empreinte": "617e39490827041f",
+  "alt": "Illustration abstraite"
+ },
+ "media/une/elagage-beckerich.webp": {
+  "id": 129,
+  "url": "https://elagage-luxembourg.com/wp-content/uploads/2026/10/elagage-beckerich.webp",
+  "w": 1600,
+  "h": 900,
+  "empreinte": "250695a65c8ab04c",
+  "alt": "Illustration : collines boisées"
+ },
+ "media/une/abattage-arbre-beckerich.webp": {
+  "id": 136,
+  "url": "https://elagage-luxembourg.com/wp-content/uploads/2026/10/abattage-arbre-beckerich.webp",
+  "w": 1600,
+  "h": 900,
+  "empreinte": "403106075e40816b",
+  "alt": "Illustration : collines boisées"
+ },
+ "media/une/elagage-arlon.webp": {
+  "id": 162,
+  "url": "https://elagage-luxembourg.com/wp-content/uploads/2026/10/elagage-arlon.webp",
+  "w": 1600,
+  "h": 900,
+  "empreinte": "f850b774a56b13f3",
+  "alt": "Illustration : collines boisées"
+ }
+}

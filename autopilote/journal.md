@@ -1,0 +1,81 @@
+# Journal du pilote
+
+- 2026-10-15 — création du site (`nouveau_site.py elagage elagage-luxembourg.com`). Sitemap (177 URLs) et stratégie reprises des brouillons. `site.json` : 3 catégories (Élagage, Abattage, Plantation), 5 besoins, formulaire simple, couleurs du design A, fuseau Europe/Luxembourg, `seo.brief_locales_facultatif`.
+- 2026-10-15 — moteur : formulaire `mode: simple` (wp.py, plugin-leads.php.modele, autopilote.py generer_plugin). Testé : rendu des 36 articles du site bois et son plugin généré identiques octet pour octet avant et après ; sur une copie de ce site, formulaire rendu et contrôles vérifiés dans le navigateur (prénom, nom, e-mail, téléphone, consentement), demande envoyée avec le besoin de la page. PHP absent de la machine : syntaxe du plugin non vérifiée par `php -l`.
+- 2026-10-15 — préparation du lancement, en session avec le propriétaire : thème design A dans `theme/` (Source Serif 4 et Familjen Grotesk téléchargées sur Google Fonts, palette papier/encre/rouille, en-tête et pied de page « Devis Élagage Lux », menu des 5 services, accueil et 404 adaptés) ; `site.json` → `design: 2` et `theme`. 5 pages services rédigées (`elagage`, `abattage-arbre`, `dessouchage`, `haubanage-arbre`, `plantation`, type page), brief en cascade (IA non joignable : étapes 4-7 rédigées à la main), `verifier` OK sur les 5. Photos Wikimedia Commons sous licence libre, crédits dans `photos/credits.json`. Fait sourcé : Code civil belge art. 3.133 (distances de plantation). Aperçu local : `../../brouillons/elagage/apercu/elagage.html`. DNS du domaine pas encore servi par Infomaniak (lame delegation) à 22:13.
+- 2026-10-15 22:36 — `elagage` brouillon · 3 avertissement(s)
+- 2026-10-15 22:37 — `elagage` brouillon · 3 avertissement(s)
+- 2026-10-15 22:37 — `abattage-arbre` brouillon · 3 avertissement(s)
+- 2026-10-15 22:37 — `dessouchage` brouillon · 3 avertissement(s)
+- 2026-10-15 22:38 — `haubanage-arbre` brouillon · 3 avertissement(s)
+- 2026-10-15 22:38 — `plantation` brouillon · 3 avertissement(s)
+- 2026-10-15 22:39 — maillage : 5 article(s) relié(s) aux pages publiées depuis
+- 2026-10-15 22:39 — `elagage` : image à la une posée (média 51)
+- 2026-10-16 — mise en ligne, en session avec le propriétaire : connexion WordPress OK (utilisateur `claude`, administrateur). Réglages : titre « Devis Élagage Lux », slogan, adresse en https, fuseau Europe/Luxembourg, format de date. Yoast SEO installé et activé. Catégories créées : Élagage (elagage-arbre), Abattage (abattage), Plantation (plantation-arbres). Thème design A poussé (polices, styles, gabarits). 5 pages services publiées, photo du propriétaire de chaque page en image à la une ; maillage passé. Plugin `setup/mu-plugins/leads.php` généré (mode simple). Reste : déposer `leads.php` et `expose-yoast-rest.php` dans wp-content/mu-plugins, publier la politique de confidentialité et `/devis/`, forcer la redirection http → https.
+- 2026-10-15 22:46 — `elagage` publié · 3 avertissement(s)
+- 2026-10-15 22:46 — `abattage-arbre` publié · 3 avertissement(s)
+- 2026-10-15 22:46 — `haubanage-arbre` publié · 3 avertissement(s)
+- 2026-10-15 22:46 — `plantation` publié · 3 avertissement(s)
+- 2026-10-15 22:52 — `accueil` brouillon · 2 avertissement(s)
+- 2026-10-15 22:52 — `accueil` publié · 2 avertissement(s)
+- 2026-10-15 22:52 — maillage : 1 article(s) relié(s) aux pages publiées depuis
+- 2026-10-16 — session : contenus par défaut (Hello world, Sample page, brouillon Privacy Policy) mis à la corbeille à la demande du propriétaire, non vidée. Nom du site dans Yoast changé par le propriétaire (« Élagage et abattage d'arbres au Grand-Duché et en province de Luxembourg ») ; logo du thème inchangé. Page d'accueil `accueil` (entete: accueil) publiée et réglée en page d'accueil statique. Moteur : design.py, `entete` donne la classe bcp-entete--<valeur> (site bois identique, 36 rendus comparés). Titles et méta Yoast des 5 pages renvoyés après dépôt des mu-plugins (leads.php et expose-yoast-rest.php actifs).
+- 2026-10-15 23:25 — `elagage` publié · 3 avertissement(s)
+- 2026-10-15 23:25 — `abattage-arbre` publié · 3 avertissement(s)
+- 2026-10-15 23:26 — `dessouchage` publié · 3 avertissement(s)
+- 2026-10-15 23:26 — `haubanage-arbre` publié · 3 avertissement(s)
+- 2026-10-15 23:26 — `plantation` publié · 3 avertissement(s)
+- 2026-10-15 23:42 — `elagage` publié · 3 avertissement(s)
+- 2026-10-15 23:42 — `abattage-arbre` publié · 3 avertissement(s)
+- 2026-10-15 23:43 — `dessouchage` publié · 3 avertissement(s)
+- 2026-10-15 23:43 — `haubanage-arbre` publié · 3 avertissement(s)
+- 2026-10-15 23:43 — `plantation` publié · 3 avertissement(s)
+- 2026-10-16 — session : « En bref » en carte (CSS), réécrit pour apporter la réponse et le conseil, distinct de l'intro ; intros réécrites (entrée par la situation du lecteur, différente à chaque page). Sommaire placé entre l'« En bref » et l'intro, intitulé « Sommaire » (moteur : wp.py / design.py, réglage `sommaire` dans site.json ; site bois identique, 36 rendus comparés). Blocs ajoutés sur les 5 pages services : cartes de choix, citations, Notre avis, à vérifier / à éviter, chiffres clés, encadrés ; styles du design A enrichis. Charte mise à jour.
+- 2026-10-15 23:46 — `politique-de-confidentialite` brouillon · 3 avertissement(s)
+- 2026-10-15 23:47 — `devis` brouillon · 2 avertissement(s)
+- 2026-10-15 23:48 — maillage : 8 article(s) relié(s) aux pages publiées depuis
+- 2026-10-15 23:50 — `accueil` publié · 4 avertissement(s)
+- 2026-10-16 — session : politique de confidentialité (Indexio EOOD, indexio.bg@gmail.com, CNPD et APD) et page `/devis/` publiées ; formulaires actifs. Nom de l'entreprise retiré du pied de page (demande du propriétaire ; il reste dans la politique, obligatoire). Accueil refait : bandeau photo, chapô (moteur : `chapo`), formulaire en carte, 5 services, démarche, 8 régions avec leurs communes (liens vers les futures pages de ville, activés par le maillage à leur sortie).
+- 2026-10-16 09:31 — `elagage-luxembourg` planifié, sortie le 17/10 à 07:22 · 2 avertissement(s)
+- 2026-10-16 — pilote : `elagage-luxembourg` (mère locale Grand-Duché) rédigée et programmée le 17/10 à 07:22. Brief en cascade rédigé à la main (IA non joignable : OAuth expiré). Source trouvée : loi du 18 juillet 2018, art. 17 §6 (taille des haies, broussailles et lisières interdite du 1er mars au 1er octobre), texte cité par le catalogue de conditionnalité du ministère de l'Agriculture. Retirés faute de source primaire accessible : distances de plantation du Code civil luxembourgeois (art. 671), liste des centres de recyclage par syndicat (à sourcer ville par ville). 42 communes de la sitemap reliées en 5 régions.
+- 2026-10-16 09:33 — `elagage-luxembourg` publié · 2 avertissement(s)
+- 2026-10-16 09:34 — maillage : 2 article(s) relié(s) aux pages publiées depuis
+- 2026-10-16 — sur demande du propriétaire, `elagage-luxembourg` publiée tout de suite (au lieu du 17/10 07:22) ; maillage relancé.
+- 2026-10-16 09:39 — maillage : 1 article(s) relié(s) aux pages publiées depuis
+- 2026-10-16 09:40 — `abattage-arbre-luxembourg` planifié, sortie le 17/10 à 13:03 · 2 avertissement(s)
+- 2026-10-16 — session : `abattage-arbre-luxembourg` (mère locale abattage, Grand-Duché) rédigée à la demande du propriétaire, programmée le 17/10 à 13:03. Sources : loi du 23 août 2023 sur les forêts, art. 8 (2) (déboisement < 0,5 ha sans autorisation si reboisement sous 3 ans) et seuil de notification de 40 m³ au Service des forêts, d'après une autorisation de l'ANF (mai 2026). Protection des arbres isolés et haies : renvoi à la commune, faute de source.
+- 2026-10-16 — moteur, à la demande du propriétaire : `::guides` (wp.py, `_filles`) ne liste plus les mères locales ni les villes, liées dans le texte (« Mère locale » apparaissait sur /elagage/, et les 42 villes y seraient arrivées). Site bois : listes de guides identiques avant/après pour chaque verticale ; `verifier` relancé sur un article de chaque site (bois : 2 bloquants qui existaient déjà, pellets sans brief). /elagage/ republiée par le maillage.
+- 2026-10-16 — moteur : la ligne « Menu homepage » de `etat` compte désormais les liens relatifs (8 liens internes sur l'accueil, au lieu de 0).
+- 2026-10-16 14:01 — `devis` publié · 2 avertissement(s)
+- 2026-10-16 — session, demande du propriétaire : /devis/ affiche le H1 puis directement le formulaire (`entete: devis`, CSS dans theme/site.css qui masque fil d'Ariane et dates ; texte d'intro passé sous le formulaire). Thème poussé, page mise à jour.
+- 2026-10-17 15:55 — `elagage-province-de-luxembourg` planifié, sortie le 18/10 à 17:37 · 2 avertissement(s)
+- 2026-10-17 — pilote : `elagage-province-de-luxembourg` (mère locale province, BE) rédigée et programmée le 18/10 à 17:37. Brief en cascade rédigé à la main (IA non joignable : OAuth expiré). Sources : wallonie.be « Intervenir sur un arbre, une haie ou un arbuste » (permis pour arbres/haies remarquables : abattage, racines 5 m / 2 m, modification de silhouette ; haies indigènes ≥ 10 m) ; IDELUX (54 recyparcs gratuits pour les habitants, branchages ≤ 8 cm). Retirés faute de source primaire : période de taille des haies pour les particuliers en Wallonie (pas de règle générale trouvée ; le 1er avril–31 juillet ne vise que les haies agricoles subventionnées), critère automatique de l'arbre remarquable. 26 communes de la sitemap reliées en 5 régions.
+- 2026-10-18 06:32 — maillage : 3 article(s) relié(s) aux pages publiées depuis
+- 2026-10-18 10:05 — `abattage-arbre-province-de-luxembourg` planifié, sortie le 19/10 à 19:14 · 3 avertissement(s)
+- 2026-10-18 — pilote : `abattage-arbre-province-de-luxembourg` (mère locale abattage, BE) rédigée et programmée le 19/10 à 19:14. Brief en cascade rédigé à la main (IA non joignable : OAuth expiré). Sources : wallonie.be « Intervenir sur un arbre, une haie ou un arbuste » (cas de permis d'abattage : remarquables, haies indigènes ≥ 10 m sauf accès < 2,5 m, arbres isolés haute tige en zone d'espaces verts, allées ≥ 10 arbres sur 100 m, déboisement définitif) ; OWSF, alerte scolytes du 23/04/2019 (cycle 6 semaines, sciure et trous d'entrée, abattre/évacuer/écorcer, broyage des rémanents) ; IDELUX (branchages ≤ 8 cm). Manquent : bilan scolytes récent chiffré par province ; reprise des troncs et souches au recyparc (IDELUX muet). 26 communes de la sitemap reliées en 5 régions. Avertissement restant : H2 « Prix… : démontage ou abattage direct » différente du plan du brief (renommée pour couvrir la question du brief).
+- 2026-10-19 12:45 — maillage : 4 article(s) relié(s) aux pages publiées depuis
+- 2026-10-19 12:50 — `elagage-beckerich` planifié, sortie le 21/10 à 08:21 · 3 avertissement(s)
+- 2026-10-19 — pilote : `elagage-beckerich` (première page de ville, modèle locale-elagage) rédigée et programmée le 21/10 à 08:21. Sources : calendrier des déchets 2026 de la commune (déchets verts à l'atelier communal rue d'Ell ; parc à conteneurs SIDEC de Redange, horaires ; sapins en janvier) ; couche officielle ANF des arbres remarquables (data.public.lu, 238 arbres, 12/10/2026) : 4 à Beckerich (chêne Elvange-Hovelange, tilleul Beckerich, cormier et chêne Oberpallen) ; art. 14bis loi du 18/07/2018 (interdiction d'endommager sauf autorisation ministérielle) et aide jusqu'à 75 % (guide ministériel 2026) ; art. 17 (haies, 1er mars–1er octobre) ; villages, superficie et altitudes (Wikipédia/STATEC) ; saule emblème de la commune (Visit Luxembourg). Manquent : vergers propres à la commune, relief détaillé, taille maximale des branches acceptées à l'atelier communal. Lien entrant : accueil et /elagage-luxembourg/.
+- 2026-10-20 09:36 — maillage : 4 article(s) relié(s) aux pages publiées depuis
+- 2026-10-20 09:41 — `abattage-arbre-beckerich` planifié, sortie le 22/10 à 11:55 · 3 avertissement(s)
+- 2026-10-20 — pilote : `abattage-arbre-beckerich` (modèle locale-abattage-arbre) rédigée et programmée le 22/10 à 11:55. Sources : règlement communal du 22/10/2025 sur l'achat du bois pour la centrale de chauffage (2026 : 38 €/t HTVA feuillus et résineux, +3,50 €/t FSC/PEFC, Ø ≤ 80 cm, fin bout ≥ 7 cm sans branches, bois sain < 1 an, transport à charge du vendeur) ; avis Chambre de Commerce 17/07/2023 sur le projet de réserve naturelle Schweich-Houbierg (166,36 ha, Beckerich-Saeul, réserve forestière intégrale ; adoption définitive non confirmée, écrit « projet ») ; calendrier des déchets 2026 ; couche ANF des arbres remarquables (4 à Beckerich, revérifiée). Manquent : reprise des troncs au parc SIDEC de Redange, risques sanitaires propres à la commune (scolytes, frênes). Lien entrant : /abattage-arbre-luxembourg/ et /elagage-beckerich/.
+- 2026-10-20 10:03 — `elagage-beckerich` planifié, sortie le 20/10 à 14:37 · 3 avertissement(s)
+- 2026-10-20 10:03 — `abattage-arbre-beckerich` planifié, sortie le 21/10 à 10:12 · 3 avertissement(s)
+- 2026-10-20 — session, demande du propriétaire : planning décalé pour éviter un jour vide le 20/10 : `elagage-beckerich` avancé au 20/10 à 14:37, `abattage-arbre-beckerich` au 21/10 à 10:12 (dates changées dans WordPress, pages renvoyées pour les dates affichées).
+- 2026-10-20 — session, demande du propriétaire : logo (recadré, fond transparent, 480×162 WebP, média 141) dans l'en-tête à la place du texte, CSS 60 px de haut (46 px sur mobile) ; favicon 512×512 PNG (média 142) posé comme icône du site. Nom WordPress inchangé. Thème poussé.
+- 2026-10-20 13:17 — `elagage` publié · 3 avertissement(s)
+- 2026-10-20 13:18 — `abattage-arbre` publié · 3 avertissement(s)
+- 2026-10-20 13:18 — `dessouchage` publié · 3 avertissement(s)
+- 2026-10-20 13:18 — `haubanage-arbre` publié · 3 avertissement(s)
+- 2026-10-20 13:18 — `plantation` publié · 3 avertissement(s)
+- 2026-10-20 13:19 — `elagage-luxembourg` publié · 2 avertissement(s)
+- 2026-10-20 13:19 — `abattage-arbre-luxembourg` publié · 2 avertissement(s)
+- 2026-10-20 13:19 — `elagage-province-de-luxembourg` publié · 2 avertissement(s)
+- 2026-10-20 13:19 — `abattage-arbre-province-de-luxembourg` publié · 3 avertissement(s)
+- 2026-10-20 13:19 — `elagage-beckerich` planifié, sortie le 20/10 à 14:37 · 3 avertissement(s)
+- 2026-10-20 13:20 — `abattage-arbre-beckerich` planifié, sortie le 21/10 à 10:12 · 3 avertissement(s)
+- 2026-10-20 — session, demande du propriétaire : balisage schema.org. Organization « Elagage Luxembourg » (alternateName Devis Élagage Lux, logo, zone, parentOrganization Indexio EOOD) dans theme/parts/footer.html, sur toutes les pages. Service sur les pages avec `besoin` (sauf accueil, devis) : moteur wp.py, option site.json → `schema_service` (absente = rien ; rendu bois-chauffage et gruptis vérifié identique). 9 pages en ligne et 2 programmées renvoyées.
+- 2026-10-21 10:07 — maillage : 4 article(s) relié(s) aux pages publiées depuis
+- 2026-10-21 10:33 — `elagage-arlon` planifié, sortie le 22/10 à 12:33 · 4 avertissement(s)
+- 2026-10-21 — pilote : `elagage-arlon` (modèle locale-elagage) rédigée et programmée le 22/10 à 12:33. Sources : liste wallonne des arbres et haies remarquables (annexe AM 26/01/2022, wallex) : 231 arbres et 7 haies à Arlon, par section (Arlon 76, Heinsch 61, Guirsch 31, Bonnert 26, Autelbas 24, Toernich 20), chênes pédonculés 37, séquoia géant 35 m à Guirsch ; wallonie.be « Intervenir sur un arbre… » (permis : étêtage, éclaircie > 1/3, plaie > 50 cm de tour, racines 5 m) ; IDELUX recyparc d'Arlon (route de Neufchâteau 258, Stockem, horaires), accès gratuit habitants, branchages ≤ 8 cm ; Wikipédia (119 km², 6 sections, Knippchen, source de la Semois, voisines). Manquent : relief et accès des jardins, climat local. Lien entrant : /elagage-province-de-luxembourg/ et /elagage-beckerich/. Note : à `abattage-arbre-arlon`, réutiliser la liste des remarquables sans recopier le texte.
+- 2026-10-21 — session, moteur commun : `choisir_date` publie le jour même (au hasard entre maintenant + 2 h et 22 h), le lendemain seulement si un article du pilote sort déjà ce jour-là (demande du propriétaire). `ecart_min_heures` et `fenetre_heures` ne servent plus. Testé en simulation sur bois-chauffage, elagage et gruptis.
