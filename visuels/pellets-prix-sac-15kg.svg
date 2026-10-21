@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-label="Prix moyen d'un sac de 15 kg de pellets en Wallonie, mois par mois, de janvier 2025 à août 2026. Le prix part de 5,61 € en janvier 2025, descend à 5,43 € en juin et juillet 2025, creux de l'été, puis remonte sans interruption jusqu'à 6,19 € en août 2026. Relevés mensuels Valbiom, palette de sacs certifiés, hors livraison.">
+<text x="380" y="30" text-anchor="middle" font-size="14" font-weight="700" fill="currentColor">PRIX MOYEN DU SAC DE 15 KG EN WALLONIE</text>
+<text x="380" y="50" text-anchor="middle" font-size="12" fill="currentColor" opacity=".6">relevés mensuels Valbiom · palette de sacs certifiés, hors livraison</text>
+<line x1="92" y1="264.6" x2="662" y2="264.6" stroke="currentColor" stroke-width="1" opacity=".13"/>
+<text x="82" y="268.6" text-anchor="end" font-size="11" fill="currentColor" opacity=".6">5,40 €</text>
+<line x1="92" y1="221.8" x2="662" y2="221.8" stroke="currentColor" stroke-width="1" opacity=".13"/>
+<text x="82" y="225.8" text-anchor="end" font-size="11" fill="currentColor" opacity=".6">5,60 €</text>
+<line x1="92" y1="179.0" x2="662" y2="179.0" stroke="currentColor" stroke-width="1" opacity=".13"/>
+<text x="82" y="183.0" text-anchor="end" font-size="11" fill="currentColor" opacity=".6">5,80 €</text>
+<line x1="92" y1="136.2" x2="662" y2="136.2" stroke="currentColor" stroke-width="1" opacity=".13"/>
+<text x="82" y="140.2" text-anchor="end" font-size="11" fill="currentColor" opacity=".6">6,00 €</text>
+<line x1="92" y1="93.4" x2="662" y2="93.4" stroke="currentColor" stroke-width="1" opacity=".13"/>
+<text x="82" y="97.4" text-anchor="end" font-size="11" fill="currentColor" opacity=".6">6,20 €</text>
+<line x1="92" y1="72" x2="92" y2="286" stroke="currentColor" stroke-width="1.4" opacity=".45"/>
+<line x1="92" y1="286" x2="662" y2="286" stroke="currentColor" stroke-width="1.4" opacity=".45"/>
+<line x1="437.0" y1="72" x2="437.0" y2="286" stroke="currentColor" stroke-width="1" opacity=".25" stroke-dasharray="4 4"/>
+<text x="257.0" y="328" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor" opacity=".75">2025</text>
+<text x="557.0" y="328" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor" opacity=".75">2026</text>
+<polyline points="92.0,219.7 122.0,209.0 152.0,200.4 182.0,202.5 212.0,247.5 242.0,258.2 272.0,258.2 302.0,247.5 332.0,234.6 362.0,213.2 392.0,166.2 422.0,170.4 452.0,138.3 482.0,131.9 512.0,125.5 542.0,110.5 572.0,112.7 602.0,108.4 632.0,104.1 662.0,95.5" fill="none" stroke="#C9531A" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="92.0" cy="219.7" r="2.4" fill="#C9531A"/>
+<circle cx="122.0" cy="209.0" r="2.4" fill="#C9531A"/>
+<circle cx="152.0" cy="200.4" r="2.4" fill="#C9531A"/>
+<circle cx="182.0" cy="202.5" r="2.4" fill="#C9531A"/>
+<circle cx="212.0" cy="247.5" r="2.4" fill="#C9531A"/>
+<circle cx="242.0" cy="258.2" r="2.4" fill="#C9531A"/>
+<circle cx="272.0" cy="258.2" r="2.4" fill="#C9531A"/>
+<circle cx="302.0" cy="247.5" r="2.4" fill="#C9531A"/>
+<circle cx="332.0" cy="234.6" r="2.4" fill="#C9531A"/>
+<circle cx="362.0" cy="213.2" r="2.4" fill="#C9531A"/>
+<circle cx="392.0" cy="166.2" r="2.4" fill="#C9531A"/>
+<circle cx="422.0" cy="170.4" r="2.4" fill="#C9531A"/>
+<circle cx="452.0" cy="138.3" r="2.4" fill="#C9531A"/>
+<circle cx="482.0" cy="131.9" r="2.4" fill="#C9531A"/>
+<circle cx="512.0" cy="125.5" r="2.4" fill="#C9531A"/>
+<circle cx="542.0" cy="110.5" r="2.4" fill="#C9531A"/>
+<circle cx="572.0" cy="112.7" r="2.4" fill="#C9531A"/>
+<circle cx="602.0" cy="108.4" r="2.4" fill="#C9531A"/>
+<circle cx="632.0" cy="104.1" r="2.4" fill="#C9531A"/>
+<circle cx="662.0" cy="95.5" r="2.4" fill="#C9531A"/>
+<text x="92.0" y="306" text-anchor="middle" font-size="11" fill="currentColor" opacity=".55">J</text>
+<text x="152.0" y="306" text-anchor="middle" font-size="11" fill="currentColor" opacity=".55">M</text>
+<text x="212.0" y="306" text-anchor="middle" font-size="11" fill="currentColor" opacity=".55">M</text>
+<text x="272.0" y="306" text-anchor="middle" font-size="11" fill="currentColor" opacity=".55">J</text>
+<text x="332.0" y="306" text-anchor="middle" font-size="11" fill="currentColor" opacity=".55">S</text>
+<text x="392.0" y="306" text-anchor="middle" font-size="11" fill="currentColor" opacity=".55">N</text>
+<text x="452.0" y="306" text-anchor="middle" font-size="11" fill="currentColor" opacity=".55">J</text>
+<text x="512.0" y="306" text-anchor="middle" font-size="11" fill="currentColor" opacity=".55">M</text>
+<text x="572.0" y="306" text-anchor="middle" font-size="11" fill="currentColor" opacity=".55">M</text>
+<text x="632.0" y="306" text-anchor="middle" font-size="11" fill="currentColor" opacity=".55">J</text>
+<line x1="272.0" y1="264.0" x2="272.0" y2="270.0" stroke="currentColor" stroke-width="1" opacity=".4"/>
+<text x="272.0" y="281.0" text-anchor="middle" font-size="11" fill="currentColor" opacity=".8">creux de l'été : 5,43 €</text>
+<circle cx="662.0" cy="95.5" r="4.5" fill="#C9531A"/>
+<text x="674.0" y="93.5" font-size="14" font-weight="700" fill="#C9531A">6,19 €</text>
+<text x="674.0" y="109.5" font-size="11" fill="currentColor" opacity=".6">août 2026</text>
+<text x="380" y="348" text-anchor="middle" font-size="11" fill="currentColor" opacity=".5">Entre le creux de juillet 2025 et août 2026, le sac a pris 76 centimes, soit environ 14 %.</text>
+</svg>

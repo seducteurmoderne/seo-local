@@ -1,0 +1,33 @@
+{
+  "persona": "Habitant d'Arlon ou des communes autour (Messancy, Attert, Habay), qui chauffe au poêle ou à la chaudière à pellets. Il connaît déjà les pellets ; il cherche où en acheter, pas ce que c'est. Proximité du Grand-Duché : il compare parfois avec les prix luxembourgeois.",
+  "situation": "Le stock baisse ou l'hiver approche. Soit il veut quelques sacs vite (à emporter), soit il veut faire livrer une palette ou du vrac pour la saison. Il a souvent déjà acheté en grande surface et se demande s'il paie trop cher, ou si un fournisseur local livre chez lui.",
+  "intentions": [
+    {"type": "locale et commerciale", "part": 0.65, "description": "Trouver qui vend ou livre des pellets à Arlon, et à quel prix, livraison comprise."},
+    {"type": "informationnelle", "part": 0.25, "description": "Savoir si c'est le bon moment pour acheter, quel format choisir (sac, palette, vrac), quelle qualité ou marque prendre."},
+    {"type": "navigationnelle", "part": 0.10, "description": "Retrouver un fournisseur précis (Goffinet, Petit & Fils, un magasin)."}
+  ],
+  "reponse_attendue": "La liste des endroits où acheter des pellets à Arlon ou qui livrent Arlon, avec le prix repère du moment et le format proposé par chacun.",
+  "questions": [
+    "Qui vend ou livre des pellets à Arlon ?",
+    "Combien coûte un sac ou une palette à Arlon en ce moment ?",
+    "Où est-ce le moins cher : magasin, fournisseur local, livraison en vrac ?",
+    "Le prix va-t-il baisser ? Faut-il acheter maintenant ?",
+    "Qui livre en vrac à Arlon, et à partir de quelle quantité ?",
+    "Quelle marque ou quelle qualité prendre (ENplus A1, DIN+) ?",
+    "En combien de temps suis-je livré ?"
+  ],
+  "informations": [
+    "Les vendeurs à Arlon même et ceux qui livrent Arlon, avec leur format (sac, palette, vrac)",
+    "Le prix relevé localement et la moyenne wallonne du mois, pour juger une offre",
+    "Le minimum de commande en vrac et les conditions de livraison (accès du camion, silo)",
+    "Les certifications à exiger",
+    "La tendance des prix (relevé mensuel Valbiom) pour décider quand acheter"
+  ],
+  "objections": [
+    "Les prix affichés en magasin ne disent rien du prix livré",
+    "Un intermédiaire va me faire payer plus cher que si j'appelle moi-même",
+    "Les fournisseurs ne publient pas leurs prix, il faut appeler chacun",
+    "Je ne sais pas si la qualité d'un fournisseur local vaut celle d'une grande marque"
+  ],
+  "declencheur_devis": "Juste après la liste des vendeurs et le prix repère : « aucun prix livré n'est publié à Arlon ; recevez jusqu'à 3 prix livrés chez vous, sans appeler chacun ». C'est la réponse directe à l'objection « il faut appeler chacun »."
+}

@@ -1,0 +1,250 @@
+<title>Schémas — poêle à pellets</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+:root{--ground:#F7F8F6;--surface:#FFF;--ink:#1B1F1D;--soft:#5C6560;--faint:#8D948F;--line:#E1E4E0;--acc:#A8431A}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--ground:#141715;--surface:#1B201D;--ink:#E8EBE7;--soft:#A2AAA5;--faint:#767E79;--line:#2B302D;--acc:#E0824F}}
+:root[data-theme="dark"]{--ground:#141715;--surface:#1B201D;--ink:#E8EBE7;--soft:#A2AAA5;--faint:#767E79;--line:#2B302D;--acc:#E0824F}
+*,*::before,*::after{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);margin:0;font-family:"Source Sans 3",-apple-system,sans-serif;font-size:16px;line-height:1.55}
+.wrap{max-width:56rem;margin:0 auto;padding:clamp(2rem,5vw,3.5rem) clamp(1rem,4vw,2rem) 5rem}
+h1{font-family:Archivo,sans-serif;font-weight:800;font-size:clamp(1.9rem,1.5rem + 2vw,2.7rem);letter-spacing:-.025em;line-height:1.05;margin:0 0 .5rem}
+h2{font-family:Archivo,sans-serif;font-weight:700;font-size:1.3rem;letter-spacing:-.02em;margin:0 0 .3rem}
+p{margin:0 0 1rem;color:var(--soft)}
+.kick{font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--acc);margin:0 0 .8rem;font-family:Archivo,sans-serif}
+figure{margin:1.5rem 0 0;border:1px solid var(--line);border-radius:3px;background:var(--surface);padding:1.5rem}
+figure svg{width:100%;height:auto;display:block;color:var(--ink)}
+figcaption{font-size:.86rem;color:var(--faint);margin-top:1rem;padding-top:1rem;border-top:1px solid var(--line)}
+section{margin-top:3rem;padding-top:2rem;border-top:1px solid var(--line)}
+section:first-of-type{border-top:0;margin-top:2rem;padding-top:0}
+.note{font-size:.88rem;color:var(--soft);background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:2px;padding:.9rem 1.1rem;margin-top:1.5rem}
+.note b{color:var(--ink)}
+</style>
+<div class="wrap">
+<p class="kick">Visuels d'article</p>
+<h1>Schémas — poêle à pellets</h1>
+<p>Deux schémas SVG pour l'article <i>Entretien d'un poêle à pellets</i>. Vectoriels, nets à toute taille, et ils suivent le thème clair ou sombre du lecteur.</p>
+
+<section>
+<h2>1. Le creuset, propre et encrassé</h2>
+<p>Le schéma qui porte l'argument de l'article : montrer <b>pourquoi</b> le nettoyage compte, et pas seulement qu'il faut le faire.</p>
+<figure>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-label="Comparaison entre un creuset propre, dont les perforations laissent passer l'air de combustion et produisent une flamme vive et verticale, et un creuset encrassé dont les perforations bouchées par le mâchefer étouffent la flamme et laissent des granulés non brûlés s'accumuler.">
+<defs>
+<marker id="up" viewBox="0 0 10 10" refX="5" refY="1" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,9 L5,0 L10,9" fill="none" stroke="#3A83B8" stroke-width="2"/></marker>
+<marker id="upx" viewBox="0 0 10 10" refX="5" refY="1" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,9 L5,0 L10,9" fill="none" stroke="#C9531A" stroke-width="2"/></marker>
+</defs>
+
+<text x="190" y="34" text-anchor="middle" font-size="14" font-weight="700" fill="#2E8B62" letter-spacing=".5">CREUSET PROPRE</text>
+<text x="570" y="34" text-anchor="middle" font-size="14" font-weight="700" fill="#C9531A" letter-spacing=".5">CREUSET ENCRASSÉ</text>
+<line x1="380" y1="50" x2="380" y2="370" stroke="currentColor" stroke-width="1" opacity=".2"/>
+
+<!-- ================= PROPRE ================= -->
+<path d="M190,150 C176,124 200,112 190,92 C210,112 214,132 206,150 C214,142 216,130 214,120 C226,138 224,150 216,160 Z" fill="#2E8B62" opacity=".9"/>
+<path d="M190,160 C172,130 202,116 188,84 C216,112 224,140 212,164 Z" fill="none" stroke="#2E8B62" stroke-width="1.5" opacity=".55"/>
+<text x="252" y="118" font-size="12" fill="currentColor" opacity=".75">flamme vive,</text>
+<text x="252" y="133" font-size="12" fill="currentColor" opacity=".75">tirant droit</text>
+
+<circle cx="168" cy="176" r="5" fill="currentColor" opacity=".45"/>
+<circle cx="186" cy="172" r="5" fill="currentColor" opacity=".45"/>
+<circle cx="204" cy="177" r="5" fill="currentColor" opacity=".45"/>
+<circle cx="177" cy="186" r="5" fill="currentColor" opacity=".45"/>
+<circle cx="196" cy="187" r="5" fill="currentColor" opacity=".45"/>
+
+<path d="M140,164 L240,164 L226,244 L154,244 Z" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<line x1="158" y1="244" x2="222" y2="244" stroke="currentColor" stroke-width="1" opacity=".3"/>
+<g fill="none" stroke="currentColor" stroke-width="2" opacity=".7">
+<line x1="163" y1="244" x2="163" y2="236"/><line x1="180" y1="244" x2="180" y2="236"/>
+<line x1="197" y1="244" x2="197" y2="236"/><line x1="214" y1="244" x2="214" y2="236"/>
+<line x1="146" y1="196" x2="153" y2="196"/><line x1="234" y1="196" x2="227" y2="196"/>
+<line x1="149" y1="218" x2="156" y2="218"/><line x1="231" y1="218" x2="224" y2="218"/>
+</g>
+
+<g stroke="#3A83B8" stroke-width="2.2" marker-end="url(#up)">
+<line x1="163" y1="300" x2="163" y2="252"/><line x1="180" y1="300" x2="180" y2="252"/>
+<line x1="197" y1="300" x2="197" y2="252"/><line x1="214" y1="300" x2="214" y2="252"/>
+</g>
+<text x="190" y="330" text-anchor="middle" font-size="12.5" fill="#3A83B8" font-weight="600">l'air de combustion passe</text>
+<text x="190" y="362" text-anchor="middle" font-size="12.5" fill="currentColor" opacity=".8">Les granulés brûlent complètement.</text>
+<text x="190" y="380" text-anchor="middle" font-size="12.5" fill="currentColor" opacity=".8">Rendement nominal.</text>
+
+<!-- ================= ENCRASSÉ ================= -->
+<path d="M570,158 C548,146 552,132 566,128 C580,120 596,132 590,144 C600,140 604,150 596,158 Z" fill="#C9531A" opacity=".85"/>
+<text x="632" y="132" font-size="12" fill="currentColor" opacity=".75">flamme molle,</text>
+<text x="632" y="147" font-size="12" fill="currentColor" opacity=".75">orange, écrasée</text>
+
+<circle cx="544" cy="180" r="5" fill="currentColor" opacity=".45"/>
+<circle cx="562" cy="174" r="5" fill="currentColor" opacity=".45"/>
+<circle cx="580" cy="180" r="5" fill="currentColor" opacity=".45"/>
+<circle cx="598" cy="175" r="5" fill="currentColor" opacity=".45"/>
+<circle cx="553" cy="190" r="5" fill="currentColor" opacity=".45"/>
+<circle cx="571" cy="191" r="5" fill="currentColor" opacity=".45"/>
+<circle cx="589" cy="190" r="5" fill="currentColor" opacity=".45"/>
+<text x="646" y="186" font-size="12" fill="#C9531A" font-weight="600">granulés</text>
+<text x="646" y="201" font-size="12" fill="#C9531A" font-weight="600">non brûlés</text>
+
+<path d="M520,164 L620,164 L606,244 L534,244 Z" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<path d="M536,230 C556,222 580,238 604,230 L606,244 L534,244 Z" fill="#C9531A" opacity=".45"/>
+<g fill="none" stroke="currentColor" stroke-width="2" opacity=".7">
+<line x1="526" y1="196" x2="533" y2="196"/><line x1="614" y1="196" x2="607" y2="196"/>
+<line x1="529" y1="218" x2="536" y2="218"/><line x1="611" y1="218" x2="604" y2="218"/>
+</g>
+<text x="662" y="243" font-size="12" fill="#C9531A" font-weight="600">mâchefer</text>
+
+<g stroke="#C9531A" stroke-width="2.2" marker-end="url(#upx)" opacity=".85">
+<line x1="543" y1="300" x2="543" y2="266"/><line x1="560" y1="300" x2="560" y2="266"/>
+<line x1="577" y1="300" x2="577" y2="266"/><line x1="594" y1="300" x2="594" y2="266"/>
+</g>
+<g stroke="#C9531A" stroke-width="2.4">
+<line x1="562" y1="252" x2="578" y2="268"/><line x1="578" y1="252" x2="562" y2="268"/>
+</g>
+<text x="570" y="330" text-anchor="middle" font-size="12.5" fill="#C9531A" font-weight="600">l'air ne passe plus</text>
+<text x="570" y="362" text-anchor="middle" font-size="12.5" fill="currentColor" opacity=".8">Combustion incomplète, encrassement</text>
+<text x="570" y="380" text-anchor="middle" font-size="12.5" fill="currentColor" opacity=".8">accéléré, rendement en chute.</text>
+</svg>
+
+<figcaption>À placer dans la section « Tous les deux à trois jours ». C'est le visuel qui remplace le mieux un long paragraphe : on voit l'air passer d'un côté, être bloqué de l'autre, et la conséquence sur la flamme.</figcaption>
+</figure>
+</section>
+
+<section>
+<h2>2. Les douze points d'entretien</h2>
+<p>Coupe de l'appareil, façade à gauche. Chaque point est numéroté et <b>coloré selon sa fréquence</b> — la couleur porte l'information, elle ne décore pas.</p>
+<figure>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 730" role="img" aria-label="Coupe d'un poêle à pellets situant les douze points d'entretien, classés par fréquence : creuset, bac à cendres et vitre tous les deux à trois jours ; chambre de combustion, racleurs d'échangeur et joint de porte chaque semaine ; conduits internes, réservoir et grille d'air chaque mois ; extracteur de fumées, bougie d'allumage et sondes une fois par an par un professionnel.">
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker>
+<g id="badge"><circle r="11" fill="none" stroke-width="2"/></g>
+</defs>
+
+<!-- corps -->
+<rect x="210" y="70" width="250" height="400" rx="6" fill="none" stroke="currentColor" stroke-width="2.4"/>
+<rect x="226" y="470" width="22" height="18" fill="none" stroke="currentColor" stroke-width="2"/>
+<rect x="422" y="470" width="22" height="18" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="335" y="58" text-anchor="middle" font-size="12" fill="currentColor" opacity=".5" letter-spacing="1.2">COUPE — FAÇADE À GAUCHE</text>
+
+<!-- réservoir -->
+<path d="M335,88 L450,88 L450,168 L392,205 L362,205 L335,168 Z" fill="currentColor" opacity=".07"/>
+<path d="M335,88 L450,88 L450,168 L392,205 L362,205 L335,168 Z" fill="none" stroke="currentColor" stroke-width="2"/>
+<g fill="currentColor" opacity=".45">
+<circle cx="356" cy="108" r="4"/><circle cx="372" cy="104" r="4"/><circle cx="390" cy="109" r="4"/>
+<circle cx="408" cy="103" r="4"/><circle cx="426" cy="108" r="4"/><circle cx="364" cy="122" r="4"/>
+<circle cx="382" cy="120" r="4"/><circle cx="400" cy="123" r="4"/><circle cx="418" cy="120" r="4"/>
+<circle cx="374" cy="137" r="4"/><circle cx="394" cy="139" r="4"/><circle cx="412" cy="136" r="4"/>
+</g>
+
+<!-- vis sans fin -->
+<line x1="377" y1="205" x2="300" y2="290" stroke="currentColor" stroke-width="15" opacity=".13" stroke-linecap="round"/>
+<line x1="377" y1="205" x2="300" y2="290" stroke="currentColor" stroke-width="1.6" opacity=".65"/>
+<g stroke="currentColor" stroke-width="1.4" opacity=".5">
+<line x1="368" y1="209" x2="376" y2="219"/><line x1="356" y1="222" x2="364" y2="232"/>
+<line x1="344" y1="235" x2="352" y2="245"/><line x1="332" y1="248" x2="340" y2="258"/>
+<line x1="320" y1="261" x2="328" y2="271"/>
+</g>
+<text x="398" y="252" font-size="11.5" fill="currentColor" opacity=".6">vis sans fin</text>
+
+<!-- échangeur -->
+<g fill="none" stroke="currentColor" stroke-width="1.8" opacity=".8">
+<circle cx="245" cy="228" r="11"/><circle cx="275" cy="228" r="11"/><circle cx="305" cy="228" r="11"/>
+<circle cx="335" cy="228" r="11"/><circle cx="365" cy="228" r="11"/>
+</g>
+<line x1="222" y1="105" x2="340" y2="105" stroke="currentColor" stroke-width="2.4"/>
+<circle cx="216" cy="105" r="7" fill="currentColor" opacity=".55"/>
+<line x1="290" y1="107" x2="290" y2="214" stroke="currentColor" stroke-width="1.4" opacity=".45" stroke-dasharray="4 3"/>
+
+<!-- chambre + creuset -->
+<rect x="230" y="246" width="120" height="94" fill="none" stroke="currentColor" stroke-width="1.4" stroke-dasharray="5 4" opacity=".6"/>
+<path d="M287,286 C278,272 292,264 286,252 C299,264 302,276 297,286 Z" fill="#C9531A" opacity=".85"/>
+<path d="M262,290 L312,290 L305,322 L269,322 Z" fill="none" stroke="currentColor" stroke-width="2.4"/>
+<g stroke="currentColor" stroke-width="2" opacity=".65">
+<line x1="273" y1="322" x2="273" y2="315"/><line x1="287" y1="322" x2="287" y2="315"/><line x1="301" y1="322" x2="301" y2="315"/>
+</g>
+
+<!-- porte + vitre -->
+<rect x="212" y="248" width="10" height="94" fill="currentColor" opacity=".18"/>
+<rect x="212" y="248" width="10" height="94" fill="none" stroke="currentColor" stroke-width="1.6"/>
+<rect x="210" y="242" width="16" height="106" fill="none" stroke="currentColor" stroke-width="2" opacity=".55"/>
+
+<!-- bac à cendres -->
+<rect x="240" y="352" width="100" height="40" fill="none" stroke="currentColor" stroke-width="2"/>
+<line x1="234" y1="372" x2="240" y2="372" stroke="currentColor" stroke-width="3"/>
+<path d="M246,386 C262,378 282,390 302,382 C316,378 328,386 334,386 L334,390 L246,390 Z" fill="currentColor" opacity=".3"/>
+
+<!-- conduit + extracteur + sortie -->
+<path d="M385,228 L420,228 L420,370" fill="none" stroke="currentColor" stroke-width="2" opacity=".75"/>
+<circle cx="420" cy="392" r="22" fill="none" stroke="currentColor" stroke-width="2"/>
+<g stroke="currentColor" stroke-width="1.6" opacity=".7">
+<line x1="420" y1="392" x2="420" y2="374"/><line x1="420" y1="392" x2="436" y2="401"/><line x1="420" y1="392" x2="404" y2="401"/>
+</g>
+<path d="M442,392 L500,392" fill="none" stroke="currentColor" stroke-width="2" marker-end="url(#a)"/>
+<text x="504" y="388" font-size="11.5" fill="currentColor" opacity=".6">fumées</text>
+
+<!-- ventilateur convection -->
+<circle cx="420" cy="300" r="16" fill="none" stroke="currentColor" stroke-width="1.8" opacity=".7"/>
+<g stroke="currentColor" stroke-width="1.4" opacity=".6">
+<line x1="420" y1="300" x2="420" y2="287"/><line x1="420" y1="300" x2="431" y2="307"/><line x1="420" y1="300" x2="409" y2="307"/>
+</g>
+<text x="392" y="286" font-size="11.5" fill="currentColor" opacity=".6" text-anchor="end">ventilateur</text>
+
+<!-- bougie -->
+<line x1="322" y1="298" x2="310" y2="306" stroke="#C9531A" stroke-width="3.4" stroke-linecap="round"/>
+<!-- grille d'air -->
+<path d="M508,440 L466,440" fill="none" stroke="currentColor" stroke-width="2" marker-end="url(#a)"/>
+<g stroke="currentColor" stroke-width="1.8" opacity=".7">
+<line x1="460" y1="430" x2="460" y2="450"/><line x1="454" y1="432" x2="454" y2="448"/>
+</g>
+<text x="512" y="436" font-size="11.5" fill="currentColor" opacity=".6">air</text>
+
+<!-- ============ BADGES ============ -->
+<g font-size="11.5" font-weight="700" text-anchor="middle">
+<circle cx="240" cy="306" r="11" fill="none" stroke="#2E8B62" stroke-width="2"/><text x="240" y="310" fill="#2E8B62">1</text>
+<circle cx="222" cy="372" r="11" fill="none" stroke="#2E8B62" stroke-width="2"/><text x="222" y="376" fill="#2E8B62">2</text>
+<circle cx="192" cy="295" r="11" fill="none" stroke="#2E8B62" stroke-width="2"/><text x="192" y="299" fill="#2E8B62">3</text>
+<circle cx="362" cy="264" r="11" fill="none" stroke="#B4892C" stroke-width="2"/><text x="362" y="268" fill="#B4892C">4</text>
+<circle cx="196" cy="105" r="11" fill="none" stroke="#B4892C" stroke-width="2"/><text x="196" y="109" fill="#B4892C">5</text>
+<circle cx="192" cy="242" r="11" fill="none" stroke="#B4892C" stroke-width="2"/><text x="192" y="246" fill="#B4892C">6</text>
+<circle cx="446" cy="222" r="11" fill="none" stroke="#3A83B8" stroke-width="2"/><text x="446" y="226" fill="#3A83B8">7</text>
+<circle cx="472" cy="118" r="11" fill="none" stroke="#3A83B8" stroke-width="2"/><text x="472" y="122" fill="#3A83B8">8</text>
+<circle cx="440" cy="452" r="11" fill="none" stroke="#3A83B8" stroke-width="2"/><text x="440" y="456" fill="#3A83B8">9</text>
+<circle cx="392" cy="414" r="11" fill="none" stroke="#C9531A" stroke-width="2"/><text x="392" y="418" fill="#C9531A">10</text>
+<circle cx="338" cy="312" r="11" fill="none" stroke="#C9531A" stroke-width="2"/><text x="338" y="316" fill="#C9531A">11</text>
+<circle cx="446" cy="336" r="11" fill="none" stroke="#C9531A" stroke-width="2"/><text x="446" y="340" fill="#C9531A">12</text>
+</g>
+
+<!-- ============ LÉGENDE ============ -->
+<line x1="40" y1="516" x2="720" y2="516" stroke="currentColor" stroke-width="1" opacity=".2"/>
+
+<g font-size="12.5">
+<rect x="40" y="540" width="9" height="9" fill="#2E8B62"/>
+<text x="58" y="549" font-size="11.5" font-weight="700" fill="#2E8B62" letter-spacing=".6">TOUS LES 2 À 3 JOURS</text>
+<text x="40" y="572" fill="currentColor"><tspan font-weight="700" fill="#2E8B62">1</tspan>  Creuset</text>
+<text x="40" y="592" fill="currentColor"><tspan font-weight="700" fill="#2E8B62">2</tspan>  Bac à cendres</text>
+<text x="40" y="612" fill="currentColor"><tspan font-weight="700" fill="#2E8B62">3</tspan>  Vitre</text>
+
+<rect x="280" y="540" width="9" height="9" fill="#B4892C"/>
+<text x="298" y="549" font-size="11.5" font-weight="700" fill="#B4892C" letter-spacing=".6">CHAQUE SEMAINE</text>
+<text x="280" y="572" fill="currentColor"><tspan font-weight="700" fill="#B4892C">4</tspan>  Chambre de combustion</text>
+<text x="280" y="592" fill="currentColor"><tspan font-weight="700" fill="#B4892C">5</tspan>  Racleurs de l'échangeur</text>
+<text x="280" y="612" fill="currentColor"><tspan font-weight="700" fill="#B4892C">6</tspan>  Joint de porte</text>
+
+<rect x="530" y="540" width="9" height="9" fill="#3A83B8"/>
+<text x="548" y="549" font-size="11.5" font-weight="700" fill="#3A83B8" letter-spacing=".6">CHAQUE MOIS</text>
+<text x="530" y="572" fill="currentColor"><tspan font-weight="700" fill="#3A83B8">7</tspan>  Conduits internes</text>
+<text x="530" y="592" fill="currentColor"><tspan font-weight="700" fill="#3A83B8">8</tspan>  Réservoir à pellets</text>
+<text x="530" y="612" fill="currentColor"><tspan font-weight="700" fill="#3A83B8">9</tspan>  Grille d'entrée d'air</text>
+
+<rect x="40" y="654" width="9" height="9" fill="#C9531A"/>
+<text x="58" y="663" font-size="11.5" font-weight="700" fill="#C9531A" letter-spacing=".6">UNE FOIS PAR AN — PAR UN PROFESSIONNEL</text>
+<text x="40" y="690" fill="currentColor"><tspan font-weight="700" fill="#C9531A">10</tspan>  Extracteur de fumées</text>
+<text x="280" y="690" fill="currentColor"><tspan font-weight="700" fill="#C9531A">11</tspan>  Bougie d'allumage</text>
+<text x="530" y="690" fill="currentColor"><tspan font-weight="700" fill="#C9531A">12</tspan>  Sondes et pressostat</text>
+</g>
+</svg>
+
+<figcaption>À placer en tête de la section « Ce que vous faites vous-même ». Il sert aussi de repère visuel pour tout l'article : le lecteur y revient pour situer une pièce citée plus bas.</figcaption>
+</figure>
+</section>
+
+<div class="note">
+<p><b>Format.</b> SVG, moins de 10 Ko chacun — sans commune mesure avec une photo, et sans perte de netteté sur écran haute densité. Les traits utilisent <code>currentColor</code>, donc ils restent lisibles en thème clair comme en thème sombre. Chaque fichier porte un <code>aria-label</code> décrivant le schéma en entier, ce qui sert l'accessibilité et donne à Google un contenu textuel à lire.</p>
+</div>
+</div>

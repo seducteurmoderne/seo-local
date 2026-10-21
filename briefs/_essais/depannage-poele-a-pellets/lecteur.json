@@ -1,0 +1,39 @@
+{
+  "persona": "Propriétaire d'un poêle à pellets en Wallonie, souvent installé depuis plus de 2 ans, qui chauffe sa pièce de vie avec. Pas technicien. Connaît la marque de son poêle (MCZ, Edilkamin, Extraflame, Palazzetti, Wanders…) parce qu'elle s'affiche sur l'écran ou la façade.",
+  "situation": "Le poêle vient de tomber en panne ou de se mettre en alarme, en pleine saison de chauffe : la maison refroidit. Il a déjà éteint et rallumé une ou deux fois, lu un code sur l'écran, peut-être cherché le code dans la notice qu'il ne retrouve pas. Il est pressé et un peu inquiet (fumée ? risque ?). Il tape la requête depuis son téléphone, souvent avec sa ville ou la marque.",
+  "intentions": [
+    {"type": "commerciale et locale", "part": 0.55, "description": "Trouver vite un technicien qui se déplace chez lui, dans sa région, et qui connaît sa marque ; savoir combien ça va coûter."},
+    {"type": "informationnelle", "part": 0.35, "description": "Comprendre la panne et tenter de la régler lui-même avant de payer un déplacement : que veut dire le code, que vérifier, est-ce grave."},
+    {"type": "navigationnelle", "part": 0.10, "description": "Trouver le SAV de la marque ou du vendeur (MCZ, Wanders, Edilkamin)."}
+  ],
+  "reponse_attendue": "Deux choses tout de suite : est-ce que je peux le régler moi-même en quelques minutes (et comment), et sinon comment obtenir un technicien près de chez moi rapidement et à quel prix.",
+  "questions": [
+    "Est-ce grave, est-ce dangereux de le laisser comme ça ?",
+    "Pourquoi mon poêle à pellets ne s'allume pas ?",
+    "Pourquoi s'éteint-il tout seul ou se met-il en alarme ?",
+    "Que veut dire le code affiché ?",
+    "Comment faire un reset / réarmer le poêle ?",
+    "Qu'est-ce que je peux vérifier moi-même sans risque ?",
+    "Qui peut venir le dépanner près de chez moi, et sur ma marque ?",
+    "Combien coûte un dépannage (déplacement, pièces) ?",
+    "En combien de temps un technicien peut-il venir ?",
+    "Comment éviter que ça recommence ?"
+  ],
+  "informations": [
+    "Les 3-4 causes les plus fréquentes par symptôme (ne s'allume pas, s'éteint, fume, surchauffe) et le geste à faire pour chacune",
+    "Les gestes à ne pas faire (relancer sans vider le creuset, débrancher un poêle qui fume)",
+    "Comment lire un code d'erreur (familles d'alarmes) et réarmer",
+    "La limite claire entre ce qu'on fait soi-même et ce qui demande un technicien (bougie, extracteur, carte, sondes)",
+    "Ce qui fait varier le prix d'un dépannage (déplacement, diagnostic, pièce) — à sourcer, sinon renvoyer au devis",
+    "Ce qu'il faut préparer pour le technicien : marque, modèle, code, ce qui a déjà été vérifié",
+    "Le lien entre pannes et entretien annuel (garantie, encrassement)"
+  ],
+  "objections": [
+    "Je ne veux pas payer un déplacement pour une panne bête que j'aurais pu régler",
+    "Les techniciens sont débordés en hiver, personne ne viendra vite",
+    "Mon poêle est sous garantie : si j'y touche, je la perds",
+    "Est-ce qu'un technicien indépendant connaît ma marque ?",
+    "Un site d'intermédiaire va revendre mes coordonnées / me faire spammer"
+  ],
+  "declencheur_devis": "Deux moments : tout en haut pour celui qui a déjà essayé de relancer et veut juste un technicien (bloc court : décrivez la panne + code postal), puis juste après les vérifications, quand le lecteur constate que ça ne suffit pas (« toujours en panne ? »), avec la promesse de 3 poêliers de sa zone au plus, gratuit, et le conseil de préciser marque, modèle et code."
+}

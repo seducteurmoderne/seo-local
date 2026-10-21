@@ -1,0 +1,7 @@
+{"types": {"guide": 8, "service": 2, "annuaire": 0, "autre": 0},
+"intention_recompensee": "Informationnelle pratique : un guide qui dit quoi nettoyer, à quelle fréquence et avec quoi, avec une section sur le ramonage et le recours au professionnel. Toutes les pages sont françaises : aucune ne parle du cadre wallon.",
+"incontournables": ["Nettoyage des cendres", "Nettoyage de la vitre", "Joints de porte", "Ramonage du conduit et sa fréquence", "Entretien par un professionnel", "Fréquences : quotidien, hebdomadaire, annuel", "Bois sec et combustion propre", "Sécurité : cendres froides"],
+"differenciants": ["Erreurs qui abîment le poêle", "Bistre et feu de cheminée", "Déflecteur et briques réfractaires", "Entretien de la fonte extérieure", "Signes d'un poêle encrassé"],
+"lacunes": ["Aucune page belge : rien sur le ramonage et l'attestation en Wallonie, ni sur l'assurance", "Pas de calendrier synthétique lisible d'un coup d'œil", "Pas de lien entre l'humidité du bois et la fréquence d'entretien", "Distinction entretien de l'appareil / ramonage du conduit rarement nette"],
+"faiblesses": ["Pages françaises citant la réglementation française (2 ramonages/an, arrêtés français) inapplicable en Wallonie", "Pages très longues et diluées (5 600 mots) ou très courtes sans chiffres", "Peu de réponses directes sous les H2", "Prix de ramonage français non sourcés"],
+"longueur_cible": 1500}

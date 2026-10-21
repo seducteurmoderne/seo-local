@@ -1,0 +1,32 @@
+{
+  "types": {
+    "guide": 1,
+    "service": 4,
+    "annuaire": 5,
+    "autre": 0
+  },
+  "intention_recompensee": "Locale et commerciale : Google montre des annuaires (Pages d'Or, Atout Commerces, Europages, 2ememain, Wallux) et des fournisseurs (Goffinet, Petit & Fils, Areltherme, comparateur comparerdevis.be). Il récompense « qui vend des pellets à Arlon », sans qu'aucune page y réponde vraiment.",
+  "incontournables": [
+    "Liste de vendeurs ou de fournisseurs à Arlon et autour",
+    "Formats proposés (sac, vrac au camion souffleur, palette)",
+    "Contact ou demande de prix"
+  ],
+  "differenciants": [
+    "Prix indicatifs à Arlon (comparerdevis.be, mais pour des poêles, pas pour le combustible)",
+    "Qualité certifiée DIN+ / ENplus annoncée par les fournisseurs"
+  ],
+  "lacunes": [
+    "Aucune page ne rassemble les vendeurs de pellets d'Arlon : les annuaires mélangent garages, toitures, chauffagistes",
+    "Aucun prix de pellets à Arlon, aucune comparaison avec la moyenne wallonne",
+    "Rien sur le moment d'acheter (« le prix va-t-il baisser ? », question réelle des Autres questions posées)",
+    "Rien sur le vrac à Arlon (minimum, accès), pourtant recherché (« pellets en vrac arlon »)",
+    "Rien sur la qualité à exiger, alors que « meilleure marque de pellets en Belgique » est posée"
+  ],
+  "faiblesses": [
+    "Annuaires hors sujet et sans tri",
+    "Pages de fournisseurs centrées sur leur entreprise (carwash, mazout)",
+    "Aucune réponse directe, aucun tableau",
+    "Pages de 150 à 1 000 mots, la plupart sous 700"
+  ],
+  "longueur_cible": 900
+}

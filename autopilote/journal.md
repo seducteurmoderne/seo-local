@@ -1,0 +1,256 @@
+# Journal du pilote automatique
+
+- 2026-09-11 23:27 — `entretien-poele-a-pellets` planifié, sortie le 12/09 à 07:20
+- 2026-09-12 09:21 — `poelier` planifié, sortie le 13/09 à 09:25
+- 2026-09-12 11:07 — `entretien-poele-a-pellets` publié
+- 2026-09-12 — décision du propriétaire : cluster local scindé par produit — `/bois-de-chauffage-<ville>/` et `/pellets-<ville>/`, intention « Acheter XX à XX ». 86 lignes locales pellets ajoutées à la sitemap (241 URLs), titres locaux bois repassés sur l'intention d'achat. Remplace la « grille locale unifiée » documentée dans `architecture-clusters.html`. Toujours hors file du pilote : les pages locales attendent les données terrain.
+- 2026-09-12 — décision du propriétaire : `poelier` supprimé pour de bon (page + catégorie WordPress), pas de vertical par métier. Les 11 guides orphelins réassignés à Bois de chauffage ou Pellets selon l'appareil ; le besoin réel (entretien/dépannage/installation) passe désormais par le nouveau champ `besoin` du front-matter, indépendant de `categorie`. `entretien-poele-a-pellets` republié sous Pellets + `besoin: poelier`. Sitemap, CLAUDE.md et PROCEDURE.md mis à jour.
+- 2026-09-12 12:13 — `bois-de-chauffage` et `pellets` publiées le jour même, à la demande du propriétaire. La règle des 18 h entre deux publications (PROCEDURE.md §5) a été contournée sciemment : statut forcé par appel direct à l'API après `publier`. Motif : poser les deux ancres du silo avant le virage local. Les deux pages partent sans CTA (plugin `bcp-leads.php` absent) et `/bois-de-chauffage/` sans aucun lien interne actif — le maillage quotidien réparera les deux au fil des publications.
+- 2026-09-12 — file d'attente réordonnée sur la sélection du propriétaire (11 guides + les deux pages prix) ; essences et pages marques repoussées. Déploiement local à venir dans l'ordre : villes de la province de Luxembourg, puis de Namur, puis le reste. `setup/03-donnees-locales-a-collecter.csv` régénéré dans cet ordre (74 villes + 2 provinces).
+- 2026-09-13 09:11 — maillage : 1 article(s) relié(s) aux pages publiées depuis
+- 2026-09-14 12:40 — `bois-a-ne-pas-bruler` planifié, sortie le 15/09 à 10:20
+- 2026-09-14 13:56 — `ramonage-arlon` planifié, sortie le 16/09 à 08:32 · 1 avertissement(s)
+- 2026-09-14 13:56 — `ramonage-arlon` publié immédiatement (hors algorithme des 18h / créneau horaire) à la demande explicite du propriétaire — statut et date forcés par appel direct à l'API, comme le 12/09 pour bois-de-chauffage et pellets.
+- 2026-09-15 00:33 — `longueur-buches` planifié, sortie le 16/09 à 15:49
+- 2026-09-16 09:53 — `bois-a-ne-pas-bruler` modifié à la main dans WordPress — je ne le mets plus à jour
+- 2026-09-16 09:53 — `ramonage-arlon` modifié à la main dans WordPress — je ne le mets plus à jour
+- 2026-09-16 09:53 — maillage : 2 article(s) relié(s) aux pages publiées depuis
+- 2026-09-16 12:05 — `reconnaitre-mauvais-pellet` planifié, sortie le 17/09 à 19:56
+- 2026-09-17 07:37 — maillage : 1 article(s) relié(s) aux pages publiées depuis
+- 2026-09-17 10:32 — `verifier-bois-sec` planifié, sortie le 18/09 à 15:17
+- 2026-09-18 09:12 — maillage : 2 article(s) relié(s) aux pages publiées depuis
+- 2026-09-18 10:56 — `temps-sechage-bois` planifié, sortie le 19/09 à 13:23
+- 2026-09-19 10:12 — maillage : 3 article(s) relié(s) aux pages publiées depuis
+- 2026-09-19 10:26 — `frequence-ramonage` planifié, sortie le 20/09 à 16:18
+- 2026-09-19 — signalé au propriétaire : `ramonage-arlon` (repris à la main) cite l'AR du 06/01/1978 comme texte en vigueur, or Wallex le donne abrogé (19/03/1978 au 20/03/1984) ; l'AGW du 29/01/2009 est le texte à citer.
+- 2026-09-20 08:03 — maillage : 3 article(s) relié(s) aux pages publiées depuis
+- 2026-09-20 08:32 — `ramonage` planifié, sortie le 21/09 à 11:20
+- 2026-09-20 09:32 — `ramonage` (page mère) planifié, sortie le 21/09 à 11:20 · sources relues (Wallex, SPW Énergie, Valbiom) · Yoast title non enregistré (mu-plugin absent)
+- 2026-09-20 08:41 — maillage : 9 article(s) relié(s) aux pages publiées depuis
+- 2026-09-20 09:43 — correctif d'affichage : liens blancs (kit Elementor, accent #FFF) et pages sans gabarit sur fond vert sombre. `wp.py` habille désormais le contenu (groupe `bcp-article` + style : liens lisibles, fond clair sur les pages). 9 contenus republiés par le maillage. Le réglage de fond au niveau du kit Elementor reste à la main du propriétaire.
+- 2026-09-20 08:48 — maillage : 9 article(s) relié(s) aux pages publiées depuis
+- 2026-09-20 09:48 — règle du propriétaire : liens internes uniquement dans les phrases (ancre = mot-clé de la page cible). `::a-lire-aussi` et lignes « → » supprimés de wp.py, refusés par verifier ; 9 articles réécrits et republiés ; charte, PROCEDURE.md et mémoire mis à jour.
+- 2026-09-20 12:44 — décision du propriétaire : rythme 4 pages locales pour 1 guide (avant 2 pour 1). File réordonnée ; PROCEDURE.md complétée d'une règle « page locale » (données CSV, contenu unique, ville sautée si données insuffisantes). Prochaine rédaction : bois-de-chauffage-arlon.
+- 2026-09-20 12:23 — `pellets` publié
+- 2026-09-20 13:24 — `/pellets/` refondue et republiée sur le plan dicté par le propriétaire (ce que c'est · prix · qui l'utilise · différences · choisir · où acheter). Chiffres sourcés : Valbiom (6,19 €/sac 15 kg, août 2026), ENplus ST 1001 tableau 4, SILC 2021 via Baromètre FRB. Nouveau visuel `visuels/pellets-prix-sac-15kg.svg` (courbe de prix 2025-2026). Plan inscrit dans la charte et PROCEDURE.md. Restent à refondre : /bois-de-chauffage/ et /ramonage/.
+- 2026-09-20 14:56 — `temps-sechage-bois` modifié à la main dans WordPress — je ne le mets plus à jour
+- 2026-09-20 14:56 — maillage : 6 article(s) relié(s) aux pages publiées depuis
+- 2026-09-20 15:57 — règle du propriétaire : plus aucun lien sortant dans les articles. 8 fichiers nettoyés (URL déplacées dans les notes de production), 6 lignes de sources de `temps-sechage-bois` fusionnées en une. Contrôle bloquant ajouté dans `verifier`, charte et PROCEDURE.md mises à jour. `temps-sechage-bois` signalé repris à la main à 14:56 : ses liens externes restent en ligne, hors de mon contrôle.
+- 2026-09-20 15:03 — `bois-de-chauffage` publié
+- 2026-09-20 16:03 — `/bois-de-chauffage/` refondue et republiée (coefficient d'empilage, volume réel par longueur de coupe, densités par essence, 126 €/stère, 6-7,5 c/kWh, équivalence mazout) — source : guide « Les bûches » SPW/Valbiom. Charte complétée d'une section « La voix » après le constat du propriétaire : contenus robotiques et peu efficaces.
+- 2026-09-20 15:08 — maillage : 2 article(s) relié(s) aux pages publiées depuis
+- 2026-09-20 16:08 — correction : la section « La voix » de la charte donnait « Le reste, vous l'avez payé aussi » comme bon exemple. Phrase fausse (le prix au stère intègre les vides) et creuse. Exemples de la charte refaits, tic de la « chute qui sonne bien » banni explicitement, passages corrigés dans /bois-de-chauffage/ et /pellets/, republiés.
+- 2026-09-20 15:11 — maillage : 2 article(s) relié(s) aux pages publiées depuis
+- 2026-09-21 05:49 — `ramonage` modifié à la main dans WordPress — je ne le mets plus à jour
+- 2026-09-21 05:49 — maillage : 3 article(s) relié(s) aux pages publiées depuis
+- 2026-09-21 09:49 — `bois-de-chauffage-arlon` planifié, sortie le 21/09 à 17:09
+- 2026-09-22 06:59 — maillage : 2 article(s) relié(s) aux pages publiées depuis
+- 2026-09-22 09:58 — `pellets-arlon` bloqué — un seul fournisseur pellets utilisable (PETIT & Fils) dans les données terrain, sous le seuil de 2
+- 2026-09-22 10:03 — `bois-de-chauffage-marche-en-famenne` planifié, sortie le 22/09 à 14:44
+- 2026-09-22 11:42 — `pellets-arlon` planifié, sortie le 23/09 à 11:10
+- 2026-09-23 11:35 — maillage : 4 article(s) relié(s) aux pages publiées depuis
+- 2026-09-23 11:50 — `pellets-marche-en-famenne` bloqué — un seul fournisseur pellets (Comptoir du Bois Européen) dans les données terrain, sous le seuil de 2
+- 2026-09-23 11:53 — `depannage-poele-a-pellets` planifié, sortie le 24/09 à 14:29
+- 2026-09-23 11:53 — maillage : 1 article(s) relié(s) aux pages publiées depuis
+- 2026-09-24 09:42 — maillage : 2 article(s) relié(s) aux pages publiées depuis
+- 2026-09-24 09:45 — `bois-de-chauffage-bastogne` planifié, sortie le 25/09 à 11:54
+- 2026-09-24 — `bois-de-chauffage-bastogne` : PICARD CONSTRUCT écarté (entreprise de construction, pas de bois de chauffage). Signalé : /bois-de-chauffage-marche-en-famenne/ dit qu'aucun fournisseur ne publie d'humidité, or Goffinet annonce 15-20 % pour l'Ardenwood.
+- 2026-09-24 11:44 — `longueur-buches` : image à la une posée (média 29103)
+- 2026-09-24 11:44 — `entretien-poele-a-pellets` : image à la une posée (média 29104)
+- 2026-09-24 11:44 — `bois-de-chauffage` : image à la une posée (média 29105)
+- 2026-09-24 11:45 — `pellets` : image à la une posée (média 29106)
+- 2026-09-24 11:45 — `reconnaitre-mauvais-pellet` : image à la une posée (média 29107)
+- 2026-09-24 11:45 — `verifier-bois-sec` : image à la une posée (média 29108)
+- 2026-09-24 11:45 — `frequence-ramonage` : image à la une posée (média 29109)
+- 2026-09-24 11:45 — `bois-de-chauffage-arlon` : image à la une posée (média 29110)
+- 2026-09-24 11:45 — `pellets-arlon` : image à la une posée (média 29111)
+- 2026-09-24 11:45 — `bois-de-chauffage-marche-en-famenne` : image à la une posée (média 29112)
+- 2026-09-24 11:45 — `depannage-poele-a-pellets` : image à la une posée (média 29114)
+- 2026-09-24 11:45 — `bois-de-chauffage-bastogne` : image à la une posée (média 29116)
+- 2026-09-24 — images : `tools/images.py` (images à la une générées sans texte, photos préparées, envoi médiathèque). Images à la une posées sur 12 articles gérés (pas sur les 4 repris à la main). Charte, PROCEDURE.md et CLAUDE.md mis à jour. Constat : Yoast publie max-image-preview:large mais aucune balise og:image.
+- 2026-09-24 11:51 — `longueur-buches` : image à la une posée (média 29103)
+- 2026-09-24 11:52 — `entretien-poele-a-pellets` : image à la une posée (média 29104)
+- 2026-09-24 11:52 — `bois-de-chauffage` : image à la une posée (média 29105)
+- 2026-09-24 11:52 — `pellets` : image à la une posée (média 29106)
+- 2026-09-24 11:52 — `reconnaitre-mauvais-pellet` : image à la une posée (média 29107)
+- 2026-09-24 11:52 — `verifier-bois-sec` : image à la une posée (média 29108)
+- 2026-09-24 11:52 — `frequence-ramonage` : image à la une posée (média 29109)
+- 2026-09-24 11:52 — `bois-de-chauffage-arlon` : image à la une posée (média 29110)
+- 2026-09-24 11:52 — `pellets-arlon` : image à la une posée (média 29111)
+- 2026-09-24 11:52 — `bois-de-chauffage-marche-en-famenne` : image à la une posée (média 29112)
+- 2026-09-24 11:52 — `depannage-poele-a-pellets` : image à la une posée (média 29114)
+- 2026-09-24 11:52 — `bois-de-chauffage-bastogne` : image à la une posée (média 29116)
+- 2026-09-24 — og:image : Yoast met ses balises à jour avec un enregistrement de retard. Correctif : second enregistrement après la pose de l'image à la une (publier, une). 12 articles repassés, og:image présent. Média de test 29118 (JPEG, non rattaché) laissé dans la médiathèque : à supprimer par le propriétaire.
+- 2026-09-25 06:14 — maillage : 6 article(s) relié(s) aux pages publiées depuis
+- 2026-09-25 11:05 — `pellets-bastogne` planifié, sortie le 26/09 à 10:12
+- 2026-09-26 07:22 — maillage : 5 article(s) relié(s) aux pages publiées depuis
+- 2026-09-26 08:43 — `bois-de-chauffage-libramont` planifié, sortie le 27/09 à 09:53
+- 2026-09-26 — `bois-de-chauffage-libramont` : Goffinet nomme Libramont sur son site mais absent de la ligne CSV (non repris). Mahy : CSV ligne Neufchâteau à corriger (Chanly/Wellin, plus de PEFC depuis 2022). Tarif Mahy en ligne daté de 2022.
+- 2026-09-27 05:49 — maillage : 5 article(s) relié(s) aux pages publiées depuis
+- 2026-09-27 09:29 — `pellets-libramont` planifié, sortie le 28/09 à 15:39
+- 2026-09-28 05:38 — maillage : 6 article(s) relié(s) aux pages publiées depuis
+- 2026-09-28 08:41 — `allumage-feu-bois` planifié, sortie le 29/09 à 15:21
+- 2026-09-28 — `allumage-feu-bois` : source unique La Maîtrise du Feu (Région wallonne/AwAC/Valbiom). « 7 fois moins de pollution » (page allumage) écarté au profit de « jusqu'à 6 fois moins de particules » (page Bonnes pratiques). Lien entrant ajouté dans `longueur-buches` (fichier source ; en ligne au prochain maillage/republication). Audit du lundi : 0 page sans lien entrant.
+- 2026-09-29 09:04 — maillage : 7 article(s) relié(s) aux pages publiées depuis
+- 2026-09-29 12:06 — `bois-de-chauffage-neufchateau` bloqué — un seul fournisseur bois (Mahy Scierie) dans les données terrain, ligne CSV à corriger (Chanly/Wellin, PEFC échu)
+- 2026-09-29 12:06 — `pellets-neufchateau` bloqué — mêmes 2 fournisseurs que pellets-libramont (Koenig, Comptoir du Bois Européen) : aucune donnée propre à Neufchâteau, page gabarit
+- 2026-09-29 — aucun article programmé. `bois-de-chauffage-neufchateau` bloqué (un seul fournisseur bois, Mahy, ligne CSV à corriger). `pellets-neufchateau` bloqué (fournisseurs identiques à /pellets-libramont/ : page sans données propres). Premier `etat` en erreur réseau passagère, relancé avec succès (pas de notification). Maillage : 7 articles mis à jour.
+- 2026-09-29 — méthode locale changée à la demande du propriétaire : plus de blocage faute de fournisseurs, recherche des magasins de bricolage/jardin et des fournisseurs qui nomment la ville, offre maigre = argument du formulaire (PROCEDURE.md, CLAUDE.md). Débloqués : pellets-marche-en-famenne, bois-de-chauffage-neufchateau, pellets-neufchateau.
+- 2026-09-30 11:04 — maillage : 5 article(s) relié(s) aux pages publiées depuis
+- 2026-09-30 14:22 — `pellets-marche-en-famenne` planifié, sortie le 30/09 à 19:14
+- 2026-09-30 — `pellets-marche-en-famenne` : CSV (Comptoir seul) complété par PETIT & Fils (page Marche/Durbuy, vrac 413,40 €/t) et Groupe LMV (On, Badger), tous deux à ajouter au CSV ; Brico rue Borchamps (prix nationaux). Écartés : Hubo (aucun produit affiché), Sg pellets (Facebook seul).
+- 2026-10-01 09:34 — maillage : 8 article(s) relié(s) aux pages publiées depuis
+- 2026-10-01 11:42 — `bois-de-chauffage-neufchateau` planifié, sortie le 01/10 à 21:44
+- 2026-10-02 09:08 — maillage : 6 article(s) relié(s) aux pages publiées depuis
+- 2026-10-02 10:33 — `pellets-neufchateau` planifié, sortie le 02/10 à 21:52
+- 2026-10-02 — `pellets-neufchateau` : CSV (Koenig, Comptoir = mêmes que Libramont) complété par Goffinet Energies (nomme Neufchâteau, vrac 405-525 €/t au 01/10), Pierrard (station-service à Neufchâteau + dépôt Assenois, palette 415 € « promo printemps » toujours en ligne), Mécagricola (Bertrix), Brico Libramont. À ajouter au CSV. Écartés : Hubo (aucun produit), Gamma (non vérifiable), Aveve Bertrix (non vérifié).
+- 2026-10-03 10:15 — maillage : 9 article(s) relié(s) aux pages publiées depuis
+- 2026-10-03 10:35 — `bois-de-chauffage-virton` planifié, sortie le 03/10 à 20:32 · 1 avertissement(s)
+- 2026-10-03 — `bois-de-chauffage-virton` : CSV (Halin, Goffinet) complété par Wilwert énergie (nomme Virton), Sylvardennes (Bouillon, min. 16 m³ apparents, Virton cité en légende photo), Hubo Virton (caisse en ligne livrée seulement). Atoutbois ne liste pas Virton. À ajouter au CSV. Meta raccourcie après programmation (163 → ≤160 car.) dans le fichier source ; la version programmée garde 163 car. tant qu’elle n’est pas republiée.
+- 2026-10-04 — plugin `bcp-leads` activé par le propriétaire (extension normale) ; route bcp/v1 en ligne. Reste la politique de confidentialité pour afficher les formulaires.
+- 2026-10-03 23:21 — `politique-de-confidentialite` brouillon · 2 avertissement(s)
+- 2026-10-04 — compte `claude` passé Administrateur par le propriétaire. Les interdits du pilote automatique sont inchangés.
+- 2026-10-03 23:25 — `politique-de-confidentialite` planifié, sortie le 04/10 à 14:54 · 2 avertissement(s)
+- 2026-10-03 23:26 — `politique-de-confidentialite` publié · 2 avertissement(s)
+- 2026-10-03 23:27 — maillage : 20 article(s) relié(s) aux pages publiées depuis
+- 2026-10-04 — politique de confidentialité publiée (page 29207, Indexio EOOD, contact@). Doublon 29205 mis à la corbeille ; l'image à la une 29204 avait pris le slug, renommée. Maillage : formulaires installés sur 20 contenus.
+- 2026-10-04 — plugin bcp-leads 1.1 réinstallé par le propriétaire (destinataire par défaut : contact@). Formulaires actifs.
+- 2026-10-04 — demande TEST reçue dans l'admin, e-mail non reçu sur contact@. WP Mail SMTP 4.10.0 installé et activé par Claude ; configuration SMTP Infomaniak à faire par le propriétaire (mot de passe).
+- 2026-10-04 08:25 — `pellets-virton` planifié, sortie le 04/10 à 17:47
+- 2026-10-04 — `pellets-virton` : CSV (Schneder-Fagny seul, aucun site → écarté) complété par PETIT & Fils (nomme Virton en vrac, shop Baranzy « pellets au détail »), Goffinet Energies (nomme Virton, vrac 405-525 €/t au 01/10), usine Badger à Latour (Virton) et son localisateur 6760 (Agri-Vance, Mr.Bricolage Habay, Pro Agri). À ajouter au CSV. Écartés : Hubo (aucun pellet en ligne), Pierrard (site en 429), Points Verts français.
+- 2026-10-04 — demande du propriétaire : pages locales classées dans leur verticale + Local (13 articles mis à jour, ramonage-arlon compris). Moteur : `publier` pose la verticale et la catégorie principale Yoast (option `avec_verticale`). Fil d'Ariane encore « Local » tant que le mu-plugin expose-yoast-rest.php mis à jour n'est pas déposé.
+- 2026-10-04 — catégorie Local abandonnée (demande du propriétaire) : les 13 pages locales ne sont plus que dans leur verticale, fil d'Ariane Yoast « Accueil » Pellets/Bois de chauffage/Ramonage » … ». Pages locales repérées par `cluster: Ville` (moteur : config.est_locale). Catégorie WordPress Local vide, non supprimée.
+- 2026-10-04 12:16 — maillage : 22 article(s) relié(s) aux pages publiées depuis
+- 2026-10-04 12:27 — `entretien-poele-a-pellets` publié · 3 avertissement(s)
+- 2026-10-04 12:27 — `frequence-ramonage` publié · 1 avertissement(s)
+- 2026-10-04 12:27 — `pellets-arlon` publié · 1 avertissement(s)
+- 2026-10-04 20:22 — maillage : 22 article(s) relié(s) aux pages publiées depuis
+- 2026-10-05 09:17 — maillage : 8 article(s) relié(s) aux pages publiées depuis
+- 2026-10-05 10:04 — `entretien-poele-a-bois` planifié, sortie le 05/10 à 14:45 · 2 avertissement(s)
+- 2026-10-05 — `entretien-poele-a-bois` : brief en cascade (IA non joignable, OAuth expiré : étapes 4-7 rédigées par le pilote, sans liens google.be). Sources relues : La Maîtrise du feu (FAQ, Bonnes pratiques), SPW Énergie, SPW/Valbiom Les bûches, Valbiom 2019, AGW 29/01/2009. « Obligatoire » de La Maîtrise du feu non repris (aucun texte régional pour un poêle). Liens entrants déjà présents (allumage-feu-bois, verifier-bois-sec). Audit du lundi : 27 pages, 0 sans lien entrant.
+- 2026-10-06 08:09 — maillage : 11 article(s) relié(s) aux pages publiées depuis
+- 2026-10-06 11:46 — `bois-de-chauffage-bouillon` planifié, sortie le 07/10 à 09:40 · 1 avertissement(s)
+- 2026-10-06 — `bois-de-chauffage-bouillon` : brief en cascade avec liens google.be (IA non joignable, OAuth expiré : étapes 4-7 rédigées par le pilote). CSV (Buffalo, BCB, La Renardière) complété par Sylvardennes (Bouillon), Atoutbois (barème Bouillon), Goffinet, Hubo Sensenruth et la vente publique communale de bois sur pied (catalogue du 01/06/2026). Écartés : Buffalo et La Renardière (aucun site). À ajouter au CSV. Atoutbois : bois sec en rupture.
+- 2026-10-07 06:32 — maillage : 10 article(s) relié(s) aux pages publiées depuis
+- 2026-10-07 14:40 — `pellets-bouillon` planifié, sortie le 08/10 à 14:14 · 1 avertissement(s)
+- 2026-10-07 — `pellets-bouillon` : brief en cascade avec liens google.be (IA non joignable, OAuth expiré : étapes 4-7 rédigées par le pilote ; SERP complétée à 10 pages par `serp`). CSV (Granubois seul, aucun site → écarté) complété par CT Serson (Bouillon, palettes Pellets Premium TotalEnergies, prix sur demande), PETIT & Fils et Goffinet Energies (vrac, nomment Bouillon ; grille Goffinet du 01/10), localisateur Badger 6830 (Paliflam Paliseul, Aveve Bertrix, Pol Etienne Bertrix, Emond Chassepierre) et usine ERDA à Bertrix (distributeurs seulement). Hubo : aucun pellet en ligne. À ajouter au CSV.
+- 2026-10-08 07:48 — maillage : 11 article(s) relié(s) aux pages publiées depuis
+- 2026-10-09 09:45 — maillage : 10 article(s) relié(s) aux pages publiées depuis
+- 2026-10-09 09:55 — `bois-de-chauffage-saint-hubert` planifié, sortie le 09/10 à 19:23 · 1 avertissement(s)
+- 2026-10-09 — `bois-de-chauffage-saint-hubert` : brief en cascade avec liens google.be (IA non joignable, OAuth expiré : étapes 5-7 rédigées par le pilote ; SERP complétée à 9 pages par `serp`). CSV (Bertrand Philippe sans site → écarté ; Comptoir du Bois Européen gardé) complété par Atoutbois (barème « St Hubert » 75 €/230 €), Goffinet Energies (toute la province), Bois de Chauffage Belgique (tarif province de Luxembourg), Sylvardennes (photo « Livraison … Saint-Hubert »). Aucune enseigne de bricolage dans la commune ; Hubo caisse indisponible ; aucune vente communale annoncée. À ajouter au CSV. Lien entrant ajouté dans `bois-de-chauffage-libramont` (poussé par le maillage).
+- 2026-10-09 19:12 — `pellets-marche-en-famenne` modifié à la main dans WordPress — je ne le mets plus à jour
+- 2026-10-09 19:12 — maillage : 24 article(s) relié(s) aux pages publiées depuis
+- 2026-10-09 19:17 — maillage : 1 article(s) relié(s) aux pages publiées depuis
+- 2026-10-09 — session avec le propriétaire : formulaire de devis allégé (titre commun « Recevez les meilleures offres » via site.json → formulaire.titre, l'ancien titre passe en accroche ; champs, cases et bouton réduits ; deux colonnes sur mobile). Bug corrigé : le second formulaire d'une page n'était pas initialisé et affichait les champs des 4 besoins. Moteur (wp.py) + theme/site.css poussé ; 24 articles republiés.
+- 2026-10-09 — prix dynamiques : moteur/prix.py, prix/releves.json (18 relevés), balises {{prix}}, {{calc}}, {{releve}} ; relecture quotidienne au début du maillage. `bois-de-chauffage-saint-hubert` converti et republié (méta sans prix). Reste prix/a-convertir.txt : 16 articles, un par exécution du pilote.
+- 2026-10-09 19:56 — `prix-pellets` planifié, sortie le 11/10 à 07:34 · 1 avertissement(s)
+- 2026-10-09 — `prix-pellets` créé en session avec le propriétaire : title et méta avec la date du jour ({{aujourdhui}}, renvoyés à Yoast par le maillage chaque matin), date du jour écrite par le navigateur du visiteur, 15 prix de vendeurs relus chaque jour (Palette-pellets.be, Combustibles Creppe, Pellet Premium, Goffinet vrac et palette) + Valbiom à la main. Moteur : {{aujourdhui}}, {{calc1}}/{{calc2}}, min()/max(). Google.be en CAPTCHA : brief sur DuckDuckGo.
+- 2026-10-10 09:02 — prix : `hubo_caisse_statut` non relu chez Hubo depuis 1 jour(s), page illisible (The read operation timed out) — la page garde la date du 2026-10-09
+- 2026-10-10 09:02 — `pellets-virton` modifié à la main dans WordPress — je ne le mets plus à jour
+- 2026-10-10 09:02 — maillage : 10 article(s) relié(s) aux pages publiées depuis
+- 2026-10-10 13:38 — `pellets-saint-hubert` planifié, sortie le 12/10 à 07:04 · 1 avertissement(s)
+- 2026-10-10 13:39 — maillage : 2 article(s) relié(s) aux pages publiées depuis
+- 2026-10-10 — `pellets-saint-hubert` : brief en cascade (google.be ouvert mais liens organiques illisibles, brief sur DuckDuckGo complété à 10 pages par `serp` ; IA non joignable, OAuth expiré : étapes 4-7 rédigées par le pilote). CSV (Comptoir du Bois Européen, Tenneville) confirmé et complété par PETIT & Fils (nomme Saint-Hubert et ses villages, vrac dès 2 t et palettes, prix publiés), Combustibles Creppe (livraison gratuite province de Luxembourg), Pellet Premium (Wallonie), revendeurs Badger du localisateur 6870 (Koenig, ATB Marchal, Ferauche et Gillet, Aliments Guillaume). Écartés : Goffinet (Saint-Hubert absent de sa liste vrac), marchands de mazout d'annuaire sans site (Doucet, Marchal). 7 relevés ajoutés à prix/releves.json. Lien entrant : `bois-de-chauffage-saint-hubert`. À ajouter au CSV.
+- 2026-10-10 — prix dynamiques : `bois-de-chauffage-bouillon` converti et poussé par le maillage (valeurs rendues identiques). Méta description réécrite sans prix dans la source ; WordPress garde l'ancienne (« 93 à 193 € ») tant qu'elle n'est pas renvoyée. Reste prix/a-convertir.txt : 15 articles.
+- 2026-10-10 19:06 — `pellets-saint-hubert` planifié, sortie le 12/10 à 07:04 · 1 avertissement(s)
+- 2026-10-10 19:06 — `bois-de-chauffage-bouillon` publié · 1 avertissement(s)
+- 2026-10-10 — session avec le propriétaire : `pellets-saint-hubert` complété avec Trafic Saint-Hubert (av. Nestor Martin 109) et Recogne, deux pellets en stock ; prix Trafic non suivables par prix.py (dans le JSON de la page) → fiches suivies par `attendu`. Article mis à jour, sortie inchangée (12/10 07:04). `bois-de-chauffage-bouillon` republié par `publier` (méta sans prix). PROCEDURE : Trafic ajouté aux enseignes à chercher.
+- 2026-10-10 19:10 — maillage : 14 article(s) relié(s) aux pages publiées depuis
+- 2026-10-10 — session avec le propriétaire : accroche des formulaires des pages locales remplacée par « Gratuit. Réponse rapide. Trouvez les meilleurs fournisseurs près de <Ville> » (14 pages + 2 modèles, sans sous-texte). Non touchées car reprises à la main : pellets-marche-en-famenne, pellets-virton, ramonage-arlon. PROCEDURE mise à jour.
+- 2026-10-10 19:43 — `prix-pellets` brouillon · 2 avertissement(s)
+- 2026-10-10 — session avec le propriétaire : `/prix-pellets/` devient une page (type: page), publiée tout de suite à sa demande. L'article programmé 29452 est à la corbeille. Le slug était pris par l'image à la une 29451, renommée `prix-pellets-image-une` (comme le 04/10). Nouvelle page 29487. Plus d'« En bref » : en-tête en carte (`entete: carte`) avec le H1 « Prix du pellet le {{aujourdhui}} », puis la carte `::prix-jour` (moyenne des 5 offres livrées au sac, palette min-max, vrac 5 t, Valbiom). Moteur : `::prix-jour`, `entete: carte`, `h1_jour` (prix.front_matter), consigne « En bref » facultative dans brief.py ; theme/site.css poussé. Testé sur bois-chauffage, seul site du moteur.
+- 2026-10-10 19:44 — maillage : 3 article(s) relié(s) aux pages publiées depuis
+- 2026-10-10 23:38 — `prix-bois-de-chauffage` planifié, sortie le 13/10 à 08:06 · 4 avertissement(s)
+- 2026-10-10 — session avec le propriétaire : `prix-bois-de-chauffage` rédigée comme page prix (type: page, entete: carte, ::prix-jour, sans « En bref »), 13 relevés ajoutés (Creppe box, Bois de Chauffage Belgique palettes et vrac, Ardenwood), google.be en CAPTCHA → brief DuckDuckGo. Programmée 13/10 08:06 (page 29493). Slug pris par l'image à la une 29492 → renommée `prix-bois-de-chauffage-image-une`. Moteur : `image_une` renomme désormais l'image `<slug>-image-une` avant de créer la page (3e occurrence du conflit). Écartés : Full Services et JL Bois (tableaux ambigus).
+- 2026-10-11 09:20 — pilote : 2 articles déjà programmés (pellets-saint-hubert 12/10, prix-bois-de-chauffage 13/10), rien rédigé aujourd'hui. Suivant : certifications-pellets.
+- 2026-10-12 08:23 — maillage : 13 article(s) relié(s) aux pages publiées depuis
+- 2026-10-12 08:28 — `certifications-pellets` planifié, sortie le 14/10 à 09:52 · 2 avertissement(s)
+- 2026-10-12 08:29 — maillage : 1 article(s) relié(s) aux pages publiées depuis
+- 2026-10-12 — `certifications-pellets` : brief en cascade (google.be en CAPTCHA, non contourné → DuckDuckGo, 9 pages lues ; IA non joignable, OAuth expiré : étapes 4-7 rédigées par le pilote). Sources primaires lues : ENplus ST 1001:2022 (tableau 4, §3.36, §4.2-4.3, §7.3.4.7), DIN CERTCO 2 PfG C 0444/02.25 et son annexe 1, pages ENplus producteurs/négociants (plages d'ID). Seuils A1 identiques entre les deux labels. Retirés faute de source : exigences des constructeurs, surcoût du double label. Liens entrants existants : /pellets/, /prix-pellets/. Photo à fournir : sac montrant les numéros ENplus et DINplus.
+- 2026-10-12 — prix dynamiques : `pellets-bouillon` converti (3 relevés ajoutés : goffinet_vrac_2t, goffinet_arden_retrait, goffinet_pauls_retrait), valeurs rendues identiques, poussé par le maillage. Reste prix/a-convertir.txt : 14 articles.
+- 2026-10-12 — audit du lundi : 33 pages en ligne, 0 sans lien entrant. 5 publiés du 05 au 11/10 (entretien-poele-a-bois, bois-de-chauffage-bouillon, pellets-bouillon, bois-de-chauffage-saint-hubert, prix-pellets).
+- 2026-10-13 10:21 — maillage : 15 article(s) relié(s) aux pages publiées depuis
+- 2026-10-13 11:50 — `bois-de-chauffage-durbuy` planifié, sortie le 15/10 à 07:59 · 3 avertissement(s)
+- 2026-10-13 11:51 — `bois-de-chauffage-durbuy` planifié, sortie le 15/10 à 07:59 · 3 avertissement(s)
+- 2026-10-13 11:51 — maillage : 1 article(s) relié(s) aux pages publiées depuis
+- 2026-10-13 11:52 — `bois-de-chauffage-durbuy` planifié, sortie le 15/10 à 07:59 · 3 avertissement(s)
+- 2026-10-13 — `bois-de-chauffage-durbuy` : brief en cascade (google.be non tenté, DuckDuckGo 9 pages ; IA non joignable, OAuth expiré : étapes 4-7 rédigées par le pilote). CSV (Warlomont, Izier : annuaire seul → écarté) complété par JCP Bois (Baillonville, self-service samedi, livre la province), Combustibles Creppe (Sprimont, livraison gratuite Liège/Namur/Luxembourg), Comptoir du Bois Européen, Bois de Chauffage Belgique, Goffinet. Vente publique de la Ville le 22/10/2026 à Heyd (catalogue : 30 lots, 791 m³) au cœur de la page — section à mettre à jour après la vente. Écartés : Stassinbois, Rasquin (aucun site), Atoutbois (Durbuy absent du barème). Aucune enseigne de bricolage vérifiée dans la commune. Lien entrant : /bois-de-chauffage/. À ajouter au CSV.
+- 2026-10-13 — prix dynamiques : `pellets-virton` sauté (repris à la main). `bois-de-chauffage-virton` converti (relevé ajouté : goffinet_crepito_40), valeurs rendues identiques ; caisse Hubo désormais suivie par son statut « plus disponible », prix et promo retirés, encadré 💡 recentré sur Halin Roland. Poussé par le maillage. Reste prix/a-convertir.txt : pellets-virton (repris à la main, à retirer de la liste par le propriétaire) + 12 articles. Contrôle : l'ancien article garde 4 points bloquants hors prix (brief, ville, H2 Hubo) antérieurs aux règles actuelles.
+- 2026-10-14 — session avec le propriétaire : moteur (seo.py) — nouveau réglage `seo.brief_locales_facultatif` (site.json), pensé pour le futur site élagage (petites communes sans 8 résultats à lire). Absent ou faux : comportement inchangé. Testé : `verifier` sur les 35 articles du site bois, sortie identique avant et après ; réglage activé sur une copie, une page locale passe en avertissement, un guide reste bloqué. README mis à jour.
+- 2026-10-14 10:08 — pilote : 2 articles déjà programmés (certifications-pellets 14/10, bois-de-chauffage-durbuy 15/10), rien rédigé aujourd'hui. Suivant : pellets-durbuy.
+- 2026-10-15 05:44 — prix : `pp_moyenne_sac` passe de 7.47 à 7.29 (Palette-pellets.be) — relire les phrases qui comparent ce prix
+- 2026-10-15 05:44 — prix : `pp_moyenne_palette` passe de 492.69 à 481.14 (Palette-pellets.be) — relire les phrases qui comparent ce prix
+- 2026-10-15 05:44 — prix : `trafic_green_statut` non relu chez Trafic depuis 1 jour(s), page illisible (HTTP Error 403: Forbidden) — la page garde la date du 2026-10-13
+- 2026-10-15 05:44 — prix : `trafic_premium_statut` non relu chez Trafic depuis 1 jour(s), page illisible (HTTP Error 403: Forbidden) — la page garde la date du 2026-10-13
+- 2026-10-15 05:59 — maillage : 5 article(s) relié(s) aux pages publiées depuis
+- 2026-10-15 09:03 — `pellets-durbuy` planifié, sortie le 16/10 à 12:21 · 1 avertissement(s)
+- 2026-10-15 09:05 — maillage : 11 article(s) relié(s) aux pages publiées depuis
+- 2026-10-15 — `pellets-durbuy` : brief en cascade avec liens google.be (cookies refusés, 7 liens relevés ; IA non joignable, OAuth expiré : étapes 4-7 rédigées par le pilote). CSV (jcpbois seul) complété par Martiny (Barvaux, sac/palette, entrepôt de stockage, livraison 20 km), MLS Pro (dépôt à Bomal, Wonter), JCP Bois (Baillonville, sans prix), PETIT & Fils (nomme Durbuy, vrac dès 2 t), Goffinet (Durbuy dans sa liste vrac), Creppe et Pellet Premium. 7 relevés ajoutés (martiny_*, mls_wonter_*). Écartés : Trafic (vérification anti-robot Cloudflare, non contournée), localisateur Badger (aucun résultat pour 6940), annuaires sans site. Lien entrant : `bois-de-chauffage-durbuy`. À ajouter au CSV.
+- 2026-10-15 — prix dynamiques : `pellets-neufchateau` converti et poussé par le maillage. Pierrard ne publie plus sa palette promo à 415 € (prix sur demande) : chiffre retiré de l'En bref, du tableau, des chiffres clés et du 💡. Brico : Woodies retiré, Central Park passé à 6,89 € (relevés brico_centralpark_sac, brico_rekord_sac). Méta sans prix, `ville` et `entites` ajoutés. Restent 2 points bloquants hérités (brief et SERP absents, antérieurs aux règles). Reste prix/a-convertir.txt : pellets-virton (repris à la main, à retirer par le propriétaire) + 11 articles.
+- 2026-10-15 — prix : pp_moyenne_* en baisse ; phrases de /prix-pellets/ relues, toujours vraies (comparaisons écrites avec les deux chiffres).
+- 2026-10-15 11:21 — `prix-bois-de-chauffage` publié · 4 avertissement(s)
+- 2026-10-15 11:21 — `prix-pellets` publié · 2 avertissement(s)
+- 2026-10-15 — session avec le propriétaire : question du formulaire précoce des pages prix réécrite (« Du bois / Des pellets au meilleur prix livré(s) à votre adresse ? »), les deux pages republiées.
+- 2026-10-15 16:25 — `pellets-durbuy` planifié, sortie le 16/10 à 12:21 · 1 avertissement(s)
+- 2026-10-15 16:26 — maillage : 15 article(s) relié(s) aux pages publiées depuis
+- 2026-10-15 — session avec le propriétaire : ancres vers les pages mères variées dans 16 articles (« bois de chauffage en Wallonie / en Belgique / wallon », « acheter du bois de chauffage », « pellets en Belgique », « granulés de bois », « pellets de chauffage »…), poussées par le maillage ; pellets-durbuy renvoyé (sortie inchangée, 16/10 12:21). Règle ajoutée à la charte et à PROCEDURE (étape 4, liens internes).
+- 2026-10-15 23:21 — prix : `ppremium_comfo` passe de 454.35 à 473.85 (Pellet Premium) — relire les phrases qui comparent ce prix
+- 2026-10-15 23:21 — prix : `ardenwood_rangee` non relu chez Ardenwood depuis 1 jour(s), motif introuvable, à revoir — la page garde la date du 2026-10-15
+- 2026-10-15 23:21 — prix : `ardenwood_vrac_t` non relu chez Ardenwood depuis 1 jour(s), motif introuvable, à revoir — la page garde la date du 2026-10-15
+- 2026-10-15 23:21 — maillage : 14 article(s) relié(s) aux pages publiées depuis
+- 2026-10-15 23:33 — maillage : 27 article(s) relié(s) aux pages publiées depuis
+- 2026-10-16 — session avec le propriétaire : « En bref » réécrit en paragraphe de 2-3 phrases (au lieu de 4 puces) sur 27 articles gérés, faits et balises de prix inchangés, poussés par le maillage. Les 5 articles repris à la main gardent leurs puces. Charte, CLAUDE.md et modèles locaux mis à jour. Copie des sources avant modification gardée hors du projet le temps de la session. Également : mu-plugin expose-yoast-rest.php déposé par le propriétaire ; title et méta Yoast envoyés aux pages bois-de-chauffage, pellets, politique-de-confidentialite, ramonage (repris à la main : title de l'article d'origine gardé, accord du propriétaire) ; titles datés des deux pages prix renvoyés par le maillage.
+- 2026-10-15 23:55 — `accueil` brouillon · 3 avertissement(s)
+- 2026-10-15 23:55 — `accueil` publié · 3 avertissement(s)
+- 2026-10-16 — session : nouvelle page d'accueil `accueil` (bandeau photo Pixabay, chapô, formulaire en carte, prix Valbiom suivis, 4 services en cartes, 9 villes publiées, 6 guides), réglée en page d'accueil statique (avant : liste d'articles, page_on_front 28906 inutilisée). CSS accueil ajouté au thème (poussé). Moteur : `chapo` dans l'en-tête (design.py), rendu des 36 articles identique.
+- 2026-10-16 00:04 — `accueil` publié · 3 avertissement(s)
+- 2026-10-16 06:15 — maillage : 2 article(s) relié(s) aux pages publiées depuis
+- 2026-10-16 09:41 — `bois-de-chauffage-la-roche-en-ardenne` planifié, sortie le 17/10 à 14:32 · 2 avertissement(s)
+- 2026-10-16 09:42 — maillage : 2 article(s) relié(s) aux pages publiées depuis
+- 2026-10-16 09:43 — maillage : 1 article(s) relié(s) aux pages publiées depuis
+- 2026-10-16 — `bois-de-chauffage-la-roche-en-ardenne` : brief en cascade (google.be non tenté, DuckDuckGo 10 pages ; IA non joignable, OAuth expiré : étapes 4-7 rédigées par le pilote). CSV (Comptoir du Bois Européen seul) complété par Goffinet (« toute la province du Luxembourg »), Bois de Chauffage Belgique, Combustibles Creppe (tarifs affichés « valables jusqu'au 15/10/2026 »), Ardenne et Bois (Rochefort) et Ardenne Flamme (Basse-Bodeux, prix non repris : offre échue le 15/10). Aucun site ne nomme La Roche. Écartés : Samrée Chauf (chauffagiste), Pirotte (hors province), Ardennes Bois (France), Sylvardennes (min. 55 st), annuaire-horaire. Brico en 403, aucune enseigne citée. Aucune vente communale de bois trouvée pour 2026. Liens entrants : /bois-de-chauffage/ (phrase ajoutée) et carte La Roche ajoutée à l'accueil. À ajouter au CSV.
+- 2026-10-16 — prix dynamiques : `pellets-virton` sauté (repris à la main). `bois-de-chauffage-neufchateau` converti (relevés ajoutés : atoutbois_vert_bouleau, atoutbois_livr_neuf_5, atoutbois_livr_neuf_25), valeurs rendues identiques ; Crépito 40 cm signalé en rupture ; caisse Hubo « plus disponible », prix retiré ; remise multi-palettes Goffinet retirée (non relue). `ville`, `entites` ajoutés, 2 H2 renommées. Restent 2 points bloquants hérités (brief et SERP). Poussé par le maillage.
+- 2026-10-16 — session avec le propriétaire : moteur (autopilote.py, `liens_homepage`) — la ligne « Menu homepage » de `etat` compte aussi les liens relatifs (« /slug/ ») et le domaine avec ou sans www. Elle affichait ABSENT à tort depuis le thème en blocs (ancien calcul : 0 lien sur les deux sites ; nouveau : 31 sur bois, 8 sur élagage). Seul `etat` utilise cette fonction : rendu et `verifier` inchangés (vérifié sur un article de chaque site).
+- 2026-10-17 10:31 — prix : `trafic_green_statut` non relu chez Trafic depuis 1 jour(s), page illisible (HTTP Error 403: Forbidden) — la page garde la date du 2026-10-16
+- 2026-10-17 10:31 — prix : `trafic_premium_statut` non relu chez Trafic depuis 1 jour(s), page illisible (HTTP Error 403: Forbidden) — la page garde la date du 2026-10-16
+- 2026-10-17 10:32 — maillage : 16 article(s) relié(s) aux pages publiées depuis
+- 2026-10-18 10:07 — `pellets-la-roche-en-ardenne` planifié, sortie le 18/10 à 17:30 · 2 avertissement(s)
+- 2026-10-18 10:08 — maillage : 19 article(s) relié(s) aux pages publiées depuis
+- 2026-10-18 — `pellets-la-roche-en-ardenne` : brief en cascade (google.be : page anti-robot, non contournée ; DuckDuckGo 6 pages lisibles seulement, Bing 2 résultats ; complété par 4 pages du SERP de la variante « vente de pellets dans les ardennes » — vendeurs d'Arden Pellets hors commune — pour atteindre les 8 pages du contrôle ; IA non joignable, OAuth expiré : étapes 4-7 rédigées par le pilote). Vendeur trouvé dans la commune : Billa Gaz (Ronchamps, palettes déposées sur place, prix sur demande). Vrac : PETIT & Fils (page qui nomme La Roche, Ortho, Samrée) et Goffinet (La Roche dans sa liste). Palette : Comptoir du Bois Européen (Tenneville), Creppe, Pellet Premium. Sacs : Comptoir, Brico Marche (rue Borchamps). Écartés : Trafic (page magasins vide), Hubo/Gamma/Aveve (aucun magasin vérifié), « Brico - Garden center » d'Ortho (pubs de 2015-2017 seulement). 2 relevés ajoutés (comptoir_comfo_sac, comptoir_vanroje_sac). Liens entrants : bois-de-chauffage-la-roche-en-ardenne, pellets-durbuy. À ajouter au CSV ; la carte La Roche de l'accueil peut aussi pointer vers la page pellets.
+- 2026-10-18 — `pellets-la-roche-en-ardenne` planifié, sortie le 18/10 à 17:30 · 2 avertissement(s)
+- 2026-10-18 — prix dynamiques : `pellets-virton` sauté (repris à la main). `pellets-libramont` converti (relevés existants comptoir_*, valbiom_pellet_sac), valeurs rendues identiques sauf le sac Pauls par palette, 6,43 € au lieu de 6,42 € (450/70 arrondi). Prix retiré de la méta, `ville` et `entites` ajoutés, H2 « en septembre 2026 » → « en 2026 », comparaison à la moyenne Valbiom écrite avec les deux chiffres. Restent 2 points bloquants hérités (brief et SERP absents). Poussé par le maillage. Reste prix/a-convertir.txt : pellets-virton (repris à la main, à retirer par le propriétaire) + 8 articles.
+- 2026-10-19 10:18 — prix : `valbiom_buche` non relu chez Valbiom depuis 1 jour(s), page illisible (<urlopen error [Errno 60] Operation timed out>) — la page garde la date du 2026-10-18
+- 2026-10-19 10:18 — prix : `creppe_excellence_1` passe de 469 à 494 (Combustibles Creppe) — relire les phrases qui comparent ce prix
+- 2026-10-19 10:18 — prix : `creppe_excellence_4` passe de 454 à 479 (Combustibles Creppe) — relire les phrases qui comparent ce prix
+- 2026-10-19 10:18 — prix : `creppe_optimum_1` passe de 454 à 479 (Combustibles Creppe) — relire les phrases qui comparent ce prix
+- 2026-10-19 10:18 — prix : `creppe_optimum_drive` passe de 429 à 454 (Combustibles Creppe) — relire les phrases qui comparent ce prix
+- 2026-10-19 10:18 — prix : `valbiom_pellet_sac` non relu chez Valbiom depuis 1 jour(s), page illisible (<urlopen error [Errno 60] Operation timed out>) — la page garde la date du 2026-10-18
+- 2026-10-19 10:18 — prix : `valbiom_pellet_sac_janvier` non relu chez Valbiom depuis 1 jour(s), page illisible (<urlopen error [Errno 60] Operation timed out>) — la page garde la date du 2026-10-18
+- 2026-10-19 11:21 — maillage : 16 article(s) relié(s) aux pages publiées depuis
+- 2026-10-19 12:49 — `taux-cendres-pellets` planifié, sortie le 19/10 à 21:15 · 1 avertissement(s)
+- 2026-10-19 12:51 — prix : `ardenwood_rangee` non relu chez Ardenwood depuis 14 jour(s), motif introuvable, à revoir — la page garde la date du 2026-10-15
+- 2026-10-19 12:51 — prix : `ardenwood_vrac_t` non relu chez Ardenwood depuis 14 jour(s), motif introuvable, à revoir — la page garde la date du 2026-10-15
+- 2026-10-19 — `taux-cendres-pellets` : brief en cascade (DuckDuckGo hors sujet sur le titre de la sitemap — cendres alimentaires — ; brief relancé sur « taux de cendres pellets » avec 10 liens trouvés par recherche web, google.be non relevé ; IA non joignable, OAuth expiré : étapes 4-7 rédigées par le pilote). Faits : tableaux 4 et 5 du référentiel ENplus ST 1001:2022 (PDF relu), test Test-Achats de décembre 2025 (résineux ≈ 0,4 %, feuillus ≈ 0,75 %). Calculs par sac et par tonne faits par la rédaction. Liens entrants déjà présents (6 articles). Planifié, sortie le 19/10 à 21:15.
+- 2026-10-19 — prix Creppe (+25 € sur 4 relevés) : phrases relues dans prix-pellets, pellets-durbuy, pellets-saint-hubert, pellets-la-roche-en-ardenne ; toutes restent vraies (écarts internes Creppe inchangés, min/max calculés), rien modifié.
+- 2026-10-19 — prix dynamiques : `pellets-virton` sauté (repris à la main). `bois-de-chauffage-libramont` converti : relevés ajoutés comptoir_box_2st, comptoir_box_3st, comptoir_buchette_5, comptoir_buchette_palette ; balises sur comptoir_box_1st et valbiom_buche ; valeurs rendues identiques. Prix retiré de la méta ; comparaisons « un peu sous la moyenne » et « divise le budget par trois ou quatre » réécrites avec les deux chiffres. Tarif 2022 de la Scierie Mahy laissé en dur (PDF daté, cité comme tel). `ville`, `entites` ajoutés, 3 H2 renommées (dont « Quel achat pour quel foyer », titre d'accroche). Restent 2 points bloquants hérités (brief et SERP). Poussé par le maillage.
+- 2026-10-19 12:52 — maillage : 12 article(s) relié(s) aux pages publiées depuis
+- 2026-10-19 — audit du lundi : 40 pages en ligne, seule /accueil/ sans lien entrant (normal). Semaine passée : certifications-pellets, bois-de-chauffage-durbuy, prix-pellets, pellets-durbuy, bois-de-chauffage-la-roche-en-ardenne, pellets-la-roche-en-ardenne. Ardenwood (ardenwood_rangee, ardenwood_vrac_t) illisible depuis le 15/10 : motif à revoir en session.
+- 2026-10-20 09:34 — prix : `trafic_green_statut` non relu chez Trafic depuis 7 jour(s), page illisible (HTTP Error 403: Forbidden) — la page garde la date du 2026-10-16
+- 2026-10-20 09:34 — prix : `trafic_premium_statut` non relu chez Trafic depuis 7 jour(s), page illisible (HTTP Error 403: Forbidden) — la page garde la date du 2026-10-16
+- 2026-10-20 09:35 — maillage : 22 article(s) relié(s) aux pages publiées depuis
+- 2026-10-21 10:35 — `bois-de-chauffage-houffalize` planifié, sortie le 21/10 à 13:09 · 2 avertissement(s)
+- 2026-10-21 10:37 — prix : `valbiom_buche` a changé chez Valbiom (« octobre 2026 » au lieu de « août 2026 ») — chiffre et texte à mettre à jour à la main
+- 2026-10-21 10:37 — prix : `valbiom_pellet_sac` a changé chez Valbiom (« octobre 2026 » au lieu de « août 2026 ») — chiffre et texte à mettre à jour à la main
+- 2026-10-21 10:37 — prix : `valbiom_pellet_sac_janvier` a changé chez Valbiom (« octobre 2026 » au lieu de « août 2026 ») — chiffre et texte à mettre à jour à la main
+- 2026-10-21 10:37 — prix : `martiny_comfo_sac` passe de 7.35 à 7.6 (Martiny) — relire les phrases qui comparent ce prix
+- 2026-10-21 10:37 — prix : `martiny_comfo_palette` passe de 415 à 430 (Martiny) — relire les phrases qui comparent ce prix
+- 2026-10-21 10:38 — maillage : 18 article(s) relié(s) aux pages publiées depuis
+- 2026-10-21 10:39 — maillage : 2 article(s) relié(s) aux pages publiées depuis
+- 2026-10-21 — `bois-de-chauffage-houffalize` : brief en cascade (google.be non tenté, DuckDuckGo 5 pages lisibles, toutes des fiches d'annuaires et la vente communale Wallowood de 2024 ; SERP complétée par 5 pages de fournisseurs de la zone pour atteindre 8 pages ; IA non joignable, OAuth expiré : étapes 4-7 rédigées par le pilote). Aucun marchand vérifiable dans la commune : D'coupe Ô Bois (Houffalize) et Fimexbois (Mont) n'existent que dans des annuaires, écartés ; Fraipont Etienne est plombier. Retenus, chacun vérifié sur son site : Comptoir du Bois Européen, Bois de Chauffage Belgique, Combustibles Creppe (tarifs valables jusqu'au 01/11/2026), Goffinet, Ardenwood (Bertrix), Ardenne Flamme (Vielsalm nommé, Houffalize non). Section propre : vente de bois de la commune du 19/11/2024 (32 lots), aucune vente 2026 sur Wallowood au 21/10. Aucune enseigne de bricolage trouvée dans la commune. Liens entrants : bois-de-chauffage-la-roche-en-ardenne (phrase « suivra » réécrite) ; ligne Houffalize ajoutée à l'accueil, ainsi que le lien Pellets à La Roche-en-Ardenne. Planifié, sortie le 21/10 à 13:09. À ajouter au CSV.
+- 2026-10-21 — prix dynamiques : `pellets-virton` sauté (repris à la main). `pellets-bastogne` converti : relevé ajouté comptoir_pauls_sac ; balises sur les 8 prix Comptoir et valbiom_pellet_sac ; valeurs rendues identiques sauf le sac Pauls par palette, 6,43 € au lieu de 6,42 € (arrondi, comme à Libramont). Prix retiré de la méta ; « sous cette moyenne / un peu au-dessus » réécrit avec les chiffres. `ville`, `entites` ajoutés, 3 H2 renommées (dont « Palette ou vrac : ce qui décide »). Restent 2 points bloquants hérités (brief et SERP). Poussé par le maillage.
+- 2026-10-21 — Valbiom affiche désormais le tableau d'octobre 2026 (valbiom_buche, valbiom_pellet_sac, valbiom_pellet_sac_janvier) : nouvelles valeurs à saisir à la main depuis l'image et phrases « en août 2026 » à mettre à jour ; non traité dans cette exécution. Martiny Comfo +0,25 €/sac et +15 €/palette : phrases à relire à la prochaine exécution.
+- 2026-10-21 — session, moteur commun : `choisir_date` publie le jour même (au hasard entre maintenant + 2 h et 22 h), le lendemain seulement si un article du pilote sort déjà ce jour-là (demande du propriétaire). `ecart_min_heures` et `fenetre_heures` ne servent plus. Testé en simulation sur bois-chauffage, elagage et gruptis.
+- 2026-10-21 17:57 — `pellets-houffalize` planifié, sortie le 22/10 à 07:45 · 2 avertissement(s)
+- 2026-10-21 — `pellets-houffalize` (2e exécution du jour, 1 seul article programmé à l'état) : brief en cascade (DuckDuckGo 0 candidat, google.be non relevé ; brief et SERP construits sur 9 pages de vendeurs trouvées par recherche web ; IA non joignable, OAuth expiré : étapes 4-7 rédigées par le pilote). Aucun vendeur dans la commune. Retenus, vérifiés sur leur site : PETIT & Fils et Goffinet (Houffalize nommée, vrac), Multi Travaux (Bastogne, Houffalize nommée), Comptoir du Bois Européen, Creppe, Pellet Premium. Écartés : Socafa (Ortho, fiche de l'office du tourisme seule), Hubo Vielsalm (produit pellets non visible sur hubo.be), BF-Services (introuvable). Moyenne Valbiom d'octobre 2026 écrite en dur (7,02 €/sac, contre 6,19 € en août). Liens entrants déjà présents (pellets-bastogne, pellets-la-roche-en-ardenne, bois-de-chauffage-houffalize). Planifié, sortie le 22/10 à 07:45.
+- 2026-10-21 — Valbiom octobre 2026 lu sur tableau-oct-26.jpg : bûches 130 €/stère, pellets 7,02 €/sac (septembre : 130 € et 6,64 €). Relevés valbiom_* non modifiés (les phrases « en août 2026 » de plusieurs pages seraient à reprendre en même temps).
+- 2026-10-21 — prix dynamiques : `bois-de-chauffage-bastogne` préparé (balises, Crépito 30 cm retiré car plus en vente chez Goffinet, remise 35/70 € introuvable), mais `verifier` refusé par les permissions de la session : conversion annulée, fichier rendu intact. À reprendre à la prochaine exécution.

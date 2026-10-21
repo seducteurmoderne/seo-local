@@ -1,0 +1,7 @@
+{"types": {"guide": 3, "service": 6, "annuaire": 0, "autre": 1},
+ "intention_recompensee": "Informationnelle et commerciale : Google mélange des guides de prix (BM Energies, Bophin) et des grilles de vendeurs (Ardenwood, Bois de Chauffage Belgique, Full Services, JL Bois). Le lecteur veut un prix au stère crédible et récent.",
+ "incontournables": ["Prix du stère", "Prix d'une palette", "Vrac ou palette", "Sec ou vert", "Livraison"],
+ "differenciants": ["Grille par zone de livraison (Bois de Chauffage Belgique)", "Prix selon le conditionnement filmé ou rangé (Ardenwood)", "Conversion stère/m³ (Pirotte)"],
+ "lacunes": ["Aucune page ne compare plusieurs vendeurs ramenés au même stère livré", "Aucune date de relevé ni mise à jour quotidienne", "TVA rarement précisée", "Pas de repère officiel Valbiom"],
+ "faiblesses": ["Guides sans source ni date", "Grilles de vendeurs centrées sur leur offre", "Longueurs de bûches ignorées dans les comparaisons"],
+ "longueur_cible": 1300}

@@ -1,0 +1,110 @@
+{
+ "problemes": [
+  "Billa Gaz ne publie aucun prix : le brief doit dire de ne pas en donner et renvoyer à l'appel ou au formulaire",
+  "Deux tableaux à la suite en sections 1 et 2 : la section prix porte aussi les chiffres clés, entre ses deux formes",
+  "La section des sacs gagne un tableau court des points de vente, avec adresse, pour situer les distances"
+ ],
+ "brief": {
+  "intention": "Locale et transactionnelle : savoir qui vend et livre des pellets dans la commune de La Roche-en-Ardenne et ses villages, à quel prix au sac, à la palette et en vrac, et où charger quelques sacs tout près.",
+  "format_serp": "Un comparateur de prix généré par code postal (Groupasol), deux pages de vendeurs qui nomment la commune (PETIT & Fils, Billa Gaz), un annuaire d'horaires et des résultats hors zone (communes françaises homonymes).",
+  "structure_serp": "Pages courtes (médiane 653 mots), 1 H2 en médiane, 2 pages sur 6 avec un tableau, aucune ne compare les vendeurs.",
+  "entites": [
+   "pellets",
+   "granulés de bois"
+  ],
+  "variantes": [
+   "pellets la roche-en-ardenne",
+   "pellets la roche en ardenne",
+   "livraison pellets la roche-en-ardenne",
+   "prix pellets la roche-en-ardenne",
+   "vente de pellets dans les ardennes",
+   "magasin la roche en ardenne"
+  ],
+  "termes": [
+   "sac de 15 kg",
+   "palette de 65 sacs",
+   "vrac",
+   "camion souffleur",
+   "tonne",
+   "TVAC",
+   "départ entrepôt",
+   "stockage",
+   "DIN+",
+   "ENplus A1"
+  ],
+  "questions": [
+   "Y a-t-il un vendeur de pellets à La Roche-en-Ardenne ?",
+   "Qui livre des pellets à La Roche-en-Ardenne ?",
+   "Combien coûtent les pellets à La Roche-en-Ardenne ?",
+   "Où acheter des sacs de pellets près de La Roche ?",
+   "Quel minimum pour le vrac ?",
+   "En combien de temps suis-je livré ?"
+  ],
+  "en_bref": [
+   "Un paragraphe : le vendeur de la commune (Billa Gaz, Ronchamps), les vendeurs qui nomment La Roche pour le vrac (PETIT & Fils, Goffinet) avec le prix de 5 tonnes, et le dépôt de Tenneville au sac."
+  ],
+  "plan": [
+   {
+    "h2": "Qui livre des pellets à La Roche-en-Ardenne ?",
+    "contenu": "Réponse directe : nombre de vendeurs, ceux qui nomment la commune, le seul installé sur place, puis tableau rotatif.",
+    "forme": "tableau",
+    "image": "",
+    "donnees_a_chercher": [
+     "Zone de livraison de chaque vendeur sur son site"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Prix des pellets à La Roche-en-Ardenne en 2026",
+    "contenu": "Palette enlevée à Tenneville contre palette livrée, vrac à la tonne, ramené au sac ; moyenne Valbiom ; chiffres clés.",
+    "forme": "chiffres clés",
+    "image": "",
+    "donnees_a_chercher": [
+     "Prix relevés suivis",
+     "Moyenne Valbiom"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Où acheter des sacs de pellets près de La Roche-en-Ardenne",
+    "contenu": "Billa Gaz à Ronchamps (prix sur demande, ne rien inventer), Comptoir du Bois Européen à Tenneville avec ses prix au sac, Brico rue Borchamps à Marche-en-Famenne ; constat : aucune grande surface de bricolage dans la commune. Tableau court des points de vente pour casser la suite de paragraphes.",
+    "forme": "tableau",
+    "image": "",
+    "donnees_a_chercher": [
+     "Adresses et prix des sacs"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Sac, palette ou vrac : quel format de pellets choisir à La Roche-en-Ardenne ?",
+    "contenu": "Poêle : palette enlevée ou livrée ; stockage chez le Comptoir ; chaudière : vrac. Lien vers le guide des formats.",
+    "forme": "notre avis",
+    "image": "",
+    "donnees_a_chercher": [],
+    "h3": []
+   },
+   {
+    "h2": "Livraison de pellets à La Roche-en-Ardenne : délais, minimum et accès",
+    "contenu": "Minimum 2 t, délai 24 h à 15 jours, présence, paiement, jours de Goffinet, dépose des palettes par Billa Gaz, routes en pente.",
+    "forme": "paragraphe",
+    "image": "",
+    "donnees_a_chercher": [
+     "Conditions de livraison sur les sites"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Pellets autour de La Roche-en-Ardenne : villages et communes voisines",
+    "contenu": "Villages nommés par PETIT & Fils, communes voisines nommées par Goffinet, liens vers les pages voisines et la page bois.",
+    "forme": "paragraphe",
+    "image": "",
+    "donnees_a_chercher": [],
+    "h3": []
+   }
+  ],
+  "cta": "Formulaire fort après l'introduction et en fin de page.",
+  "faq": [],
+  "longueur_cible": 1000,
+  "decision": "Seule page qui compare les vendeurs qui servent La Roche-en-Ardenne, distingue palette enlevée et livrée, ramène chaque prix au sac de 15 kg et nomme le vendeur de la commune, Billa Gaz, absent des comparateurs."
+ }
+}

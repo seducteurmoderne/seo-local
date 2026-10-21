@@ -1,0 +1,20 @@
+{"intention": "Locale et transactionnelle : savoir qui vend et livre des pellets dans la commune de Durbuy, à quel prix au sac, à la palette et en vrac, et où charger un sac tout près.",
+ "format_serp": "Pages de vendeurs locaux (Martiny à Barvaux, MLS Pro à Somme-Leuze, PETIT & Fils qui nomme Durbuy), annuaires (Pages d'Or, Obodo) et comparateurs de prix du jour (Groupasol, comparerdevis).",
+ "structure_serp": "Pages courtes (médiane 580 mots), 3 H2 en médiane, 3 pages sur 10 avec un tableau, aucune ne compare les vendeurs.",
+ "entites": ["pellets", "granulés de bois"],
+ "variantes": ["pellets durbuy", "pellet durbuy", "pellets barvaux", "livraison pellets durbuy", "prix pellets durbuy", "pellets vrac durbuy"],
+ "termes": ["sac de 15 kg", "palette de 65 sacs", "vrac", "camion souffleur", "tonne", "TVAC", "entrepôt", "caution palette", "ENplus A1", "DIN+"],
+ "questions": ["Qui livre des pellets à Durbuy ?", "Combien coûtent les pellets à Durbuy ?", "Où acheter un sac de pellets à Barvaux ?", "Peut-on stocker sa palette chez le vendeur ?", "Quel minimum pour le vrac ?"],
+ "en_bref": ["Vendeurs dans la commune et qui nomment Durbuy", "Prix de la palette et du vrac relevés", "Où acheter au sac à Barvaux et autour", "Repère wallon Valbiom"],
+ "plan": [
+  {"h2": "Qui livre des pellets à Durbuy ?", "contenu": "Réponse directe : nombre de vendeurs, d'où ils livrent, lesquels nomment Durbuy. Tableau rotatif des vendeurs vérifiés sur leur site.", "forme": "tableau", "image": "", "donnees_a_chercher": ["zones de livraison sur le site de chaque vendeur"], "h3": []},
+  {"h2": "Prix des pellets à Durbuy en 2026", "contenu": "Prix de la palette enlevée et livrée, ramené au sac de 15 kg ; vrac à la tonne ; repère Valbiom.", "forme": "tableau", "image": "", "donnees_a_chercher": ["tarifs Martiny", "vrac PETIT & Fils", "palettes livrées Creppe et Pellet Premium", "Valbiom"], "h3": []},
+  {"h2": "Où acheter des sacs de pellets à Durbuy et à Barvaux", "contenu": "Les points de vente au sac dans la commune et à 15 km : Martiny à Barvaux, MLS Pro, JCP Bois, magasins de bricolage proches, revendeurs Badger.", "forme": "tableau", "image": "", "donnees_a_chercher": ["localisateurs Trafic et Badger, code postal 6940"], "h3": []},
+  {"h2": "Sac, palette ou vrac : quel format de pellets choisir à Durbuy ?", "contenu": "Selon l'appareil ; stockage de la palette au dépôt de Martiny comme solution sans place.", "forme": "paragraphe", "image": "", "donnees_a_chercher": [], "h3": []},
+  {"h2": "Livraison de pellets à Durbuy : délais, minimum et accès", "contenu": "Rayon de livraison de Martiny, matériel et minimum du vrac de PETIT & Fils, conditions de Creppe.", "forme": "notre avis", "image": "", "donnees_a_chercher": ["délai et minimum PETIT & Fils"], "h3": []},
+  {"h2": "Pellets autour de Durbuy : villages et communes voisines", "contenu": "Villages de la commune, communes voisines et liens vers Marche-en-Famenne, La Roche, la page bois de Durbuy.", "forme": "paragraphe", "image": "", "donnees_a_chercher": [], "h3": []}
+ ],
+ "cta": "Formulaire fort après l'introduction et en fin de page.",
+ "faq": [],
+ "longueur_cible": 1000,
+ "decision": "Seule page qui compare les vendeurs qui servent Durbuy, distingue prix enlevé et prix livré, ramène chaque palette au sac de 15 kg et signale le dépôt de Barvaux qui garde la palette."}

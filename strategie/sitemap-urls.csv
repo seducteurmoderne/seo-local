@@ -1,0 +1,243 @@
+url,titre,verticale,cluster,role,cta,vague,note,statut
+/,Bois de chauffage et pellets en Belgique,—,—,homepage,→ les 4 mères,1,,à faire
+/bois-de-chauffage/,Bois de chauffage en Belgique,Bois,Mère,mère,→ /devis/ (formulaire qualifié),1,transactionnelle,publié
+/pellets/,Pellets en Belgique,Pellets,Mère,mère,→ /devis/ (formulaire qualifié),1,transactionnelle,publié
+/ramonage/,Ramonage en Wallonie,Ramonage,Mère,mère,→ /devis/ (formulaire qualifié),1,transactionnelle,planifié
+/quel-bois-de-chauffage-choisir/,Quel bois de chauffage choisir,Bois,A · Quoi acheter,sous-hub,→ hub local,1,,à faire
+/bois-de-chauffage-chene/,Le chêne,Bois,A · Quoi acheter,fille,→ mère de verticale,3,,à faire
+/bois-de-chauffage-hetre/,Le hêtre,Bois,A · Quoi acheter,fille,→ mère de verticale,3,,à faire
+/bois-de-chauffage-charme/,Le charme,Bois,A · Quoi acheter,fille,→ mère de verticale,3,,à faire
+/bois-de-chauffage-frene/,Le frêne,Bois,A · Quoi acheter,fille,→ mère de verticale,3,,à faire
+/bois-de-chauffage-bouleau/,Le bouleau,Bois,A · Quoi acheter,fille,→ mère de verticale,3,,à faire
+/bois-dur-ou-bois-tendre/,Bois dur ou bois tendre,Bois,A · Quoi acheter,fille,→ mère de verticale,3,,à faire
+/longueur-buches/,Quelle longueur de bûche,Bois,A · Quoi acheter,fille,→ mère de verticale,3,,planifié
+/buches-densifiees/,Bûches densifiées,Bois,A · Quoi acheter,fille,→ mère de verticale,3,,à faire
+/bois-a-ne-pas-bruler/,Le bois qu'il ne faut jamais brûler,Bois,A · Quoi acheter,fille,→ mère de verticale,3,,planifié
+/bois-de-chauffage-en-grume/,Acheter du bois en grume,Bois,A · Quoi acheter,fille,→ mère de verticale,3,,à faire
+/stere-de-bois/,Le stère de bois,Bois,B · Combien il m'en faut,fille,→ mère de verticale,1,,à faire
+/stere-m3-corde/,"Stère, m³ apparent et corde",Bois,B · Combien il m'en faut,fille,→ mère de verticale,3,,à faire
+/combien-de-steres/,Combien de stères pour ma maison,Bois,B · Combien il m'en faut,fille + calculateur,→ mère de verticale,3,,à faire
+/bois-de-chauffage-sec/,Bois sec : le taux d'humidité,Bois,C · Bonne marchandise ?,fille,→ mère de verticale,3,,à faire
+/verifier-bois-sec/,Vérifier que le bois est sec,Bois,C · Bonne marchandise ?,fille,→ mère de verticale,3,,planifié
+/temps-sechage-bois/,Combien de temps sécher son bois,Bois,C · Bonne marchandise ?,fille,→ mère de verticale,3,,planifié
+/prix-bois-de-chauffage/,Prix du bois de chauffage en Belgique,Bois,D · Ce que ça coûte,fille,→ mère de verticale,1,,publié
+/stockage-bois-de-chauffage/,Stocker son bois,Bois,E · Comment m'en servir,fille,→ mère de verticale,3,,à faire
+/allumage-feu-bois/,Allumer et entretenir son feu,Bois,E · Comment m'en servir,fille,→ mère de verticale,3,,planifié
+/quel-appareil-bois/,"Poêle, insert ou foyer ouvert",Bois,E · Comment m'en servir,fille,→ mère de verticale,3,,à faire
+/quelle-marque-de-pellets/,Quelle marque de pellets choisir,Pellets,A · Quoi acheter,sous-hub,→ hub local,1,,à faire
+/pellets-piron/,Pellets Piron,Pellets,A · Quoi acheter,fille,→ mère de verticale,3,,à faire
+/pellets-gamma/,Pellets Gamma,Pellets,A · Quoi acheter,fille,→ mère de verticale,3,,à faire
+/pellets-hubo/,Pellets Hubo,Pellets,A · Quoi acheter,fille,→ mère de verticale,3,,à faire
+/pellets-trafic/,Pellets Trafic,Pellets,A · Quoi acheter,fille,→ mère de verticale,3,,à faire
+/pellets-badger/,Pellets Badger,Pellets,A · Quoi acheter,fille,→ mère de verticale,3,,à faire
+/pellets-aveve/,Pellets Aveve,Pellets,A · Quoi acheter,fille,→ mère de verticale,3,,à faire
+/pellets-descamps/,Pellets Descamps,Pellets,A · Quoi acheter,fille,→ mère de verticale,3,,à faire
+/pellets-brico/,Pellets Brico,Pellets,A · Quoi acheter,fille,→ mère de verticale,3,,à faire
+/certifications-pellets/,ENplus A1 et DINplus,Pellets,A · Quoi acheter,fille,→ mère de verticale,3,,planifié
+/pellets-resineux-ou-feuillus/,Résineux ou feuillus,Pellets,A · Quoi acheter,fille,→ mère de verticale,3,,à faire
+/pellets-6-ou-8-mm/,Pellets 6 ou 8 mm,Pellets,A · Quoi acheter,fille,→ mère de verticale,3,,à faire
+/combien-de-pellets/,Combien de pellets pour mon hiver,Pellets,B · Combien il m'en faut,fille + calculateur,→ mère de verticale,1,,à faire
+/sac-palette-vrac-pellets/,"Sac, palette ou vrac",Pellets,B · Combien il m'en faut,fille,→ mère de verticale,3,,à faire
+/meilleur-pellet/,Meilleur pellet : les 9 critères,Pellets,C · Bonne marchandise ?,fille + analyseur,→ mère de verticale,1,,à faire
+/taux-cendres-pellets/,Taux de cendres et durabilité,Pellets,C · Bonne marchandise ?,fille,→ mère de verticale,3,,planifié
+/reconnaitre-mauvais-pellet/,Reconnaître un mauvais pellet,Pellets,C · Bonne marchandise ?,fille,→ mère de verticale,3,,planifié
+/prix-pellets/,Prix des pellets en Belgique,Pellets,D · Ce que ça coûte,fille,→ mère de verticale,1,,publié
+/stockage-pellets/,Stocker ses pellets,Pellets,E · Comment m'en servir,fille,→ mère de verticale,3,,à faire
+/ramonage-obligatoire-wallonie/,Ramonage obligatoire en Wallonie,Ramonage,A · L'obligation,fille,→ mère de verticale,2,,à faire
+/frequence-ramonage/,Une ou deux fois par an ?,Ramonage,A · L'obligation,fille,→ mère de verticale,3,,publié
+/attestation-ramonage/,Attestation et assurance,Ramonage,A · L'obligation,fille,→ mère de verticale,3,,à faire
+/prix-ramonage/,Prix d'un ramonage en Belgique,Ramonage,B · Ce que ça coûte,fille,→ mère de verticale,2,,à faire
+/ramonage-poele-a-bois/,Ramonage d'un poêle à bois,Ramonage,C · Quel ramonage,fille,→ mère de verticale,3,,à faire
+/ramonage-poele-a-pellets/,Ramonage d'un poêle à pellets,Ramonage,C · Quel ramonage,fille,→ mère de verticale,3,,à faire
+/tubage-cheminee/,Tubage de cheminée,Ramonage,C · Quel ramonage,fille,→ mère de verticale,3,,à faire
+/feu-de-cheminee-bistre/,Bistre et feu de cheminée,Ramonage,D · Risques,fille,→ mère de verticale,3,,à faire
+/entretien-poele-a-pellets/,Entretien d'un poêle à pellets,Pellets,E · Comment m'en servir,fille,→ /devis/ (formulaire qualifié),1,480/mois · KD 9,publié
+/entretien-poele-a-bois/,Entretien d'un poêle à bois,Bois,E · Comment m'en servir,fille,→ /devis/ (formulaire qualifié),3,,planifié
+/depannage-poele-a-pellets/,Dépannage d'un poêle à pellets,Pellets,E · Comment m'en servir,fille,→ /devis/ (formulaire qualifié),3,,planifié
+/prix-poele-a-pellets/,Prix d'un poêle à pellets,Pellets,D · Ce que ça coûte,fille,→ /devis/ (formulaire qualifié),2,320/mois · KD 10,à faire
+/prix-placement-poele/,Prix du placement,Pellets,D · Ce que ça coûte,fille,→ /devis/ (formulaire qualifié),3,,à faire
+/poele-a-pellets-ou-poele-a-bois/,Poêle à pellets ou à bois,Pellets,A · Quoi acheter,fille,→ /devis/ (formulaire qualifié),3,,à faire
+/rendement-poele-a-bois/,Rendement des appareils,Bois,E · Comment m'en servir,fille,→ /devis/ (formulaire qualifié),3,,à faire
+/primes-chauffage-wallonie/,Primes chauffage en Wallonie,Bois,D · Ce que ça coûte,fille,→ /devis/ (formulaire qualifié),2,réactivée,à faire
+/prime-poele-a-pellets/,Prime poêle à pellets,Pellets,D · Ce que ça coûte,fille,→ /devis/ (formulaire qualifié),3,,à faire
+/norme-ecodesign/,La norme Ecodesign,Bois,E · Comment m'en servir,fille,→ /devis/ (formulaire qualifié),3,,à faire
+/interdiction-feu-ouvert/,Feux ouverts : ce qui est interdit,Bois,E · Comment m'en servir,fille,→ /devis/ (formulaire qualifié),3,,à faire
+/bois-de-chauffage-hainaut/,Acheter bois de chauffage en Hainaut,Local,Province,province,→ /devis/ (formulaire qualifié),1,pas de ville homonyme,à faire
+/bois-de-chauffage-brabant-wallon/,Acheter bois de chauffage en Brabant wallon,Local,Province,province,→ /devis/ (formulaire qualifié),1,pas de ville homonyme,à faire
+/bois-de-chauffage-ardenne/,Acheter bois de chauffage en Ardenne,Local,Région,région,→ /devis/ (formulaire qualifié),2,,à faire
+/bois-de-chauffage-famenne/,Acheter bois de chauffage en Famenne,Local,Région,région,→ /devis/ (formulaire qualifié),2,,à faire
+/bois-de-chauffage-condroz/,Acheter bois de chauffage en Condroz,Local,Région,région,→ /devis/ (formulaire qualifié),2,,à faire
+/bois-de-chauffage-gaume/,Acheter bois de chauffage en Gaume,Local,Région,région,→ /devis/ (formulaire qualifié),2,,à faire
+/bois-de-chauffage-hesbaye/,Acheter bois de chauffage en Hesbaye,Local,Région,région,→ /devis/ (formulaire qualifié),2,,à faire
+/bois-de-chauffage-pays-de-herve/,Acheter bois de chauffage en Pays de Herve,Local,Région,région,→ /devis/ (formulaire qualifié),2,,à faire
+/bois-de-chauffage-hautes-fagnes/,Acheter bois de chauffage en Hautes Fagnes,Local,Région,région,→ /devis/ (formulaire qualifié),2,,à faire
+/bois-de-chauffage-botte-du-hainaut/,Acheter bois de chauffage en Botte du Hainaut,Local,Région,région,→ /devis/ (formulaire qualifié),2,,à faire
+/bois-de-chauffage-entre-sambre-et-meuse/,Acheter bois de chauffage en Entre-Sambre-et-Meuse,Local,Région,région,→ /devis/ (formulaire qualifié),2,,à faire
+/bois-de-chauffage-ourthe-ambleve/,Acheter bois de chauffage en Ourthe-Amblève,Local,Région,région,→ /devis/ (formulaire qualifié),2,,à faire
+/bois-de-chauffage-wavre/,Acheter bois de chauffage à Wavre,Local,Ville,ville,→ /devis/ (formulaire qualifié),1,Brabant wallon · pilote,à faire
+/bois-de-chauffage-nivelles/,Acheter bois de chauffage à Nivelles,Local,Ville,ville,→ /devis/ (formulaire qualifié),1,Brabant wallon · pilote,à faire
+/bois-de-chauffage-ottignies-louvain-la-neuve/,Acheter bois de chauffage à Ottignies-Louvain-la-Neuve,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Brabant wallon,à faire
+/bois-de-chauffage-braine-l-alleud/,Acheter bois de chauffage à Braine-l'Alleud,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Brabant wallon,à faire
+/bois-de-chauffage-waterloo/,Acheter bois de chauffage à Waterloo,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Brabant wallon,à faire
+/bois-de-chauffage-tubize/,Acheter bois de chauffage à Tubize,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Brabant wallon,à faire
+/bois-de-chauffage-rixensart/,Acheter bois de chauffage à Rixensart,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Brabant wallon,à faire
+/bois-de-chauffage-jodoigne/,Acheter bois de chauffage à Jodoigne,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Brabant wallon,à faire
+/bois-de-chauffage-genappe/,Acheter bois de chauffage à Genappe,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Brabant wallon,à faire
+/bois-de-chauffage-perwez/,Acheter bois de chauffage à Perwez,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Brabant wallon,à faire
+/bois-de-chauffage-lasne/,Acheter bois de chauffage à Lasne,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Brabant wallon,à faire
+/bois-de-chauffage-court-saint-etienne/,Acheter bois de chauffage à Court-Saint-Étienne,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Brabant wallon,à faire
+/bois-de-chauffage-charleroi/,Acheter bois de chauffage à Charleroi,Local,Ville,ville,→ /devis/ (formulaire qualifié),1,Hainaut · pilote,à faire
+/bois-de-chauffage-mons/,Acheter bois de chauffage à Mons,Local,Ville,ville,→ /devis/ (formulaire qualifié),1,Hainaut · pilote,à faire
+/bois-de-chauffage-tournai/,Acheter bois de chauffage à Tournai,Local,Ville,ville,→ /devis/ (formulaire qualifié),1,Hainaut · pilote,à faire
+/bois-de-chauffage-la-louviere/,Acheter bois de chauffage à La Louvière,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Hainaut,à faire
+/bois-de-chauffage-mouscron/,Acheter bois de chauffage à Mouscron,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Hainaut,à faire
+/bois-de-chauffage-ath/,Acheter bois de chauffage à Ath,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Hainaut,à faire
+/bois-de-chauffage-soignies/,Acheter bois de chauffage à Soignies,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Hainaut,à faire
+/bois-de-chauffage-binche/,Acheter bois de chauffage à Binche,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Hainaut,à faire
+/bois-de-chauffage-chatelet/,Acheter bois de chauffage à Châtelet,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Hainaut,à faire
+/bois-de-chauffage-courcelles/,Acheter bois de chauffage à Courcelles,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Hainaut,à faire
+/bois-de-chauffage-fleurus/,Acheter bois de chauffage à Fleurus,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Hainaut,à faire
+/bois-de-chauffage-thuin/,Acheter bois de chauffage à Thuin,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Hainaut,à faire
+/bois-de-chauffage-chimay/,Acheter bois de chauffage à Chimay,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Hainaut,à faire
+/bois-de-chauffage-peruwelz/,Acheter bois de chauffage à Péruwelz,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Hainaut,à faire
+/bois-de-chauffage-lessines/,Acheter bois de chauffage à Lessines,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Hainaut,à faire
+/bois-de-chauffage-enghien/,Acheter bois de chauffage à Enghien,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Hainaut,à faire
+/bois-de-chauffage-braine-le-comte/,Acheter bois de chauffage à Braine-le-Comte,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Hainaut,à faire
+/bois-de-chauffage-saint-ghislain/,Acheter bois de chauffage à Saint-Ghislain,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Hainaut,à faire
+/bois-de-chauffage-liege/,Acheter bois de chauffage à Liège,Local,Ville,ville,→ /devis/ (formulaire qualifié),1,Liège · pilote · couvre aussi la province,à faire
+/bois-de-chauffage-seraing/,Acheter bois de chauffage à Seraing,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Liège,à faire
+/bois-de-chauffage-verviers/,Acheter bois de chauffage à Verviers,Local,Ville,ville,→ /devis/ (formulaire qualifié),1,Liège · pilote,à faire
+/bois-de-chauffage-herstal/,Acheter bois de chauffage à Herstal,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Liège,à faire
+/bois-de-chauffage-ans/,Acheter bois de chauffage à Ans,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Liège,à faire
+/bois-de-chauffage-flemalle/,Acheter bois de chauffage à Flémalle,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Liège,à faire
+/bois-de-chauffage-huy/,Acheter bois de chauffage à Huy,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Liège,à faire
+/bois-de-chauffage-waremme/,Acheter bois de chauffage à Waremme,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Liège,à faire
+/bois-de-chauffage-vise/,Acheter bois de chauffage à Visé,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Liège,à faire
+/bois-de-chauffage-herve/,Acheter bois de chauffage à Herve,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Liège,à faire
+/bois-de-chauffage-spa/,Acheter bois de chauffage à Spa,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Liège,à faire
+/bois-de-chauffage-malmedy/,Acheter bois de chauffage à Malmedy,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Liège,à faire
+/bois-de-chauffage-eupen/,Acheter bois de chauffage à Eupen,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Liège,à faire
+/bois-de-chauffage-hannut/,Acheter bois de chauffage à Hannut,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Liège,à faire
+/bois-de-chauffage-aywaille/,Acheter bois de chauffage à Aywaille,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Liège,à faire
+/bois-de-chauffage-stavelot/,Acheter bois de chauffage à Stavelot,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Liège,à faire
+/bois-de-chauffage-arlon/,Acheter bois de chauffage à Arlon,Local,Ville,ville,→ /devis/ (formulaire qualifié),1,Luxembourg · pilote,planifié
+/ramonage-arlon/,Ramonage de cheminée à Arlon,Local,Ville,ville,→ /devis/ (formulaire qualifié),1,Luxembourg · pilote · ajoutée à la sitemap le 14/09 à la demande du propriétaire (hors plan initial : local scindé bois/pellets uniquement),publié
+/bois-de-chauffage-marche-en-famenne/,Acheter bois de chauffage à Marche-en-Famenne,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg,planifié
+/bois-de-chauffage-bastogne/,Acheter bois de chauffage à Bastogne,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg,planifié
+/bois-de-chauffage-libramont/,Acheter bois de chauffage à Libramont,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg,planifié
+/bois-de-chauffage-neufchateau/,Acheter bois de chauffage à Neufchâteau,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg,planifié
+/bois-de-chauffage-virton/,Acheter bois de chauffage à Virton,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg,planifié
+/bois-de-chauffage-bouillon/,Acheter bois de chauffage à Bouillon,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg,publié
+/bois-de-chauffage-saint-hubert/,Acheter bois de chauffage à Saint-Hubert,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg,planifié
+/bois-de-chauffage-durbuy/,Acheter bois de chauffage à Durbuy,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg,planifié
+/bois-de-chauffage-la-roche-en-ardenne/,Acheter bois de chauffage à La Roche-en-Ardenne,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg,planifié
+/bois-de-chauffage-houffalize/,Acheter bois de chauffage à Houffalize,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg,planifié
+/bois-de-chauffage-bertrix/,Acheter bois de chauffage à Bertrix,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg,à faire
+/bois-de-chauffage-vielsalm/,Acheter bois de chauffage à Vielsalm,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg,à faire
+/bois-de-chauffage-aubange/,Acheter bois de chauffage à Aubange,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg,à faire
+/bois-de-chauffage-namur/,Acheter bois de chauffage à Namur,Local,Ville,ville,→ /devis/ (formulaire qualifié),1,Namur · pilote · couvre aussi la province,à faire
+/bois-de-chauffage-dinant/,Acheter bois de chauffage à Dinant,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Namur,à faire
+/bois-de-chauffage-ciney/,Acheter bois de chauffage à Ciney,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Namur,à faire
+/bois-de-chauffage-andenne/,Acheter bois de chauffage à Andenne,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Namur,à faire
+/bois-de-chauffage-gembloux/,Acheter bois de chauffage à Gembloux,Local,Ville,ville,→ /devis/ (formulaire qualifié),1,Namur · pilote,à faire
+/bois-de-chauffage-philippeville/,Acheter bois de chauffage à Philippeville,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Namur,à faire
+/bois-de-chauffage-rochefort/,Acheter bois de chauffage à Rochefort,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Namur,à faire
+/bois-de-chauffage-couvin/,Acheter bois de chauffage à Couvin,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Namur,à faire
+/bois-de-chauffage-walcourt/,Acheter bois de chauffage à Walcourt,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Namur,à faire
+/bois-de-chauffage-sambreville/,Acheter bois de chauffage à Sambreville,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Namur,à faire
+/bois-de-chauffage-beauraing/,Acheter bois de chauffage à Beauraing,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Namur,à faire
+/bois-de-chauffage-florennes/,Acheter bois de chauffage à Florennes,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Namur,à faire
+/bois-de-chauffage-eghezee/,Acheter bois de chauffage à Éghezée,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Namur,à faire
+/bois-de-chauffage-fosses-la-ville/,Acheter bois de chauffage à Fosses-la-Ville,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Namur,à faire
+/pellets-hainaut/,Acheter pellets en Hainaut,Local,Province,province,→ /devis/ (formulaire qualifié),1,pas de ville homonyme · miroir bois · volume non vérifié,à faire
+/pellets-brabant-wallon/,Acheter pellets en Brabant wallon,Local,Province,province,→ /devis/ (formulaire qualifié),1,pas de ville homonyme · miroir bois · volume non vérifié,à faire
+/pellets-ardenne/,Acheter pellets en Ardenne,Local,Région,région,→ /devis/ (formulaire qualifié),2,miroir bois · volume non vérifié,à faire
+/pellets-famenne/,Acheter pellets en Famenne,Local,Région,région,→ /devis/ (formulaire qualifié),2,miroir bois · volume non vérifié,à faire
+/pellets-condroz/,Acheter pellets en Condroz,Local,Région,région,→ /devis/ (formulaire qualifié),2,miroir bois · volume non vérifié,à faire
+/pellets-gaume/,Acheter pellets en Gaume,Local,Région,région,→ /devis/ (formulaire qualifié),2,miroir bois · volume non vérifié,à faire
+/pellets-hesbaye/,Acheter pellets en Hesbaye,Local,Région,région,→ /devis/ (formulaire qualifié),2,miroir bois · volume non vérifié,à faire
+/pellets-pays-de-herve/,Acheter pellets en Pays de Herve,Local,Région,région,→ /devis/ (formulaire qualifié),2,miroir bois · volume non vérifié,à faire
+/pellets-hautes-fagnes/,Acheter pellets en Hautes Fagnes,Local,Région,région,→ /devis/ (formulaire qualifié),2,miroir bois · volume non vérifié,à faire
+/pellets-botte-du-hainaut/,Acheter pellets en Botte du Hainaut,Local,Région,région,→ /devis/ (formulaire qualifié),2,miroir bois · volume non vérifié,à faire
+/pellets-entre-sambre-et-meuse/,Acheter pellets en Entre-Sambre-et-Meuse,Local,Région,région,→ /devis/ (formulaire qualifié),2,miroir bois · volume non vérifié,à faire
+/pellets-ourthe-ambleve/,Acheter pellets en Ourthe-Amblève,Local,Région,région,→ /devis/ (formulaire qualifié),2,miroir bois · volume non vérifié,à faire
+/pellets-wavre/,Acheter pellets à Wavre,Local,Ville,ville,→ /devis/ (formulaire qualifié),1,Brabant wallon · pilote · miroir bois · volume non vérifié,à faire
+/pellets-nivelles/,Acheter pellets à Nivelles,Local,Ville,ville,→ /devis/ (formulaire qualifié),1,Brabant wallon · pilote · miroir bois · volume non vérifié,à faire
+/pellets-ottignies-louvain-la-neuve/,Acheter pellets à Ottignies-Louvain-la-Neuve,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Brabant wallon · miroir bois · volume non vérifié,à faire
+/pellets-braine-l-alleud/,Acheter pellets à Braine-l'Alleud,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Brabant wallon · miroir bois · volume non vérifié,à faire
+/pellets-waterloo/,Acheter pellets à Waterloo,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Brabant wallon · miroir bois · volume non vérifié,à faire
+/pellets-tubize/,Acheter pellets à Tubize,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Brabant wallon · miroir bois · volume non vérifié,à faire
+/pellets-rixensart/,Acheter pellets à Rixensart,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Brabant wallon · miroir bois · volume non vérifié,à faire
+/pellets-jodoigne/,Acheter pellets à Jodoigne,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Brabant wallon · miroir bois · volume non vérifié,à faire
+/pellets-genappe/,Acheter pellets à Genappe,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Brabant wallon · miroir bois · volume non vérifié,à faire
+/pellets-perwez/,Acheter pellets à Perwez,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Brabant wallon · miroir bois · volume non vérifié,à faire
+/pellets-lasne/,Acheter pellets à Lasne,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Brabant wallon · miroir bois · volume non vérifié,à faire
+/pellets-court-saint-etienne/,Acheter pellets à Court-Saint-Étienne,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Brabant wallon · miroir bois · volume non vérifié,à faire
+/pellets-charleroi/,Acheter pellets à Charleroi,Local,Ville,ville,→ /devis/ (formulaire qualifié),1,Hainaut · pilote · miroir bois · volume non vérifié,à faire
+/pellets-mons/,Acheter pellets à Mons,Local,Ville,ville,→ /devis/ (formulaire qualifié),1,Hainaut · pilote · miroir bois · volume non vérifié,à faire
+/pellets-tournai/,Acheter pellets à Tournai,Local,Ville,ville,→ /devis/ (formulaire qualifié),1,Hainaut · pilote · miroir bois · volume non vérifié,à faire
+/pellets-la-louviere/,Acheter pellets à La Louvière,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Hainaut · miroir bois · volume non vérifié,à faire
+/pellets-mouscron/,Acheter pellets à Mouscron,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Hainaut · miroir bois · volume non vérifié,à faire
+/pellets-ath/,Acheter pellets à Ath,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Hainaut · miroir bois · volume non vérifié,à faire
+/pellets-soignies/,Acheter pellets à Soignies,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Hainaut · miroir bois · volume non vérifié,à faire
+/pellets-binche/,Acheter pellets à Binche,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Hainaut · miroir bois · volume non vérifié,à faire
+/pellets-chatelet/,Acheter pellets à Châtelet,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Hainaut · miroir bois · volume non vérifié,à faire
+/pellets-courcelles/,Acheter pellets à Courcelles,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Hainaut · miroir bois · volume non vérifié,à faire
+/pellets-fleurus/,Acheter pellets à Fleurus,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Hainaut · miroir bois · volume non vérifié,à faire
+/pellets-thuin/,Acheter pellets à Thuin,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Hainaut · miroir bois · volume non vérifié,à faire
+/pellets-chimay/,Acheter pellets à Chimay,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Hainaut · miroir bois · volume non vérifié,à faire
+/pellets-peruwelz/,Acheter pellets à Péruwelz,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Hainaut · miroir bois · volume non vérifié,à faire
+/pellets-lessines/,Acheter pellets à Lessines,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Hainaut · miroir bois · volume non vérifié,à faire
+/pellets-enghien/,Acheter pellets à Enghien,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Hainaut · miroir bois · volume non vérifié,à faire
+/pellets-braine-le-comte/,Acheter pellets à Braine-le-Comte,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Hainaut · miroir bois · volume non vérifié,à faire
+/pellets-saint-ghislain/,Acheter pellets à Saint-Ghislain,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Hainaut · miroir bois · volume non vérifié,à faire
+/pellets-liege/,Acheter pellets à Liège,Local,Ville,ville,→ /devis/ (formulaire qualifié),1,Liège · pilote · couvre aussi la province · miroir bois · volume non vérifié,à faire
+/pellets-seraing/,Acheter pellets à Seraing,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Liège · miroir bois · volume non vérifié,à faire
+/pellets-verviers/,Acheter pellets à Verviers,Local,Ville,ville,→ /devis/ (formulaire qualifié),1,Liège · pilote · miroir bois · volume non vérifié,à faire
+/pellets-herstal/,Acheter pellets à Herstal,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Liège · miroir bois · volume non vérifié,à faire
+/pellets-ans/,Acheter pellets à Ans,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Liège · miroir bois · volume non vérifié,à faire
+/pellets-flemalle/,Acheter pellets à Flémalle,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Liège · miroir bois · volume non vérifié,à faire
+/pellets-huy/,Acheter pellets à Huy,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Liège · miroir bois · volume non vérifié,à faire
+/pellets-waremme/,Acheter pellets à Waremme,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Liège · miroir bois · volume non vérifié,à faire
+/pellets-vise/,Acheter pellets à Visé,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Liège · miroir bois · volume non vérifié,à faire
+/pellets-herve/,Acheter pellets à Herve,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Liège · miroir bois · volume non vérifié,à faire
+/pellets-spa/,Acheter pellets à Spa,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Liège · miroir bois · volume non vérifié,à faire
+/pellets-malmedy/,Acheter pellets à Malmedy,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Liège · miroir bois · volume non vérifié,à faire
+/pellets-eupen/,Acheter pellets à Eupen,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Liège · miroir bois · volume non vérifié,à faire
+/pellets-hannut/,Acheter pellets à Hannut,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Liège · miroir bois · volume non vérifié,à faire
+/pellets-aywaille/,Acheter pellets à Aywaille,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Liège · miroir bois · volume non vérifié,à faire
+/pellets-stavelot/,Acheter pellets à Stavelot,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Liège · miroir bois · volume non vérifié,à faire
+/pellets-arlon/,Acheter pellets à Arlon,Local,Ville,ville,→ /devis/ (formulaire qualifié),1,Luxembourg · pilote · miroir bois · volume non vérifié,publié
+/pellets-marche-en-famenne/,Acheter pellets à Marche-en-Famenne,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg · miroir bois · volume non vérifié,planifié
+/pellets-bastogne/,Acheter pellets à Bastogne,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg · miroir bois · volume non vérifié,planifié
+/pellets-libramont/,Acheter pellets à Libramont,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg · miroir bois · volume non vérifié,planifié
+/pellets-neufchateau/,Acheter pellets à Neufchâteau,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg · miroir bois · volume non vérifié,planifié
+/pellets-virton/,Acheter pellets à Virton,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg · miroir bois · volume non vérifié,planifié
+/pellets-bouillon/,Acheter pellets à Bouillon,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg · miroir bois · volume non vérifié,planifié
+/pellets-saint-hubert/,Acheter pellets à Saint-Hubert,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg · miroir bois · volume non vérifié,planifié
+/pellets-durbuy/,Acheter pellets à Durbuy,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg · miroir bois · volume non vérifié,planifié
+/pellets-la-roche-en-ardenne/,Acheter pellets à La Roche-en-Ardenne,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg · miroir bois · volume non vérifié,planifié
+/pellets-houffalize/,Acheter pellets à Houffalize,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg · miroir bois · volume non vérifié,planifié
+/pellets-bertrix/,Acheter pellets à Bertrix,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg · miroir bois · volume non vérifié,à faire
+/pellets-vielsalm/,Acheter pellets à Vielsalm,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg · miroir bois · volume non vérifié,à faire
+/pellets-aubange/,Acheter pellets à Aubange,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg · miroir bois · volume non vérifié,à faire
+/pellets-namur/,Acheter pellets à Namur,Local,Ville,ville,→ /devis/ (formulaire qualifié),1,Namur · pilote · couvre aussi la province · miroir bois · volume non vérifié,à faire
+/pellets-dinant/,Acheter pellets à Dinant,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Namur · miroir bois · volume non vérifié,à faire
+/pellets-ciney/,Acheter pellets à Ciney,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Namur · miroir bois · volume non vérifié,à faire
+/pellets-andenne/,Acheter pellets à Andenne,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Namur · miroir bois · volume non vérifié,à faire
+/pellets-gembloux/,Acheter pellets à Gembloux,Local,Ville,ville,→ /devis/ (formulaire qualifié),1,Namur · pilote · miroir bois · volume non vérifié,à faire
+/pellets-philippeville/,Acheter pellets à Philippeville,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Namur · miroir bois · volume non vérifié,à faire
+/pellets-rochefort/,Acheter pellets à Rochefort,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Namur · miroir bois · volume non vérifié,à faire
+/pellets-couvin/,Acheter pellets à Couvin,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Namur · miroir bois · volume non vérifié,à faire
+/pellets-walcourt/,Acheter pellets à Walcourt,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Namur · miroir bois · volume non vérifié,à faire
+/pellets-sambreville/,Acheter pellets à Sambreville,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Namur · miroir bois · volume non vérifié,à faire
+/pellets-beauraing/,Acheter pellets à Beauraing,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Namur · miroir bois · volume non vérifié,à faire
+/pellets-florennes/,Acheter pellets à Florennes,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Namur · miroir bois · volume non vérifié,à faire
+/pellets-eghezee/,Acheter pellets à Éghezée,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Namur · miroir bois · volume non vérifié,à faire
+/pellets-fosses-la-ville/,Acheter pellets à Fosses-la-Ville,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Namur · miroir bois · volume non vérifié,à faire
+/comparateur-chauffage/,Comparateur de coût de chauffage,Hors catégorie,—,hors cluster,→ calculateur puis /devis/,2,transversal,à faire
+/prix-mazout-belgique/,Prix du mazout en Belgique,Hors catégorie,—,hors cluster,→ calculateur puis /devis/,3,12 100/mois · KD 59,à faire
+/prix-gaz-belgique/,Prix du gaz en Belgique,Hors catégorie,—,hors cluster,→ calculateur puis /devis/,2,1 300/mois · KD 23,à faire
+/devis/,Demander un devis,Hors catégorie,—,hors cluster,—,1,LE tunnel,à faire
+/partenaires/,Devenir partenaire,Hors catégorie,—,hors cluster,—,1,côté offre,à faire
+/a-propos/,Qui sommes-nous,Hors catégorie,—,hors cluster,—,1,transparence du modèle,à faire

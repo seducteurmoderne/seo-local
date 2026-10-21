@@ -1,0 +1,77 @@
+zone,type,fournisseurs_bois,fournisseurs_pellets,ramoneurs,poeliers,delai_livraison,minimum_commande,prix_stere_min,prix_stere_max,prix_palette_min,prix_palette_max,contraintes_acces,note_terrain
+Arlon,ville,Goffinet Energies (Houdemont) ; Halin Roland (Musson) ; Wilwert énergie ; AD Trading (Arlon),"PETIT & Fils (Baranzy-Musson, +32 63 67 77 47 — palette au Manitou, sacs sous 50 km) ; Goffinet Energies (Houdemont, sac sur palette et vrac au camion souffleur — marques Arden Pellets, Comfo Pellets, Pauls Pellets, certifiées DIN+, ENplus A1 et PEFC) ; Brico Arlon (magasin, Rue de Clairefontaine 2, Arlon — sacs de 15 kg certifiés DIN+, Central Park/Pure Pellets/Woodies/Rekord Premium, retrait Réserve & Go)",Mon Ramoneur / L'Esprit du Feu (Stockem-Arlon) ; VDK Chauffconfort (Arlon),"ADAM Serge et Olivier (Florenville, couvre Arlon) ; Ecoflamme (Rue d'Arlon 73/A, Virton, +32 63 58 19 00 — couvre Arlon, Messancy, Aubange)",,,,,,,,"Recherche web 09/2026, NON vérifié par contact — sources : goffinet-energies.be · wallux.com/halin-roland-musson · jcpbois.com · ad-trading.be · petitetfils.be · monramoneur.be · vdkchauffconfort.be · wallux.com/adam-serge-et-olivier-florenville. Aucun tarif public trouvé pour la province : colonnes prix laissées vides. AD Trading à confirmer (négoce/forestier, peut-être B2B seulement). MISE À JOUR 22/09/2026 (demande du propriétaire, pellets Arlon) : ajout Goffinet Energies et Brico Arlon en fournisseurs_pellets — sources goffinet-energies.be/pellets, brico.be/fr/pellets/he016 (prix relevés le 22/09/2026 : Central Park 15kg 6,49 €, Pure Pellets 15kg 6,99 €, Woodies 15kg 6,49 €, Rekord Premium 15kg 7,49 €), storedetail Brico Arlon (brico.be). Non vérifié par contact. Stock pellets propre au magasin d'Arlon non confirmé (assortiment national) : à vérifier."
+Marche-en-Famenne,ville,"Comptoir du Bois Européen (Tenneville, +32 483 73 69 08) ; Goffinet Energies (livre la province)",Comptoir du Bois Européen (Tenneville),,"Frederick (Marloie, +32 84 31 17 56) ; Chauffage Mouzon ; Tout feu tout flamme (Rendeux)",,,,,,,,"Source : pagesdor.be/entreprises/Marche-en-Famenne/bois+de+chauffage, consulté le 12/09/2026. Tri manuel : les chauffagistes de l'annuaire sont rangés en poêliers, pas en fournisseurs de bois. ECO WOOD CONSTRUCT écarté : bois de construction, pas de chauffage."
+Bastogne,ville,"Comptoir du Bois Européen (Tenneville, +32 483 73 69 08) ; Goffinet Energies (Houdemont, livre Bastogne) ; PICARD CONSTRUCT (Tenneville)","PETIT & Fils (vrac, min. 2 t) ; Comptoir du Bois Européen ; Multitravaux-Léonard B (pellets en showroom)","Multitravaux-Léonard B (Bastogne, Rue Joseph-Renquin 18, +32 498 04 87 34) ; Delstanche Service (à confirmer)",Multitravaux-Léonard B (install./dépannage poêles bois et pellets) ; Lambert Michaël (Longvilly),,pellet vrac : 2 t (PETIT & Fils),,,,,,"Sources : pagesdor.be/entreprises/Bastogne/bois+de+chauffage · petitetfils.be (page ville du fournisseur, consultée le 12/09/2026). Pellet vrac PETIT & Fils : 413,4 € TVAC/t pour 5 t, relevé le 12/09/2026 (la recherche annonçait 379,48 €, chiffre faux — vérifié sur la page). Prix vrac non reporté dans les colonnes palette. Annonces 2ememain autour de 45-85 €/stère : particuliers, non exploitable comme source de prix. Écarter Bobex/Plumby/VDK/Service24 : plateformes concurrentes."
+Libramont,ville,Mahy Scierie (débitage chêne et hêtre depuis 1901) ; Comptoir du Bois Européen (Tenneville),"Société Koenig Pascal (Bras, pellets Badger, livraison rapide) ; Comptoir du Bois Européen",,Chauffage Schütz (Habay) ; Multitravaux-Léonard B (Bastogne),,,,,,,,"Source : pagesdor.be/entreprises/Libramont-Chevigny/bois+de+chauffage, consulté le 12/09/2026. Tri manuel : les chauffagistes de l'annuaire sont rangés en poêliers, pas en fournisseurs de bois. Koenig distribue la marque Badger, déjà au plan côté pages marques."
+Neufchâteau,ville,"Mahy Scierie (Rue des Chasseurs Ardennais 37, Witry-Léglise, +32 84 38 83 80 — PEFC/Bois Local)",Société Koenig Pascal (Bras) ; Comptoir du Bois Européen (Tenneville),,Poêlerie LTZ (Habay) ; Chauffage Schütz (Habay) ; Multitravaux-Léonard B (Bastogne),,,,,,,,"Source : pagesdor.be/entreprises/Neufchateau/bois+de+chauffage, consulté le 12/09/2026. Tri manuel : les chauffagistes de l'annuaire sont rangés en poêliers, pas en fournisseurs de bois. "
+Virton,ville,"Halin Roland (Musson, couvre Virton) ; Goffinet Energies (livre la province)","Schneder-Fagny (Dampicourt, TOTAL — mazout, gaz, pellets)","Ecoflamme (Rue d'Arlon 73/A, Virton, +32 63 58 19 00)","Ecoflamme (Virton) ; Chaufalux Technics (Val d'Away 19/B, Virton, +32 63 45 76 38) ; Alter Energies (Etalle)",,,,,,,,"Source : pagesdor.be/entreprises/Virton/bois+de+chauffage, consulté le 12/09/2026. Tri manuel : les chauffagistes de l'annuaire sont rangés en poêliers, pas en fournisseurs de bois. Aucun vendeur de bûches basé à Virton dans l'annuaire : les deux cités livrent la zone."
+Bouillon,ville,"Buffalo Bois de Chauffage AK (Place Saint-Arnould 5/2, Bouillon) ; Bois de Chauffage Belgique (Bièvre, +32 473 99 88 52) ; La Renardière (Bertrix)",Granubois (Bièvre),,"Multitravaux-Léonard B (Bastogne, +32 498 04 87 34)",,,,,,,,"Source : pagesdor.be/entreprises/Bouillon/bois+de+chauffage, consulté le 12/09/2026. Chauffagistes rangés en poêliers, pas en fournisseurs de bois. À VÉRIFIER : Buffalo est listé avec un numéro français (+33 767 035 904) sur une adresse belge — soit une erreur d'annuaire, soit un opérateur transfrontalier."
+Saint-Hubert,ville,"BERTRAND PHILIPPE (Wellin, exploitant forestier) ; Comptoir du Bois Européen (Tenneville)",Comptoir du Bois Européen (Tenneville),,"A\VECO (Saint-Hubert) ; Applications Bois Solaire Air Energies (Rochefort, dépannage poêles pellets)",,,,,,,,"Source : pagesdor.be/entreprises/Saint-Hubert/bois+de+chauffage, consulté le 12/09/2026. Chauffagistes rangés en poêliers, pas en fournisseurs de bois. À VÉRIFIER : Goffinet est décrit ici à Habay et limité au mazout/gasoil, alors que son site le place à Houdemont avec bois et pellets."
+Durbuy,ville,"Warlomont Fabrice (Rue de l'Argoté 23, Izier, +32 475 29 31 07 — élagage et vente de stères)",Combustible jcpbois (Somme-Leuze),,"Ehlen-Bourguignon (Nandrin, vente et entretien de poêles) ; Multitravaux-Léonard B (Bastogne)",,,,,,,,"Source : pagesdor.be/entreprises/Durbuy/bois+de+chauffage, consulté le 12/09/2026. Chauffagistes rangés en poêliers, pas en fournisseurs de bois. jcpbois est le domaine de Wilwert énergie (déjà relevé côté Arlon) : probablement le même opérateur avec un second dépôt, à confirmer."
+La Roche-en-Ardenne,ville,"Comptoir du Bois Européen (Route de la Barrière 18A, Tenneville, +32 483 73 69 08)","PETIT & Fils (vrac, min. 2 t) ; Comptoir du Bois Européen (Tenneville)","Multitravaux-Léonard B (Bastogne, +32 498 04 87 34)",Multitravaux-Léonard B (Bastogne) ; Walrand C-E.G.N. (Hives) ; Chauffage Schütz (Habay),,,,,,,,"Source : petitetfils.be (page ville du fournisseur, consultée le 12/09/2026) — commune explicitement desservie. · Source : pagesdor.be/entreprises/La-Roche-en-Ardenne/bois+de+chauffage, consulté le 12/09/2026."
+Houffalize,ville,"Comptoir du Bois Européen (Tenneville, +32 483 73 69 08) ; Goffinet Energies (livre la région)","PETIT & Fils (vrac, min. 2 t) ; BF-Services (Gouvy) ; Comptoir du Bois Européen","Multitravaux-Léonard B (Bastogne, +32 498 04 87 34)",Multitravaux-Léonard B (Bastogne),,,,,,,,"Source : petitetfils.be (page ville du fournisseur, consultée le 12/09/2026) — commune explicitement desservie. · Source : pagesdor.be/entreprises/Houffalize/bois+de+chauffage, consulté le 12/09/2026. Centre Esso Brabant écarté : Jodoigne, hors zone."
+Bertrix,ville,"La Renardière (Rue des Prés la Mercire 8, 6880 Bertrix, +32 61 41 33 51, larenardiere.be) ; Bois de Chauffage Belgique (Bièvre)",Granubois (Bièvre),,Chauffage Schütz (Habay) ; Multitravaux-Léonard B (Bastogne),,,,,,,,"Source : pagesdor.be/entreprises/Bertrix/bois+de+chauffage, consulté le 12/09/2026. Chauffagistes rangés en poêliers, pas en fournisseurs de bois. À VÉRIFIER : Granubois apparaît avec deux numéros différents selon la page de l'annuaire (+32 475 24 16 01 et +32 61 51 18 77)."
+Vielsalm,ville,"HURDEBISE (Route de Rencheux 2/A, 6690 Vielsalm, +32 80 21 63 73) ; Blaise-Mazout (Malmedy, drive-in bois et pellets)","PETIT & Fils (vrac, min. 2 t) ; Blaise-Mazout (Malmedy)",,Multitravaux-Léonard B (Bastogne),,,,,,,,"Source : petitetfils.be (page ville du fournisseur, consultée le 12/09/2026) — commune explicitement desservie. · Source : pagesdor.be/entreprises/Vielsalm/bois+de+chauffage, consulté le 12/09/2026. À VÉRIFIER : HURDEBISE est le seul opérateur basé à Vielsalm mais l'annuaire ne précise pas son activité. KB+ Bois (Lierneux) écarté : bois scié, pas de chauffage. Hertay Jérome (Verviers) marginal : élagage, hors province."
+Aubange,ville,"Pissel Jerome (Rue des Sept Fontaines 1, 6792 Halanzy, +32 63 38 40 32) ; Halin Roland (Musson)",,"Ecoflamme (Virton, +32 63 58 19 00 — couvre Aubange) ; Multitravaux-Léonard B (Bastogne)","Ecoflamme (Virton) ; ADAM Serge et Olivier (Florenville, couvre Athus-Aubange)",,,,,,,,"Source : pagesdor.be/entreprises/Aubange/bois+de+chauffage, consulté le 12/09/2026. Chauffagistes rangés en poêliers, pas en fournisseurs de bois. Centre Esso Brabant écarté : basé à Jodoigne, à 150 km."
+Namur,ville,,,,,,,,,,,,
+Gembloux,ville,,,,,,,,,,,,
+Dinant,ville,,,,,,,,,,,,
+Ciney,ville,,,,,,,,,,,,
+Andenne,ville,,,,,,,,,,,,
+Philippeville,ville,,,,,,,,,,,,
+Rochefort,ville,,,,,,,,,,,,
+Couvin,ville,,,,,,,,,,,,
+Walcourt,ville,,,,,,,,,,,,
+Sambreville,ville,,,,,,,,,,,,
+Beauraing,ville,,,,,,,,,,,,
+Florennes,ville,,,,,,,,,,,,
+Éghezée,ville,,,,,,,,,,,,
+Fosses-la-Ville,ville,,,,,,,,,,,,
+Liège,ville,,,,,,,,,,,,
+Verviers,ville,,,,,,,,,,,,
+Seraing,ville,,,,,,,,,,,,
+Herstal,ville,,,,,,,,,,,,
+Ans,ville,,,,,,,,,,,,
+Flémalle,ville,,,,,,,,,,,,
+Huy,ville,,,,,,,,,,,,
+Waremme,ville,,,,,,,,,,,,
+Visé,ville,,,,,,,,,,,,
+Herve,ville,,,,,,,,,,,,
+Spa,ville,,,,,,,,,,,,
+Malmedy,ville,,,,,,,,,,,,
+Eupen,ville,,,,,,,,,,,,
+Hannut,ville,,,,,,,,,,,,
+Aywaille,ville,,,,,,,,,,,,
+Stavelot,ville,,,,,,,,,,,,
+Charleroi,ville,,,,,,,,,,,,
+Mons,ville,,,,,,,,,,,,
+Tournai,ville,,,,,,,,,,,,
+La Louvière,ville,,,,,,,,,,,,
+Mouscron,ville,,,,,,,,,,,,
+Ath,ville,,,,,,,,,,,,
+Soignies,ville,,,,,,,,,,,,
+Binche,ville,,,,,,,,,,,,
+Châtelet,ville,,,,,,,,,,,,
+Courcelles,ville,,,,,,,,,,,,
+Fleurus,ville,,,,,,,,,,,,
+Thuin,ville,,,,,,,,,,,,
+Chimay,ville,,,,,,,,,,,,
+Péruwelz,ville,,,,,,,,,,,,
+Lessines,ville,,,,,,,,,,,,
+Enghien,ville,,,,,,,,,,,,
+Braine-le-Comte,ville,,,,,,,,,,,,
+Saint-Ghislain,ville,,,,,,,,,,,,
+Wavre,ville,,,,,,,,,,,,
+Nivelles,ville,,,,,,,,,,,,
+Ottignies-Louvain-la-Neuve,ville,,,,,,,,,,,,
+Braine-l'Alleud,ville,,,,,,,,,,,,
+Waterloo,ville,,,,,,,,,,,,
+Tubize,ville,,,,,,,,,,,,
+Rixensart,ville,,,,,,,,,,,,
+Jodoigne,ville,,,,,,,,,,,,
+Genappe,ville,,,,,,,,,,,,
+Perwez,ville,,,,,,,,,,,,
+Lasne,ville,,,,,,,,,,,,
+Court-Saint-Étienne,ville,,,,,,,,,,,,
+Hainaut,province,,,,,,,,,,,,
+Brabant wallon,province,,,,,,,,,,,,

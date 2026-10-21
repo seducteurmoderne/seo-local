@@ -1,0 +1,102 @@
+{
+ "problemes": [
+  "Le plan doit dire que les prix reposent sur des relevés suivis chaque jour (balises), sans prix en dur.",
+  "La SERP mêle des fournisseurs des Ardennes françaises : la section fournisseurs doit s'en tenir aux vendeurs belges vérifiés."
+ ],
+ "brief": {
+  "intention": "Locale et transactionnelle : trouver qui livre du bois de chauffage sec dans la commune de La Roche-en-Ardenne et ses villages, à quel prix au stère livré, et où aller le chercher soi-même.",
+  "format_serp": "Pages de fournisseurs ardennais (Ardenne et Bois, Pirotte, Ardenne Flamme, Petit & Fils pour les pellets), un chauffagiste de Samrée, un annuaire local et des petites annonces ; plusieurs résultats hors zone (Ardennes françaises). (sources : duckduckgo be-fr)",
+  "structure_serp": "Pages courtes (médiane 513 mots), 2 H2 en médiane, un seul tableau de tarifs, aucun comparatif de fournisseurs.",
+  "entites": [
+   "bois de chauffage"
+  ],
+  "variantes": [
+   "bois de chauffage la roche-en-ardenne",
+   "bois de chauffage la roche en ardenne",
+   "ardennes bois de chauffage",
+   "bois de chauffage ardennes belges",
+   "bois de chauffage des ardennes",
+   "prix bois de chauffage"
+  ],
+  "termes": [
+   "stère",
+   "box",
+   "palette",
+   "vrac",
+   "bois sec",
+   "demi-sec",
+   "hêtre",
+   "chêne",
+   "charme",
+   "frêne",
+   "départ entrepôt",
+   "livraison comprise",
+   "HTVA"
+  ],
+  "questions": [
+   "Qui livre du bois de chauffage à La Roche-en-Ardenne ?",
+   "Combien coûte un stère de bois livré à La Roche-en-Ardenne ?",
+   "Quelle longueur et quelle essence commander ?",
+   "Faut-il un minimum de commande pour être livré dans un village de la commune ?",
+   "Où aller chercher du bois soi-même près de La Roche ?"
+  ],
+  "en_bref": [
+   "Qui livre la commune, depuis où, le prix repère au stère livré daté, et le dépôt le plus proche (Tenneville)."
+  ],
+  "plan": [
+   {
+    "h2": "Qui livre du bois de chauffage à La Roche-en-Ardenne ?",
+    "contenu": "Réponse directe : nombre de fournisseurs, leur base, aucun dépôt dans la commune ; tableau rotatif ; constat honnête : aucun site ne nomme La Roche. Écarter les résultats des Ardennes françaises et les annuaires sans site.",
+    "forme": "réponse directe",
+    "image": "",
+    "donnees_a_chercher": [
+     "zones de livraison sur le site de chaque fournisseur"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Prix du stère de bois de chauffage à La Roche-en-Ardenne en 2026",
+    "contenu": "Prix relevés, ramenés au stère, livré ou départ, comparés à la moyenne Valbiom. Prix en balises suivies chaque jour (prix/releves.json), jamais en dur ; comparaison écrite avec les deux chiffres.",
+    "forme": "tableau",
+    "image": "",
+    "donnees_a_chercher": [
+     "prix publiés",
+     "Valbiom"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Essence et longueur de bûches : que commander à La Roche-en-Ardenne ?",
+    "contenu": "Ce que proposent les fournisseurs de la zone : hêtre 30 cm à Tenneville, 25-50 cm demi-sec ailleurs ; renvoi aux guides.",
+    "forme": "paragraphe",
+    "image": "",
+    "donnees_a_chercher": [
+     "longueurs et essences"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Livraison de bois de chauffage à La Roche-en-Ardenne : minimum de commande et retrait",
+    "contenu": "Minimums, suppléments, retrait à Tenneville, ce qu'il faut dire pour un village en pente.",
+    "forme": "paragraphe",
+    "image": "",
+    "donnees_a_chercher": [
+     "minimums et suppléments"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Bois de chauffage autour de La Roche-en-Ardenne : villages et communes voisines",
+    "contenu": "Villages de la commune, communes voisines, liens vers les pages Marche, Bastogne, Durbuy, Houffalize, et pellets La Roche.",
+    "forme": "paragraphe",
+    "image": "",
+    "donnees_a_chercher": [],
+    "h3": []
+   }
+  ],
+  "cta": "Formulaire fort après l'intro et en fin de page.",
+  "faq": [],
+  "longueur_cible": 1000,
+  "decision": "La seule page qui vérifie, sur leurs propres sites, quels fournisseurs couvrent la commune de La Roche-en-Ardenne, ramène leurs prix au stère et dit franchement qu'aucun ne nomme la commune."
+ }
+}

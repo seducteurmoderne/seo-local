@@ -1,0 +1,144 @@
+{
+  "problemes": [
+    "Intention navigationnelle (SAV de la marque, 10 %) sans réponse : ajout dans « Quand appeler un technicien » — sous garantie, passer par le vendeur ou le SAV de la marque ; hors garantie, un poêlier multimarque.",
+    "Question « est-ce dangereux ? » du lecteur non traitée explicitement : la section des 2 gestes l'annonce dès sa première phrase, et l'En bref ouvre sur la fumée.",
+    "Section prix : les tarifs d'Experts Pellet sont des tarifs d'ENTRETIEN (170 € annuel, 195 € occasionnel), pas de dépannage. Ne pas les présenter comme un prix de dépannage ; chercher un tarif de déplacement ou de diagnostic publié par un poêlier wallon, sinon une section courte qui explique ce qui compose la facture et renvoie au devis.",
+    "H2 « Code erreur… » : ajouter « réarmer » dans le titre couvre la question « comment faire un reset » remontée par les Autres questions posées de google.be.",
+    "Ordre : le formulaire en tête sert la part commerciale ; garder ensuite sécurité → diagnostic → codes → technicien → prix → entretien, l'ordre des questions du lecteur.",
+    "Google localise cette requête (Stavelot, Tournai, Waterloo…) : la page ne peut pas être locale pour toute la Wallonie, mais la première section doit dire que la demande part aux poêliers de la zone du code postal. Piste à soumettre au propriétaire : des pages « dépannage poêle à pellets + ville »."
+  ],
+  "brief": {
+    "intention": "Commerciale et locale à 55 % : trouver un technicien qui dépanne un poêle à pellets près de chez soi, savoir combien ça coûte. Informationnelle à 35 % : comprendre la panne et la régler soi-même avant de payer un déplacement. Navigationnelle à 10 % : SAV de la marque.",
+    "format_serp": "Pages de prestataires locaux et annuaires belges, souvent déclinés par ville ; aucun guide",
+    "structure_serp": "Médiane ~550 mots, 0 à 7 H2 : présentation du service, déroulement de l'intervention, tarifs, zone, réassurance (rapidité, marques). Aucune page ne diagnostique la panne.",
+    "entites": [
+      "poêle à pellets"
+    ],
+    "variantes": [
+      "dépannage poêle à pellets",
+      "réparation poêle à pellets",
+      "technicien poêle à pellets",
+      "poêle à pellets ne s'allume pas",
+      "problème poêle à pellets",
+      "prix dépannage poêle à granulés",
+      "dépannage poêle à pellets Liège"
+    ],
+    "termes": [
+      "technicien",
+      "dépannage",
+      "réparation",
+      "panne",
+      "creuset",
+      "bougie d'allumage",
+      "vis sans fin",
+      "pressostat",
+      "extracteur",
+      "sonde",
+      "code",
+      "alarme",
+      "réarmer",
+      "surchauffe",
+      "entretien",
+      "marque",
+      "devis"
+    ],
+    "questions": [
+      "Pourquoi mon poêle à pellets ne s'allume pas ?",
+      "Pourquoi mon poêle à pellets s'éteint tout seul ?",
+      "Comment faire un reset sur un poêle à pellets ?",
+      "Que veut dire le code d'erreur de mon poêle à pellets ?",
+      "Quand appeler un technicien pour un poêle à pellets ?",
+      "Combien coûte un dépannage de poêle à pellets ?"
+    ],
+    "en_bref": [
+      "De la fumée dans la pièce : éteignez au tableau sans débrancher, aérez, éloignez-vous",
+      "La plupart des arrêts se règlent sans outil : réservoir, creuset, porte, conduit",
+      "Après un allumage raté, videz le creuset avant de relancer",
+      "Allumages ratés à répétition, extracteur bruyant, alarme de sonde : technicien",
+      "Jusqu'à 3 devis de poêliers de votre zone, gratuits"
+    ],
+    "plan": [
+      {
+        "h2": "Dépannage de poêle à pellets en Wallonie : trouver un technicien",
+        "contenu": "Réponse à l'intention commerciale dès le haut : décrivez la panne et votre code postal, nous transmettons à 3 poêliers au plus de votre zone, gratuit. Dire quoi préciser (marque, modèle, code, vérifications faites).",
+        "forme": "paragraphe + formulaire de devis",
+        "donnees_a_chercher": [],
+        "h3": []
+      },
+      {
+        "h2": "Les 2 gestes qui aggravent la panne d'un poêle à pellets",
+        "contenu": "Ouvrir sur la sécurité (est-ce dangereux ?) : ne pas relancer sans vider le creuset ; ne pas débrancher un poêle qui fume (l'extracteur s'arrêterait). Sécurité d'abord, avant tout diagnostic.",
+        "forme": "paragraphe",
+        "donnees_a_chercher": [
+          "notice fabricant : creuset à vider, ne pas débrancher"
+        ],
+        "h3": []
+      },
+      {
+        "h2": "Les pannes fréquentes d'un poêle à pellets",
+        "contenu": "Diagnostic par symptôme, ce qu'aucun concurrent ne fait. Paragraphe de transition : 4 symptômes, se lisent dans le creuset.",
+        "forme": "paragraphe",
+        "donnees_a_chercher": [],
+        "h3": [
+          {
+            "titre": "Poêle à pellets qui ne s'allume pas",
+            "contenu": "Réponse directe, puis 4 vérifications numérotées (réservoir, creuset, alimentation, bougie)."
+          },
+          {
+            "titre": "Poêle à pellets qui s'éteint tout seul",
+            "contenu": "Coupure de courant, granulés qui ne descendent plus, tirage insuffisant (pressostat)."
+          },
+          {
+            "titre": "Poêle à pellets en surchauffe",
+            "contenu": "Refroidir, dégager les grilles, réarmer ; échangeur encrassé si ça revient."
+          },
+          {
+            "titre": "Flamme molle et vitre noire : le poêle manque d'air",
+            "contenu": "Air d'abord (creuset, chambre, prise d'air), puis qualité et stockage des pellets."
+          }
+        ]
+      },
+      {
+        "h2": "Code erreur d'un poêle à pellets : comment le lire et réarmer",
+        "contenu": "Les codes changent d'une marque à l'autre ; tableau d'exemple (MCZ) par famille d'alarme ; réarmer seulement après avoir supprimé la cause.",
+        "forme": "tableau",
+        "donnees_a_chercher": [
+          "notice MCZ : tableau des alarmes"
+        ],
+        "h3": []
+      },
+      {
+        "h2": "Quand appeler un technicien pour dépanner votre poêle à pellets",
+        "contenu": "Les cas qui dépassent l'utilisateur (allumages ratés répétés, extracteur, vis sans fin, sonde/carte, fumée en fonctionnement) ; le conduit peut être en cause (ramonage). Sous garantie : vendeur ou SAV de la marque (MCZ, Edilkamin, Extraflame, Palazzetti…) ; hors garantie : un poêlier multimarque.",
+        "forme": "liste à puces",
+        "donnees_a_chercher": [],
+        "h3": []
+      },
+      {
+        "h2": "Combien coûte le dépannage d'un poêle à pellets ?",
+        "contenu": "Réponse directe : ce qui compose la facture (déplacement, diagnostic, main-d'œuvre, pièce). Un repère chiffré seulement s'il est publié et daté ; sinon le dire, et expliquer que le devis gratuit donne le prix avant intervention.",
+        "forme": "réponse directe",
+        "donnees_a_chercher": [
+          "tarif de déplacement ou de diagnostic publié par un poêlier wallon (daté)",
+          "ne PAS reprendre les tarifs d'entretien d'Experts Pellet comme prix de dépannage"
+        ],
+        "h3": []
+      },
+      {
+        "h2": "Entretien du poêle à pellets : éviter la prochaine panne",
+        "contenu": "Encrassement à l'origine d'une bonne part des arrêts ; rythme d'entretien ; lien vers le guide d'entretien ; garantie conditionnée à l'entretien annuel.",
+        "forme": "paragraphe",
+        "donnees_a_chercher": [],
+        "h3": []
+      }
+    ],
+    "cta": "Formulaire de devis (besoin : poêlier) dans la première section, rappelé après « Quand appeler un technicien » par une phrase courte.",
+    "faq": [
+      "Combien de fois relancer un poêle qui ne s'allume pas ?",
+      "Mon poêle est sous garantie : puis-je le démonter ?",
+      "Pourquoi mon poêle s'est-il rallumé seul après une coupure de courant ?"
+    ],
+    "longueur_cible": 1300,
+    "decision": "La SERP belge ne sert que la moitié de l'intention : des prestataires et des annuaires, sans aucune aide au diagnostic ni comparaison. Notre page fait les deux : la mise en relation en haut (notre métier), puis le diagnostic par symptôme, les codes et le reset, que personne ne propose. Le prix d'un dépannage est la question que personne ne traite : on la traite avec des données sourcées ou on dit honnêtement qu'elles n'existent pas. La première section précise que la demande part aux poêliers de la zone du code postal : c'est notre réponse à une SERP que Google localise."
+  }
+}

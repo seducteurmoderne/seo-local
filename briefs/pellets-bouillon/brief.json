@@ -1,0 +1,20 @@
+{"intention": "Locale et transactionnelle : savoir qui livre des pellets dans la commune de Bouillon, à quel prix, et où acheter des sacs à emporter près de Bouillon.",
+"format_serp": "Sites de fournisseurs et distributeurs (CT Serson à Bouillon, PETIT & Fils, ERDA, Descamps), annuaires par commune souvent bloqués ou hors sujet (Bouillon 64, France). Aucun guide.",
+"structure_serp": "Pages courtes (médiane 611 mots), 3 H2 en médiane, presque pas de tableau ni de prix ; aucune page ne compare les fournisseurs qui livrent Bouillon.",
+"entites": ["pellets", "granulés de bois"],
+"variantes": ["pellets bouillon", "pellet bouillon", "livraison pellets bouillon", "prix pellets bouillon", "bouillon granulés", "pellets vrac bouillon"],
+"termes": ["palette", "sac de 15 kg", "vrac", "camion souffleur", "camion grue", "DIN+", "ENplus A1", "PEFC", "résineux", "revendeur", "click & collect"],
+"questions": ["Qui livre des pellets à Bouillon ?", "Combien coûtent les pellets à Bouillon ?", "Où acheter des sacs de pellets près de Bouillon ?", "Quel minimum de commande et quel accès pour le camion ?", "Des pellets sont-ils fabriqués près de Bouillon ?"],
+"en_bref": ["Fournisseurs qui livrent Bouillon : un installé dans la commune (CT Serson, palettes), deux en vrac (PETIT & Fils, Goffinet Energies)", "Prix publié : vrac Goffinet de 405 à 525 € la tonne livrée (1er octobre 2026) ; moyenne wallonne 413 €/t en sacs (Valbiom, août 2026)", "Sacs à emporter : revendeurs Badger à Paliseul, Bertrix et Chassepierre, à 13 à 16 km", "Usine ERDA à Bertrix, qui ne vend qu'à des distributeurs"],
+"plan": [
+ {"h2": "Qui livre des pellets à Bouillon ?", "contenu": "Réponse directe : nombre de fournisseurs qui nomment Bouillon ou y sont installés, formats. Tableau rotatif. Écartés (Granubois, annuaire seul ; Hubo sans pellets).", "forme": "réponse directe", "image": "", "donnees_a_chercher": ["zones de livraison sur les sites", "minimums"], "h3": []},
+ {"h2": "Prix des pellets à Bouillon en octobre 2026", "contenu": "Seul Goffinet publie un prix livré ; CT Serson et PETIT donnent le prix sur demande. Tableau de la grille Goffinet, palette click & collect, moyenne Valbiom.", "forme": "tableau", "image": "", "donnees_a_chercher": ["grille Goffinet 01/10/2026", "Valbiom août 2026"], "h3": []},
+ {"h2": "Où acheter des sacs de pellets près de Bouillon", "contenu": "Localisateur Badger pour 6830 : revendeurs et distances. Hubo de Bouillon sans pellets en ligne.", "forme": "tableau", "image": "", "donnees_a_chercher": ["localisateur Badger 6830"], "h3": []},
+ {"h2": "Pellets fabriqués près de Bouillon : l'usine ERDA de Bertrix", "contenu": "ERDA, filiale Fruytier, 200 000 t/an, marques Comfo, Pure, Erda, Cozy ; vente par distributeurs seulement. Ce que cela change pour l'acheteur.", "forme": "paragraphe", "image": "", "donnees_a_chercher": ["site ERDA"], "h3": []},
+ {"h2": "Livraison de pellets à Bouillon : palette, vrac et accès du camion", "contenu": "Format selon l'appareil ; minimums (palette entière CT Serson, 2 t PETIT, 1 t Goffinet) ; camion grue et transpalette ; avis de la rédaction.", "forme": "notre avis", "image": "", "donnees_a_chercher": ["conditions de livraison"], "h3": []},
+ {"h2": "Pellets autour de Bouillon : communes voisines", "contenu": "Paliseul, Bertrix, Florenville ; liens vers pages voisines et page sœur bois.", "forme": "paragraphe", "image": "", "donnees_a_chercher": [], "h3": []}
+],
+"cta": "CTA fort après l'intro (nous obtenons un prix livré à votre adresse), CTA fort final.",
+"faq": [],
+"longueur_cible": 1100,
+"decision": "Seule page qui vérifie qui livre réellement la commune belge de Bouillon, ramène les prix publiés à la tonne et liste les points de vente au sac les plus proches avec leur distance."}

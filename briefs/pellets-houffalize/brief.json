@@ -1,0 +1,103 @@
+{
+ "intention": "Locale et transactionnelle : savoir qui vend et livre des pellets dans la commune de Houffalize et ses villages, à quel prix au sac, à la palette et en vrac, et où trouver quelques sacs à moins d'une demi-heure.",
+ "format_serp": "Pages de vendeurs de la province (PETIT & Fils, Goffinet Energies, Comptoir du Bois Européen, Combustibles Creppe, Pellet Premium) et d'un poêlier de Bastogne ; une seule nomme Houffalize dans son titre. DuckDuckGo ne renvoie rien sur la requête exacte.",
+ "structure_serp": "Pages de 470 à 1 700 mots, centrées sur l'offre d'un seul vendeur, prix sans comparaison, aucune page propre à Houffalize.",
+ "entites": [
+  "pellets",
+  "granulés de bois"
+ ],
+ "variantes": [
+  "pellets houffalize",
+  "pellet houffalize",
+  "livraison pellets houffalize",
+  "prix pellets houffalize",
+  "pellets en vrac houffalize",
+  "sac de pellets près de houffalize"
+ ],
+ "termes": [
+  "sac de 15 kg",
+  "palette de 65 sacs",
+  "vrac",
+  "camion souffleur",
+  "tonne",
+  "TVAC",
+  "départ entrepôt",
+  "livraison comprise",
+  "DIN+",
+  "ENplus A1"
+ ],
+ "questions": [
+  "Qui livre des pellets à Houffalize ?",
+  "Combien coûtent les pellets à Houffalize ?",
+  "Où acheter des sacs de pellets près de Houffalize ?",
+  "Quel minimum pour le vrac ?",
+  "En combien de temps suis-je livré ?",
+  "Mon village est-il desservi ?"
+ ],
+ "en_bref": [
+  "Un paragraphe : aucun vendeur dans la commune, les vendeurs qui nomment Houffalize (PETIT & Fils, Goffinet, Multi Travaux) avec le prix du vrac, et la palette au dépôt de Tenneville."
+ ],
+ "plan": [
+  {
+   "h2": "Qui livre des pellets à Houffalize ?",
+   "contenu": "Réponse directe : aucun vendeur dans la commune, ceux qui la nomment sur leur site, ceux qui livrent la province ; tableau rotatif.",
+   "forme": "tableau",
+   "image": "",
+   "donnees_a_chercher": [
+    "Zone de livraison de chaque vendeur sur son site"
+   ],
+   "h3": []
+  },
+  {
+   "h2": "Prix des pellets à Houffalize en 2026",
+   "contenu": "Vrac à la tonne, palette livrée, palette enlevée, ramenés au sac ; moyenne Valbiom d'octobre 2026 ; chiffres clés puis tableau.",
+   "forme": "chiffres clés",
+   "image": "",
+   "donnees_a_chercher": [
+    "Prix relevés suivis",
+    "Moyenne Valbiom d'octobre 2026"
+   ],
+   "h3": []
+  },
+  {
+   "h2": "Où acheter des sacs de pellets près de Houffalize",
+   "contenu": "Pas de magasin vérifié dans la commune ; Multi Travaux à Bastogne, Comptoir du Bois Européen à Tenneville ; stockage de la palette au dépôt.",
+   "forme": "paragraphe",
+   "image": "",
+   "donnees_a_chercher": [
+    "Enseignes de bricolage proches"
+   ],
+   "h3": []
+  },
+  {
+   "h2": "Sac, palette ou vrac : quel format de pellets choisir à Houffalize ?",
+   "contenu": "Selon l'appareil et la place ; notre avis.",
+   "forme": "notre avis",
+   "image": "",
+   "donnees_a_chercher": [],
+   "h3": []
+  },
+  {
+   "h2": "Livraison de pellets à Houffalize : délais, minimum et accès",
+   "contenu": "Minimum 2 t, 24 h à 15 jours, prix du jour, jours de livraison Goffinet, accès du camion dans les villages.",
+   "forme": "paragraphe",
+   "image": "",
+   "donnees_a_chercher": [
+    "Conditions PETIT & Fils et Goffinet"
+   ],
+   "h3": []
+  },
+  {
+   "h2": "Pellets autour de Houffalize : villages et communes voisines",
+   "contenu": "Communes voisines nommées par les mêmes vendeurs (Gouvy, Vielsalm, Bastogne, La Roche) et liens vers les pages des villes proches.",
+   "forme": "paragraphe",
+   "image": "",
+   "donnees_a_chercher": [],
+   "h3": []
+  }
+ ],
+ "cta": "Formulaire fort après l'intro et en fin de page.",
+ "faq": [],
+ "longueur_cible": 1000,
+ "decision": "Seule page qui rassemble les vendeurs couvrant Houffalize, vérifiés sur leur site, ramène chaque offre au sac de 15 kg, dit franchement que la commune n'a pas de point de vente et présente le formulaire comme la façon de trouver un livreur pour le village."
+}

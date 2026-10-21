@@ -1,0 +1,104 @@
+# Ordre de production du pilote. Un slug par ligne ; tout ce qui suit # est ignoré.
+# Tête de file : sélection du propriétaire du 12/09/2026. Le détail des essences
+# (chêne, hêtre, charme, frêne, bouleau) et les pages marques passent après.
+# Hors pilote : /devis/ /partenaires/ /a-propos/ (décisions du propriétaire).
+# 18/09/2026 : données terrain arrivées pour 14 villes de la province de Luxembourg
+# 2 pages locales pour 1 guide, une ville à la fois (bois puis pellets), dans l'ordre
+# du CSV. Chaque page locale ne retient que les fournisseurs sans marqueur À VÉRIFIER.
+# encore de données terrain, donc pas de pages locales pour cette province ici.
+# Une ville = deux pages, /bois-de-chauffage-<ville>/ et /pellets-<ville>/.
+# combien-de-pellets et combien-de-steres (intégration des calculateurs, à faire à la main).
+# Chaque page mère arrive juste après le premier guide de sa verticale : elle n'est jamais vide.
+# 20/09/2026 : RYTHME CORRIGÉ PAR LE PROPRIÉTAIRE — majorité de local : 4 pages locales pour
+# 1 guide (avant : 2 pour 1). Le local est ce qui se référence vite et ce qui convertit,
+# avec un formulaire de devis sur chaque page. Une ville à la fois (bois puis pellets).
+# Chaque page locale garde un contenu propre tiré du CSV terrain (jamais de gabarit
+# interchangeable) : une ville sans données suffisantes est sautée et signalée, pas remplie.
+
+bois-de-chauffage               # page mère
+pellets                         # page mère
+bois-a-ne-pas-bruler
+longueur-buches
+reconnaitre-mauvais-pellet
+verifier-bois-sec
+temps-sechage-bois
+frequence-ramonage
+ramonage                        # page mère
+
+bois-de-chauffage-arlon         # local · Luxembourg 1/14 · ramonage-arlon déjà publiée
+pellets-arlon                   # local · Luxembourg 1/14
+bois-de-chauffage-marche-en-famenne   # local · Luxembourg 2/14
+pellets-marche-en-famenne             # local · Luxembourg 2/14
+depannage-poele-a-pellets
+bois-de-chauffage-bastogne      # local · Luxembourg 3/14
+pellets-bastogne                # local · Luxembourg 3/14
+bois-de-chauffage-libramont     # local · Luxembourg 4/14
+pellets-libramont                # local · Luxembourg 4/14
+allumage-feu-bois
+bois-de-chauffage-neufchateau   # local · Luxembourg 5/14
+pellets-neufchateau              # local · Luxembourg 5/14
+bois-de-chauffage-virton        # local · Luxembourg 6/14
+pellets-virton                  # local · Luxembourg 6/14
+entretien-poele-a-bois
+bois-de-chauffage-bouillon      # local · Luxembourg 7/14
+pellets-bouillon                # local · Luxembourg 7/14
+bois-de-chauffage-saint-hubert  # local · Luxembourg 8/14
+pellets-saint-hubert            # local · Luxembourg 8/14
+certifications-pellets
+bois-de-chauffage-durbuy        # local · Luxembourg 9/14
+pellets-durbuy                  # local · Luxembourg 9/14
+bois-de-chauffage-la-roche-en-ardenne  # local · Luxembourg 10/14
+pellets-la-roche-en-ardenne            # local · Luxembourg 10/14
+taux-cendres-pellets
+bois-de-chauffage-houffalize    # local · Luxembourg 11/14
+pellets-houffalize              # local · Luxembourg 11/14
+bois-de-chauffage-bertrix       # local · Luxembourg 12/14
+pellets-bertrix                 # local · Luxembourg 12/14
+prix-bois-de-chauffage
+bois-de-chauffage-vielsalm      # local · Luxembourg 13/14
+pellets-vielsalm                # local · Luxembourg 13/14
+bois-de-chauffage-aubange       # local · Luxembourg 14/14 · dernière ville du lot
+pellets-aubange                 # local · Luxembourg 14/14 · dernière ville du lot
+prix-pellets
+stere-de-bois
+quelle-marque-de-pellets
+ramonage-obligatoire-wallonie
+quel-bois-de-chauffage-choisir
+bois-de-chauffage-sec
+stockage-pellets
+stockage-bois-de-chauffage
+pellets-resineux-ou-feuillus
+bois-dur-ou-bois-tendre
+quel-appareil-bois
+sac-palette-vrac-pellets
+pellets-6-ou-8-mm
+poele-a-pellets-ou-poele-a-bois
+rendement-poele-a-bois
+feu-de-cheminee-bistre
+tubage-cheminee
+ramonage-poele-a-bois
+ramonage-poele-a-pellets
+attestation-ramonage
+norme-ecodesign
+interdiction-feu-ouvert
+bois-de-chauffage-chene
+bois-de-chauffage-hetre
+bois-de-chauffage-charme
+bois-de-chauffage-frene
+bois-de-chauffage-bouleau
+buches-densifiees
+bois-de-chauffage-en-grume
+stere-m3-corde
+primes-chauffage-wallonie
+prime-poele-a-pellets
+prix-ramonage
+prix-poele-a-pellets
+prix-placement-poele
+pellets-piron
+pellets-gamma
+pellets-hubo
+pellets-trafic
+pellets-badger
+pellets-aveve
+pellets-descamps
+pellets-brico

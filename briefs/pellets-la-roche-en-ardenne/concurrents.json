@@ -1,0 +1,27 @@
+{
+  "types": {"guide": 0, "service": 2, "annuaire": 1, "autre": 3},
+  "intention_recompensee": "Locale et transactionnelle : Google met en avant un comparateur de prix du jour pour le code postal 6980 et les vendeurs qui nomment la commune (PETIT & Fils, Billa Gaz), signe que le visiteur veut savoir qui le livre et à quel prix.",
+  "incontournables": [
+    "Le prix du pellet relevé pour La Roche-en-Ardenne, palette ou vrac",
+    "Les vendeurs qui livrent la commune et ses villages",
+    "Le minimum de commande et le délai de livraison du vrac"
+  ],
+  "differenciants": [
+    "La liste des villages desservis (Ortho, Samrée chez PETIT & Fils)",
+    "Le vendeur installé dans la commune, à Ronchamps (Billa Gaz), avec livraison des palettes à l'endroit voulu",
+    "Les prix des communes voisines"
+  ],
+  "lacunes": [
+    "Aucune page ne compare les vendeurs entre eux : le comparateur ne montre que ses marques partenaires",
+    "Aucune ne distingue palette enlevée et palette livrée, ni ne ramène les prix au sac de 15 kg",
+    "Aucune ne dit où acheter quelques sacs à emporter près de La Roche (Tenneville, Marche)",
+    "Aucune ne parle de l'accès du camion dans les villages en pente de la vallée de l'Ourthe"
+  ],
+  "faiblesses": [
+    "Pages de vendeurs centrées sur leur seule offre, sans prix (Billa Gaz) ou avec un seul prix de vrac",
+    "Annuaire de 160 mots sans information utile",
+    "Le comparateur est une page générée, identique d'une commune à l'autre",
+    "Une partie des résultats concerne des communes françaises homonymes"
+  ],
+  "longueur_cible": 1000
+}

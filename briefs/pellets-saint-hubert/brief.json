@@ -1,0 +1,20 @@
+{"intention": "Locale et transactionnelle : savoir qui livre des pellets à Saint-Hubert et dans ses villages, à quel prix au sac et à la tonne, et où trouver un sac de dépannage tout près.",
+ "format_serp": "Une page de fournisseur qui nomme Saint-Hubert (PETIT & Fils), des annuaires de combustibles (Pages d'Or, Infobel, Obodo, Companyweb) et un pack local de marchands de mazout.",
+ "structure_serp": "Pages courtes (médiane 718 mots), une seule avec un prix, aucune ne compare les vendeurs ni ne cite le repère wallon.",
+ "entites": ["pellets", "granulés de bois"],
+ "variantes": ["pellets saint-hubert", "pellet saint-hubert", "livraison pellets saint-hubert", "prix pellets saint-hubert", "pellets vrac saint-hubert", "pellets tenneville"],
+ "termes": ["palette de 65 sacs", "sac de 15 kg", "vrac", "camion souffleur", "tonne", "TVAC", "ENplus A1", "DIN+", "départ entreprise", "stockage"],
+ "questions": ["Qui livre des pellets à Saint-Hubert ?", "Combien coûtent les pellets à Saint-Hubert ?", "Où acheter un sac de pellets près de Saint-Hubert ?", "Quel minimum pour une livraison en vrac ?", "Quel délai de livraison en octobre ?"],
+ "en_bref": ["Qui livre Saint-Hubert et ses villages, avec le format", "Prix de la tonne en vrac et du sac par palette, datés", "Le dépôt le plus proche (Tenneville) et son stockage gratuit", "Le repère wallon Valbiom"],
+ "plan": [
+  {"h2": "Qui livre des pellets à Saint-Hubert ?", "contenu": "Réponse directe : les vendeurs qui nomment Saint-Hubert ou la province sur leur site, d'où ils partent, quels formats. Tableau rotatif.", "forme": "réponse directe", "image": "", "donnees_a_chercher": ["zone de livraison de chaque vendeur sur son site"], "h3": []},
+  {"h2": "Prix des pellets à Saint-Hubert en 2026", "contenu": "Prix relevés : PETIT & Fils (vrac 5 t, sac par palette), Comptoir du Bois Européen (palettes départ Tenneville), Creppe et Pellet Premium (palette livrée). Ramenés au sac. Repère Valbiom.", "forme": "tableau", "image": "", "donnees_a_chercher": ["prix affichés, TVA, livraison comprise ou non"], "h3": []},
+  {"h2": "Où acheter des sacs de pellets près de Saint-Hubert", "contenu": "Dépôt de Tenneville (vente au sac) et revendeurs Badger du localisateur autour de 6870. Pas d'enseigne de bricolage dans la commune.", "forme": "tableau", "image": "", "donnees_a_chercher": ["localisateur Badger 6870"], "h3": []},
+  {"h2": "Sac, palette ou vrac : quel format de pellets choisir à Saint-Hubert ?", "contenu": "Poêle = palette ; chaudière à silo = vrac dès 2 tonnes ; lien vers le guide format.", "forme": "paragraphe", "image": "", "donnees_a_chercher": [], "h3": []},
+  {"h2": "Livraison de pellets à Saint-Hubert : délais, minimum et accès", "contenu": "Délai 24 h à 15 jours, minimum 2 t en vrac, chariot embarqué, présence requise, stockage au dépôt de Tenneville.", "forme": "notre avis", "image": "", "donnees_a_chercher": ["délai, minimum, accès"], "h3": []},
+  {"h2": "Pellets autour de Saint-Hubert : villages et communes voisines", "contenu": "Villages de la commune cités par PETIT & Fils, Libramont, Tenneville, liens vers pages voisines.", "forme": "paragraphe", "image": "", "donnees_a_chercher": [], "h3": []}
+ ],
+ "cta": "CTA fort après l'intro et en fin de page : un prix livré à votre adresse, palette ou vrac.",
+ "faq": [],
+ "longueur_cible": 1100,
+ "decision": "Seule page qui compare les vendeurs qui livrent Saint-Hubert, ramène chaque prix au sac de 15 kg, signale le dépôt de Tenneville et les points de vente au sac les plus proches."}

@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A — Éditorial chaud</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Familjen+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--fond:#F2EFE9;--papier:#FBFAF7;--encre:#23262B;--gris:#5B5E63;--filet:#D9D3C8;--accent:#A8431A;--accent-f:#8E3813;--vert:#2F5D46;--sans:'Familjen Grotesk',sans-serif}
+*{box-sizing:border-box}
+body{margin:0;background:var(--fond);color:var(--encre);font-family:'Source Serif 4',Georgia,serif;font-size:19px;line-height:1.65}
+a{color:var(--accent)}
+.lab{font-family:var(--sans);font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.col{max-width:760px;margin:0 auto;padding:0 20px}
+.large{max-width:1040px;margin:0 auto;padding:0 20px}
+section{margin-top:72px}
+h1{font-size:clamp(36px,5vw,54px);line-height:1.08;letter-spacing:-.02em;margin:20px 0 24px}
+h2{font-size:clamp(28px,3.4vw,36px);line-height:1.15;letter-spacing:-.01em;margin:10px 0 20px}
+h3{line-height:1.25}
+.num{color:var(--accent)}
+.source{font-family:var(--sans);font-size:12px;color:var(--gris);letter-spacing:.04em;margin:10px 0 0}
+.ico{flex:none;margin-top:4px}
+
+/* En-tête */
+.top{border-bottom:1px solid var(--encre)}
+.top .bandeau{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;padding:10px 20px;border-bottom:1px solid var(--filet);max-width:1120px;margin:0 auto;color:var(--gris)}
+.top .barre{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px;padding:22px 20px;max-width:1120px;margin:0 auto}
+.logo{color:var(--encre);text-decoration:none;font-size:26px;font-weight:700;letter-spacing:-.01em}
+.logo i{font-weight:400;color:var(--accent)}
+nav.menu{display:flex;align-items:center;flex-wrap:wrap;gap:24px;font-family:var(--sans);font-size:15px;font-weight:600}
+nav.menu a{color:var(--encre);text-decoration:none}
+nav.menu a.actif{color:var(--accent);border-bottom:2px solid var(--accent)}
+nav.menu a.cta{border:1px solid var(--encre);padding:10px 16px}
+
+.ariane{display:flex;gap:10px;color:var(--gris);margin-top:56px}
+.ariane a{color:var(--gris);text-decoration:none}
+.byline{display:flex;align-items:center;gap:14px;padding:16px 0;border-top:1px solid var(--filet);border-bottom:1px solid var(--filet);font-family:var(--sans);font-size:14px;line-height:1.4}
+.avatar{width:44px;height:44px;border-radius:50%;background:var(--encre);color:var(--fond);display:grid;place-items:center;font-weight:700}
+
+/* En bref */
+.bref{border-top:4px solid var(--encre);border-bottom:1px solid var(--encre);padding:22px 0 8px;margin-top:40px}
+.bref ol{list-style:none;margin:8px 0 0;padding:0;counter-reset:b}
+.bref li{counter-increment:b;display:grid;grid-template-columns:48px 1fr;margin-bottom:16px}
+.bref li::before{content:counter(b);font-size:34px;font-weight:700;color:#BDB5A8;line-height:1.1}
+
+/* Formulaire */
+.quiz{background:var(--papier);border:1px solid var(--filet);border-top:4px solid var(--accent);padding:28px;margin-top:40px}
+.q-top{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;font-family:var(--sans);font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.q-label{color:var(--accent)}.q-step{color:var(--gris)}
+.q-progress{height:2px;background:#E6E0D6;margin:14px 0 22px}.q-bar{height:2px;background:var(--accent);transition:width .3s}
+.q-title{margin:0 0 16px;font-size:26px}
+.q-options{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px}
+.q-opt{font-family:var(--sans);font-size:15px;font-weight:600;padding:12px 18px;min-height:48px;border:1px solid #BDB5A8;background:var(--papier);color:var(--encre);cursor:pointer;text-align:left}
+.q-opt:hover,.q-opt.on{background:var(--encre);color:var(--papier);border-color:var(--encre)}
+.q-cp{display:flex;flex-wrap:wrap;gap:10px;align-items:flex-end}
+.q-cp label{display:flex;flex-direction:column;gap:6px;font-family:var(--sans);font-size:14px;font-weight:600;flex:1 1 180px}
+.q-cp input{font-size:18px;padding:12px 14px;min-height:48px;border:1px solid #BDB5A8;background:#fff;font-family:inherit}
+.q-send,.btn{font-family:var(--sans);font-size:16px;font-weight:700;background:var(--accent);color:#fff;border:0;padding:14px 24px;min-height:48px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:10px}
+.q-send:hover,.btn:hover{background:var(--accent-f);color:#fff}
+.q-back{font-family:var(--sans);font-size:14px;font-weight:600;background:none;border:0;color:var(--gris);cursor:pointer;text-decoration:underline;padding:12px 0 0}
+.q-done{margin:0;color:var(--gris)}
+
+/* Chiffres */
+.chiffres{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));border-top:1px solid var(--encre);border-bottom:1px solid var(--encre);margin-top:36px}
+.chiffres div{padding:22px 20px;border-right:1px solid var(--filet)}
+.chiffres div:last-child{border-right:0}
+.chiffres b{display:block;font-size:48px;line-height:1}
+.chiffres small{font-size:22px}
+.chiffres span{display:block;font-size:16px;color:var(--gris);margin-top:10px;line-height:1.45}
+
+/* Prix */
+.prix{display:flex;flex-wrap:wrap;gap:40px;align-items:flex-end;background:var(--papier);border:1px solid var(--filet);padding:28px;margin-top:36px}
+.prix .gros{flex:0 0 220px}
+.prix .gros b{display:block;font-size:84px;line-height:1;letter-spacing:-.03em;color:var(--accent);margin-top:10px}
+.prix .gros p{font-size:16px;color:var(--gris);margin:12px 0 0;line-height:1.45}
+.prix [data-prix]{flex:1 1 460px;min-width:0}
+.c-bars{display:flex;align-items:flex-end;gap:5px;border-bottom:1px solid var(--encre)}
+.c-col{flex:1;display:flex;align-items:flex-end;height:100%}
+.c-bar{width:100%;background:#BDB5A8}.c-bar.creux{background:var(--gris)}.c-bar.der{background:var(--accent)}
+.c-months{display:flex;gap:5px;margin-top:6px}.c-months span{flex:1;text-align:center;font-family:var(--sans);font-size:11px;color:var(--gris)}
+.c-years{display:flex;justify-content:space-between;font-family:var(--sans);font-size:12px;font-weight:700;margin-top:4px}
+
+/* Cartes de choix */
+.choix{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));border:1px solid var(--encre);margin-top:36px}
+.choix > div{padding:28px;background:var(--papier);border-right:1px solid var(--filet)}
+.choix > div:last-child{border-right:0}
+.choix h3{font-size:28px;margin:8px 0 4px}
+.choix .sous{font-size:16px;color:var(--gris);margin:0 0 18px}
+.choix p{font-size:17px;margin:0}
+.choix .mis{background:var(--encre);color:var(--fond)}
+.choix .mis .lab{color:#E9A27F}.choix .mis .sous{color:#C9C4BB}
+
+/* Citation */
+figure.cit{margin:0;border-top:1px solid var(--encre);border-bottom:1px solid var(--encre);padding:36px 0;text-align:center}
+figure.cit blockquote{margin:0;font-size:clamp(24px,3vw,32px);line-height:1.3;font-style:italic;letter-spacing:-.01em}
+figure.cit figcaption{color:var(--gris);margin-top:18px}
+
+/* Avantages / inconvénients, checklist */
+.duo{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:32px;margin-top:32px}
+.duo > div{border-top:4px solid var(--vert);padding-top:18px}
+.duo > div.moins{border-top-color:var(--accent)}
+.duo ul,.check ul{list-style:none;padding:0;margin:14px 0 0;display:flex;flex-direction:column;gap:12px;font-size:17px}
+.duo li,.check li{display:flex;gap:12px}
+.plus .lab{color:var(--vert)}.moins .lab{color:var(--accent)}
+.check{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));border:1px solid var(--filet);background:var(--papier);margin-top:24px}
+.check > div{padding:24px}
+.check > div:first-child{border-right:1px solid var(--filet)}
+
+/* Tableau */
+.t-tabs{display:flex;gap:4px;border-bottom:1px solid var(--filet);margin-top:24px}
+.t-tab{font-family:var(--sans);font-size:14px;font-weight:700;padding:10px 18px;min-height:44px;border:0;border-bottom:3px solid transparent;background:none;color:var(--gris);cursor:pointer}
+.t-tab.on{color:var(--encre);border-bottom-color:var(--accent)}
+.t-verdict{font-style:italic;font-size:18px;margin:18px 0}
+.t-wrap{overflow-x:auto}
+.t-table{width:100%;min-width:520px;border-collapse:collapse;font-family:var(--sans);font-size:16px}
+.t-table th{text-align:left;font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--gris);border-bottom:2px solid var(--encre);padding:12px 16px}
+.t-table td{padding:14px 16px;border-bottom:1px solid var(--filet)}
+.t-table td:first-child{color:var(--gris)}
+.t-table .on{background:#F7E9DF;color:var(--encre);font-weight:700}
+
+/* Bandeau CTA */
+.bande{background:var(--encre);color:var(--fond);margin-top:80px}
+.bande .large{display:flex;flex-wrap:wrap;gap:28px;align-items:center;justify-content:space-between;padding-top:48px;padding-bottom:48px}
+.bande .lab{color:#E9A27F}
+.bande strong{display:block;font-size:32px;line-height:1.2;margin-top:10px}
+.bande p{margin:8px 0 0;color:#C9C4BB;font-size:17px}
+
+/* Villes */
+.villes{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));column-gap:32px;border-top:1px solid var(--encre)}
+.villes a{display:flex;justify-content:space-between;align-items:center;padding:16px 4px;border-bottom:1px solid var(--filet);color:var(--encre);text-decoration:none;font-size:20px;font-weight:600}
+.villes a:hover{color:var(--accent)}
+
+footer{margin-top:96px;border-top:1px solid var(--encre)}
+footer .barre{max-width:1120px;margin:0 auto;padding:32px 20px 48px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:24px;font-family:var(--sans);font-size:14px}
+footer a{color:var(--gris)}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="bandeau lab"><span>Édition du 4 octobre 2026</span><span>Wallonie · province de Luxembourg</span></div>
+  <div class="barre">
+    <a href="#" class="logo">Bois de chauffage <i>&amp;</i> Pellets</a>
+    <nav class="menu"><a href="#">Bois de chauffage</a><a href="#" class="actif">Pellets</a><a href="#">Ramonage</a><a href="#devis" class="cta">Demander un devis</a></nav>
+  </div>
+</header>
+
+<main>
+<div class="col">
+  <nav class="ariane lab" aria-label="Fil d'Ariane"><a href="#">Accueil</a><span>/</span><span class="num">Pellets</span></nav>
+  <h1>Pellets en Belgique : prix, qualité et où en acheter près de chez vous</h1>
+  <div class="byline"><span class="avatar">BP</span><div><b>Par la rédaction</b><br><span style="color:var(--gris)">Mis à jour le 20 septembre 2026 · 9 min de lecture</span></div></div>
+
+  <div class="bref">
+    <div class="lab num">En bref</div>
+    <ol>
+      <li><span><strong>6,19 € le sac de 15 kg</strong> en Wallonie en août 2026, soit près de 413 € la tonne achetée en palette.</span></li>
+      <li><span><strong>9 centimes le kilowattheure au plus</strong>, hors frais de livraison.</span></li>
+      <li><span><strong>Le diamètre, 6 ou 8 mm, est imposé par votre appareil</strong> et ne se choisit pas librement.</span></li>
+      <li><span><strong>ENplus A1 plafonne les cendres à 0,70 %</strong> contre 1,20 % en A2 : près du double de résidus à évacuer.</span></li>
+    </ol>
+  </div>
+  <p style="margin-top:32px">Deux sacs de granulés se ressemblent à s'y méprendre, et c'est ce qui rend l'achat difficile. Cette page réunit ce qu'est un pellet, ce que coûte une saison de chauffe aux prix d'aujourd'hui, ce qui sépare un bon granulé d'un mauvais, et où en commander en Wallonie.</p>
+
+  <div class="quiz" id="devis" data-quiz></div>
+</div>
+
+<section>
+  <div class="col">
+    <div class="lab num">01 — Le produit</div>
+    <h2>Qu'est-ce qu'un pellet, exactement ?</h2>
+    <p>Un pellet est un petit cylindre de sciure de bois comprimée, calibré pour être dosé automatiquement par la vis d'alimentation d'un poêle ou d'une chaudière. Cette régularité le distingue de la bûche : parce que chaque granulé vaut le suivant, l'appareil peut ajuster sa combustion en continu.</p>
+  </div>
+  <div class="large">
+    <div class="chiffres">
+      <div><b>6 / 8<small> mm</small></b><span>Diamètre normalisé, imposé par l'appareil</span></div>
+      <div><b>10<small> %</small></b><span>Humidité maximale selon ENplus</span></div>
+      <div><b>2<small> %</small></b><span>Additifs au plus dans un sac certifié</span></div>
+      <div><b>4,6<small> kWh</small></b><span>Chaleur minimale par kilo de granulés</span></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="col">
+    <div class="lab num">02 — Le prix</div>
+    <h2>Ce que coûte le chauffage aux pellets</h2>
+    <p>Valbiom relève chaque mois le prix moyen des combustibles bois en Wallonie. En août 2026, le sac de 15 kg certifié revenait à 6,19 €, acheté par palette et hors frais de livraison.</p>
+  </div>
+  <div class="large">
+    <div class="prix">
+      <div class="gros"><div class="lab" style="color:var(--gris)">Sac de 15 kg · août 2026</div><b>6,19 €</b><p>+76 centimes depuis le creux de juillet 2025 (5,43 €), soit environ 14 %.</p></div>
+      <div data-prix data-hauteur="200"></div>
+    </div>
+    <p class="source">Source : Valbiom, relevés mensuels · palette de sacs certifiés, hors livraison</p>
+  </div>
+  <div class="col">
+    <p style="margin-top:32px">Rapporté à la chaleur produite, ce prix revient à 9 centimes le kilowattheure au plus. Le conditionnement pèse autant que le calendrier.</p>
+  </div>
+  <div class="large">
+    <div class="choix">
+      <div><div class="lab" style="color:var(--gris)">Option 1</div><h3>Le sac</h3><p class="sous">Le plus cher au kilo</p><p>Pour un poêle d'appoint ou un petit local. Vous achetez au fil de l'hiver, sans avancer une saison entière.</p></div>
+      <div class="mis"><div class="lab">Option 2 · le repère du marché</div><h3>La palette</h3><p class="sous">6,19 € le sac en août 2026</p><p>Le prix suivi par Valbiom. Il faut la place de ranger une palette au sec.</p></div>
+      <div><div class="lab" style="color:var(--gris)">Option 3</div><h3>Le vrac</h3><p class="sous">Le moins cher à la tonne</p><p>Soufflé par camion dans un silo. Réservé aux maisons qui ont l'installation.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="col" style="max-width:860px">
+    <figure class="cit">
+      <blockquote>« La Belgique produit plus de granulés qu'elle n'en consomme : le pellet dépend d'abord d'une filière nationale, pas d'un cours mondial. »</blockquote>
+      <figcaption class="lab">D'après Valbiom, suivi d'août 2026</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section>
+  <div class="col">
+    <div class="lab num">03 — Le bilan</div>
+    <h2>Ce que le pellet change au quotidien</h2>
+    <p>Le pellet simplifie la chauffe, mais il demande un appareil et un stockage adaptés.</p>
+  </div>
+  <div class="large">
+    <div class="duo">
+      <div class="plus"><div class="lab">Ce qui plaît</div><ul>
+        <li><svg class="ico" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2F5D46" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Un combustible régulier que l'appareil dose tout seul</li>
+        <li><svg class="ico" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2F5D46" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>9 centimes le kWh au plus, hors livraison</li>
+        <li><svg class="ico" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2F5D46" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Une filière belge, des stocks sans tension cet hiver</li>
+      </ul></div>
+      <div class="moins"><div class="lab">Ce qui coince</div><ul>
+        <li><svg class="ico" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A8431A" stroke-width="2.4" stroke-linecap="round"><path d="M6 12h12"/></svg>Un local sec obligatoire : l'humidité fait gonfler les granulés</li>
+        <li><svg class="ico" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A8431A" stroke-width="2.4" stroke-linecap="round"><path d="M6 12h12"/></svg>Un nettoyage tous les deux ou trois jours</li>
+        <li><svg class="ico" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A8431A" stroke-width="2.4" stroke-linecap="round"><path d="M6 12h12"/></svg>Deux sacs identiques en apparence peuvent brûler très différemment</li>
+      </ul></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="col">
+    <div class="lab num">04 — La qualité</div>
+    <h2>Ce qui sépare deux sacs de pellets</h2>
+    <p>ENplus, le label que vous croiserez le plus souvent en Belgique, classe les granulés en trois qualités. Choisissez-en une pour voir ce qu'elle garantit.</p>
+    <div data-enplus></div>
+    <p class="source">Source : ENplus ST 1001:2022, tableau 4</p>
+  </div>
+</section>
+
+<section>
+  <div class="col">
+    <div class="lab num">05 — Avant de commander</div>
+    <h2>Comment choisir vos pellets</h2>
+    <p>Un sac certifié écarte les plus mauvais produits. Le reste se vérifie avant de passer commande.</p>
+    <div class="check">
+      <div class="plus"><div class="lab">À vérifier</div><ul>
+        <li><svg class="ico" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2F5D46" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Le label ENplus ou DINplus sur le sac</li>
+        <li><svg class="ico" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2F5D46" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Le diamètre indiqué par votre constructeur</li>
+        <li><svg class="ico" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2F5D46" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Le prix livraison comprise</li>
+      </ul></div>
+      <div class="moins"><div class="lab">À éviter</div><ul>
+        <li><svg class="ico" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A8431A" stroke-width="2.4" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>Un sac qui laisse un nuage de poussière</li>
+        <li><svg class="ico" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A8431A" stroke-width="2.4" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>Un stockage dans un local humide</li>
+        <li><svg class="ico" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A8431A" stroke-width="2.4" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>Comparer des prix sans la livraison</li>
+      </ul></div>
+    </div>
+  </div>
+</section>
+
+<div class="bande">
+  <div class="large">
+    <div style="flex:1 1 420px"><div class="lab">Gratuit · sans engagement</div><strong>Le prix réel chez vous, livraison comprise</strong><p>Jusqu'à 3 devis de fournisseurs qui livrent votre code postal.</p></div>
+    <a href="#devis" class="btn">Comparer les devis <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+  </div>
+</div>
+
+<section>
+  <div class="col">
+    <div class="lab num">06 — Près de chez vous</div>
+    <h2>Où acheter des pellets en province de Luxembourg</h2>
+    <p>Un fournisseur à vingt kilomètres avec un minimum de commande bas revient souvent moins cher qu'une enseigne nationale. Chaque page ville réunit ceux qui livrent réellement la zone.</p>
+    <div class="villes">
+      <a href="#">Arlon <span>→</span></a><a href="#">Bastogne <span>→</span></a><a href="#">Libramont <span>→</span></a>
+      <a href="#">Marche-en-Famenne <span>→</span></a><a href="#">Neufchâteau <span>→</span></a><a href="#">Virton <span>→</span></a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><div class="barre"><span class="logo" style="font-size:20px">Bois de chauffage <i>&amp;</i> Pellets</span><span style="display:flex;gap:20px;flex-wrap:wrap"><a href="#">À propos</a><a href="#">Partenaires</a><a href="#">Confidentialité</a></span></div></footer>
+
+<script>
+// Parties dynamiques communes aux trois maquettes : formulaire en étapes, tableau ENplus, courbe des prix.
+// Chaque maquette les habille avec son propre CSS (classes q-*, t-*, c-*).
+
+const BESOINS = [
+  { k: 'pellets', l: 'Pellets', q: 'Sous quelle forme ?', o: ['Sacs de 15 kg', 'Palette', 'Vrac (camion souffleur)', 'Je ne sais pas'] },
+  { k: 'bois', l: 'Bois de chauffage', q: 'Quelle quantité ?', o: ['1 stère', '2 à 3 stères', '4 à 6 stères', 'Plus de 6 stères'] },
+  { k: 'ramonage', l: 'Ramonage', q: 'Pour quel appareil ?', o: ['Poêle à bois', 'Insert ou cassette', 'Poêle à pellets', 'Chaudière'] },
+  { k: 'poelier', l: 'Entretien de poêle', q: 'Quel est votre besoin ?', o: ['Entretien annuel', 'Dépannage', 'Installation', 'Remplacement'] }
+];
+
+function quiz(el) {
+  const s = { etape: 0, besoin: null, detail: null };
+  const rendre = () => {
+    const b = BESOINS.find((x) => x.k === s.besoin);
+    const pct = [12, 45, 80, 100][s.etape];
+    let corps = '';
+    if (s.etape === 0) {
+      corps = `<h3 class="q-title">De quoi avez-vous besoin ?</h3><div class="q-options">${BESOINS.map((x) =>
+        `<button class="q-opt${s.besoin === x.k ? ' on' : ''}" data-besoin="${x.k}">${x.l}</button>`).join('')}</div>`;
+    } else if (s.etape === 1) {
+      corps = `<h3 class="q-title">${b.q}</h3><div class="q-options">${b.o.map((o) =>
+        `<button class="q-opt${s.detail === o ? ' on' : ''}" data-detail="${o}">${o}</button>`).join('')}</div>
+        <button class="q-back">Retour</button>`;
+    } else if (s.etape === 2) {
+      corps = `<h3 class="q-title">Où faut-il livrer ?</h3><div class="q-cp"><label>Code postal
+        <input inputmode="numeric" maxlength="4" placeholder="6700"></label>
+        <button class="q-send">Recevoir mes devis gratuits</button></div><button class="q-back">Retour</button>`;
+    } else {
+      corps = `<h3 class="q-title">Demande envoyée.</h3><p class="q-done">Les professionnels de votre zone vont vous contacter.</p>
+        <button class="q-back" data-reset>Recommencer</button>`;
+    }
+    el.innerHTML = `<div class="q-top"><span class="q-label">Devis gratuit · jusqu'à 3 fournisseurs</span>
+      <span class="q-step">Étape ${Math.min(s.etape + 1, 3)} sur 3</span></div>
+      <div class="q-progress"><div class="q-bar" style="width:${pct}%"></div></div>${corps}`;
+  };
+  el.addEventListener('click', (ev) => {
+    const t = ev.target.closest('button');
+    if (!t) return;
+    if (t.dataset.besoin) Object.assign(s, { besoin: t.dataset.besoin, detail: null, etape: 1 });
+    else if (t.dataset.detail) Object.assign(s, { detail: t.dataset.detail, etape: 2 });
+    else if (t.classList.contains('q-send')) s.etape = 3;
+    else if (t.dataset.reset !== undefined) Object.assign(s, { etape: 0, besoin: null, detail: null });
+    else if (t.classList.contains('q-back')) s.etape = Math.max(0, s.etape - 1);
+    rendre();
+  });
+  rendre();
+}
+
+const CLASSES = ['A1', 'A2', 'B'];
+const LIGNES = [
+  ['Cendres (sur sec)', '≤ 0,70 %', '≤ 1,20 %', '≤ 2,00 %'],
+  ['Humidité', '≤ 10 %', '≤ 10 %', '≤ 10 %'],
+  ['Durabilité mécanique', '≥ 98,0 %', '≥ 97,5 %', '≥ 97,5 %'],
+  ['Fines dans un sac', '≤ 0,5 %', '≤ 0,5 %', '—'],
+  ['Pouvoir calorifique', '≥ 4,6 kWh/kg', '≥ 4,6 kWh/kg', '≥ 4,6 kWh/kg']
+];
+const VERDICTS = {
+  A1: 'A1 : jusqu’à 0,70 % de cendres. Le moins de nettoyages et le rendement le plus stable.',
+  A2: 'A2 : jusqu’à 1,20 % de cendres, près du double de l’A1. Le creuset s’obstrue plus vite.',
+  B: 'B : jusqu’à 2,00 % de cendres, et aucun plafond de fines dans le sac.'
+};
+
+function enplus(el) {
+  let choix = 'A1';
+  const rendre = () => {
+    const i = CLASSES.indexOf(choix);
+    const on = (j) => (j === i ? ' class="on"' : '');
+    el.innerHTML = `<div class="t-tabs" role="tablist">${CLASSES.map((c) =>
+      `<button class="t-tab${c === choix ? ' on' : ''}" role="tab" aria-selected="${c === choix}" data-c="${c}">ENplus ${c}</button>`).join('')}</div>
+      <p class="t-verdict">${VERDICTS[choix]}</p>
+      <div class="t-wrap"><table class="t-table"><thead><tr><th>Critère</th>${CLASSES.map((c, j) => `<th${on(j)}>ENplus ${c}</th>`).join('')}</tr></thead>
+      <tbody>${LIGNES.map((r) => `<tr><td>${r[0]}</td>${r.slice(1).map((v, j) => `<td${on(j)}>${v}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+  };
+  el.addEventListener('click', (ev) => {
+    const t = ev.target.closest('[data-c]');
+    if (t) { choix = t.dataset.c; rendre(); }
+  });
+  rendre();
+}
+
+// Valbiom, sac de 15 kg, janvier 2025 → août 2026 (lu sur visuels/pellets-prix-sac-15kg.svg)
+const PRIX = [5.61, 5.66, 5.70, 5.69, 5.48, 5.43, 5.43, 5.48, 5.54, 5.64, 5.86, 5.84, 5.99, 6.02, 6.05, 6.12, 6.11, 6.13, 6.15, 6.19];
+const MOIS = ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D', 'J', 'F', 'M', 'A', 'M', 'J', 'J', 'A'];
+
+function courbe(el) {
+  const haut = Number(el.dataset.hauteur || 200);
+  const f = (p) => p.toFixed(2).replace('.', ',') + ' €';
+  el.innerHTML = `<div class="c-bars" style="height:${haut}px">${PRIX.map((p, j) => {
+    const cls = j === PRIX.length - 1 ? ' der' : (p === 5.43 ? ' creux' : '');
+    return `<div class="c-col" title="${MOIS[j]} ${j < 12 ? 2025 : 2026} : ${f(p)}"><div class="c-bar${cls}" style="height:${Math.round((p - 5.2) / 1.05 * haut)}px"></div></div>`;
+  }).join('')}</div>
+  <div class="c-months">${MOIS.map((m) => `<span>${m}</span>`).join('')}</div>
+  <div class="c-years"><span>2025</span><span>2026</span></div>`;
+}
+
+document.querySelectorAll('[data-quiz]').forEach(quiz);
+document.querySelectorAll('[data-enplus]').forEach(enplus);
+document.querySelectorAll('[data-prix]').forEach(courbe);
+</script>
+</body>
+</html>

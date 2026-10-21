@@ -1,0 +1,341 @@
+<title>Clusters bois &amp; pellets</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800&family=JetBrains+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+:root{--ground:#F7F8F6;--surface:#FFF;--ink:#1B1F1D;--soft:#5C6560;--faint:#8D948F;
+--line:#E1E4E0;--line2:#CBD0CA;--acc:#A8431A;--accw:#FBF0EA;--v1:#1F6B4A;--v1w:#E8F3ED;
+--v2:#7E6320;--v2w:#F8F3E4;--v3:#5C6560;--v3w:#EFF1EE;--focus:#2C6E9B;}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ground:#141715;--surface:#1B201D;
+--ink:#E8EBE7;--soft:#A2AAA5;--faint:#767E79;--line:#2B302D;--line2:#3B423E;--acc:#E0824F;--accw:#2A1B13;
+--v1:#5FBE8E;--v1w:#14251D;--v2:#C7A757;--v2w:#241F12;--v3:#9AA29D;--v3w:#222624;--focus:#63A7D4;}}
+:root[data-theme="dark"]{--ground:#141715;--surface:#1B201D;--ink:#E8EBE7;--soft:#A2AAA5;--faint:#767E79;
+--line:#2B302D;--line2:#3B423E;--acc:#E0824F;--accw:#2A1B13;--v1:#5FBE8E;--v1w:#14251D;--v2:#C7A757;
+--v2w:#241F12;--v3:#9AA29D;--v3w:#222624;--focus:#63A7D4;}
+*,*::before,*::after{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);margin:0;font-family:"Source Sans 3",-apple-system,
+BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
+.wrap{max-width:64rem;margin:0 auto;padding:clamp(2rem,5vw,3.5rem) clamp(1rem,4vw,2rem) 6rem}
+h1,h2,h3{font-family:Archivo,"Helvetica Neue",Arial,sans-serif;letter-spacing:-.025em;text-wrap:balance}
+h1{font-weight:800;font-size:clamp(2rem,1.5rem + 2.2vw,2.9rem);line-height:1.05;margin:0 0 .5rem}
+h2{font-weight:700;font-size:1.5rem;margin:0 0 .2rem}
+h3{font-weight:700;font-size:.95rem;margin:0;letter-spacing:0}
+p{margin:0 0 1rem}
+.kick{font-family:"JetBrains Mono",monospace;font-size:.72rem;font-weight:500;letter-spacing:.12em;
+text-transform:uppercase;color:var(--acc);margin:0 0 .9rem}
+.lede{font-size:1.1rem;color:var(--soft);max-width:42rem;margin:0 0 2rem}
+.stats{display:flex;flex-wrap:wrap;gap:0;border:1px solid var(--line);border-radius:2px;
+background:var(--surface);margin-bottom:2.5rem;overflow:hidden}
+.stat{flex:1 1 7rem;padding:.85rem 1rem;border-right:1px solid var(--line)}
+.stat:last-child{border-right:0}
+.stat b{display:block;font-family:Archivo,sans-serif;font-size:1.6rem;font-weight:800;letter-spacing:-.03em;
+font-variant-numeric:tabular-nums;line-height:1.1}
+.stat span{font-family:"JetBrains Mono",monospace;font-size:.66rem;letter-spacing:.08em;
+text-transform:uppercase;color:var(--faint)}
+.leg{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:2.5rem;align-items:center}
+.leg em{font-style:normal;font-size:.85rem;color:var(--faint);margin-right:.3rem}
+.vg{font-family:"JetBrains Mono",monospace;font-size:.68rem;padding:.15rem .45rem;border-radius:2px;
+border:1px solid;white-space:nowrap}
+.vg1{color:var(--v1);border-color:var(--v1);background:var(--v1w)}
+.vg2{color:var(--v2);border-color:var(--v2);background:var(--v2w)}
+.vg3{color:var(--v3);border-color:var(--line2);background:var(--v3w)}
+section{margin-top:3rem;padding-top:2rem;border-top:1px solid var(--line)}
+.mum{border:1px solid var(--acc);border-left-width:3px;background:var(--accw);border-radius:2px;
+padding:.9rem 1.1rem;margin-bottom:1.4rem;display:flex;flex-wrap:wrap;gap:.3rem 1.2rem;align-items:baseline}
+.mum-t{font-family:"JetBrains Mono",monospace;font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;
+color:var(--acc);font-weight:500;flex-basis:100%}
+.mum-u{font-family:"JetBrains Mono",monospace;font-size:.95rem;font-weight:500;color:var(--ink)}
+.mum-c{color:var(--soft);font-size:.9rem;margin-left:auto;font-family:"JetBrains Mono",monospace;font-size:.75rem}
+.cl{margin-top:1.5rem}
+.cl-h{font-family:"JetBrains Mono",monospace;font-size:.7rem;letter-spacing:.09em;text-transform:uppercase;
+color:var(--faint);margin:0 0 .5rem;display:flex;align-items:center;gap:.6rem}
+.cl-h::after{content:"";flex:1;height:1px;background:var(--line)}
+ul.pg{list-style:none;padding:0;margin:0;border:1px solid var(--line);border-radius:2px;background:var(--surface)}
+ul.pg li{display:flex;flex-wrap:wrap;gap:.35rem .8rem;align-items:baseline;padding:.5rem .9rem;
+border-bottom:1px solid var(--line)}
+ul.pg li:last-child{border-bottom:0}
+.u{font-family:"JetBrains Mono",monospace;font-size:.78rem;color:var(--ink);flex:0 0 auto}
+.t{color:var(--soft);font-size:.88rem}
+.meta{margin-left:auto;display:flex;gap:.45rem;align-items:center;flex:0 0 auto}
+.role{font-family:"JetBrains Mono",monospace;font-size:.66rem;color:var(--faint)}
+.note{font-family:"JetBrains Mono",monospace;font-size:.66rem;color:var(--acc)}
+.zone{columns:3;column-gap:1.4rem;font-size:.85rem}
+@media(max-width:46rem){.zone{columns:2}}
+@media(max-width:30rem){.zone{columns:1}}
+.zone div{break-inside:avoid;padding:.18rem 0;display:flex;gap:.4rem;align-items:baseline}
+.zone code{font-family:"JetBrains Mono",monospace;font-size:.72rem;color:var(--soft)}
+.prov{font-family:"JetBrains Mono",monospace;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;
+color:var(--faint);margin:1.2rem 0 .4rem}
+.box{border:1px solid var(--line);background:var(--surface);border-radius:2px;padding:1rem 1.2rem;margin-top:1.4rem}
+.box p{margin:0;font-size:.9rem;color:var(--soft)}
+.box p+p{margin-top:.6rem}
+.box b{color:var(--ink)}
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:2px;background:var(--surface);margin-top:1.2rem}
+table{border-collapse:collapse;width:100%;min-width:34rem;font-size:.88rem}
+th,td{text-align:left;padding:.5rem .9rem;border-bottom:1px solid var(--line)}
+thead th{font-family:"JetBrains Mono",monospace;font-size:.66rem;font-weight:500;letter-spacing:.08em;
+text-transform:uppercase;color:var(--faint);background:var(--ground)}
+tbody tr:last-child td{border-bottom:0}
+a{color:var(--acc)}
+</style>
+<div class="wrap">
+<p class="kick">Sitemap de production</p>
+<h1>Clusters bois &amp; pellets</h1>
+<p class="lede">Quatre verticales de leads, chacune avec ses guides classés par intention, et une grille locale unifiée de 86 zones. URLs toutes de premier niveau, zéro collision de slug.</p>
+<div class="stats">
+<div class="stat"><b>156</b><span>pages au total</span></div>
+<div class="stat"><b>4</b><span>verticales</span></div>
+<div class="stat"><b>59</b><span>guides</span></div>
+<div class="stat"><b>86</b><span>zones locales</span></div>
+<div class="stat"><b>28</b><span>en vague 1</span></div>
+</div>
+<div class="leg"><em>Priorité&nbsp;:</em><span class="vg vg1">V1</span><span class="t">fondations + pilotes</span><span class="vg vg2">V2</span><span class="t">déploiement local</span><span class="vg vg3">V3</span><span class="t">guides de fond</span></div>
+<section><h2>Verticale 1 — Bois de chauffage</h2>
+<p class="t" style="margin:.2rem 0 1rem">Partenaires&nbsp;: Négociants, scieries, exploitants forestiers</p>
+<div class="mum"><span class="mum-t">Page mère — transactionnelle · CTA vers /devis/</span><span class="mum-u">/bois-de-chauffage/</span><span class="t">Bois de chauffage en Belgique</span><span class="mum-c"><span class="vg vg1">V1</span></span></div>
+<div class="cl"><p class="cl-h">A · Quoi acheter</p><ul class="pg">
+<li><span class="u">/quel-bois-de-chauffage-choisir/</span><span class="t">Quel bois de chauffage choisir</span><span class="meta"><span class="role">sous-hub</span><span class="vg vg1">V1</span></span></li>
+<li><span class="u">/bois-de-chauffage-chene/</span><span class="t">Le chêne</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/bois-de-chauffage-hetre/</span><span class="t">Le hêtre</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/bois-de-chauffage-charme/</span><span class="t">Le charme</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/bois-de-chauffage-frene/</span><span class="t">Le frêne</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/bois-de-chauffage-bouleau/</span><span class="t">Le bouleau</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/bois-dur-ou-bois-tendre/</span><span class="t">Bois dur ou bois tendre</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/longueur-buches/</span><span class="t">Quelle longueur de bûche</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/buches-densifiees/</span><span class="t">Bûches densifiées</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/bois-a-ne-pas-bruler/</span><span class="t">Le bois qu&#x27;il ne faut jamais brûler</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/bois-de-chauffage-en-grume/</span><span class="t">Acheter du bois en grume</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+</ul></div>
+<div class="cl"><p class="cl-h">B · Combien il m&#x27;en faut</p><ul class="pg">
+<li><span class="u">/stere-de-bois/</span><span class="t">Le stère de bois</span><span class="meta"><span class="role">fille</span><span class="vg vg1">V1</span></span></li>
+<li><span class="u">/stere-m3-corde/</span><span class="t">Stère, m³ apparent et corde</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/combien-de-steres/</span><span class="t">Combien de stères pour ma maison</span><span class="meta"><span class="role">fille + calculateur</span><span class="vg vg3">V3</span></span></li>
+</ul></div>
+<div class="cl"><p class="cl-h">C · Bonne marchandise ?</p><ul class="pg">
+<li><span class="u">/bois-de-chauffage-sec/</span><span class="t">Bois sec : le taux d&#x27;humidité</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/verifier-bois-sec/</span><span class="t">Vérifier que le bois est sec</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/temps-sechage-bois/</span><span class="t">Combien de temps sécher son bois</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+</ul></div>
+<div class="cl"><p class="cl-h">D · Ce que ça coûte</p><ul class="pg">
+<li><span class="u">/prix-bois-de-chauffage/</span><span class="t">Prix du bois de chauffage en Belgique</span><span class="meta"><span class="role">fille</span><span class="vg vg1">V1</span></span></li>
+</ul></div>
+<div class="cl"><p class="cl-h">E · Comment m&#x27;en servir</p><ul class="pg">
+<li><span class="u">/stockage-bois-de-chauffage/</span><span class="t">Stocker son bois</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/allumage-feu-bois/</span><span class="t">Allumer et entretenir son feu</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/quel-appareil-bois/</span><span class="t">Poêle, insert ou foyer ouvert</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+</ul></div>
+</section>
+<section><h2>Verticale 2 — Pellets</h2>
+<p class="t" style="margin:.2rem 0 1rem">Partenaires&nbsp;: Négociants, grandes surfaces, producteurs</p>
+<div class="mum"><span class="mum-t">Page mère — transactionnelle · CTA vers /devis/</span><span class="mum-u">/pellets/</span><span class="t">Pellets en Belgique</span><span class="mum-c"><span class="vg vg1">V1</span></span></div>
+<div class="cl"><p class="cl-h">A · Quoi acheter</p><ul class="pg">
+<li><span class="u">/quelle-marque-de-pellets/</span><span class="t">Quelle marque de pellets choisir</span><span class="meta"><span class="role">sous-hub</span><span class="vg vg1">V1</span></span></li>
+<li><span class="u">/pellets-piron/</span><span class="t">Pellets Piron</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/pellets-gamma/</span><span class="t">Pellets Gamma</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/pellets-hubo/</span><span class="t">Pellets Hubo</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/pellets-trafic/</span><span class="t">Pellets Trafic</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/pellets-badger/</span><span class="t">Pellets Badger</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/pellets-aveve/</span><span class="t">Pellets Aveve</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/pellets-descamps/</span><span class="t">Pellets Descamps</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/pellets-brico/</span><span class="t">Pellets Brico</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/certifications-pellets/</span><span class="t">ENplus A1 et DINplus</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/pellets-resineux-ou-feuillus/</span><span class="t">Résineux ou feuillus</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/pellets-6-ou-8-mm/</span><span class="t">Pellets 6 ou 8 mm</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+</ul></div>
+<div class="cl"><p class="cl-h">B · Combien il m&#x27;en faut</p><ul class="pg">
+<li><span class="u">/combien-de-pellets/</span><span class="t">Combien de pellets pour mon hiver</span><span class="meta"><span class="role">fille + calculateur</span><span class="vg vg1">V1</span></span></li>
+<li><span class="u">/sac-palette-vrac-pellets/</span><span class="t">Sac, palette ou vrac</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+</ul></div>
+<div class="cl"><p class="cl-h">C · Bonne marchandise ?</p><ul class="pg">
+<li><span class="u">/meilleur-pellet/</span><span class="t">Meilleur pellet : les 9 critères</span><span class="meta"><span class="role">fille + analyseur</span><span class="vg vg1">V1</span></span></li>
+<li><span class="u">/taux-cendres-pellets/</span><span class="t">Taux de cendres et durabilité</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/reconnaitre-mauvais-pellet/</span><span class="t">Reconnaître un mauvais pellet</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+</ul></div>
+<div class="cl"><p class="cl-h">D · Ce que ça coûte</p><ul class="pg">
+<li><span class="u">/prix-pellets/</span><span class="t">Prix des pellets en Belgique</span><span class="meta"><span class="role">fille</span><span class="vg vg1">V1</span></span></li>
+</ul></div>
+<div class="cl"><p class="cl-h">E · Comment m&#x27;en servir</p><ul class="pg">
+<li><span class="u">/stockage-pellets/</span><span class="t">Stocker ses pellets</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+</ul></div>
+</section>
+<section><h2>Verticale 3 — Ramonage</h2>
+<p class="t" style="margin:.2rem 0 1rem">Partenaires&nbsp;: Ramoneurs agréés</p>
+<div class="mum"><span class="mum-t">Page mère — transactionnelle · CTA vers /devis/</span><span class="mum-u">/ramonage/</span><span class="t">Ramonage en Wallonie</span><span class="mum-c"><span class="vg vg1">V1</span></span></div>
+<div class="cl"><p class="cl-h">A · L&#x27;obligation</p><ul class="pg">
+<li><span class="u">/ramonage-obligatoire-wallonie/</span><span class="t">Ramonage obligatoire en Wallonie</span><span class="meta"><span class="role">fille</span><span class="vg vg2">V2</span></span></li>
+<li><span class="u">/frequence-ramonage/</span><span class="t">Une ou deux fois par an ?</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/attestation-ramonage/</span><span class="t">Attestation et assurance</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+</ul></div>
+<div class="cl"><p class="cl-h">B · Ce que ça coûte</p><ul class="pg">
+<li><span class="u">/prix-ramonage/</span><span class="t">Prix d&#x27;un ramonage en Belgique</span><span class="meta"><span class="role">fille</span><span class="vg vg2">V2</span></span></li>
+</ul></div>
+<div class="cl"><p class="cl-h">C · Quel ramonage</p><ul class="pg">
+<li><span class="u">/ramonage-poele-a-bois/</span><span class="t">Ramonage d&#x27;un poêle à bois</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/ramonage-poele-a-pellets/</span><span class="t">Ramonage d&#x27;un poêle à pellets</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/tubage-cheminee/</span><span class="t">Tubage de cheminée</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+</ul></div>
+<div class="cl"><p class="cl-h">D · Risques</p><ul class="pg">
+<li><span class="u">/feu-de-cheminee-bistre/</span><span class="t">Bistre et feu de cheminée</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+</ul></div>
+</section>
+<section><h2>Verticale 4 — Poêlier</h2>
+<p class="t" style="margin:.2rem 0 1rem">Partenaires&nbsp;: Installateurs et dépanneurs</p>
+<div class="mum"><span class="mum-t">Page mère — transactionnelle · CTA vers /devis/</span><span class="mum-u">/poelier/</span><span class="t">Poêliers et installation</span><span class="mum-c"><span class="vg vg1">V1</span></span></div>
+<div class="cl"><p class="cl-h">A · Entretien et dépannage</p><ul class="pg">
+<li><span class="u">/entretien-poele-a-pellets/</span><span class="t">Entretien d&#x27;un poêle à pellets</span><span class="meta"><span class="note">480/mois · KD 9</span><span class="role">fille</span><span class="vg vg1">V1</span></span></li>
+<li><span class="u">/entretien-poele-a-bois/</span><span class="t">Entretien d&#x27;un poêle à bois</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/depannage-poele-a-pellets/</span><span class="t">Dépannage d&#x27;un poêle à pellets</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+</ul></div>
+<div class="cl"><p class="cl-h">B · Acheter et installer</p><ul class="pg">
+<li><span class="u">/prix-poele-a-pellets/</span><span class="t">Prix d&#x27;un poêle à pellets</span><span class="meta"><span class="note">320/mois · KD 10</span><span class="role">fille</span><span class="vg vg2">V2</span></span></li>
+<li><span class="u">/prix-placement-poele/</span><span class="t">Prix du placement</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/poele-a-pellets-ou-poele-a-bois/</span><span class="t">Poêle à pellets ou à bois</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/rendement-poele-a-bois/</span><span class="t">Rendement des appareils</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+</ul></div>
+<div class="cl"><p class="cl-h">C · Primes et normes</p><ul class="pg">
+<li><span class="u">/primes-chauffage-wallonie/</span><span class="t">Primes chauffage en Wallonie</span><span class="meta"><span class="note">réactivée</span><span class="role">fille</span><span class="vg vg2">V2</span></span></li>
+<li><span class="u">/prime-poele-a-pellets/</span><span class="t">Prime poêle à pellets</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/norme-ecodesign/</span><span class="t">La norme Ecodesign</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/interdiction-feu-ouvert/</span><span class="t">Feux ouverts : ce qui est interdit</span><span class="meta"><span class="role">fille</span><span class="vg vg3">V3</span></span></li>
+</ul></div>
+</section>
+<section><h2>Grille locale, une page par produit</h2>
+<p class="lede" style="font-size:1rem;margin-bottom:1.2rem">Deux pages par zone&nbsp;: une bois, une pellets. Chacune couvre l'intention d'achat de son produit — <code>acheter bois de chauffage à Namur</code>, <code>acheter pellets à Namur</code> — et son formulaire coche le besoin correspondant. Décision du propriétaire du 12&nbsp;sept. 2026, qui remplace la grille unifiée d'une seule page par zone.</p>
+<p class="prov">Provinces — 2 pages (les seules sans ville homonyme)</p><ul class="pg">
+<li><span class="u">/bois-de-chauffage-hainaut/</span><span class="t">Chauffage au bois en Hainaut</span><span class="meta"><span class="vg vg1">V1</span></span></li>
+<li><span class="u">/bois-de-chauffage-brabant-wallon/</span><span class="t">Chauffage au bois en Brabant wallon</span><span class="meta"><span class="vg vg1">V1</span></span></li>
+</ul>
+<p class="prov">Régions naturelles — 10 pages</p><div class="zone">
+<div><code>/bois-de-chauffage-ardenne/</code></div>
+<div><code>/bois-de-chauffage-famenne/</code></div>
+<div><code>/bois-de-chauffage-condroz/</code></div>
+<div><code>/bois-de-chauffage-gaume/</code></div>
+<div><code>/bois-de-chauffage-hesbaye/</code></div>
+<div><code>/bois-de-chauffage-pays-de-herve/</code></div>
+<div><code>/bois-de-chauffage-hautes-fagnes/</code></div>
+<div><code>/bois-de-chauffage-botte-du-hainaut/</code></div>
+<div><code>/bois-de-chauffage-entre-sambre-et-meuse/</code></div>
+<div><code>/bois-de-chauffage-ourthe-ambleve/</code></div>
+</div>
+<p class="prov">Brabant wallon — 12 villes</p><div class="zone">
+<div><code>/bois-de-chauffage-wavre/</code> <span class="note">pilote</span></div>
+<div><code>/bois-de-chauffage-nivelles/</code> <span class="note">pilote</span></div>
+<div><code>/bois-de-chauffage-ottignies-louvain-la-neuve/</code></div>
+<div><code>/bois-de-chauffage-braine-l-alleud/</code></div>
+<div><code>/bois-de-chauffage-waterloo/</code></div>
+<div><code>/bois-de-chauffage-tubize/</code></div>
+<div><code>/bois-de-chauffage-rixensart/</code></div>
+<div><code>/bois-de-chauffage-jodoigne/</code></div>
+<div><code>/bois-de-chauffage-genappe/</code></div>
+<div><code>/bois-de-chauffage-perwez/</code></div>
+<div><code>/bois-de-chauffage-lasne/</code></div>
+<div><code>/bois-de-chauffage-court-saint-etienne/</code></div>
+</div>
+<p class="prov">Hainaut — 18 villes</p><div class="zone">
+<div><code>/bois-de-chauffage-charleroi/</code> <span class="note">pilote</span></div>
+<div><code>/bois-de-chauffage-mons/</code> <span class="note">pilote</span></div>
+<div><code>/bois-de-chauffage-tournai/</code> <span class="note">pilote</span></div>
+<div><code>/bois-de-chauffage-la-louviere/</code></div>
+<div><code>/bois-de-chauffage-mouscron/</code></div>
+<div><code>/bois-de-chauffage-ath/</code></div>
+<div><code>/bois-de-chauffage-soignies/</code></div>
+<div><code>/bois-de-chauffage-binche/</code></div>
+<div><code>/bois-de-chauffage-chatelet/</code></div>
+<div><code>/bois-de-chauffage-courcelles/</code></div>
+<div><code>/bois-de-chauffage-fleurus/</code></div>
+<div><code>/bois-de-chauffage-thuin/</code></div>
+<div><code>/bois-de-chauffage-chimay/</code></div>
+<div><code>/bois-de-chauffage-peruwelz/</code></div>
+<div><code>/bois-de-chauffage-lessines/</code></div>
+<div><code>/bois-de-chauffage-enghien/</code></div>
+<div><code>/bois-de-chauffage-braine-le-comte/</code></div>
+<div><code>/bois-de-chauffage-saint-ghislain/</code></div>
+</div>
+<p class="prov">Liège — 16 villes</p><div class="zone">
+<div><code>/bois-de-chauffage-liege/</code> <span class="note">pilote</span></div>
+<div><code>/bois-de-chauffage-seraing/</code></div>
+<div><code>/bois-de-chauffage-verviers/</code> <span class="note">pilote</span></div>
+<div><code>/bois-de-chauffage-herstal/</code></div>
+<div><code>/bois-de-chauffage-ans/</code></div>
+<div><code>/bois-de-chauffage-flemalle/</code></div>
+<div><code>/bois-de-chauffage-huy/</code></div>
+<div><code>/bois-de-chauffage-waremme/</code></div>
+<div><code>/bois-de-chauffage-vise/</code></div>
+<div><code>/bois-de-chauffage-herve/</code></div>
+<div><code>/bois-de-chauffage-spa/</code></div>
+<div><code>/bois-de-chauffage-malmedy/</code></div>
+<div><code>/bois-de-chauffage-eupen/</code></div>
+<div><code>/bois-de-chauffage-hannut/</code></div>
+<div><code>/bois-de-chauffage-aywaille/</code></div>
+<div><code>/bois-de-chauffage-stavelot/</code></div>
+</div>
+<p class="prov">Luxembourg — 14 villes</p><div class="zone">
+<div><code>/bois-de-chauffage-arlon/</code> <span class="note">pilote</span></div>
+<div><code>/bois-de-chauffage-marche-en-famenne/</code></div>
+<div><code>/bois-de-chauffage-bastogne/</code></div>
+<div><code>/bois-de-chauffage-libramont/</code></div>
+<div><code>/bois-de-chauffage-neufchateau/</code></div>
+<div><code>/bois-de-chauffage-virton/</code></div>
+<div><code>/bois-de-chauffage-bouillon/</code></div>
+<div><code>/bois-de-chauffage-saint-hubert/</code></div>
+<div><code>/bois-de-chauffage-durbuy/</code></div>
+<div><code>/bois-de-chauffage-la-roche-en-ardenne/</code></div>
+<div><code>/bois-de-chauffage-houffalize/</code></div>
+<div><code>/bois-de-chauffage-bertrix/</code></div>
+<div><code>/bois-de-chauffage-vielsalm/</code></div>
+<div><code>/bois-de-chauffage-aubange/</code></div>
+</div>
+<p class="prov">Namur — 14 villes</p><div class="zone">
+<div><code>/bois-de-chauffage-namur/</code> <span class="note">pilote</span></div>
+<div><code>/bois-de-chauffage-dinant/</code></div>
+<div><code>/bois-de-chauffage-ciney/</code></div>
+<div><code>/bois-de-chauffage-andenne/</code></div>
+<div><code>/bois-de-chauffage-gembloux/</code> <span class="note">pilote</span></div>
+<div><code>/bois-de-chauffage-philippeville/</code></div>
+<div><code>/bois-de-chauffage-rochefort/</code></div>
+<div><code>/bois-de-chauffage-couvin/</code></div>
+<div><code>/bois-de-chauffage-walcourt/</code></div>
+<div><code>/bois-de-chauffage-sambreville/</code></div>
+<div><code>/bois-de-chauffage-beauraing/</code></div>
+<div><code>/bois-de-chauffage-florennes/</code></div>
+<div><code>/bois-de-chauffage-eghezee/</code></div>
+<div><code>/bois-de-chauffage-fosses-la-ville/</code></div>
+</div>
+<div class="box"><p><b>La règle qui protège le domaine.</b> Une page de zone n'existe que si elle porte du contenu réellement propre&nbsp;: fournisseurs identifiés, fourchettes de prix constatées, contraintes d'accès et délais réels. Un gabarit dupliqué où seul le nom change est une <i>doorway page</i>, et la sanction frappe le domaine entier, pas la page.</p><p>C'est pour cette raison que la vague 1 se limite à <b>10 zones pilotes</b>&nbsp;: il faut prouver qu'on sait remplir une page avant d'en produire 86.</p></div>
+</section>
+<section><h2>Hors catégorie</h2><ul class="pg">
+<li><span class="u">/comparateur-chauffage/</span><span class="t">Comparateur de coût de chauffage</span><span class="meta"><span class="note">transversal</span><span class="vg vg2">V2</span></span></li>
+<li><span class="u">/prix-mazout-belgique/</span><span class="t">Prix du mazout en Belgique</span><span class="meta"><span class="note">12 100/mois · KD 59</span><span class="vg vg3">V3</span></span></li>
+<li><span class="u">/prix-gaz-belgique/</span><span class="t">Prix du gaz en Belgique</span><span class="meta"><span class="note">1 300/mois · KD 23</span><span class="vg vg2">V2</span></span></li>
+<li><span class="u">/devis/</span><span class="t">Demander un devis</span><span class="meta"><span class="note">LE tunnel</span><span class="vg vg1">V1</span></span></li>
+<li><span class="u">/partenaires/</span><span class="t">Devenir partenaire</span><span class="meta"><span class="note">côté offre</span><span class="vg vg1">V1</span></span></li>
+<li><span class="u">/a-propos/</span><span class="t">Qui sommes-nous</span><span class="meta"><span class="note">transparence du modèle</span><span class="vg vg1">V1</span></span></li>
+</ul></section>
+<section><h2>Les CTA</h2>
+<p class="lede" style="font-size:1rem">Un seul appel à l'action par page. Les liens internes contextuels sont de la navigation et ne comptent pas comme une sortie.</p>
+<div class="tw"><table><thead><tr><th>Type de page</th><th>CTA</th><th>Placement</th></tr></thead><tbody>
+<tr><td>Zone locale</td><td>« Recevez jusqu'à 3 offres à <b>[zone]</b> » → /devis/ pré-rempli</td><td>Après le 1<sup>er</sup> tiers <b>et</b> en fin</td></tr>
+<tr><td>Mère de verticale</td><td>« Obtenez votre prix » → /devis/</td><td>Haut + bloc final</td></tr>
+<tr><td>Prix</td><td>Calculateur → /devis/</td><td>Milieu de page</td></tr>
+<tr><td>Marque, sous-hub</td><td>→ mère de verticale</td><td>Bloc final</td></tr>
+<tr><td>Guide « combien »</td><td>Le calculateur <b>est</b> le CTA</td><td>Intégré au corps</td></tr>
+<tr><td>Guide qualité</td><td>→ hub local</td><td>Bloc final</td></tr>
+<tr><td>Guide usage</td><td>Lien contextuel, pas de CTA fort</td><td>Dans le texte</td></tr>
+<tr><td>Comparateur, prix énergies</td><td>« Combien vous coûterait le pellet ? » → calculateur</td><td>Milieu de page</td></tr>
+</tbody></table></div>
+<div class="box"><p><b>La formulation compte autant que la position.</b> « Demandez un devis » ne convertit pas&nbsp;; « Recevez 3 offres pour 1,4&nbsp;tonne livrée à Namur » convertit. Le CTA doit être spécifique à ce que la page vient d'établir.</p>
+<p>Et sur les guides, <b>une seule fois, en fin de page</b>&nbsp;: un bouton de conversion en haut d'un guide se lit comme un appât, le visiteur repart, et le signal envoyé est mauvais.</p></div>
+</section>
+<section><h2>Maillage</h2>
+<div class="tw"><table><thead><tr><th>Depuis</th><th>Vers</th><th>Règle</th></tr></thead><tbody>
+<tr><td>Guide fille</td><td>Sous-hub, puis mère</td><td>Lien contextuel, premier tiers de page</td></tr>
+<tr><td>Guide</td><td>2-3 guides sœurs</td><td>Même verticale uniquement</td></tr>
+<tr><td>Ville</td><td>Sa province + 2-3 villes voisines</td><td>Remonte la hiérarchie, tisse le réseau</td></tr>
+<tr><td>Ville</td><td>/devis/</td><td><b>Court-circuit</b> — le visiteur cherche déjà un prestataire</td></tr>
+<tr><td>Région</td><td>Ses villes + sa province</td><td>—</td></tr>
+<tr><td>Mère</td><td>↔ les 3 autres mères</td><td>Seuls liens inter-verticales</td></tr>
+<tr><td>Hors catégorie</td><td>Les mères concernées</td><td>Le comparateur est transversal</td></tr>
+</tbody></table></div>
+<div class="box"><p><b>URLs plates, structure dans les catégories.</b> Le silo n'existant pas dans l'adresse, il doit vivre dans les catégories WordPress (<code>Bois</code>, <code>Pellets</code>, <code>Ramonage</code>, <code>Poêlier</code>), une taxonomie <code>guide</code>/<code>local</code>, un fil d'Ariane construit depuis la catégorie — et un menu, qui n'existe pas encore sur le site.</p></div>
+</section>
+</div>
