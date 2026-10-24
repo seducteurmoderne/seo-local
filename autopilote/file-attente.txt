@@ -59,6 +59,48 @@ bois-de-chauffage-vielsalm      # local · Luxembourg 13/14
 pellets-vielsalm                # local · Luxembourg 13/14
 bois-de-chauffage-aubange       # local · Luxembourg 14/14 · dernière ville du lot
 pellets-aubange                 # local · Luxembourg 14/14 · dernière ville du lot
+
+# 24/10/2026 : VERTICALES POÊLE À PELLETS ET POÊLE À BOIS (décision du propriétaire).
+# Leads de pose, d'entretien et de dépannage (besoin poelier). Même rythme : 4 pages locales
+# pour 1 guide, grandes villes d'abord. Page locale poêle : modèle `modele <slug>`, poêleries
+# vérifiées sur leur propre site (adresse, marques exposées, pose, entretien), jamais un annuaire seul.
+# Les poêles à pellets passent d'abord : le modèle local poêle à bois attend la correction du
+# moteur (branche moteur/modeles-locaux, à relire et fusionner).
+poele-a-pellets                 # page mère · entretien-poele-a-pellets déjà en ligne
+poele-a-pellets-namur           # local poêle
+poele-a-pellets-liege           # local poêle
+poele-a-pellets-charleroi       # local poêle
+poele-a-pellets-mons            # local poêle
+prix-poele-a-pellets
+poele-a-bois                    # page mère · entretien-poele-a-bois déjà programmé
+poele-a-bois-namur              # local poêle
+poele-a-bois-liege              # local poêle
+poele-a-bois-charleroi          # local poêle
+poele-a-bois-mons               # local poêle
+installation-poele-a-pellets
+poele-a-pellets-arlon           # local poêle
+poele-a-bois-arlon              # local poêle
+poele-a-pellets-tournai         # local poêle
+poele-a-bois-tournai            # local poêle
+prix-placement-poele
+poele-a-pellets-verviers        # local poêle
+poele-a-bois-verviers           # local poêle
+poele-a-pellets-wavre           # local poêle
+poele-a-bois-wavre              # local poêle
+meilleur-poele-a-pellets
+poele-a-pellets-marche-en-famenne   # local poêle
+poele-a-bois-marche-en-famenne      # local poêle
+poele-a-pellets-bastogne        # local poêle
+poele-a-bois-bastogne           # local poêle
+installation-poele-a-bois
+prix-poele-a-bois
+prix-entretien-poele-a-pellets
+meilleur-poele-a-bois
+insert-cheminee
+puissance-poele-a-pellets
+contrat-entretien-poele-a-pellets
+prix-entretien-poele-a-bois
+# Fin du bloc poêles : la file reprend les guides bois, pellets et ramonage.
 prix-pellets
 stere-de-bois
 quelle-marque-de-pellets
@@ -92,8 +134,6 @@ stere-m3-corde
 primes-chauffage-wallonie
 prime-poele-a-pellets
 prix-ramonage
-prix-poele-a-pellets
-prix-placement-poele
 pellets-piron
 pellets-gamma
 pellets-hubo

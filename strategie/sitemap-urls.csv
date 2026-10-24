@@ -23,7 +23,7 @@ url,titre,verticale,cluster,role,cta,vague,note,statut
 /prix-bois-de-chauffage/,Prix du bois de chauffage en Belgique,Bois,D · Ce que ça coûte,fille,→ mère de verticale,1,,publié
 /stockage-bois-de-chauffage/,Stocker son bois,Bois,E · Comment m'en servir,fille,→ mère de verticale,3,,à faire
 /allumage-feu-bois/,Allumer et entretenir son feu,Bois,E · Comment m'en servir,fille,→ mère de verticale,3,,planifié
-/quel-appareil-bois/,"Poêle, insert ou foyer ouvert",Bois,E · Comment m'en servir,fille,→ mère de verticale,3,,à faire
+/quel-appareil-bois/,"Poêle, insert ou foyer ouvert",Poêle à bois,A · Quoi acheter,fille,→ mère de verticale,3,verticale poêle depuis le 24/10/2026,à faire
 /quelle-marque-de-pellets/,Quelle marque de pellets choisir,Pellets,A · Quoi acheter,sous-hub,→ hub local,1,,à faire
 /pellets-piron/,Pellets Piron,Pellets,A · Quoi acheter,fille,→ mère de verticale,3,,à faire
 /pellets-gamma/,Pellets Gamma,Pellets,A · Quoi acheter,fille,→ mère de verticale,3,,à faire
@@ -51,16 +51,16 @@ url,titre,verticale,cluster,role,cta,vague,note,statut
 /ramonage-poele-a-pellets/,Ramonage d'un poêle à pellets,Ramonage,C · Quel ramonage,fille,→ mère de verticale,3,,à faire
 /tubage-cheminee/,Tubage de cheminée,Ramonage,C · Quel ramonage,fille,→ mère de verticale,3,,à faire
 /feu-de-cheminee-bistre/,Bistre et feu de cheminée,Ramonage,D · Risques,fille,→ mère de verticale,3,,à faire
-/entretien-poele-a-pellets/,Entretien d'un poêle à pellets,Pellets,E · Comment m'en servir,fille,→ /devis/ (formulaire qualifié),1,480/mois · KD 9,publié
-/entretien-poele-a-bois/,Entretien d'un poêle à bois,Bois,E · Comment m'en servir,fille,→ /devis/ (formulaire qualifié),3,,planifié
-/depannage-poele-a-pellets/,Dépannage d'un poêle à pellets,Pellets,E · Comment m'en servir,fille,→ /devis/ (formulaire qualifié),3,,planifié
-/prix-poele-a-pellets/,Prix d'un poêle à pellets,Pellets,D · Ce que ça coûte,fille,→ /devis/ (formulaire qualifié),2,320/mois · KD 10,à faire
-/prix-placement-poele/,Prix du placement,Pellets,D · Ce que ça coûte,fille,→ /devis/ (formulaire qualifié),3,,à faire
-/poele-a-pellets-ou-poele-a-bois/,Poêle à pellets ou à bois,Pellets,A · Quoi acheter,fille,→ /devis/ (formulaire qualifié),3,,à faire
-/rendement-poele-a-bois/,Rendement des appareils,Bois,E · Comment m'en servir,fille,→ /devis/ (formulaire qualifié),3,,à faire
+/entretien-poele-a-pellets/,Entretien d'un poêle à pellets,Poêle à pellets,F · Entretien,fille,→ /devis/ (formulaire qualifié),1,480/mois · KD 9 · verticale poêle depuis le 24/10/2026,publié
+/entretien-poele-a-bois/,Entretien d'un poêle à bois,Poêle à bois,F · Entretien,fille,→ /devis/ (formulaire qualifié),3,verticale poêle depuis le 24/10/2026,planifié
+/depannage-poele-a-pellets/,Dépannage d'un poêle à pellets,Poêle à pellets,F · Entretien,fille,→ /devis/ (formulaire qualifié),3,verticale poêle depuis le 24/10/2026,planifié
+/prix-poele-a-pellets/,Prix d'un poêle à pellets,Poêle à pellets,D · Ce que ça coûte,fille,→ /devis/ (formulaire qualifié),2,320/mois · KD 10 · verticale poêle depuis le 24/10/2026,à faire
+/prix-placement-poele/,Prix du placement,Poêle à bois,D · Ce que ça coûte,fille,→ /devis/ (formulaire qualifié),3,verticale poêle depuis le 24/10/2026,à faire
+/poele-a-pellets-ou-poele-a-bois/,Poêle à pellets ou à bois,Poêle à pellets,A · Quoi acheter,fille,→ /devis/ (formulaire qualifié),3,verticale poêle depuis le 24/10/2026,à faire
+/rendement-poele-a-bois/,Rendement des appareils,Poêle à bois,A · Quoi acheter,fille,→ /devis/ (formulaire qualifié),3,verticale poêle depuis le 24/10/2026,à faire
 /primes-chauffage-wallonie/,Primes chauffage en Wallonie,Bois,D · Ce que ça coûte,fille,→ /devis/ (formulaire qualifié),2,réactivée,à faire
-/prime-poele-a-pellets/,Prime poêle à pellets,Pellets,D · Ce que ça coûte,fille,→ /devis/ (formulaire qualifié),3,,à faire
-/norme-ecodesign/,La norme Ecodesign,Bois,E · Comment m'en servir,fille,→ /devis/ (formulaire qualifié),3,,à faire
+/prime-poele-a-pellets/,Prime poêle à pellets,Poêle à pellets,D · Ce que ça coûte,fille,→ /devis/ (formulaire qualifié),3,verticale poêle depuis le 24/10/2026,à faire
+/norme-ecodesign/,La norme Ecodesign,Poêle à bois,A · Quoi acheter,fille,→ /devis/ (formulaire qualifié),3,verticale poêle depuis le 24/10/2026,à faire
 /interdiction-feu-ouvert/,Feux ouverts : ce qui est interdit,Bois,E · Comment m'en servir,fille,→ /devis/ (formulaire qualifié),3,,à faire
 /bois-de-chauffage-hainaut/,Acheter bois de chauffage en Hainaut,Local,Province,province,→ /devis/ (formulaire qualifié),1,pas de ville homonyme,à faire
 /bois-de-chauffage-brabant-wallon/,Acheter bois de chauffage en Brabant wallon,Local,Province,province,→ /devis/ (formulaire qualifié),1,pas de ville homonyme,à faire
@@ -132,8 +132,8 @@ url,titre,verticale,cluster,role,cta,vague,note,statut
 /bois-de-chauffage-durbuy/,Acheter bois de chauffage à Durbuy,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg,planifié
 /bois-de-chauffage-la-roche-en-ardenne/,Acheter bois de chauffage à La Roche-en-Ardenne,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg,planifié
 /bois-de-chauffage-houffalize/,Acheter bois de chauffage à Houffalize,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg,planifié
-/bois-de-chauffage-bertrix/,Acheter bois de chauffage à Bertrix,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg,à faire
-/bois-de-chauffage-vielsalm/,Acheter bois de chauffage à Vielsalm,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg,à faire
+/bois-de-chauffage-bertrix/,Acheter bois de chauffage à Bertrix,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg,planifié
+/bois-de-chauffage-vielsalm/,Acheter bois de chauffage à Vielsalm,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg,planifié
 /bois-de-chauffage-aubange/,Acheter bois de chauffage à Aubange,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg,à faire
 /bois-de-chauffage-namur/,Acheter bois de chauffage à Namur,Local,Ville,ville,→ /devis/ (formulaire qualifié),1,Namur · pilote · couvre aussi la province,à faire
 /bois-de-chauffage-dinant/,Acheter bois de chauffage à Dinant,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Namur,à faire
@@ -218,7 +218,7 @@ url,titre,verticale,cluster,role,cta,vague,note,statut
 /pellets-durbuy/,Acheter pellets à Durbuy,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg · miroir bois · volume non vérifié,planifié
 /pellets-la-roche-en-ardenne/,Acheter pellets à La Roche-en-Ardenne,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg · miroir bois · volume non vérifié,planifié
 /pellets-houffalize/,Acheter pellets à Houffalize,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg · miroir bois · volume non vérifié,planifié
-/pellets-bertrix/,Acheter pellets à Bertrix,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg · miroir bois · volume non vérifié,à faire
+/pellets-bertrix/,Acheter pellets à Bertrix,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg · miroir bois · volume non vérifié,planifié
 /pellets-vielsalm/,Acheter pellets à Vielsalm,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg · miroir bois · volume non vérifié,à faire
 /pellets-aubange/,Acheter pellets à Aubange,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg · miroir bois · volume non vérifié,à faire
 /pellets-namur/,Acheter pellets à Namur,Local,Ville,ville,→ /devis/ (formulaire qualifié),1,Namur · pilote · couvre aussi la province · miroir bois · volume non vérifié,à faire
@@ -241,3 +241,36 @@ url,titre,verticale,cluster,role,cta,vague,note,statut
 /devis/,Demander un devis,Hors catégorie,—,hors cluster,—,1,LE tunnel,à faire
 /partenaires/,Devenir partenaire,Hors catégorie,—,hors cluster,—,1,côté offre,à faire
 /a-propos/,Qui sommes-nous,Hors catégorie,—,hors cluster,—,1,transparence du modèle,à faire
+/poele-a-pellets/,Poêle à pellets en Wallonie,Poêle à pellets,Mère,mère,→ /devis/ (formulaire qualifié),2,transactionnelle · pose et entretien · ajouté le 24/10/2026,à faire
+/poele-a-bois/,Poêle à bois en Wallonie,Poêle à bois,Mère,mère,→ /devis/ (formulaire qualifié),2,transactionnelle · pose et entretien · ajouté le 24/10/2026,à faire
+/fournisseurs/,Fournisseurs de bois et de pellets en Wallonie,Fournisseurs,Mère,mère,→ fiches fournisseurs,2,hub des fiches fournisseurs · publié après les premières fiches · ajouté le 24/10/2026,à faire
+/meilleur-poele-a-pellets/,Meilleur poêle à pellets : modèles et marques,Poêle à pellets,A · Quoi acheter,fille,→ /devis/ (formulaire qualifié),2,modèles présentés sur fiches fabricant · ajouté le 24/10/2026,à faire
+/puissance-poele-a-pellets/,Quelle puissance de poêle à pellets,Poêle à pellets,A · Quoi acheter,fille,→ /devis/ (formulaire qualifié),2,ajouté le 24/10/2026,à faire
+/installation-poele-a-pellets/,Installation d'un poêle à pellets,Poêle à pellets,B · Installation,fille,→ /devis/ (formulaire qualifié),2,ajouté le 24/10/2026,à faire
+/prix-entretien-poele-a-pellets/,Prix de l'entretien d'un poêle à pellets,Poêle à pellets,F · Entretien,fille,→ /devis/ (formulaire qualifié),2,ajouté le 24/10/2026,à faire
+/contrat-entretien-poele-a-pellets/,Contrat d'entretien d'un poêle à pellets,Poêle à pellets,F · Entretien,fille,→ /devis/ (formulaire qualifié),2,ajouté le 24/10/2026,à faire
+/meilleur-poele-a-bois/,Meilleur poêle à bois : modèles et marques,Poêle à bois,A · Quoi acheter,fille,→ /devis/ (formulaire qualifié),2,modèles présentés sur fiches fabricant · ajouté le 24/10/2026,à faire
+/insert-cheminee/,Insert de cheminée,Poêle à bois,A · Quoi acheter,fille,→ /devis/ (formulaire qualifié),2,ajouté le 24/10/2026,à faire
+/installation-poele-a-bois/,Installation d'un poêle à bois,Poêle à bois,B · Installation,fille,→ /devis/ (formulaire qualifié),2,ajouté le 24/10/2026,à faire
+/prix-poele-a-bois/,Prix d'un poêle à bois,Poêle à bois,D · Ce que ça coûte,fille,→ /devis/ (formulaire qualifié),2,ajouté le 24/10/2026,à faire
+/prix-entretien-poele-a-bois/,Prix de l'entretien d'un poêle à bois,Poêle à bois,F · Entretien,fille,→ /devis/ (formulaire qualifié),2,ajouté le 24/10/2026,à faire
+/poele-a-pellets-namur/,Poêle à pellets à Namur,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · grande ville · ajouté le 24/10/2026,à faire
+/poele-a-bois-namur/,Poêle à bois à Namur,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · grande ville · ajouté le 24/10/2026,à faire
+/poele-a-pellets-liege/,Poêle à pellets à Liège,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · grande ville · ajouté le 24/10/2026,à faire
+/poele-a-bois-liege/,Poêle à bois à Liège,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · grande ville · ajouté le 24/10/2026,à faire
+/poele-a-pellets-charleroi/,Poêle à pellets à Charleroi,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · grande ville · ajouté le 24/10/2026,à faire
+/poele-a-bois-charleroi/,Poêle à bois à Charleroi,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · grande ville · ajouté le 24/10/2026,à faire
+/poele-a-pellets-mons/,Poêle à pellets à Mons,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · grande ville · ajouté le 24/10/2026,à faire
+/poele-a-bois-mons/,Poêle à bois à Mons,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · grande ville · ajouté le 24/10/2026,à faire
+/poele-a-pellets-arlon/,Poêle à pellets à Arlon,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · grande ville · ajouté le 24/10/2026,à faire
+/poele-a-bois-arlon/,Poêle à bois à Arlon,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · grande ville · ajouté le 24/10/2026,à faire
+/poele-a-pellets-tournai/,Poêle à pellets à Tournai,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · grande ville · ajouté le 24/10/2026,à faire
+/poele-a-bois-tournai/,Poêle à bois à Tournai,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · grande ville · ajouté le 24/10/2026,à faire
+/poele-a-pellets-verviers/,Poêle à pellets à Verviers,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · grande ville · ajouté le 24/10/2026,à faire
+/poele-a-bois-verviers/,Poêle à bois à Verviers,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · grande ville · ajouté le 24/10/2026,à faire
+/poele-a-pellets-wavre/,Poêle à pellets à Wavre,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · grande ville · ajouté le 24/10/2026,à faire
+/poele-a-bois-wavre/,Poêle à bois à Wavre,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · grande ville · ajouté le 24/10/2026,à faire
+/poele-a-pellets-marche-en-famenne/,Poêle à pellets à Marche-en-Famenne,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · grande ville · ajouté le 24/10/2026,à faire
+/poele-a-bois-marche-en-famenne/,Poêle à bois à Marche-en-Famenne,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · grande ville · ajouté le 24/10/2026,à faire
+/poele-a-pellets-bastogne/,Poêle à pellets à Bastogne,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · grande ville · ajouté le 24/10/2026,à faire
+/poele-a-bois-bastogne/,Poêle à bois à Bastogne,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · grande ville · ajouté le 24/10/2026,à faire

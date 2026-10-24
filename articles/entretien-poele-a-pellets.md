@@ -3,7 +3,7 @@ slug: entretien-poele-a-pellets
 title_seo: "Entretien poêle à pellets : fréquence, prix, checklist"
 meta_description: "Ce que vous devez nettoyer vous-même, à quelle fréquence, et ce qui exige un professionnel. Plus les signes qui annoncent une panne."
 h1: "Entretien d'un poêle à pellets : que faire, et à quelle fréquence ?"
-categorie: Pellets
+categorie: Poêle à pellets
 besoin: poelier
 cluster: "E · Comment m'en servir"
 requete_cible: "entretien poele a pellet"
@@ -24,7 +24,7 @@ statut: brouillon
 > ### En bref
 > Un poêle à pellets demande de vider le creuset et le bac à cendres **tous les 2 à 3 jours** en pleine saison, et un nettoyage plus poussé une fois par mois. Un professionnel fait l'entretien complet une fois par an, avant la saison de chauffe ; le ramonage du conduit s'y ajoute à part.
 
-Un poêle à pellets demande plus d'attention qu'un poêle à bûches, parce qu'il brûle des [pellets](/pellets/), un combustible calibré, dans une mécanique précise : une vis sans fin dose les granulés, un extracteur tire les fumées, des sondes ajustent la combustion en continu. Cet équilibre repose sur une circulation d'air que la cendre contrarie jour après jour. L'essentiel prend pourtant cinq minutes et ne demande aucun outil ; le reste revient à un poêlier une fois par an.
+Un [poêle à pellets](/poele-a-pellets/) demande plus d'attention qu'un poêle à bûches, parce qu'il brûle des [pellets](/pellets/), un combustible calibré, dans une mécanique précise : une vis sans fin dose les granulés, un extracteur tire les fumées, des sondes ajustent la combustion en continu. Cet équilibre repose sur une circulation d'air que la cendre contrarie jour après jour. L'essentiel prend pourtant cinq minutes et ne demande aucun outil ; le reste revient à un poêlier une fois par an.
 
 ::cta-doux Vous cherchez plutôt quelqu'un pour s'en occuper ? | Recevez des devis de poêliers de votre région
 

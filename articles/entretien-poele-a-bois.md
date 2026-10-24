@@ -3,7 +3,7 @@ slug: entretien-poele-a-bois
 title_seo: "Entretien d'un poêle à bois : quoi nettoyer et quand"
 meta_description: "Cendres, vitre, déflecteur, joints, ramonage : ce que vous faites vous-même sur votre poêle à bois, à quel rythme, et ce que la Wallonie attend du ramoneur."
 h1: "Entretien d'un poêle à bois : que nettoyer, et à quel rythme ?"
-categorie: Bois de chauffage
+categorie: Poêle à bois
 besoin: poelier
 cluster: "E · Comment m'en servir"
 requete_cible: "entretien d'un poêle à bois"
@@ -32,7 +32,7 @@ statut: brouillon
 > ### En bref
 > L'entretien d'un poêle à bois tient en peu de gestes : retirer l'excédent de cendres poêle froid, nettoyer la vitre avec un chiffon et de la cendre, et contrôler chaque mois le déflecteur, les briques et les joints. Le conduit se fait ramoner **au moins une fois par an** par un professionnel, deux fois si le feu tourne tous les jours.
 
-L'entretien d'un poêle à bois tient en quelques gestes que vous faites vous-même, plus un ramonage annuel confié à un professionnel. Cette page donne le rythme de chaque geste, la méthode pour la vitre et l'intérieur du foyer, et ce que la Wallonie attend de vous pour le conduit.
+L'entretien d'un [poêle à bois](/poele-a-bois/) tient en quelques gestes que vous faites vous-même, plus un ramonage annuel confié à un professionnel. Cette page donne le rythme de chaque geste, la méthode pour la vitre et l'intérieur du foyer, et ce que la Wallonie attend de vous pour le conduit.
 
 ::cta-doux Vous cherchez plutôt un ramoneur avant la saison ? | Recevez des devis de professionnels de votre région
 

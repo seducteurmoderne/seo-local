@@ -1,4 +1,7 @@
 # Le site n'est pas un site de bois de chauffage
+
+> **24/10/2026 — décision du propriétaire.** La verticale « Poêlier » devient deux verticales produit, **Poêle à pellets** et **Poêle à bois** (pages mères `/poele-a-pellets/`, `/poele-a-bois/`, besoin `poelier`), avec des pages de ville pour les grandes villes (Namur, Liège, Charleroi, Mons, Arlon, Tournai, Verviers, Wavre, Marche-en-Famenne, Bastogne). L'entretien est un cluster de chacune, pas une catégorie. Une catégorie **Fournisseurs** accueille des fiches de sociétés (coordonnées, produits, zone), nourries par les requêtes de marque de la Search Console. Sur google.be (24/10/2026), « poêle à pellets » est tenu par les boutiques et les marques ; « poêle à pellets namur » ou « poêle à bois liège » montrent des poêleries locales et un annuaire d'installateurs : c'est là que se prend le lead.
+
 **6 sept. 2026** — correction de cadrage
 
 ## L'erreur

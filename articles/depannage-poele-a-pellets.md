@@ -3,7 +3,7 @@ slug: depannage-poele-a-pellets
 title_seo: "Poêle à pellets en panne : que vérifier soi-même"
 meta_description: "Allumage raté, extinction, alarme, fumée : ce que vous contrôlez en dix minutes, le geste à ne jamais faire, et les pannes qui demandent un technicien."
 h1: "Poêle à pellets en panne : que vérifier avant d'appeler un technicien ?"
-categorie: Pellets
+categorie: Poêle à pellets
 besoin: poelier
 cluster: "E · Comment m'en servir"
 requete_cible: "depannage poele a pellet"
@@ -23,7 +23,7 @@ statut: brouillon
 > ### En bref
 > La plupart des pannes d'un poêle à pellets viennent d'un réservoir vide, d'un creuset encrassé ou mal posé, d'une porte mal fermée ou d'un conduit qui tire mal, et se vérifient sans outil. Après un allumage raté, **videz le creuset avant de relancer**. De la fumée dans la pièce, des allumages ratés à répétition ou un extracteur en panne demandent d'arrêter le poêle et d'appeler un technicien.
 
-Un poêle à pellets qui se met en alarme n'est pas forcément en panne. Il se protège : dès qu'une sonde relève une anomalie, l'électronique coupe l'arrivée des [pellets](/pellets/) et lance l'arrêt. Dans la majorité des cas, la cause se trouve dans le creuset, le réservoir ou la porte, et vous la corrigez en dix minutes. Cette page vous aide à faire le tri entre ce que vous réglez seul et ce qui demande un poêlier.
+Un [poêle à pellets](/poele-a-pellets/) qui se met en alarme n'est pas forcément en panne. Il se protège : dès qu'une sonde relève une anomalie, l'électronique coupe l'arrivée des [pellets](/pellets/) et lance l'arrêt. Dans la majorité des cas, la cause se trouve dans le creuset, le réservoir ou la porte, et vous la corrigez en dix minutes. Cette page vous aide à faire le tri entre ce que vous réglez seul et ce qui demande un poêlier.
 
 ::cta-doux Votre poêle reste bloqué malgré ces vérifications ? | Recevez des devis de poêliers qui dépannent près de chez vous
 

@@ -23,6 +23,27 @@
       "mere": "ramonage",
       "sitemap": "Ramonage",
       "motif": "ramonage"
+    },
+    {
+      "categorie": "Poêle à pellets",
+      "besoin": "poelier",
+      "mere": "poele-a-pellets",
+      "sitemap": "Poêle à pellets",
+      "motif": "poele-pellets"
+    },
+    {
+      "categorie": "Poêle à bois",
+      "besoin": "poelier",
+      "mere": "poele-a-bois",
+      "sitemap": "Poêle à bois",
+      "motif": "poele-bois"
+    },
+    {
+      "categorie": "Fournisseurs",
+      "besoin": "bois",
+      "mere": "fournisseurs",
+      "sitemap": "Fournisseurs",
+      "motif": "fournisseur"
     }
   ],
   "categorie_locale": {
@@ -31,7 +52,10 @@
   },
   "motif_defaut": "bois",
   "alt_images_une": {
-    "local": "Illustration : collines boisées de l'Ardenne"
+    "local": "Illustration : collines boisées de l'Ardenne",
+    "poele-pellets": "Illustration : poêle à pellets allumé dans un salon",
+    "poele-bois": "Illustration : poêle à bois en fonte, feu de bûches derrière la vitre",
+    "fournisseur": "Illustration : palettes de sacs de pellets et bûches empilées devant un dépôt"
   },
   "formulaire": {
     "titre": "Recevez les meilleures offres",
