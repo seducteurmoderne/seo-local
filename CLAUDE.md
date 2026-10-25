@@ -43,5 +43,4 @@ Tâche planifiée `pilote-bois-chauffage` : chaque jour un article est rédigé,
 - Les 3 catégories `Guides` (créées hors du plan) sont vides depuis le 04/10/2026 (articles rendus à leur verticale, fil d'Ariane Google cohérent) : les supprimer ou non reste au propriétaire. L'auteur WordPress des articles s'affiche « La rédaction ».
 - Valider la promesse « réponse sous 48 h » des CTA avec les partenaires.
 - Page catalogue de poêles à pellets : en attente du choix des programmes d'affiliation.
-- Branche Git `moteur/modeles-locaux` (24/10/2026) : correction du moteur pour que `modele poele-a-bois-<ville>` trouve son modèle. À relire puis fusionner dans `main` avant que la file n'arrive aux pages locales poêle à bois.
 - Mots-clés de la Search Console à recevoir : ils alimentent la sitemap, notamment les fiches fournisseurs (aucune n'est encore dans la file).

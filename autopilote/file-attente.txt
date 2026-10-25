@@ -64,8 +64,7 @@ pellets-aubange                 # local · Luxembourg 14/14 · dernière ville d
 # Leads de pose, d'entretien et de dépannage (besoin poelier). Même rythme : 4 pages locales
 # pour 1 guide, grandes villes d'abord. Page locale poêle : modèle `modele <slug>`, poêleries
 # vérifiées sur leur propre site (adresse, marques exposées, pose, entretien), jamais un annuaire seul.
-# Les poêles à pellets passent d'abord : le modèle local poêle à bois attend la correction du
-# moteur (branche moteur/modeles-locaux, à relire et fusionner).
+# Les poêles à pellets passent d'abord, ville par ville ensuite.
 poele-a-pellets                 # page mère · entretien-poele-a-pellets déjà en ligne
 poele-a-pellets-namur           # local poêle
 poele-a-pellets-liege           # local poêle
