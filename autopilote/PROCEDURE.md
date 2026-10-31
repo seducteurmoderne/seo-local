@@ -3,7 +3,7 @@
 Objectif : **un article par jour, à une heure qui varie**, sans jamais publier un fait non vérifié, un lien cassé, une note interne ni une page de ville interchangeable.
 
 Toutes les commandes se lancent depuis le dossier du site :
-`/Users/thomasdufour/Documents/CLAUDE.nosync/SITES/sites/elagage`
+`/Users/thomasdufour/Documents/CLAUDE.nosync/SEO LOCAL/sites/elagage`
 
 Les outils (`tools/autopilote.py`, `tools/images.py`) sont des lanceurs du moteur commun (`../../moteur/`). Ne modifie jamais le moteur pendant une exécution du pilote : il sert tous les sites.
 
