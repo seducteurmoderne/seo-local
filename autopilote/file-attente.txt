@@ -62,6 +62,7 @@ elagage-hesperange
 abattage-arbre-hesperange
 elagage-aubange
 abattage-arbre-aubange
+abattage-arbre-halanzy
 elagage-schifflange
 abattage-arbre-schifflange
 elagage-bettembourg
