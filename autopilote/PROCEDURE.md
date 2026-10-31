@@ -3,7 +3,7 @@
 Objectif : **environ un article par jour, à une heure qui varie**, sans jamais publier un fait non vérifié, un lien cassé ni une note interne.
 
 Toutes les commandes se lancent depuis le dossier du projet :
-`/Users/thomasdufour/Documents/CLAUDE.nosync/SITES/sites/bois-chauffage`
+`/Users/thomasdufour/Documents/CLAUDE.nosync/SEO LOCAL/sites/bois-chauffage`
 
 ## 1. État du site
 `python3 tools/autopilote.py etat`

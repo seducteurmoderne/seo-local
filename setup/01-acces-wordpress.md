@@ -12,7 +12,7 @@
 Il se retrouverait dans l'historique de conversation. À la place :
 
 ```bash
-cat > "/Users/thomasdufour/Documents/CLAUDE.nosync/SITES/sites/bois-chauffage/setup/.env" <<'ENV'
+cat > "/Users/thomasdufour/Documents/CLAUDE.nosync/SEO LOCAL/sites/bois-chauffage/setup/.env" <<'ENV'
 WP_URL=https://bois-de-chauffage-et-pellets.be
 WP_USER=claude
 WP_APP_PASSWORD=colle-le-mot-de-passe-ici
