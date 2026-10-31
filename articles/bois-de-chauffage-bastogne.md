@@ -1,11 +1,14 @@
 ---
 slug: bois-de-chauffage-bastogne
 title_seo: "Bois de chauffage à Bastogne : prix au stère 2026"
-meta_description: "Deux fournisseurs livrent Bastogne : 120 € le stère de hêtre à Tenneville, de 140 à 193 € chez Goffinet selon la coupe. Ce qu'il faut comparer. Devis gratuits."
+meta_description: "Deux fournisseurs livrent Bastogne : le stère de hêtre à Tenneville et les palettes de Goffinet ramenés au même étalon. Ce qu'il faut comparer. Devis gratuits."
 h1: "Acheter du bois de chauffage à Bastogne : fournisseurs, prix au stère et livraison"
 categorie: Bois de chauffage
 besoin: bois
 cluster: Ville
+ville: "Bastogne"
+entites:
+  - bois de chauffage
 requete_cible: "bois de chauffage bastogne"
 cta: "Devis bois de chauffage — fournisseurs qui livrent Bastogne"
 schema: FAQPage
@@ -22,13 +25,13 @@ statut: brouillon
 # Acheter du bois de chauffage à Bastogne : fournisseurs, prix au stère et livraison
 
 > ### En bref
-> Deux fournisseurs livrent du bois de chauffage à Bastogne : le Comptoir du Bois Européen, à Tenneville, qui affiche **120 € le stère** de hêtre sec à enlever sur place (septembre 2026), et Goffinet Energies, à Houdemont, d'environ 140 à 193 € le stère selon la gamme. Comparez toujours au stère, pas à la palette.
+> Deux fournisseurs livrent du bois de chauffage à Bastogne : le Comptoir du Bois Européen, à Tenneville, qui affiche **{{prix:comptoir_box_1st}} € le stère** de hêtre sec à enlever sur place, et Goffinet Energies, à Houdemont, d'environ {{calc:goffinet_crepito_25/2.6}} à {{calc:goffinet_ardenwood_range/2}} € le stère selon la gamme (relevé du {{releve}}). Comparez toujours au stère, pas à la palette.
 
 À Bastogne, deux fournisseurs de bois de chauffage affichent leurs prix en ligne, mais pas dans la même unité : l'un vend au stère, l'autre à la palette. Cette page ramène leurs tarifs au même étalon, pour que vous sachiez lequel est vraiment le moins cher selon la longueur de bûche dont votre poêle a besoin. Pour les bases (essences, séchage, pouvoir calorifique), notre page sur le [bois de chauffage en Belgique](/bois-de-chauffage/) reprend l'essentiel.
 
 ::cta-fort Gratuit. Réponse rapide. Trouvez les meilleurs fournisseurs près de Bastogne
 
-## Les fournisseurs qui livrent Bastogne
+## Fournisseurs de bois de chauffage qui livrent Bastogne
 
 Nous avons relevé, sur le site de chaque fournisseur, ce qu'il vend et jusqu'où il livre. L'ordre du tableau change chaque jour, pour n'en favoriser aucun.
 
@@ -40,29 +43,28 @@ Nous avons relevé, sur le site de chaque fournisseur, ce qu'il vend et jusqu'o�
 
 Goffinet Energies est le seul des deux à nommer Bastogne : son site annonce des livraisons dans toute la province, « Bastogne et ses environs » compris. Le Comptoir du Bois Européen ne liste aucune commune, mais son entrepôt de Tenneville se trouve entre Bastogne et Marche-en-Famenne, bien plus près que le dépôt de Goffinet, qui est au sud de la province. Si vous pouvez aller chercher le bois vous-même avec une remorque, c'est l'option qui vous évite tout frais de livraison.
 
-## Le prix d'un stère à Bastogne, fournisseur par fournisseur
+## Prix du stère de bois de chauffage à Bastogne, fournisseur par fournisseur
 
-Le Comptoir du Bois Européen affiche **120 € le stère de hêtre sec**, départ entrepôt : 240 € les deux stères, 360 € les trois. La livraison s'ajoute, à un tarif qui dépend de la région. Pour situer ce prix, Valbiom relève chaque mois la moyenne wallonne : en août 2026, le stère de bois dur sec recoupé en 33 ou 50 cm revenait à **126 €**, pour une commande d'au moins six stères, hors livraison. Le Comptoir du Bois Européen est donc un peu sous la moyenne, et sur une plus petite quantité.
+Le Comptoir du Bois Européen affiche **{{prix:comptoir_box_1st}} € le stère de hêtre sec**, départ entrepôt : {{prix:comptoir_box_2st}} € les deux stères, {{prix:comptoir_box_3st}} € les trois, au relevé du {{releve:comptoir_box_1st}}. La livraison s'ajoute, à un tarif qui dépend de la région. Pour situer ce prix, Valbiom relève chaque mois la moyenne wallonne : en août 2026, le stère de bois dur sec recoupé en 33 ou 50 cm revenait à **{{prix:valbiom_buche}} €**, pour une commande d'au moins six stères, hors livraison. Le Comptoir du Bois Européen affiche {{prix:comptoir_box_1st}} € dès un seul stère, contre {{prix:valbiom_buche}} € de moyenne pour six stères au moins.
 
-Goffinet Energies vend à la palette, et c'est là qu'une comparaison rapide trompe. Ses palettes Crépito ont toutes le même volume, 2 m³, mais pas le même contenu en bois : plus les bûches sont courtes, mieux elles se tassent, et plus la palette contient de stères. Le fournisseur indique lui-même l'équivalence, ce qui permet de ramener chaque prix au stère.
+Goffinet Energies vend à la palette, et c'est là qu'une comparaison rapide trompe. Ses deux palettes Crépito ont le même volume, 2 m³, mais pas le même contenu en bois : plus les bûches sont courtes, mieux elles se tassent, et plus la palette contient de stères. Le fournisseur indique lui-même l'équivalence, ce qui permet de ramener chaque prix au stère.
 
-| Produit Goffinet Energies | Prix affiché | Équivalence indiquée | Prix au stère |
+| Produit Goffinet Energies, relevé du {{releve}} | Prix affiché | Équivalence indiquée | Prix au stère |
 |---|---|---|---|
-| Crépito 40 cm, palette 2 m³ | 275 € | 1,85 stère | environ 149 € |
-| Crépito 30 cm, palette 2 m³ | 320 € | 2,24 stères | environ 143 € |
-| Crépito 25 cm, palette 2 m³ | 365 € | 2,6 stères | environ 140 € |
-| Ardenwood 33 cm, 2 stères filmés | 345 € | 2 stères | environ 173 € |
-| Ardenwood 33 cm, 2 stères rangés | 385 € | 2 stères | environ 193 € |
+| Crépito 40 cm, palette 2 m³ | {{prix:goffinet_crepito_40}} € | 1,85 stère | environ {{calc:goffinet_crepito_40/1.85}} € |
+| Crépito 25 cm, palette 2 m³ | {{prix:goffinet_crepito_25}} € | 2,6 stères | environ {{calc:goffinet_crepito_25/2.6}} € |
+| Ardenwood 33 cm, 2 stères filmés | {{prix:goffinet_ardenwood_filme}} € | 2 stères | environ {{calc:goffinet_ardenwood_filme/2}} € |
+| Ardenwood 33 cm, 2 stères rangés | {{prix:goffinet_ardenwood_range}} € | 2 stères | environ {{calc:goffinet_ardenwood_range/2}} € |
 
-La palette la moins chère, le Crépito en 40 cm, est donc la plus chère au stère. Si votre foyer accepte des bûches de 25 ou 30 cm, vous payez plus à la palette mais moins au stère. Notre guide sur la [longueur des bûches](/longueur-buches/) explique comment mesurer votre appareil avant de choisir, et la page sur le [stère de bois](/stere-de-bois/) détaille pourquoi la longueur de coupe change le volume réel.
+Le Crépito en 40 cm coûte {{prix:goffinet_crepito_40}} € la palette, mais {{calc:goffinet_crepito_40/1.85}} € le stère, contre {{calc:goffinet_crepito_25/2.6}} € en 25 cm. Si votre foyer accepte des bûches de 25 cm, divisez chaque prix par le nombre de stères avant de choisir. Notre guide sur la [longueur des bûches](/longueur-buches/) explique comment mesurer votre appareil avant de choisir, et la page sur le [stère de bois](/stere-de-bois/) détaille pourquoi la longueur de coupe change le volume réel.
 
-Goffinet Energies accorde aussi une remise quand vous commandez plusieurs palettes livrées : 35 € de moins pour deux palettes, 70 € pour trois. Sur une commande pour tout l'hiver, cette remise rapproche ses prix de ceux du Comptoir du Bois Européen livré. Demandez à chacun un **prix livré à votre adresse à Bastogne** : c'est le seul chiffre qui se compare vraiment.
+Goffinet Energies accorde aussi une remise quand vous commandez plusieurs palettes livrées ensemble. Demandez à chacun un **prix livré à votre adresse à Bastogne** : c'est le seul chiffre qui se compare vraiment.
 
-## Ce que chacun dit de la sécheresse du bois
+## Bois de chauffage sec à Bastogne : ce que publie chaque fournisseur
 
 Goffinet Energies est le seul à publier un taux d'humidité : 15 à 20 % pour son hêtre Ardenwood. Le Comptoir du Bois Européen annonce un hêtre sec, sans chiffre. Un bois encore humide chauffe moins, parce que le feu dépense d’abord son énergie à évaporer l’eau, et il encrasse le conduit plus vite. Notre guide pour [vérifier que son bois est sec](/verifier-bois-sec/) montre comment le contrôler vous-même à la livraison, avec un hygromètre à pointes planté au cœur d'une bûche fendue.
 
-## Livraison à Bastogne : ce qu'il faut prévoir
+## Livraison de bois de chauffage à Bastogne : jours, accès et retrait
 
 Goffinet Energies livre du lundi au vendredi. Ses palettes sont déposées au point d'accès que vous indiquez, en bord de voirie : si votre bûcher est au fond du jardin ou derrière la maison, précisez-le à la commande, le déchargement assisté est possible mais peut être facturé. Son dépôt de Houdemont accepte aussi le retrait sur place, sans frais.
 
@@ -74,7 +76,7 @@ Le Comptoir du Bois Européen reçoit à Tenneville du lundi au samedi et propos
 Goffinet Energies, basé à Houdemont, cite explicitement Bastogne dans sa zone de livraison. Le Comptoir du Bois Européen, à Tenneville, livre dans la province avec un supplément selon la région et vend aussi à l'entrepôt.
 
 **Quel est le prix d'un stère de bois à Bastogne ?**
-En septembre 2026, 120 € le stère de hêtre sec au Comptoir du Bois Européen, départ entrepôt, et d'environ 140 à 193 € chez Goffinet Energies selon la gamme et la coupe. La moyenne wallonne relevée par Valbiom était de 126 € en août 2026, hors livraison.
+Au relevé du {{releve}}, {{prix:comptoir_box_1st}} € le stère de hêtre sec au Comptoir du Bois Européen, départ entrepôt, et d'environ {{calc:goffinet_crepito_25/2.6}} à {{calc:goffinet_ardenwood_range/2}} € chez Goffinet Energies selon la gamme et la coupe. La moyenne wallonne relevée par Valbiom était de {{prix:valbiom_buche}} € en août 2026, hors livraison.
 
 **Pourquoi une palette de 2 m³ n'a-t-elle pas toujours le même prix au stère ?**
 Parce que les bûches courtes se tassent mieux : chez Goffinet Energies, une palette de 2 m³ contient 1,85 stère en 40 cm et 2,6 stères en 25 cm. Divisez toujours le prix par le nombre de stères indiqué.
@@ -84,7 +86,7 @@ Cela dépend de la surface chauffée, de l'isolation et de l'appareil. Le calcul
 
 ::cta-fort Gratuit. Réponse rapide. Trouvez les meilleurs fournisseurs près de Bastogne
 
-*Sources : Comptoir du Bois Européen · Goffinet Energies · Valbiom, Suivi mensuel des prix des combustibles bois — vérifié en septembre 2026.*
+*Sources : Comptoir du Bois Européen · Goffinet Energies · Valbiom, Suivi mensuel des prix des combustibles bois — vérifié en octobre 2026.*
 
 <!--
 NOTES DE PRODUCTION
@@ -104,6 +106,13 @@ FOURNISSEURS RETENUS (2) / ÉCARTÉS (1)
   fournisseurs) : ici Goffinet nomme Bastogne ; grille de prix Goffinet ramenée
   au stère ; remise palettes livrées ; livraison bord de voirie ; taux
   d'humidité Ardenwood publié.
+
+PRIX DYNAMIQUES (22/10/2026)
+- Converti : comptoir_box_1st/2st/3st, goffinet_crepito_25/40, goffinet_ardenwood_filme/range,
+  valbiom_buche. Crépito 30 cm retiré : vendu au sac seulement sur l'e-shop, qui fait foi
+  (la page /prix-bois-palettes affiche encore 320 € la palette le 22/10/2026).
+  Remise multi-palettes Goffinet (-35/-70 €) retirée (non relue), comparaisons « sous la
+  moyenne » et « la moins chère… la plus chère » réécrites avec les deux chiffres.
 
 CALCULS ET FAITS
 - Comptoir du Bois Européen : 120/240/360 € pour 1/2/3 stères, hêtre sec,

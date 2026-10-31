@@ -134,7 +134,7 @@ url,titre,verticale,cluster,role,cta,vague,note,statut
 /bois-de-chauffage-houffalize/,Acheter bois de chauffage à Houffalize,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg,planifié
 /bois-de-chauffage-bertrix/,Acheter bois de chauffage à Bertrix,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg,planifié
 /bois-de-chauffage-vielsalm/,Acheter bois de chauffage à Vielsalm,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg,planifié
-/bois-de-chauffage-aubange/,Acheter bois de chauffage à Aubange,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg,à faire
+/bois-de-chauffage-aubange/,Acheter bois de chauffage à Aubange,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg,planifié
 /bois-de-chauffage-namur/,Acheter bois de chauffage à Namur,Local,Ville,ville,→ /devis/ (formulaire qualifié),1,Namur · pilote · couvre aussi la province,à faire
 /bois-de-chauffage-dinant/,Acheter bois de chauffage à Dinant,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Namur,à faire
 /bois-de-chauffage-ciney/,Acheter bois de chauffage à Ciney,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Namur,à faire
@@ -219,8 +219,8 @@ url,titre,verticale,cluster,role,cta,vague,note,statut
 /pellets-la-roche-en-ardenne/,Acheter pellets à La Roche-en-Ardenne,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg · miroir bois · volume non vérifié,planifié
 /pellets-houffalize/,Acheter pellets à Houffalize,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg · miroir bois · volume non vérifié,planifié
 /pellets-bertrix/,Acheter pellets à Bertrix,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg · miroir bois · volume non vérifié,planifié
-/pellets-vielsalm/,Acheter pellets à Vielsalm,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg · miroir bois · volume non vérifié,à faire
-/pellets-aubange/,Acheter pellets à Aubange,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg · miroir bois · volume non vérifié,à faire
+/pellets-vielsalm/,Acheter pellets à Vielsalm,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg · miroir bois · volume non vérifié,planifié
+/pellets-aubange/,Acheter pellets à Aubange,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Luxembourg · miroir bois · volume non vérifié,planifié
 /pellets-namur/,Acheter pellets à Namur,Local,Ville,ville,→ /devis/ (formulaire qualifié),1,Namur · pilote · couvre aussi la province · miroir bois · volume non vérifié,à faire
 /pellets-dinant/,Acheter pellets à Dinant,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Namur · miroir bois · volume non vérifié,à faire
 /pellets-ciney/,Acheter pellets à Ciney,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,Namur · miroir bois · volume non vérifié,à faire
@@ -241,8 +241,8 @@ url,titre,verticale,cluster,role,cta,vague,note,statut
 /devis/,Demander un devis,Hors catégorie,—,hors cluster,—,1,LE tunnel,à faire
 /partenaires/,Devenir partenaire,Hors catégorie,—,hors cluster,—,1,côté offre,à faire
 /a-propos/,Qui sommes-nous,Hors catégorie,—,hors cluster,—,1,transparence du modèle,à faire
-/poele-a-pellets/,Poêle à pellets en Wallonie,Poêle à pellets,Mère,mère,→ /devis/ (formulaire qualifié),2,transactionnelle · pose et entretien · ajouté le 24/10/2026,à faire
-/poele-a-bois/,Poêle à bois en Wallonie,Poêle à bois,Mère,mère,→ /devis/ (formulaire qualifié),2,transactionnelle · pose et entretien · ajouté le 24/10/2026,à faire
+/poele-a-pellets/,Poêle à pellets en Wallonie,Poêle à pellets,Mère,mère,→ /devis/ (formulaire qualifié),2,transactionnelle · pose et entretien · ajouté le 24/10/2026,planifié
+/poele-a-bois/,Poêle à bois en Wallonie,Poêle à bois,Mère,mère,→ /devis/ (formulaire qualifié),2,transactionnelle · pose et entretien · ajouté le 24/10/2026,planifié
 /fournisseurs/,Fournisseurs de bois et de pellets en Wallonie,Fournisseurs,Mère,mère,→ fiches fournisseurs,2,hub des fiches fournisseurs · publié après les premières fiches · ajouté le 24/10/2026,à faire
 /meilleur-poele-a-pellets/,Meilleur poêle à pellets : modèles et marques,Poêle à pellets,A · Quoi acheter,fille,→ /devis/ (formulaire qualifié),2,modèles présentés sur fiches fabricant · ajouté le 24/10/2026,à faire
 /puissance-poele-a-pellets/,Quelle puissance de poêle à pellets,Poêle à pellets,A · Quoi acheter,fille,→ /devis/ (formulaire qualifié),2,ajouté le 24/10/2026,à faire
@@ -262,7 +262,8 @@ url,titre,verticale,cluster,role,cta,vague,note,statut
 /poele-a-bois-charleroi/,Poêle à bois à Charleroi,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · grande ville · ajouté le 24/10/2026,à faire
 /poele-a-pellets-mons/,Poêle à pellets à Mons,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · grande ville · ajouté le 24/10/2026,à faire
 /poele-a-bois-mons/,Poêle à bois à Mons,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · grande ville · ajouté le 24/10/2026,à faire
-/poele-a-pellets-arlon/,Poêle à pellets à Arlon,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · grande ville · ajouté le 24/10/2026,à faire
+/poele-a-pellets-pas-cher-arlon/,Poêle à pellets pas cher à Arlon,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,"pose comprise · prix d'entrée de gamme relevés autour d'Arlon · ajouté le 29/10/2026 (demande du propriétaire, prioritaire)",planifié
+/poele-a-pellets-arlon/,Poêle à pellets à Arlon,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · grande ville · ajouté le 24/10/2026,planifié
 /poele-a-bois-arlon/,Poêle à bois à Arlon,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · grande ville · ajouté le 24/10/2026,à faire
 /poele-a-pellets-tournai/,Poêle à pellets à Tournai,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · grande ville · ajouté le 24/10/2026,à faire
 /poele-a-bois-tournai/,Poêle à bois à Tournai,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · grande ville · ajouté le 24/10/2026,à faire
@@ -274,3 +275,25 @@ url,titre,verticale,cluster,role,cta,vague,note,statut
 /poele-a-bois-marche-en-famenne/,Poêle à bois à Marche-en-Famenne,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · grande ville · ajouté le 24/10/2026,à faire
 /poele-a-pellets-bastogne/,Poêle à pellets à Bastogne,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · grande ville · ajouté le 24/10/2026,à faire
 /poele-a-bois-bastogne/,Poêle à bois à Bastogne,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · grande ville · ajouté le 24/10/2026,à faire
+/poele-a-pellets-libramont/,Poêle à pellets à Libramont,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · province de Luxembourg · ajouté le 29/10/2026,à faire
+/poele-a-bois-libramont/,Poêle à bois à Libramont,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · province de Luxembourg · ajouté le 29/10/2026,à faire
+/poele-a-pellets-neufchateau/,Poêle à pellets à Neufchâteau,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · province de Luxembourg · ajouté le 29/10/2026,à faire
+/poele-a-bois-neufchateau/,Poêle à bois à Neufchâteau,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · province de Luxembourg · ajouté le 29/10/2026,à faire
+/poele-a-pellets-virton/,Poêle à pellets à Virton,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · province de Luxembourg · ajouté le 29/10/2026,à faire
+/poele-a-bois-virton/,Poêle à bois à Virton,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · province de Luxembourg · ajouté le 29/10/2026,à faire
+/poele-a-pellets-bouillon/,Poêle à pellets à Bouillon,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · province de Luxembourg · ajouté le 29/10/2026,à faire
+/poele-a-bois-bouillon/,Poêle à bois à Bouillon,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · province de Luxembourg · ajouté le 29/10/2026,à faire
+/poele-a-pellets-saint-hubert/,Poêle à pellets à Saint-Hubert,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · province de Luxembourg · ajouté le 29/10/2026,à faire
+/poele-a-bois-saint-hubert/,Poêle à bois à Saint-Hubert,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · province de Luxembourg · ajouté le 29/10/2026,à faire
+/poele-a-pellets-durbuy/,Poêle à pellets à Durbuy,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · province de Luxembourg · ajouté le 29/10/2026,à faire
+/poele-a-bois-durbuy/,Poêle à bois à Durbuy,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · province de Luxembourg · ajouté le 29/10/2026,à faire
+/poele-a-pellets-la-roche-en-ardenne/,Poêle à pellets à La Roche-en-Ardenne,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · province de Luxembourg · ajouté le 29/10/2026,à faire
+/poele-a-bois-la-roche-en-ardenne/,Poêle à bois à La Roche-en-Ardenne,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · province de Luxembourg · ajouté le 29/10/2026,à faire
+/poele-a-pellets-houffalize/,Poêle à pellets à Houffalize,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · province de Luxembourg · ajouté le 29/10/2026,à faire
+/poele-a-bois-houffalize/,Poêle à bois à Houffalize,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · province de Luxembourg · ajouté le 29/10/2026,à faire
+/poele-a-pellets-bertrix/,Poêle à pellets à Bertrix,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · province de Luxembourg · ajouté le 29/10/2026,à faire
+/poele-a-bois-bertrix/,Poêle à bois à Bertrix,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · province de Luxembourg · ajouté le 29/10/2026,à faire
+/poele-a-pellets-vielsalm/,Poêle à pellets à Vielsalm,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · province de Luxembourg · ajouté le 29/10/2026,à faire
+/poele-a-bois-vielsalm/,Poêle à bois à Vielsalm,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · province de Luxembourg · ajouté le 29/10/2026,à faire
+/poele-a-pellets-aubange/,Poêle à pellets à Aubange,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · province de Luxembourg · ajouté le 29/10/2026,à faire
+/poele-a-bois-aubange/,Poêle à bois à Aubange,Local,Ville,ville,→ /devis/ (formulaire qualifié),2,poêleries et installateurs · province de Luxembourg · ajouté le 29/10/2026,à faire

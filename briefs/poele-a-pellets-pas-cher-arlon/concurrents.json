@@ -1,0 +1,7 @@
+{"types": {"guide": 0, "service": 3, "annuaire": 1, "autre": 4},
+"intention_recompensee": "Commerciale et locale : Google montre surtout des boutiques (catalogues discount, enseignes de bricolage, petites annonces) et deux installateurs d'Arlon. Le visiteur veut voir des prix bas et savoir qui pose près d'Arlon.",
+"incontournables": ["Prix des modèles d'entrée de gamme, en catalogue", "Installation : qui pose et comment", "Choix de la puissance selon la surface", "Aides après la fin de la prime wallonne"],
+"differenciants": ["Devis tout compris (appareil, conduit, pose) chez l'installateur local", "Pack poêle + kit ventouse chez les discounters", "Occasion entre particuliers"],
+"lacunes": ["Aucune page ne donne le coût total posé d'un poêle pas cher à Arlon (appareil + conduit + pose)", "Aucune ne compare les prix réels des enseignes proches d'Arlon, datés", "Aucune ne dit si un installateur local pose un poêle acheté en magasin", "Aucune ne parle de l'entretien annuel ni du SAV d'un modèle discount", "Les catalogues français affichent des prix sans TVA belge ni livraison en Belgique"],
+"faiblesses": ["Pages d'installateurs courtes (250-500 mots), sans aucun prix", "Catalogues sans conseil, sans réponse directe", "Aucune réponse chiffrée à « combien coûte un poêle à pellets pas cher posé à Arlon »", "Aucun tableau comparatif local"],
+"longueur_cible": 1200}

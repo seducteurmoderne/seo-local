@@ -1,0 +1,10 @@
+{"persona": "Ménage de la commune de Bertrix ou d'un village voisin (Cugnon, Auby, Jehonville, Orgeo, Herbeumont, Paliseul) qui se chauffe au poêle à pellets, parfois à une chaudière à granulés avec silo.",
+"situation": "Fin octobre : la saison démarre, la palette de l'an dernier est vide ou le fournisseur habituel est en rupture. La personne connaît un nom local (Martin, Aveve, Mécagricola) et veut savoir qui livre dans la commune, à quel prix, et s'il peut passer prendre des sacs.",
+"intentions": [{"type": "locale", "part": 0.5, "description": "Trouver un point de vente ou un livreur de pellets à Bertrix ou tout près."},
+{"type": "commerciale", "part": 0.35, "description": "Comparer le prix d'une palette livrée, à emporter, et du vrac, ramené à la tonne."},
+{"type": "navigationnelle", "part": 0.15, "description": "Retrouver les coordonnées ou la page d'un vendeur précis (Bois et Pellets Martin, Aveve, Mécagricola)."}],
+"reponse_attendue": "La liste des vendeurs de pellets installés à Bertrix ou qui la livrent, avec le prix relevé le plus utile (palette, vrac) et ce qui se retire sur place.",
+"questions": ["Qui vend des pellets à Bertrix ?", "Combien coûte une palette de pellets livrée à Bertrix ?", "Peut-on acheter des sacs sur place, sans commande ?", "Qui livre le vrac pour une chaudière ?", "Quelles marques et quelles certifications ?", "Quels délais en pleine saison ?"],
+"informations": ["Prix à la palette et à la tonne, TVA comprise ou non", "Livraison comprise ou non", "Retrait sur place et horaires", "Marque et certification ENplus ou DINplus", "Minimum de commande", "Communes couvertes"],
+"objections": ["Les prix publiés sont-ils à jour en pleine saison ?", "Une marque inconnue vaut-elle une marque certifiée ?", "Le camion passe-t-il dans ma rue ?", "Vaut-il mieux aller chercher la palette soi-même ?"],
+"declencheur_devis": "Après le tableau des prix : la plupart des vendeurs locaux ne publient pas le prix d'une palette livrée. Le formulaire demande ce prix à leur place, pour la quantité et l'adresse du visiteur."}

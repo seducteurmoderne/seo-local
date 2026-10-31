@@ -1,10 +1,4 @@
 # Articles dont les prix sont encore écrits en dur, à passer en balises {{prix:…}} (un par exécution du pilote).
 # Le plus récent d'abord : ses sources sont déjà dans prix/releves.json.
 pellets-virton
-bois-de-chauffage-bastogne
 pellets-marche-en-famenne
-bois-de-chauffage-marche-en-famenne
-pellets-arlon
-bois-de-chauffage-arlon
-pellets
-bois-de-chauffage

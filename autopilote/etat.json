@@ -4,30 +4,30 @@
     "type": "post",
     "statut": "publié",
     "date_gmt": "2026-09-12T05:20:56",
-    "empreinte_contenu": "c0e76bf31670056e",
-    "empreinte_rendu": "c0e76bf31670056e",
-    "empreinte_source": "46f733bb376c50fc",
-    "modifie_le": "2026-10-15T21:32:58+00:00"
+    "empreinte_contenu": "34ff49f71237dd95",
+    "empreinte_rendu": "34ff49f71237dd95",
+    "empreinte_source": "5688f9e84e85c41d",
+    "modifie_le": "2026-10-25T10:24:43+00:00"
   },
   "bois-de-chauffage": {
     "id": 28971,
     "type": "page",
     "statut": "publié",
     "date_gmt": "2026-09-12T10:07:07",
-    "empreinte_contenu": "b2baff23784daab3",
-    "empreinte_rendu": "b2baff23784daab3",
-    "empreinte_source": "f674567c3ad7f7bf",
-    "modifie_le": "2026-10-16T07:42:03+00:00"
+    "empreinte_contenu": "fb49c6500b46c87b",
+    "empreinte_rendu": "fb49c6500b46c87b",
+    "empreinte_source": "84fb291f842aafd4",
+    "modifie_le": "2026-10-30T10:12:05+00:00"
   },
   "pellets": {
     "id": 28972,
     "type": "page",
     "statut": "publié",
     "date_gmt": "2026-09-12T10:13:07",
-    "empreinte_contenu": "59e1ff7228e9bb1e",
-    "empreinte_rendu": "59e1ff7228e9bb1e",
-    "empreinte_source": "9d503cf5f6831b4e",
-    "modifie_le": "2026-10-15T21:33:01+00:00"
+    "empreinte_contenu": "546926998c210f5a",
+    "empreinte_rendu": "546926998c210f5a",
+    "empreinte_source": "93db307c72550bca",
+    "modifie_le": "2026-10-27T13:01:11+00:00"
   },
   "bois-a-ne-pas-bruler": {
     "id": 28976,
@@ -110,30 +110,30 @@
     "type": "post",
     "statut": "publié",
     "date_gmt": "2026-09-21T15:09:03",
-    "empreinte_contenu": "21671289594dcd0a",
-    "empreinte_rendu": "21671289594dcd0a",
-    "empreinte_source": "931f13ed98952123",
-    "modifie_le": "2026-10-15T21:33:08+00:00"
+    "empreinte_contenu": "aa78688355fe7d8f",
+    "empreinte_rendu": "aa78688355fe7d8f",
+    "empreinte_source": "df47246477213420",
+    "modifie_le": "2026-10-25T10:43:57+00:00"
   },
   "pellets-arlon": {
     "id": 29090,
     "type": "post",
     "statut": "publié",
     "date_gmt": "2026-09-23T09:10:07",
-    "empreinte_contenu": "3b271688e095d15f",
-    "empreinte_rendu": "3b271688e095d15f",
-    "empreinte_source": "7743c56d98235567",
-    "modifie_le": "2026-10-15T21:33:09+00:00"
+    "empreinte_contenu": "4181cb8cc970dc16",
+    "empreinte_rendu": "4181cb8cc970dc16",
+    "empreinte_source": "47dc25476b109f90",
+    "modifie_le": "2026-10-24T08:50:48+00:00"
   },
   "bois-de-chauffage-marche-en-famenne": {
     "id": 29089,
     "type": "post",
     "statut": "publié",
     "date_gmt": "2026-09-22T12:44:17",
-    "empreinte_contenu": "c576cefe60049418",
-    "empreinte_rendu": "c576cefe60049418",
-    "empreinte_source": "35afb834a2b6041f",
-    "modifie_le": "2026-10-15T21:33:11+00:00"
+    "empreinte_contenu": "5c855e4ae0694e2c",
+    "empreinte_rendu": "5c855e4ae0694e2c",
+    "empreinte_source": "b3913cba1dafd545",
+    "modifie_le": "2026-10-22T10:45:10+00:00"
   },
   "pellets-marche-en-famenne": {
     "id": 29168,
@@ -150,28 +150,28 @@
     "type": "post",
     "statut": "publié",
     "date_gmt": "2026-09-24T12:29:08",
-    "empreinte_contenu": "aee5cd874083b28a",
-    "empreinte_rendu": "aee5cd874083b28a",
-    "empreinte_source": "4658186308fa9813",
-    "modifie_le": "2026-10-15T21:33:12+00:00"
+    "empreinte_contenu": "9223ae8bcce14edb",
+    "empreinte_rendu": "9223ae8bcce14edb",
+    "empreinte_source": "8bc393557d3c735d",
+    "modifie_le": "2026-10-25T10:24:50+00:00"
   },
   "bois-de-chauffage-bastogne": {
     "id": 29101,
     "type": "post",
     "statut": "publié",
     "date_gmt": "2026-09-25T09:54:10",
-    "empreinte_contenu": "f4449e12a4898389",
-    "empreinte_rendu": "f4449e12a4898389",
-    "empreinte_source": "e8c0ed48a9a04fa1",
-    "modifie_le": "2026-10-15T21:33:13+00:00"
+    "empreinte_contenu": "eb75528573fbdd7e",
+    "empreinte_rendu": "eb75528573fbdd7e",
+    "empreinte_source": "d4c8f4c4f2961912",
+    "modifie_le": "2026-10-22T07:57:56+00:00"
   },
   "pellets-bastogne": {
     "id": 29126,
     "type": "post",
     "statut": "publié",
     "date_gmt": "2026-09-26T08:12:50",
-    "empreinte_contenu": "8c756291827e2554",
-    "empreinte_rendu": "8c756291827e2554",
+    "empreinte_contenu": "c83b53823d0d83da",
+    "empreinte_rendu": "c83b53823d0d83da",
     "empreinte_source": "aceb88e1fb95741b",
     "modifie_le": "2026-10-21T08:39:53+00:00"
   },
@@ -180,8 +180,8 @@
     "type": "post",
     "statut": "publié",
     "date_gmt": "2026-09-27T07:53:46",
-    "empreinte_contenu": "4c38abaf3a140ab7",
-    "empreinte_rendu": "4c38abaf3a140ab7",
+    "empreinte_contenu": "8eaf8c1b42f3a87b",
+    "empreinte_rendu": "8eaf8c1b42f3a87b",
     "empreinte_source": "a109322a8070ecc3",
     "modifie_le": "2026-10-19T10:51:53+00:00"
   },
@@ -190,8 +190,8 @@
     "type": "post",
     "statut": "publié",
     "date_gmt": "2026-09-28T13:39:20",
-    "empreinte_contenu": "598a22aee5e72680",
-    "empreinte_rendu": "598a22aee5e72680",
+    "empreinte_contenu": "b37faf93e2ff67c0",
+    "empreinte_rendu": "b37faf93e2ff67c0",
     "empreinte_source": "83b76b6034cf76aa",
     "modifie_le": "2026-10-18T08:08:41+00:00"
   },
@@ -210,8 +210,8 @@
     "type": "post",
     "statut": "publié",
     "date_gmt": "2026-10-01T19:44:56",
-    "empreinte_contenu": "6c417772a8890953",
-    "empreinte_rendu": "6c417772a8890953",
+    "empreinte_contenu": "69e0990a7309c2cf",
+    "empreinte_rendu": "69e0990a7309c2cf",
     "empreinte_source": "846c723459eaeff1",
     "modifie_le": "2026-10-16T07:43:56+00:00"
   },
@@ -220,8 +220,8 @@
     "type": "post",
     "statut": "publié",
     "date_gmt": "2026-10-02T19:52:57",
-    "empreinte_contenu": "20f5fb90ddf3ad55",
-    "empreinte_rendu": "20f5fb90ddf3ad55",
+    "empreinte_contenu": "3a5d65be98b4ceda",
+    "empreinte_rendu": "3a5d65be98b4ceda",
     "empreinte_source": "60cc669aa675b10d",
     "modifie_le": "2026-10-15T21:33:22+00:00"
   },
@@ -230,8 +230,8 @@
     "type": "post",
     "statut": "publié",
     "date_gmt": "2026-10-03T18:32:20",
-    "empreinte_contenu": "e6d6d28fe927a093",
-    "empreinte_rendu": "e6d6d28fe927a093",
+    "empreinte_contenu": "37c461d0c4d9fc5c",
+    "empreinte_rendu": "37c461d0c4d9fc5c",
     "empreinte_source": "928ce361350ca97d",
     "modifie_le": "2026-10-15T21:33:23+00:00"
   },
@@ -260,18 +260,18 @@
     "type": "post",
     "statut": "publié",
     "date_gmt": "2026-10-05T12:45:15",
-    "empreinte_contenu": "9ffa9777910030ab",
-    "empreinte_rendu": "9ffa9777910030ab",
-    "empreinte_source": "1a5769d2560424a8",
-    "modifie_le": "2026-10-15T21:33:24+00:00"
+    "empreinte_contenu": "1180ab00f7f15010",
+    "empreinte_rendu": "1180ab00f7f15010",
+    "empreinte_source": "609559e3a1c97912",
+    "modifie_le": "2026-10-25T10:24:58+00:00"
   },
   "bois-de-chauffage-bouillon": {
     "id": 29381,
     "type": "post",
     "statut": "publié",
     "date_gmt": "2026-10-07T07:40:44",
-    "empreinte_contenu": "8dfe14df9b6f12e8",
-    "empreinte_rendu": "8dfe14df9b6f12e8",
+    "empreinte_contenu": "3267528489f514c4",
+    "empreinte_rendu": "3267528489f514c4",
     "empreinte_source": "1816b139ceaa79bd",
     "modifie_le": "2026-10-15T21:33:26+00:00"
   },
@@ -280,8 +280,8 @@
     "type": "post",
     "statut": "publié",
     "date_gmt": "2026-10-08T12:14:25",
-    "empreinte_contenu": "cbb1b4cb1ad31457",
-    "empreinte_rendu": "cbb1b4cb1ad31457",
+    "empreinte_contenu": "948e18dbf747306c",
+    "empreinte_rendu": "948e18dbf747306c",
     "empreinte_source": "ade84b417a5068bb",
     "modifie_le": "2026-10-15T21:33:27+00:00"
   },
@@ -290,8 +290,8 @@
     "type": "post",
     "statut": "publié",
     "date_gmt": "2026-10-09T17:23:16",
-    "empreinte_contenu": "9a8e9f7b3fb34114",
-    "empreinte_rendu": "9a8e9f7b3fb34114",
+    "empreinte_contenu": "b883744808585bf9",
+    "empreinte_rendu": "b883744808585bf9",
     "empreinte_source": "d50b4022c5332cfe",
     "modifie_le": "2026-10-15T21:33:29+00:00"
   },
@@ -300,8 +300,8 @@
     "type": "post",
     "statut": "publié",
     "date_gmt": "2026-10-12T05:04:29",
-    "empreinte_contenu": "cee1575718be7e0e",
-    "empreinte_rendu": "cee1575718be7e0e",
+    "empreinte_contenu": "e529b7e07b8ecbe5",
+    "empreinte_rendu": "e529b7e07b8ecbe5",
     "empreinte_source": "ba5c171529b0e8be",
     "modifie_le": "2026-10-15T21:33:30+00:00"
   },
@@ -310,22 +310,22 @@
     "type": "page",
     "statut": "publié",
     "date_gmt": "2026-10-10T17:43:34",
-    "empreinte_contenu": "dc49304fb0b2c1f2",
-    "empreinte_rendu": "dc49304fb0b2c1f2",
+    "empreinte_contenu": "ce6ecfd0481572ce",
+    "empreinte_rendu": "ce6ecfd0481572ce",
     "empreinte_source": "dba532e9a4312e12",
     "modifie_le": "2026-10-15T09:21:16+00:00",
-    "empreinte_meta": "129dce516640537b"
+    "empreinte_meta": "26e07f95836705e3"
   },
   "prix-bois-de-chauffage": {
     "id": 29493,
     "type": "page",
     "statut": "publié",
     "date_gmt": "2026-10-13T06:06:52",
-    "empreinte_contenu": "69326c59e1bdf83d",
-    "empreinte_rendu": "69326c59e1bdf83d",
+    "empreinte_contenu": "886b69fe2353b734",
+    "empreinte_rendu": "886b69fe2353b734",
     "empreinte_source": "8080ff9dcbeadccd",
     "modifie_le": "2026-10-15T14:26:22+00:00",
-    "empreinte_meta": "607fc96abd61726c"
+    "empreinte_meta": "c130519a30eeff9d"
   },
   "certifications-pellets": {
     "id": 29510,
@@ -342,8 +342,8 @@
     "type": "post",
     "statut": "publié",
     "date_gmt": "2026-10-15T05:59:22",
-    "empreinte_contenu": "0ee17ff6e58fbdfc",
-    "empreinte_rendu": "0ee17ff6e58fbdfc",
+    "empreinte_contenu": "8a99a63125f5823c",
+    "empreinte_rendu": "8a99a63125f5823c",
     "empreinte_source": "eadb5ec9d84c1eb4",
     "modifie_le": "2026-10-15T21:33:33+00:00"
   },
@@ -352,8 +352,8 @@
     "type": "post",
     "statut": "publié",
     "date_gmt": "2026-10-16T10:21:14",
-    "empreinte_contenu": "6127eb5f68d333e1",
-    "empreinte_rendu": "6127eb5f68d333e1",
+    "empreinte_contenu": "e528a7d07f9735aa",
+    "empreinte_rendu": "e528a7d07f9735aa",
     "empreinte_source": "e27f157b96889bf7",
     "modifie_le": "2026-10-15T21:33:34+00:00"
   },
@@ -362,8 +362,8 @@
     "type": "page",
     "statut": "publié",
     "date_gmt": "2026-10-15T21:55:50",
-    "empreinte_contenu": "7b5388866d858688",
-    "empreinte_rendu": "7b5388866d858688",
+    "empreinte_contenu": "45233d151de7b3ce",
+    "empreinte_rendu": "45233d151de7b3ce",
     "empreinte_source": "43abf17e23c13964",
     "modifie_le": "2026-10-21T08:38:06+00:00"
   },
@@ -372,8 +372,8 @@
     "type": "post",
     "statut": "publié",
     "date_gmt": "2026-10-17T12:32:55",
-    "empreinte_contenu": "6b23871e807b436f",
-    "empreinte_rendu": "6b23871e807b436f",
+    "empreinte_contenu": "beb6b43cb9f0ec10",
+    "empreinte_rendu": "beb6b43cb9f0ec10",
     "empreinte_source": "99b1786e3461e490",
     "modifie_le": "2026-10-21T08:38:09+00:00"
   },
@@ -382,8 +382,8 @@
     "type": "post",
     "statut": "publié",
     "date_gmt": "2026-10-18T15:30:32",
-    "empreinte_contenu": "d1ed4f7e97f2572a",
-    "empreinte_rendu": "d1ed4f7e97f2572a",
+    "empreinte_contenu": "d3964f1d839ed983",
+    "empreinte_rendu": "d3964f1d839ed983",
     "empreinte_source": "abd9b42ac818d8e8"
   },
   "taux-cendres-pellets": {
@@ -398,20 +398,111 @@
   "bois-de-chauffage-houffalize": {
     "id": 29726,
     "type": "post",
-    "statut": "planifié",
+    "statut": "publié",
     "date_gmt": "2026-10-21T11:09:52",
-    "empreinte_contenu": "a99256e41d8beeb3",
-    "empreinte_rendu": "a99256e41d8beeb3",
+    "empreinte_contenu": "ac8d42f9db983921",
+    "empreinte_rendu": "ac8d42f9db983921",
     "empreinte_source": "caf2ee340bf8abb1",
     "modifie_le": "2026-10-21T08:39:56+00:00"
   },
   "pellets-houffalize": {
     "id": 29749,
     "type": "post",
-    "statut": "planifié",
+    "statut": "publié",
     "date_gmt": "2026-10-22T05:45:29",
-    "empreinte_contenu": "19e4a7db1febc41c",
-    "empreinte_rendu": "19e4a7db1febc41c",
+    "empreinte_contenu": "6b1e34b42854512a",
+    "empreinte_rendu": "6b1e34b42854512a",
     "empreinte_source": "6280ea9650284044"
+  },
+  "bois-de-chauffage-bertrix": {
+    "id": 29754,
+    "type": "post",
+    "statut": "publié",
+    "date_gmt": "2026-10-23T17:19:11",
+    "empreinte_contenu": "1b1c88e42ef85adb",
+    "empreinte_rendu": "1b1c88e42ef85adb",
+    "empreinte_source": "bda34da25b82bb34"
+  },
+  "pellets-bertrix": {
+    "id": 29781,
+    "type": "post",
+    "statut": "publié",
+    "date_gmt": "2026-10-24T17:49:15",
+    "empreinte_contenu": "a07c3e6e9ab0ed93",
+    "empreinte_rendu": "a07c3e6e9ab0ed93",
+    "empreinte_source": "ea8e2495d6dc903d"
+  },
+  "bois-de-chauffage-vielsalm": {
+    "id": 29810,
+    "type": "post",
+    "statut": "publié",
+    "date_gmt": "2026-10-25T12:06:52",
+    "empreinte_contenu": "1c6c471992d65121",
+    "empreinte_rendu": "1c6c471992d65121",
+    "empreinte_source": "4bb95abfb8240388"
+  },
+  "pellets-vielsalm": {
+    "id": 29848,
+    "type": "post",
+    "statut": "publié",
+    "date_gmt": "2026-10-26T06:38:50",
+    "empreinte_contenu": "1b5af92c46657bd6",
+    "empreinte_rendu": "1b5af92c46657bd6",
+    "empreinte_source": "1ccbb378330cec14"
+  },
+  "bois-de-chauffage-aubange": {
+    "id": 29878,
+    "type": "post",
+    "statut": "publié",
+    "date_gmt": "2026-10-27T20:11:01",
+    "empreinte_contenu": "8d690e984164edc3",
+    "empreinte_rendu": "8d690e984164edc3",
+    "empreinte_source": "4f071847aa202772"
+  },
+  "pellets-aubange": {
+    "id": 29911,
+    "type": "post",
+    "statut": "publié",
+    "date_gmt": "2026-10-28T20:35:23",
+    "empreinte_contenu": "955e87ce052ee2a3",
+    "empreinte_rendu": "955e87ce052ee2a3",
+    "empreinte_source": "5644cd26c2750a02"
+  },
+  "poele-a-pellets": {
+    "id": 29941,
+    "type": "page",
+    "statut": "publié",
+    "date_gmt": "2026-10-29T07:40:23",
+    "empreinte_contenu": "abe50f5a6132c848",
+    "empreinte_rendu": "abe50f5a6132c848",
+    "empreinte_source": "e2b2d0b90b6fb033",
+    "modifie_le": "2026-10-31T11:30:33+00:00"
+  },
+  "poele-a-bois": {
+    "id": 29975,
+    "type": "page",
+    "statut": "publié",
+    "date_gmt": "2026-10-30T13:55:51",
+    "empreinte_contenu": "ab65a243e16db912",
+    "empreinte_rendu": "ab65a243e16db912",
+    "empreinte_source": "f58c880fab9041af"
+  },
+  "poele-a-pellets-pas-cher-arlon": {
+    "id": 30008,
+    "type": "post",
+    "statut": "publié",
+    "date_gmt": "2026-10-31T17:21:21",
+    "empreinte_contenu": "e84d4691b3279dda",
+    "empreinte_rendu": "e84d4691b3279dda",
+    "empreinte_source": "bdf4b41ad03b1090"
+  },
+  "poele-a-pellets-arlon": {
+    "id": 30040,
+    "type": "post",
+    "statut": "planifié",
+    "date_gmt": "2026-11-01T10:17:29",
+    "empreinte_contenu": "e8db99a4e5dfe4d4",
+    "empreinte_rendu": "e8db99a4e5dfe4d4",
+    "empreinte_source": "6391b3da4961fc5d"
   }
 }

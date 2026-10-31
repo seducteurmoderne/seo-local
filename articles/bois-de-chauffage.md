@@ -1,10 +1,13 @@
 ---
 slug: bois-de-chauffage
 title_seo: "Bois de chauffage : prix 2026 et achat en Wallonie"
-meta_description: "126 € le stère en août 2026. Ce que contient vraiment un stère, quelle essence chauffe le plus, et où acheter près de chez vous. Devis gratuits."
+meta_description: "Le prix moyen du stère en Wallonie, ce que contient vraiment un stère, quelle essence chauffe le plus, et où acheter près de chez vous. Devis gratuits."
 h1: "Bois de chauffage en Wallonie : prix, stère et où acheter"
 type: page
 requete_cible: "bois de chauffage"
+entites:
+  - bois de chauffage
+  - bûches
 cta: "Devis bois de chauffage — fournisseurs de votre région"
 liens_internes:
   - /prix-bois-de-chauffage/
@@ -18,37 +21,37 @@ statut: brouillon
 # Bois de chauffage en Wallonie : prix, stère et où acheter
 
 > ### En bref
-> Le bois de chauffage dur et sec coûtait **126 € le stère** en Wallonie en août 2026, hors livraison, et un stère remplace 170 à 200 litres de mazout. Avant de comparer deux offres, demandez la longueur de coupe : « un stère » ne désigne pas la même quantité de bois d'un fournisseur à l'autre.
+> Le bois de chauffage dur et sec coûtait **{{prix:valbiom_buche}} € le stère** en Wallonie en août 2026, hors livraison, et un stère remplace 170 à 200 litres de mazout. Avant de comparer deux offres, demandez la longueur de coupe : « un stère » ne désigne pas la même quantité de bois d'un fournisseur à l'autre.
 
 Trois choses décident de la valeur d'un chargement : le volume de bois réellement livré, l'essence et le degré de séchage. Deux fournisseurs peuvent vous facturer le même prix pour des quantités de chaleur très différentes, sans que ni l'un ni l'autre ne vous ait menti. Cette page vous donne les repères pour les comparer.
 
 ::cta-fort Recevez jusqu'à 3 devis de fournisseurs de bois de votre région | Gratuit, sans engagement, réponse sous 48 h.
 
-## Pourquoi deux devis au même prix ne se valent pas
+## Comparer 2 devis de bois de chauffage : stère et longueur de coupe
 
-Le bois se commande au stère, c'est-à-dire un tas d'un mètre de haut, un mètre de large et un mètre de profondeur. Ce que ce tas contient de bois dépend de la longueur des bûches : des bûches courtes s'imbriquent mieux et laissent moins de vide entre elles. Le guide wallon du bois bûche chiffre l'écart — le même bois occupe **1 m³ en bûches de 100 cm, 0,8 m³ en 50 cm et 0,7 m³ en 33 cm**.
+Le bois se commande au stère, c'est-à-dire un tas d'un mètre de haut, un mètre de large et un mètre de profondeur. Ce que ce tas contient de bois dépend de la longueur des bûches : des bûches courtes s'imbriquent mieux et laissent moins de vide entre elles. Le guide wallon du bois bûche chiffre l'écart. Le même bois occupe **1 m³ en bûches de 100 cm, 0,8 m³ en 50 cm et 0,7 m³ en 33 cm**.
 
-Un fournisseur qui vous livre un tas d'un mètre cube en bûches de 33 cm vous donne donc **plus de 40 % de bois en plus** qu'un fournisseur qui vous livre le même tas en bûches d'un mètre. Les deux ont annoncé « un stère ». Avant de comparer deux prix, demandez donc la longueur de coupe et les dimensions du tas livré.
+Un tas d'un mètre cube en bûches de 33 cm contient donc **plus de 40 % de bois en plus** que le même tas en bûches d'un mètre. Les deux ont annoncé « un stère ». Avant de comparer deux prix, demandez donc la longueur de coupe et les dimensions du tas livré.
 
 Le vocabulaire ajoute sa part de confusion : dans certaines communes on compte en cordes, qui valent deux ou trois stères selon l'endroit. Notre guide du [stère de bois](/stere-de-bois/) détaille ces unités, et celui sur le [stère, le mètre cube apparent et la corde](/stere-m3-corde/) donne les conversions pour comparer deux devis sur la même base. La [longueur des bûches](/longueur-buches/) se choisit, elle, d'abord en fonction de votre foyer.
 
-## Ce que coûte le chauffage au bois
+## Prix du bois de chauffage en Wallonie et coût au kWh
 
-Valbiom relève chaque mois le prix moyen des combustibles bois en Wallonie. En **août 2026, le stère de bois dur sec recoupé revenait à 126 €**, pour une commande d'au moins six stères et hors frais de livraison.
+Valbiom relève chaque mois le prix moyen des combustibles bois en Wallonie. En **août 2026, le stère de bois dur sec recoupé revenait à {{prix:valbiom_buche}} €**, pour une commande d'au moins six stères et hors frais de livraison.
 
-Ce prix ne dit rien tant qu'on ne le ramène pas à de la chaleur. Le guide wallon donne l'équivalence : un demi-stère à 30 % d'humidité produit environ 1 000 kWh, soit autant que 100 litres de mazout. **Un stère vaut donc 1 700 à 2 000 kWh, et remplace entre 170 et 200 litres de mazout.** À 126 € le stère, le kilowattheure revient entre 6 et 7,5 centimes — contre environ 9 centimes pour les [pellets](/pellets/) au même relevé. La bûche reste le combustible bois le moins cher, à condition d'accepter la manutention et le stockage.
+Ce prix ne dit rien tant qu'on ne le ramène pas à de la chaleur. Le guide wallon donne l'équivalence : un demi-stère à 30 % d'humidité produit environ 1 000 kWh, soit autant que 100 litres de mazout. **Un stère vaut donc 1 700 à 2 000 kWh, et remplace entre 170 et 200 litres de mazout.** À {{prix:valbiom_buche}} € le stère, le kilowattheure revient entre {{calc:valbiom_buche/2000*100}} et {{calc:valbiom_buche/1700*100}} centimes, contre {{calc:valbiom_pellet_sac/15/4.6*100}} centimes pour les [pellets](/pellets/) au même relevé. La bûche demande en échange la manutention et le stockage.
 
 Le prix d'un chargement varie ensuite selon l'essence, le degré de séchage, la longueur de coupe, la quantité et la distance de livraison. Un bois déjà sec se paie plus cher qu'un bois vert, et c'est normal : le fournisseur a immobilisé son stock pendant deux ans. Notre page sur le [prix du bois de chauffage](/prix-bois-de-chauffage/) détaille chaque poste, et le calcul du [nombre de stères pour votre maison](/combien-de-steres/) transforme ce prix unitaire en budget d'hiver.
 
 ::cta-doux Vous voulez le prix réel chez vous, livraison comprise ? | Recevez des devis de fournisseurs de votre région
 
-## Qui se chauffe au bois en Wallonie
+## Qui se chauffe au bois de chauffage en Belgique
 
 Le bois occupe une place particulière : peu de foyers en font leur chauffage principal, beaucoup en font leur chauffage d'appoint. Selon l'enquête SILC 2021 de Statbel, reprise par le Baromètre de la précarité énergétique de la Fondation Roi Baudouin, **4,8 % des ménages belges se chauffent principalement au bois ou aux pellets**, contre 63,0 % au gaz naturel et 21,8 % au mazout. Ce chiffre ne compte que le chauffage principal et laisse de côté les poêles de salon, bien plus nombreux.
 
 Cette place d'appoint explique pourquoi le marché du bois bûche reste local. Votre fournisseur est souvent un exploitant forestier ou un agriculteur de votre province, pas une enseigne nationale, et le prix qu'il vous fait dépend de sa distance jusqu'à chez vous autant que de son bois.
 
-## Les essences : ce qui change vraiment
+## Quelle essence de bois de chauffage choisir : chêne, hêtre, résineux
 
 Une confusion revient sans cesse, et elle coûte de l'argent. À poids égal, toutes les essences produisent la même chaleur : le guide wallon retient **3,33 kWh par kilo** pour un bois sec à 25-30 % d'humidité, qu'il s'agisse de chêne ou d'épicéa. Ce qui change, c'est la densité, donc le poids de bois que vous recevez pour un volume donné.
 
@@ -66,11 +69,15 @@ Le résultat se lit sur la balance : **un stère de chêne pèse 488 kg, un stè
 
 Les feuillus durs — hêtre, chêne, charme, orme, frêne, érable — forment donc le premier choix pour une chauffe régulière. Les bois légers gardent leur usage : l'aune ou le bouleau s'enflamment vite et lancent un feu. Les résineux se brûlent en petites quantités et en bûches bien sèches, parce que leurs résines encrassent le conduit. Notre guide pour [choisir son bois de chauffage](/quel-bois-de-chauffage-choisir/) compare les essences une à une, celui sur le [bois dur ou tendre](/bois-dur-ou-bois-tendre/) explique l'écart de densité, et la liste du [bois qu'il ne faut jamais brûler](/bois-a-ne-pas-bruler/) énumère ce qui ne doit en aucun cas entrer dans un foyer.
 
-## Le séchage, et comment vérifier qu'on ne vous raconte pas d'histoires
+## Bois de chauffage sec : humidité et vérification à la livraison
 
 Un bois fraîchement coupé contient environ 50 % d'humidité. Après deux ans sous abri ventilé, il descend vers 20 %. Entre les deux, cette eau est évaporée par le feu avant qu'il ne produise la moindre chaleur utile, et l'évaporation consomme l'énergie de votre chargement.
 
-Les conséquences se voient en une soirée. La flamme est molle, la vitre noircit, et les fumées trop froides déposent dans le conduit un goudron qui durcit en bistre — le point de départ d'un feu de cheminée. Le mot « sec » sur une annonce ne garantit rien à lui seul. Un hygromètre se trouve en magasin de bricolage, et c'est le seul moyen de trancher à la livraison : notre guide pour [vérifier que son bois est sec](/verifier-bois-sec/) explique comment s'en servir. Si vous achetez du bois vert pour le faire sécher vous-même, le [temps de séchage du bois](/temps-sechage-bois/) indique combien de mois prévoir selon l'essence, et [stocker son bois de chauffage](/stockage-bois-de-chauffage/) décrit l'abri qui fait la différence.
+Les conséquences se voient en une soirée. La flamme est molle, la vitre noircit, et les fumées trop froides déposent dans le conduit un goudron qui durcit en bistre — le point de départ d'un feu de cheminée.
+
+Le mot « sec » sur une annonce ne garantit rien à lui seul. Un hygromètre se trouve en magasin de bricolage, et c'est le seul moyen de trancher à la livraison : notre guide pour [vérifier que son bois est sec](/verifier-bois-sec/) explique comment s'en servir.
+
+Si vous achetez du bois vert pour le faire sécher vous-même, le [temps de séchage du bois](/temps-sechage-bois/) indique combien de mois prévoir selon l'essence, et [stocker son bois de chauffage](/stockage-bois-de-chauffage/) décrit l'abri qui fait la différence.
 
 ## Où acheter du bois de chauffage près de chez vous
 
@@ -86,7 +93,7 @@ Chaque question abordée plus haut a son guide détaillé. Ils paraissent au fil
 
 ::cta-fort Recevez jusqu'à 3 devis de fournisseurs qui livrent chez vous | Gratuit, sans engagement, réponse sous 48 h.
 
-*Sources : SPW Énergie · Valbiom — Les bûches · Valbiom, Suivi mensuel des prix des combustibles bois — mise à jour août 2026 · Baromètre de la précarité énergétique 2023, Fondation Roi Baudouin — enquête SILC 2021 de Statbel — vérifié en septembre 2026.*
+*Sources : SPW Énergie · Valbiom — Les bûches · Valbiom, Suivi mensuel des prix des combustibles bois — mise à jour août 2026 · Baromètre de la précarité énergétique 2023, Fondation Roi Baudouin — enquête SILC 2021 de Statbel — vérifié en octobre 2026.*
 
 <!--
 NOTES DE PRODUCTION

@@ -1,0 +1,7 @@
+{"types": {"guide": 1, "service": 1, "annuaire": 2, "autre": 2},
+"intention_recompensee": "Locale et transactionnelle : Google montre les vendeurs de Bertrix (La Renardière, Atoutbois), les annuaires de la commune et les ventes de bois publiques (commune, Wallowood).",
+"incontournables": ["Nom et commune du vendeur", "Ce qui est vendu (bûches, allumage, sec ou frais)", "Tarif de livraison selon la distance ou la commune"],
+"differenciants": ["Barème de transport par distance depuis Bertrix (La Renardière)", "Ventes publiques de la commune de Bertrix sur Wallowood", "Comparaison de plusieurs fournisseurs ramenée au stère livré (notre page de Neufchâteau)"],
+"lacunes": ["Aucune page ne compare les vendeurs installés à Bertrix", "Aucune ne ramène les offres au stère livré TVA comprise", "Aucune n'explique si la vente de la commune s'adresse aux particuliers", "Disponibilité du bois sec en automne jamais dite"],
+"faiblesses": ["Annuaires sans prix ni vérification", "Pages de vendeurs courtes, tarifs en tableaux peu lisibles", "Fiches Wallowood techniques, illisibles pour un particulier"],
+"longueur_cible": 1100}

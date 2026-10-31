@@ -4,6 +4,8 @@ title_seo: "Pellets en Belgique : prix 2026, qualité et achat"
 meta_description: "Le prix relevé en Wallonie mois par mois, ce qui sépare un granulé ENplus A1 d'un A2, et où acheter des pellets près de chez vous. Devis gratuits."
 h1: "Pellets en Belgique : prix, qualité et où en acheter près de chez vous"
 type: page
+entites:
+  - pellets
 requete_cible: "pellets"
 cta: "Devis pellets — fournisseurs de votre région"
 liens_internes:
@@ -18,7 +20,7 @@ statut: brouillon
 # Pellets en Belgique : prix, qualité et où en acheter près de chez vous
 
 > ### En bref
-> Le pellet coûtait **6,19 € le sac de 15 kg** en Wallonie en août 2026, soit près de 413 € la tonne achetée en palette, et 9 centimes le kilowattheure au plus. Le diamètre, 6 ou 8 mm, est imposé par votre appareil ; la certification ENplus A1 garantit moins de cendres qu'un pellet A2.
+> Le pellet coûtait **{{prix:valbiom_pellet_sac}} € le sac de 15 kg** en Wallonie en août 2026, soit près de {{calc:valbiom_pellet_sac/0.015}} € la tonne achetée en palette, et {{calc:valbiom_pellet_sac/15/4.6*100}} centimes le kilowattheure au plus. Le diamètre, 6 ou 8 mm, est imposé par votre appareil ; la certification ENplus A1 garantit moins de cendres qu'un pellet A2.
 
 Deux sacs de granulés se ressemblent à s'y méprendre, et c'est ce qui rend l'achat difficile. Cette page réunit ce qu'est un pellet, ce que coûte une saison de chauffe aux prix d'aujourd'hui, ce qui sépare un bon granulé d'un mauvais, et où en commander en Wallonie.
 
@@ -32,13 +34,13 @@ La matière première vient pour l'essentiel des sciures de résineux produites 
 
 ## Ce que coûte le chauffage aux pellets
 
-Valbiom relève chaque mois le prix moyen des combustibles bois en Wallonie. En **août 2026, le sac de 15 kg certifié revenait à 6,19 €**, acheté par palette et hors frais de livraison, soit près de 413 € la tonne.
+Valbiom relève chaque mois le prix moyen des combustibles bois en Wallonie. En **août 2026, le sac de 15 kg certifié revenait à {{prix:valbiom_pellet_sac}} €**, acheté par palette et hors frais de livraison, soit près de {{calc:valbiom_pellet_sac/0.015}} € la tonne.
 
 ![[visuels/pellets-prix-sac-15kg.svg|Prix moyen du sac de 15 kg de pellets en Wallonie, de janvier 2025 à août 2026, d'après les relevés mensuels de Valbiom.]]
 
-Rapporté à la chaleur produite, ce prix se compare mieux : un sac de 15 kg qui délivre au moins 4,6 kWh par kilo, seuil que la norme ENplus impose, revient à **9 centimes le kilowattheure au plus**. Le même relevé donnait au même moment 126 € le stère de bois dur sec, un repère utile si vous hésitez encore avec le [bois de chauffage](/bois-de-chauffage/).
+Rapporté à la chaleur produite, ce prix se compare mieux : un sac de 15 kg qui délivre au moins 4,6 kWh par kilo, seuil que la norme ENplus impose, revient à **{{calc:valbiom_pellet_sac/15/4.6*100}} centimes le kilowattheure au plus**. Le même relevé donnait au même moment {{prix:valbiom_buche}} € le stère de bois dur sec, un repère utile si vous hésitez encore avec le [bois de chauffage](/bois-de-chauffage/).
 
-La courbe montre aussi ce que vaut le moment de l'achat. Le creux d'été de 2025 est tombé à 5,43 € en juin et juillet, contre 5,86 € en novembre suivant. En 2026 ce creux ne s'est pas reproduit : le prix a monté sans interruption de 5,99 € en janvier à 6,19 € en août, et Valbiom n'attend pas de recul pour l'hiver 2026-2027, mais une stabilité.
+La courbe montre aussi ce que vaut le moment de l'achat. Le creux d'été de 2025 est tombé à 5,43 € en juin et juillet, contre 5,86 € en novembre suivant. En 2026 ce creux ne s'est pas reproduit : le prix a monté sans interruption de {{prix:valbiom_pellet_sac_janvier}} € en janvier à {{prix:valbiom_pellet_sac}} € en août, et Valbiom n'attend pas de recul pour l'hiver 2026-2027, mais une stabilité.
 
 Le conditionnement pèse autant que le calendrier. Le sac à l'unité coûte le plus cher au kilo, la palette fait descendre ce prix, et le vrac soufflé dans un silo est le plus économique à la tonne pour qui dispose de l'installation — le guide [sac, palette ou vrac](/sac-palette-vrac-pellets/) chiffre l'écart. S'ajoutent la quantité commandée, la distance de livraison et la saison, que détaille notre page sur le [prix des pellets](/prix-pellets/). Pour convertir tout cela en budget annuel, commencez par estimer [combien de pellets pour votre hiver](/combien-de-pellets/).
 
@@ -106,6 +108,8 @@ SOURCES (relevées le 20/09/2026)
   Août 2026 = 6,19 €/sac ; creux juin-juillet 2025 = 5,43 € ; janvier 2026 = 5,99 € ;
   bûches = 126 €/stère (min. 6 stères, bois dur sec recoupé, hors livraison).
   413 €/t et 9 c/kWh = calculs directs à partir de ces relevés et du seuil ENplus
+  PRIX DYNAMIQUES (conversion du 27/10/2026) : valbiom_pellet_sac, valbiom_pellet_sac_janvier, valbiom_buche ;
+  tonne = sac / 0,015 ; c/kWh = sac / 15 / 4,6 × 100. Creux 2025 (5,43 / 5,86 €) gardés en dur : historiques.
   de 4,6 kWh/kg ; ce seuil étant un minimum, le c/kWh est annoncé comme un plafond.
 - Norme : ENplus ST 1001:2022, tableau 4, en vigueur depuis le 01/01/2023. PDF lu
   intégralement (pdftotext), valeurs A1/A2/B recopiées telles quelles.

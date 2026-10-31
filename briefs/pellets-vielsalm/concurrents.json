@@ -1,0 +1,7 @@
+{"types": {"guide": 0, "service": 2, "annuaire": 0, "autre": 4},
+"intention_recompensee": "Locale et transactionnelle : commander ou trouver des pellets livrés au code postal 6690. Google mêle pages de vendeurs (Blaise, Goffinet, Creppe), une fiche produit Hubo et le comparateur Groupasol/Pellets Stock, plus les pages du producteur IBV / Wood & Energy pour les recherches sur l'usine.",
+"incontournables": ["Zone de livraison et communes couvertes", "Formats (sac, palette, vrac) et marques", "Prix de la palette livrée"],
+"differenciants": ["Prix du jour au code postal 6690 (Groupasol)", "Livraison uniquement par palettes complètes dans un rayon de 50 km de Malmedy (Blaise)", "Liste des communes livrées en vrac (Goffinet)", "Retrait en magasin et stock (Hubo)"],
+"lacunes": ["Aucune page ne dit si l'usine IBV de Vielsalm vend aux particuliers", "Aucune page ne compare les vendeurs entre eux ni ne ramène les prix au sac", "Aucune page ne dit où prendre quelques sacs à Vielsalm même", "Aucune réponse sur le vrac pour une chaudière : qui, quel minimum, quel délai", "Aucun mot sur les villages et l'accès du camion"],
+"faiblesses": ["Pages de vendeurs centrées sur une seule offre, sans comparaison", "Comparateur aux H2 génériques (noms de marques), sans explication", "Fiche Hubo sans information locale", "Prix contradictoires ou non datés chez certains vendeurs"],
+"longueur_cible": 1000}

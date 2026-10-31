@@ -66,37 +66,68 @@ pellets-aubange                 # local · Luxembourg 14/14 · dernière ville d
 # vérifiées sur leur propre site (adresse, marques exposées, pose, entretien), jamais un annuaire seul.
 # Les poêles à pellets passent d'abord, ville par ville ensuite.
 poele-a-pellets                 # page mère · entretien-poele-a-pellets déjà en ligne
-poele-a-pellets-namur           # local poêle
-poele-a-pellets-liege           # local poêle
-poele-a-pellets-charleroi       # local poêle
-poele-a-pellets-mons            # local poêle
-prix-poele-a-pellets
+# 29/10/2026 : PRIORITÉ À LA POSE DE POÊLES (demande du propriétaire). Saison haute, partenaire
+# de confiance pour les devis d'installation, très rémunérateur : les pages qui captent une
+# demande de pose passent devant. Toujours le formulaire de devis (besoin poelier) sur chaque page.
 poele-a-bois                    # page mère · entretien-poele-a-bois déjà programmé
-poele-a-bois-namur              # local poêle
-poele-a-bois-liege              # local poêle
-poele-a-bois-charleroi          # local poêle
-poele-a-bois-mons               # local poêle
-installation-poele-a-pellets
-poele-a-pellets-arlon           # local poêle
+# 29/10/2026 : ARLON ET LA PROVINCE DE LUXEMBOURG D'ABORD (demande du propriétaire), les 14 villes
+# du lot terrain, avant Namur, Liège et les autres provinces. 4 pages locales pour 1 guide.
+poele-a-pellets-pas-cher-arlon  # local poêle · demandé par le propriétaire, juste après les pages mères
+poele-a-pellets-arlon           # local poêle · angle poêleries et SAV, distinct de la page pas cher
 poele-a-bois-arlon              # local poêle
+installation-poele-a-pellets
+poele-a-pellets-marche-en-famenne   # local poêle · Luxembourg
+poele-a-bois-marche-en-famenne  # local poêle · Luxembourg
+poele-a-pellets-bastogne        # local poêle · Luxembourg
+poele-a-bois-bastogne           # local poêle · Luxembourg
+installation-poele-a-bois
+poele-a-pellets-libramont       # local poêle · Luxembourg
+poele-a-bois-libramont          # local poêle · Luxembourg
+poele-a-pellets-neufchateau     # local poêle · Luxembourg
+poele-a-bois-neufchateau        # local poêle · Luxembourg
+prix-placement-poele
+poele-a-pellets-virton          # local poêle · Luxembourg
+poele-a-bois-virton             # local poêle · Luxembourg
+poele-a-pellets-bouillon        # local poêle · Luxembourg
+poele-a-bois-bouillon           # local poêle · Luxembourg
+prix-poele-a-pellets
+poele-a-pellets-saint-hubert    # local poêle · Luxembourg
+poele-a-bois-saint-hubert       # local poêle · Luxembourg
+poele-a-pellets-durbuy          # local poêle · Luxembourg
+poele-a-bois-durbuy             # local poêle · Luxembourg
+prix-poele-a-bois
+poele-a-pellets-la-roche-en-ardenne   # local poêle · Luxembourg
+poele-a-bois-la-roche-en-ardenne   # local poêle · Luxembourg
+poele-a-pellets-houffalize      # local poêle · Luxembourg
+poele-a-bois-houffalize         # local poêle · Luxembourg
+puissance-poele-a-pellets
+poele-a-pellets-bertrix         # local poêle · Luxembourg
+poele-a-bois-bertrix            # local poêle · Luxembourg
+poele-a-pellets-vielsalm        # local poêle · Luxembourg
+poele-a-bois-vielsalm           # local poêle · Luxembourg
+meilleur-poele-a-pellets
+poele-a-pellets-aubange         # local poêle · Luxembourg
+poele-a-bois-aubange            # local poêle · Luxembourg
+# Autres provinces ensuite.
+poele-a-pellets-namur           # local poêle
+poele-a-bois-namur              # local poêle
+poele-a-pellets-liege           # local poêle
+poele-a-bois-liege              # local poêle
+poele-a-pellets-charleroi       # local poêle
+poele-a-bois-charleroi          # local poêle
+poele-a-pellets-mons            # local poêle
+poele-a-bois-mons               # local poêle
 poele-a-pellets-tournai         # local poêle
 poele-a-bois-tournai            # local poêle
-prix-placement-poele
 poele-a-pellets-verviers        # local poêle
 poele-a-bois-verviers           # local poêle
 poele-a-pellets-wavre           # local poêle
 poele-a-bois-wavre              # local poêle
-meilleur-poele-a-pellets
-poele-a-pellets-marche-en-famenne   # local poêle
-poele-a-bois-marche-en-famenne      # local poêle
-poele-a-pellets-bastogne        # local poêle
-poele-a-bois-bastogne           # local poêle
-installation-poele-a-bois
-prix-poele-a-bois
-prix-entretien-poele-a-pellets
-meilleur-poele-a-bois
 insert-cheminee
-puissance-poele-a-pellets
+meilleur-poele-a-bois
+tubage-cheminee
+poele-a-pellets-ou-poele-a-bois
+prix-entretien-poele-a-pellets
 contrat-entretien-poele-a-pellets
 prix-entretien-poele-a-bois
 # Fin du bloc poêles : la file reprend les guides bois, pellets et ramonage.
@@ -113,10 +144,8 @@ bois-dur-ou-bois-tendre
 quel-appareil-bois
 sac-palette-vrac-pellets
 pellets-6-ou-8-mm
-poele-a-pellets-ou-poele-a-bois
 rendement-poele-a-bois
 feu-de-cheminee-bistre
-tubage-cheminee
 ramonage-poele-a-bois
 ramonage-poele-a-pellets
 attestation-ramonage
