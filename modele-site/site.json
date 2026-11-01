@@ -34,7 +34,7 @@
 
   "habillage_css": ".bcp-article a{color:#2f6f5e;text-decoration:underline}.bcp-article a:hover{color:#245548}",
 
-  "publication": {"delai_min_heures": 2, "ecart_min_heures": 18, "fenetre_heures": 12, "heure_debut": 7, "heure_fin": 22},
+  "publication": {"par_jour": 1, "tous_les": 1, "delai_min_heures": 2, "heure_debut": 7, "heure_fin": 22},
   "audit_exclus": [],
   "formules_bannies_en_plus": []
 }

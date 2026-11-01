@@ -19,13 +19,14 @@ Tout site et toute évolution du moteur servent ces principes.
 - **Recherche locale juste avant chaque rédaction**, propre à la page et à sa niche. Jamais de base de données commune aux sites : la machine va couvrir des zones et des niches très larges.
 - **Accueil.** Assez de texte thématique pour que Google comprenne la cible du site, plus le listing des villes.
 - **Rythme et priorités.** Un article par jour, dans l'ordre d'une sitemap définie au lancement. La sitemap se repriorise en cours de route selon la Search Console (données saisies à la main pour l'instant). **Un article demandé par le propriétaire passe avant tout le reste** : en tête de `autopilote/file-attente.txt` s'il n'est pas encore écrit, `publier <slug> --urgent` une fois prêt.
-- **Production par lots** (nouveaux sites, depuis le 01/11/2026). Pas de pilote quotidien : une session rédige un lot de pages et les programme d'avance (un article par jour, 2 à 4 semaines d'avance), puis on réadapte à chaque intervention humaine avec `publier --urgent` et `replanifier` (détail dans `README.md`). La recherche locale reste faite juste avant la rédaction de chaque page.
+- **Production par lots** (nouveaux sites, depuis le 01/11/2026). Pas de pilote quotidien : une session rédige un lot de pages et les programme d'avance, au rythme du site (2 à 4 semaines d'avance), puis on réadapte à chaque intervention humaine avec `publier --urgent` et `replanifier` (détail dans `README.md`). La recherche locale reste faite juste avant la rédaction de chaque page.
 
 ## Règles communes
 - **Le moteur (`moteur/`) sert tous les sites locaux.** Une modification se teste sur chaque site avant d'être gardée (procédure dans `README.md`). Les tâches planifiées ne le modifient jamais. Ce qui ne concerne que l'affiliation (relecteur, note sur 10, pages marque…) va dans le moteur de `../SEO AFFILIATION/`, jamais ici.
 - Les identifiants WordPress sont dans `sites/<site>/setup/.env` : **ne jamais les afficher ni les copier**.
 - Un nouveau site se crée avec `python3 nouveau_site.py <nom> <domaine>`, jamais à la main.
 - Les directions de design réutilisables sont dans `designs/` : un nouveau site prend une direction pas encore utilisée.
+- **Le rythme de publication se règle par site**, dans `site.json` → `publication` (`par_jour`, `tous_les`), jamais en modifiant le moteur : le défaut du moteur (un article par jour) ne change pas.
 - Les options propres à un site passent par son `site.json` (libellés `textes`, `brief` par pays, `user_agent`…) : les valeurs par défaut du moteur restent celles des sites belges, dont le rendu ne doit pas changer.
 
 ## Dépôt Git partagé (GitHub privé, depuis le 31/10/2026)

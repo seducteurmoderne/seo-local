@@ -415,25 +415,33 @@ def image_une(slug, fm):
 
 # ---------------------------------------------------------------- publication
 def choisir_date(etat, posts):
-    """Un article du pilote par jour, le jour même : au hasard entre maintenant + 2 h et 22 h.
-    Le lendemain (entre 7 h et 22 h) si un article du pilote sort déjà ce jour-là ou s'il est trop tard
-    (valeurs par défaut, réglables dans site.json → "publication")."""
-    geres = [parse_gmt(p["date_gmt"]) for p in posts if p["slug"] in etat and p["status"] in ("publish", "future")]
+    """Date de sortie au rythme du site (site.json → "publication") : `par_jour` articles chaque jour de sortie,
+    un jour de sortie tous les `tous_les` jours, au hasard entre `heure_debut` et `heure_fin`, jamais avant
+    maintenant + `delai_min_heures`. Par défaut, un article par jour, le jour même s'il n'en sort pas déjà un.
+    Plusieurs articles le même jour : la fenêtre est découpée en parts égales, une par article."""
+    geres = sorted(to_bxl(parse_gmt(p["date_gmt"])) for p in posts
+                   if p["slug"] in etat and p["status"] in ("publish", "future"))
     debut, fin = PUB["heure_debut"], PUB["heure_fin"]
+    par_jour, tous_les = max(1, int(PUB["par_jour"])), max(1, int(PUB["tous_les"]))
     tot = to_bxl(now() + dt.timedelta(hours=PUB["delai_min_heures"]))
-    if tot.hour >= fin:
-        tot = (tot + dt.timedelta(days=1)).replace(hour=debut, minute=0, second=0, microsecond=0)
-    elif tot.hour < debut:
-        tot = tot.replace(hour=debut, minute=0, second=0, microsecond=0)
     jour = tot.date()
     if geres:
-        jour = max(jour, max(to_bxl(g).date() for g in geres) + dt.timedelta(days=1))
-    if jour > tot.date():
-        tot = tot.replace(year=jour.year, month=jour.month, day=jour.day, hour=debut, minute=0, second=0, microsecond=0)
-    fin_jour = tot.replace(hour=fin, minute=0, second=0, microsecond=0)
-    minutes = max(0, int((fin_jour - tot).total_seconds() // 60) - 1)
-    d = (tot + dt.timedelta(minutes=random.randint(0, minutes))).astimezone(UTC)
-    return d.replace(second=random.randint(0, 59), microsecond=0)
+        dernier = geres[-1].date()
+        complet = sum(g.date() == dernier for g in geres) >= par_jour
+        jour = max(jour, dernier + dt.timedelta(days=tous_les) if complet else dernier)
+    part = dt.timedelta(hours=fin - debut) / par_jour
+    while True:
+        deja = [g for g in geres if g.date() == jour]
+        ouverture = tot.replace(year=jour.year, month=jour.month, day=jour.day, hour=debut, minute=0, second=0,
+                                microsecond=0)
+        for k in range(len(deja), par_jour):
+            a = max(ouverture + k * part, tot, *(g + dt.timedelta(minutes=1) for g in deja))
+            b = ouverture + (k + 1) * part
+            if a < b:
+                minutes = max(0, int((b - a).total_seconds() // 60) - 1)
+                d = (a + dt.timedelta(minutes=random.randint(0, minutes))).astimezone(UTC)
+                return d.replace(second=random.randint(0, 59), microsecond=0)
+        jour += dt.timedelta(days=tous_les if deja else 1)
 
 
 def publier(slug, brouillon=False):

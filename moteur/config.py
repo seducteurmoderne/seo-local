@@ -40,8 +40,11 @@ def est_locale(fm):
 
 FORM = SITE["formulaire"]
 COULEURS = SITE["couleurs"]
-PUBLICATION = {"delai_min_heures": 2, "heure_debut": 7, "heure_fin": 22, **SITE.get("publication", {})}
-# ecart_min_heures et fenetre_heures, encore présents dans certains site.json, ne servent plus : un article par jour.
+# Rythme propre au site : `par_jour` articles chaque jour de sortie, un jour de sortie tous les `tous_les` jours
+# (défaut : un article par jour). Le rythme se règle dans site.json, jamais dans le moteur.
+PUBLICATION = {"delai_min_heures": 2, "heure_debut": 7, "heure_fin": 22, "par_jour": 1, "tous_les": 1,
+               **SITE.get("publication", {})}
+# ecart_min_heures et fenetre_heures, encore présents dans certains site.json, ne servent plus.
 FUSEAU = SITE.get("fuseau", "Europe/Brussels")
 
 # Tables dérivées, dans la forme où le moteur les utilise.

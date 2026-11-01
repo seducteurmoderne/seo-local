@@ -44,7 +44,7 @@ python3 nouveau_site.py nom-du-site domaine.be
 Puis suivre `sites/<nom-du-site>/setup/DEMARRAGE.md`, et créer la tâche planifiée à partir de `tache-planifiee.md` en dernier.
 
 ## Programmer d'avance et réadapter
-`publier <slug>` programme chaque article le jour qui suit le dernier programmé, à une heure au hasard : un lot rédigé en une session sort donc à raison d'un article par jour.
+`publier <slug>` programme chaque article au créneau suivant, à une heure au hasard, au rythme du site (`site.json` → `publication`, un article par jour par défaut) : un lot rédigé en une session sort donc tout seul à ce rythme.
 
 | Besoin | Commande |
 |---|---|
@@ -52,7 +52,7 @@ Puis suivre `sites/<nom-du-site>/setup/DEMARRAGE.md`, et créer la tâche planif
 | Remonter des articles déjà programmés (Search Console…) | `python3 tools/autopilote.py replanifier <slug> [<slug>…]` |
 | Voir l'ordre de sortie | `python3 tools/autopilote.py etat` |
 
-Les créneaux ne changent pas (un par jour) : les articles cités prennent les premiers, les autres glissent d'un jour, et chaque article déplacé est renvoyé avec sa nouvelle date dans le cadre auteur. Un article retouché à la main dans WordPress garde sa date.
+Les créneaux ne changent pas : les articles cités prennent les premiers, les autres glissent d'un jour, et chaque article déplacé est renvoyé avec sa nouvelle date dans le cadre auteur. Un article retouché à la main dans WordPress garde sa date.
 
 Sans pilote quotidien, personne ne rattrape une sortie manquée : le cron WordPress ne tourne qu'avec des visites. Chaque site par lots a besoin d'un vrai cron (chez l'hébergeur, ou un service qui appelle `/wp-cron.php` toutes les heures).
 
@@ -71,7 +71,7 @@ Les tâches planifiées ne modifient jamais le moteur : seules les sessions de t
 | `categorie_locale` | Pages de ville et leur `motif` d'image : repérées par `cluster` (ex. `"Ville"`, la page garde la catégorie de sa verticale) ou, à défaut, par une `categorie` dédiée |
 | `formulaire` | Adresse de réception (`endpoint`), page de confidentialité, besoins et leurs champs, délais, format du code postal, textes. `"mode": "simple"` : formulaire court (prénom, nom, e-mail, téléphone, message facultatif), besoin déduit du `besoin` de la page, sans code postal ni délai ; titre écrit dans l'article (`::cta-fort Un élagage à faire ? …`), sous-titre `sous_titre`, texte d'aide `placeholder_message`. Le plugin généré (`autopilote.py plugin`) suit le mode |
 | `couleurs`, `habillage_css` | Couleurs du formulaire, style ajouté au contenu pour le thème du site |
-| `publication` | Délai avant la première sortie, écart minimum entre deux articles, fenêtre horaire |
+| `publication` | Rythme du site : `par_jour` articles chaque jour de sortie (défaut 1), un jour de sortie tous les `tous_les` jours (défaut 1), entre `heure_debut` et `heure_fin` (défaut 7 h et 22 h), jamais avant maintenant + `delai_min_heures` (défaut 2). Ex. `"par_jour": 2` : deux articles par jour ; `"tous_les": 2` : un article tous les deux jours |
 | `seo` | Seuils du contrôle qualité (`moteur/seo.py`, `SEUILS`). `"brief_locales_facultatif": true` : les pages locales n'exigent plus l'analyse des 10 résultats ni le brief (avertissement seulement) ; tout le reste, dont le refus au-delà de 50 % de texte commun entre pages locales, s'applique |
 | `audit_exclus`, `formules_bannies_en_plus` | Pages ignorées par l'audit, formules interdites propres au site |
 | `design` | `2` active le design v2 (`moteur/design.py`) : fil d'Ariane, cadre auteur et dates, En bref stylé, sommaire, chiffres clés, encadrés, FAQ en accordéon, encadré auteur. Absent : rendu d'origine |
