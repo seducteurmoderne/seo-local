@@ -1,0 +1,21 @@
+# Dépôt partagé « SEO LOCAL » : moteur commun, modèle de site, designs, nouveaux sites
+# Hors du dépôt
+archives/
+brouillons/
+
+
+# Identifiants WordPress : jamais dans Git
+.env
+**/setup/.env
+!**/.env.exemple
+
+# Photos des concurrents relevées pendant l'analyse SERP (droits tiers, volumineuses)
+sites/*/briefs/**/photos/
+
+# Système et Python
+.DS_Store
+__pycache__/
+*.pyc
+
+# Réglages locaux de Claude Code et aperçus
+**/.claude/

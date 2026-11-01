@@ -1,0 +1,5 @@
+# Ordre de production du pilote. Un slug par ligne ; tout ce qui suit # est ignoré.
+# Règle du premier site, à garder : chaque page mère arrive juste après le premier guide
+# de sa verticale (elle n'est jamais vide), puis une majorité de pages locales quand les
+# données terrain existent (4 pour 1 guide), une ville à la fois.
+

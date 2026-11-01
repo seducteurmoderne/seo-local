@@ -1,0 +1,40 @@
+{
+  "nom": "{{DOMAINE}}",
+  "moteur": "{{CHEMIN_MOTEUR}}",
+  "fuseau": "Europe/Brussels",
+
+  "verticales": [
+    {"categorie": "Verticale A", "besoin": "a", "mere": "verticale-a", "sitemap": "A", "motif": "formes"},
+    {"categorie": "Verticale B", "besoin": "b", "mere": "verticale-b", "sitemap": "B", "motif": "formes"}
+  ],
+  "categorie_locale": {"categorie": "Local", "motif": "local"},
+  "motif_defaut": "formes",
+  "alt_images_une": {"formes": "Illustration abstraite", "local": "Illustration : collines boisées"},
+
+  "formulaire": {
+    "endpoint": "/wp-json/leads/v1/lead",
+    "politique": "/politique-de-confidentialite/",
+    "besoins": [
+      {"cle": "a", "libelle": "Besoin A", "libelle_court": "A", "champs": [
+        ["a_detail", "Précision", ["Option 1", "Option 2", "Je ne sais pas"]]]},
+      {"cle": "b", "libelle": "Besoin B", "libelle_court": "B", "champs": []}
+    ],
+    "delais": ["Dès que possible", "Dans le mois", "Dans les trois mois", "Pas pressé"],
+    "code_postal": {"regex": "^[1-9][0-9]{3}$", "longueur": 4, "exemple": "4000",
+                    "erreur": "Indiquez un code postal belge à 4 chiffres."},
+    "consentement": "J’accepte que ma demande soit transmise à trois professionnels au plus de ma zone, uniquement pour recevoir leurs devis.",
+    "bouton": "Recevoir mes devis gratuits",
+    "succes": "Demande envoyée. Les professionnels de votre zone vont vous contacter."
+  },
+
+  "couleurs": {
+    "accent": "#2f6f5e", "accent_fonce": "#245548", "fond": "#f3f7f5", "bord": "#d5e2dc",
+    "bord_champ": "#b9cbc3", "texte_champ": "#1b1f1d", "succes": "#1f6b4a", "fond_une": "#1d2a26"
+  },
+
+  "habillage_css": ".bcp-article a{color:#2f6f5e;text-decoration:underline}.bcp-article a:hover{color:#245548}",
+
+  "publication": {"delai_min_heures": 2, "ecart_min_heures": 18, "fenetre_heures": 12, "heure_debut": 7, "heure_fin": 22},
+  "audit_exclus": [],
+  "formules_bannies_en_plus": []
+}
