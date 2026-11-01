@@ -6,6 +6,8 @@
   python3 tools/autopilote.py verifier <slug>      contrôle qualité de articles/<slug>.md
   python3 tools/autopilote.py publier <slug>       programme l'article à une heure aléatoire
   python3 tools/autopilote.py publier <slug> --brouillon
+  python3 tools/autopilote.py publier <slug> --urgent    programme l'article sur le premier créneau, les autres glissent d'un jour
+  python3 tools/autopilote.py replanifier [<slug>…]    remet en tête les articles programmés cités, les autres glissent
   python3 tools/autopilote.py bloquer <slug> "raison"
   python3 tools/autopilote.py debloquer <slug>
   python3 tools/autopilote.py maillage             réactive liens et formulaires des articles en ligne
@@ -510,6 +512,63 @@ def publier(slug, brouillon=False):
         print("  ⚠", a)
 
 
+def replanifier(prioritaires=()):
+    """Réordonne les articles programmés par le moteur : `prioritaires` d'abord, dans l'ordre donné, puis les autres
+    dans leur ordre actuel. Les créneaux (un par jour) ne changent pas : chaque article déplacé prend la date de son
+    nouveau créneau, et son cadre auteur est rendu à cette date. Un article repris à la main garde la sienne."""
+    prioritaires = list(dict.fromkeys(prioritaires))
+    posts, pages = fetch("posts"), fetch("pages")
+    etat = load_etat()
+    live = live_paths(posts, pages)
+    form = formulaires_actifs(live)[0]
+    prog = []
+    for p in sorted(posts + pages, key=lambda p: p["date_gmt"]):
+        e = etat.get(p["slug"])
+        if p["status"] != "future" or not e or e.get("manuel") or not os.path.exists(os.path.join(ART, f"{p['slug']}.md")):
+            continue
+        if e.get("empreinte_contenu") and wp.empreinte(p["content"]["raw"]) != e["empreinte_contenu"]:
+            e["manuel"] = True
+            journal(f"`{p['slug']}` modifié à la main dans WordPress — laissé à sa date")
+            continue
+        prog.append(p)
+    par_slug = {p["slug"]: p for p in prog}
+    absents = [s for s in prioritaires if s not in par_slug]
+    if absents:
+        save_etat(etat)
+        sys.exit(f"Pas programmés par le moteur : {', '.join(absents)} (un article pas encore envoyé : publier <slug> --urgent)")
+    creneaux = [p["date_gmt"] for p in prog]
+    ordre = [par_slug[s] for s in prioritaires] + [p for p in prog if p["slug"] not in prioritaires]
+    deplaces, echecs = [], []
+    for p, date in zip(ordre, creneaux):
+        if p["date_gmt"] == date:
+            continue
+        e = etat[p["slug"]]
+        fm, body = wp.parse_article(os.path.join(ART, f"{p['slug']}.md"))
+        fm = prix.front_matter(fm)
+        contenu = wp.render(body, live, fm, form, meta_dates(fm, e, date))
+        kind = "pages" if e.get("type") == "page" else "posts"
+        s, r = wp.api(f"/wp-json/wp/v2/{kind}/{p['id']}", "POST", {"status": "future", "date_gmt": date, "content": contenu})
+        if s != 200:
+            echecs.append(p["slug"])
+            continue
+        e.update(date_gmt=r["date_gmt"], empreinte_contenu=wp.empreinte(r["content"]["raw"]),
+                 empreinte_rendu=wp.empreinte(contenu))
+        deplaces.append(p["slug"])
+    save_etat(etat)
+    if deplaces:
+        journal(f"replanification : {len(deplaces)} article(s) déplacé(s)"
+                + (f", en tête : {', '.join(prioritaires)}" if prioritaires else ""))
+    print(f"Replanification : {len(deplaces)} article(s) déplacé(s) sur {len(prog)} programmé(s)")
+    for p, date in zip(ordre, creneaux):
+        if p["slug"] in echecs:
+            print(f"  ⛔ {p['slug']} → refusé par WordPress, reste au {fmt_bxl(parse_gmt(p['date_gmt']))}")
+        else:
+            print(f"  · {p['slug']} → {fmt_bxl(parse_gmt(date))}")
+    if echecs:
+        print("Un article refusé garde son ancienne date, qui peut tomber le jour d'un autre : vérifier avec etat.")
+        sys.exit(1)
+
+
 def maillage():
     import serp
     for msg in prix.actualiser(serp.lire):
@@ -692,6 +751,10 @@ if __name__ == "__main__":
         sys.exit(1 if b else 0)
     elif c == "publier" and len(a) > 1:
         publier(a[1], "--brouillon" in a)
+        if "--urgent" in a and "--brouillon" not in a:
+            replanifier([a[1]])
+    elif c == "replanifier":
+        replanifier(a[1:])
     elif c == "bloquer" and len(a) > 1:
         etat = load_etat()
         e = etat.get(a[1], {})

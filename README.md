@@ -43,6 +43,19 @@ python3 nouveau_site.py nom-du-site domaine.be
 ```
 Puis suivre `sites/<nom-du-site>/setup/DEMARRAGE.md`, et créer la tâche planifiée à partir de `tache-planifiee.md` en dernier.
 
+## Programmer d'avance et réadapter
+`publier <slug>` programme chaque article le jour qui suit le dernier programmé, à une heure au hasard : un lot rédigé en une session sort donc à raison d'un article par jour.
+
+| Besoin | Commande |
+|---|---|
+| Faire passer un article prêt avant tous les autres | `python3 tools/autopilote.py publier <slug> --urgent` |
+| Remonter des articles déjà programmés (Search Console…) | `python3 tools/autopilote.py replanifier <slug> [<slug>…]` |
+| Voir l'ordre de sortie | `python3 tools/autopilote.py etat` |
+
+Les créneaux ne changent pas (un par jour) : les articles cités prennent les premiers, les autres glissent d'un jour, et chaque article déplacé est renvoyé avec sa nouvelle date dans le cadre auteur. Un article retouché à la main dans WordPress garde sa date.
+
+Sans pilote quotidien, personne ne rattrape une sortie manquée : le cron WordPress ne tourne qu'avec des visites. Chaque site par lots a besoin d'un vrai cron (chez l'hébergeur, ou un service qui appelle `/wp-cron.php` toutes les heures).
+
 ## Modifier le moteur
 Une modification du moteur touche **tous les sites** dès leur prochaine exécution. Avant de la garder :
 1. rendre tous les articles de chaque site avant et après, et comparer (le rendu d'un article inchangé doit rester identique) ;
