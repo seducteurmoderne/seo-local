@@ -5,6 +5,9 @@
 # chaque ville. Ensuite dessouchage et plantation dans les 5 grandes villes, la page test haubanage, puis les guides.
 
 
+# --- 0 · demandé par le propriétaire (03/11/2026 : impressions sur « abattage arbre halanzy »)
+abattage-arbre-halanzy
+
 # --- 1 · mères locales
 elagage-luxembourg
 abattage-arbre-luxembourg
@@ -62,7 +65,6 @@ elagage-hesperange
 abattage-arbre-hesperange
 elagage-aubange
 abattage-arbre-aubange
-abattage-arbre-halanzy
 elagage-schifflange
 abattage-arbre-schifflange
 elagage-bettembourg
