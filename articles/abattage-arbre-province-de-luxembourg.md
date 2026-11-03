@@ -95,11 +95,11 @@ Notre page sur le [démontage d'un arbre](/demontage-arbre/) suit un chantier pa
 Nous transmettons les demandes d'abattage dans toute la province, en partant de la frontière autour d'Arlon. Chaque page de commune parle de ses villages, de son relief, de ses arbres et du recyparc le plus proche.
 
 ::choix
-*Arlon et la frontière | Le sud-est de la province | [Arlon](/abattage-arbre-arlon/), [Attert](/abattage-arbre-attert/), [Martelange](/abattage-arbre-martelange/), [Messancy](/abattage-arbre-messancy/), [Aubange](/abattage-arbre-aubange/) | Au plus près de Beckerich
-Gaume et sud de la province | Autour de Virton | [Virton](/abattage-arbre-virton/), [Habay](/abattage-arbre-habay/), [Étalle](/abattage-arbre-etalle/), [Musson](/abattage-arbre-musson/), [Tintigny](/abattage-arbre-tintigny/), [Chiny](/abattage-arbre-chiny/), [Florenville](/abattage-arbre-florenville/)
-Ardenne centrale | De la forêt d'Anlier à la Semois | [Léglise](/abattage-arbre-leglise/), [Fauvillers](/abattage-arbre-fauvillers/), [Vaux-sur-Sûre](/abattage-arbre-vaux-sur-sure/), [Neufchâteau](/abattage-arbre-neufchateau/), [Libramont](/abattage-arbre-libramont/), [Bertrix](/abattage-arbre-bertrix/), [Saint-Hubert](/abattage-arbre-saint-hubert/), [Bouillon](/abattage-arbre-bouillon/)
-Nord de la province | Haute Ardenne | [Bastogne](/abattage-arbre-bastogne/), [Houffalize](/abattage-arbre-houffalize/), [Vielsalm](/abattage-arbre-vielsalm/)
-Famenne | L'Ourthe et la Famenne | [Marche-en-Famenne](/abattage-arbre-marche-en-famenne/), [Durbuy](/abattage-arbre-durbuy/), [Hotton](/abattage-arbre-hotton/)
+*Arlon et la frontière | Le sud-est de la province | Arlon, Attert, Martelange, Messancy, Aubange | Au plus près de Beckerich
+Gaume et sud de la province | Autour de Virton | Virton, Habay, Étalle, Musson, Tintigny, Chiny, Florenville
+Ardenne centrale | De la forêt d'Anlier à la Semois | Léglise, Fauvillers, Vaux-sur-Sûre, Neufchâteau, Libramont, Bertrix, Saint-Hubert, Bouillon
+Nord de la province | Haute Ardenne | Bastogne, Houffalize, Vielsalm
+Famenne | L'Ourthe et la Famenne | Marche-en-Famenne, Durbuy, Hotton
 
 Vous cherchez un abattage d'arbre dans la province de Luxembourg ? Voici nos pages ville par ville :
 
