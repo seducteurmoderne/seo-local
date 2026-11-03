@@ -1,0 +1,7 @@
+{"types": {"guide": 1, "service": 3, "annuaire": 3, "autre": 0},
+"intention_recompensee": "Locale et commerciale : trouver une poêlerie de Marche-en-Famenne qui expose, pose et entretient des poêles à pellets. Google classe d'abord les pages de service d'une poêlerie locale (Colson-Roiseux), puis des annuaires et des plateformes de devis.",
+"incontournables": ["Nom et adresse d'une poêlerie à Marche", "Types d'appareils exposés (bois, pellets, gaz)", "Pose et entretien", "Demande de devis"],
+"differenciants": ["Liste des marques de poêles à pellets", "Taille du showroom et horaires", "Entretien et ramonage des conduits par la même société"],
+"lacunes": ["Aucune page ne compare les poêleries de Marche et des communes voisines entre elles", "Aucun prix posé ni ordre de prix pour la zone", "Rien sur les aides wallonnes actuelles", "Rien sur le délai de pose ni les communes couvertes"],
+"faiblesses": ["Pages de poêlerie centrées sur une seule société", "Annuaires sans vérification, mêlant chauffagistes et marchands de mazout", "Plateformes de devis génériques (chaudière, airco) hors sujet", "Aucune réponse directe ni tableau"],
+"longueur_cible": 900}

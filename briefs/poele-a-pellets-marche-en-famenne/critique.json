@@ -1,0 +1,122 @@
+{
+ "problemes": [
+  "En bref trop vague : nommer les poêleries et le point propre à Marche (service de garde)",
+  "DLD Poêlerie (Rochefort) et L’Art du Feu (Hotton) non vérifiables sur leur propre site : ne pas les citer"
+ ],
+ "brief": {
+  "intention": "Locale : trouver une poêlerie qui montre, pose et entretient un poêle à pellets à Marche-en-Famenne ou à moins de 20 km, puis obtenir un prix posé. Le visiteur compare les prestataires et demande des devis.",
+  "format_serp": "Pages de service d'une poêlerie de Marche (Colson-Roiseux, La Maison Goblet), annuaires (Pages d'Or, poelesabois.com) et plateformes de devis génériques ; aucune page neutre qui compare les poêleries de la zone.",
+  "structure_serp": "Médiane 757 mots, 1 H2 par page, 2 pages sur 7 avec tableau, aucune liste numérotée, une FAQ hors sujet.",
+  "entites": [
+   "poêle à pellets"
+  ],
+  "variantes": [
+   "poêle à pellets marche-en-famenne",
+   "poêle à pellet marche en famenne",
+   "magasin poêle à pellet marche en famenne",
+   "entretien poêle à pellet marche en famenne",
+   "marque de poêle à pellets",
+   "prix d'un poêle à pellets",
+   "poêle à pellet prix belgique"
+  ],
+  "termes": [
+   "poêlerie",
+   "showroom",
+   "fumisterie",
+   "pose",
+   "mise en service",
+   "tubage",
+   "conduit",
+   "entretien annuel",
+   "dépannage",
+   "service de garde",
+   "ramonage",
+   "Rénopack",
+   "audit"
+  ],
+  "questions": [
+   "Où acheter un poêle à pellets à Marche-en-Famenne ?",
+   "Quelles marques de poêle à pellets voir à Marche ?",
+   "Combien coûte un poêle à pellets posé à Marche-en-Famenne ?",
+   "Quel délai pour faire installer un poêle à pellets ?",
+   "Qui entretient un poêle à pellets à Marche-en-Famenne ?",
+   "Y a-t-il une prime pour un poêle à pellets en 2026 ?"
+  ],
+  "en_bref": [
+   "Une poêlerie à Marche (Colson-Roiseux, 300 m² de showroom) et une à Rochefort posent et entretiennent",
+   "Aucune ne publie de prix posé ; un installateur de la province en affiche un",
+   "Service de garde 7 jours sur 7 chez Colson-Roiseux"
+  ],
+  "plan": [
+   {
+    "h2": "Où acheter un poêle à pellets à Marche-en-Famenne ?",
+    "contenu": "Réponse directe : combien de poêleries à Marche et à moins de 20 km, ce qu'elles posent et entretiennent. Tableau des poêleries vérifiées sur leur site.",
+    "forme": "tableau",
+    "image": "",
+    "donnees_a_chercher": [
+     "adresses",
+     "marques",
+     "services",
+     "horaires"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Marques de poêle à pellets exposées à Marche-en-Famenne",
+    "contenu": "Les marques citées par chaque poêlerie, et l'avis : choisir la marque avec l'installateur qui la dépanne.",
+    "forme": "notre avis",
+    "image": "",
+    "donnees_a_chercher": [
+     "marques par poêlerie"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Prix d'un poêle à pellets posé à Marche-en-Famenne",
+    "contenu": "Aucune poêlerie de Marche ne publie de prix ; le seul prix affiché (Mister Pellets) en balise ; les postes qui font varier la facture ; lien vers le guide prix.",
+    "forme": "réponse directe",
+    "image": "",
+    "donnees_a_chercher": [
+     "prix affiché par un installateur qui couvre Marche"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Installer un poêle à pellets à Marche-en-Famenne : conduit, délais, prime",
+    "contenu": "Délai et étapes annoncés, conduit à tuber ou à créer, aides wallonnes au 1er octobre 2026 en une phrase sourcée.",
+    "forme": "chiffres clés",
+    "image": "",
+    "donnees_a_chercher": [
+     "délai de pose",
+     "communes couvertes",
+     "régime d'aides wallon"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Entretien d'un poêle à pellets à Marche-en-Famenne",
+    "contenu": "Qui entretient et dépanne, service de garde, ramonage des conduits ; liens entretien et dépannage.",
+    "forme": "paragraphe",
+    "image": "",
+    "donnees_a_chercher": [
+     "services d'entretien et de garde"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Poêle à pellets autour de Marche-en-Famenne : communes couvertes",
+    "contenu": "Communes citées par les poêleries (Durbuy, Somme-Leuze, Havelange, Clavier, Rochefort), lien pellets-marche-en-famenne et villes voisines.",
+    "forme": "paragraphe",
+    "image": "",
+    "donnees_a_chercher": [
+     "zones d'intervention"
+    ],
+    "h3": []
+   }
+  ],
+  "cta": "Formulaire fort après l'intro et en fin de page : devis d'installation auprès de plusieurs installateurs de la zone.",
+  "faq": [],
+  "longueur_cible": 950,
+  "decision": "Page de ville qui met côte à côte les poêleries de Marche-en-Famenne et de Rochefort et l'installateur qui couvre la province, vérifiées sur leur site : marques, horaires, services, zone. Elle dit qu'aucune ne publie de prix posé et mène au devis."
+ }
+}

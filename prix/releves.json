@@ -6,7 +6,7 @@
     "motif": "charme en 33 ou 50cm .*?(\\d+)€/st Bouleau",
     "valeur": 86,
     "verifie_le": "2026-11-02",
-    "echecs": 0
+    "echecs": 6
   },
   "atoutbois_sec_hcc_statut": {
     "source": "Atoutbois",
@@ -15,7 +15,7 @@
     "motif": "charme en 33 ou 50cm \\d+€/st (.{0,40}?) \\d+€/st Bouleau",
     "attendu": "Rupture de stock Rupture de stock",
     "verifie_le": "2026-11-02",
-    "echecs": 0
+    "echecs": 6
   },
   "atoutbois_livr_sh_5": {
     "source": "Atoutbois",
@@ -23,7 +23,7 @@
     "url": "https://atoutbois.be/?page_id=18",
     "motif": "St Hubert (\\d+) €",
     "valeur": 75,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "atoutbois_livr_sh_25": {
@@ -32,7 +32,7 @@
     "url": "https://atoutbois.be/?page_id=18",
     "motif": "St Hubert \\d+ € (\\d+) €",
     "valeur": 230,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "atoutbois_livr_libin_5": {
@@ -41,7 +41,7 @@
     "url": "https://atoutbois.be/?page_id=18",
     "motif": "Libin, Bouillon, Chiny (\\d+) €",
     "valeur": 55,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "atoutbois_livr_libin_25": {
@@ -50,7 +50,7 @@
     "url": "https://atoutbois.be/?page_id=18",
     "motif": "Libin, Bouillon, Chiny \\d+ € (\\d+) €",
     "valeur": 165,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "goffinet_ardenwood_filme": {
@@ -59,7 +59,7 @@
     "url": "https://www.goffinet-energies.be/shop/category/bois-de-chauffage-16",
     "motif": "ARDENWOOD \\(filmé\\).*?(\\d[\\d ]*,\\d\\d) €",
     "valeur": 345,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "goffinet_ardenwood_range": {
@@ -68,7 +68,7 @@
     "url": "https://www.goffinet-energies.be/shop/category/bois-de-chauffage-16",
     "motif": "ARDENWOOD \\(rangé\\).*?(\\d[\\d ]*,\\d\\d) €",
     "valeur": 385,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "goffinet_crepito_25": {
@@ -77,7 +77,7 @@
     "url": "https://www.goffinet-energies.be/shop/category/bois-de-chauffage-16",
     "motif": "Prémium 25cm.*?(\\d[\\d ]*,\\d\\d) €",
     "valeur": 375,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "goffinet_crepito_40_statut": {
@@ -87,7 +87,7 @@
     "motif": "(Rupture de stock)\\W*Crépito bois de chauffage - Bûche Prémium 40cm",
     "attendu": "Rupture de stock",
     "verifie_le": "2026-10-28",
-    "echecs": 8
+    "echecs": 14
   },
   "bcb_palette_lux": {
     "source": "Bois de Chauffage Belgique",
@@ -95,7 +95,7 @@
     "url": "https://www.boisdechauffagebelgique.be/promotion/",
     "motif": "Luxembourg : Palette de 3st à partir de (\\d+)€ htva",
     "valeur": 340,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "comptoir_box_1st": {
@@ -103,8 +103,8 @@
     "libelle": "Hêtre sec ±30 cm, box 1 stère, départ Tenneville",
     "url": "https://www.comptoirduboiseuropeen.be/pellet-et-buchette",
     "motif": "Box de 1 stère - Coupe : ± 30 cm Prix: (\\d+) €",
-    "valeur": 120,
-    "verifie_le": "2026-11-02",
+    "valeur": 110,
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "sylvardennes_vert_2m": {
@@ -113,7 +113,7 @@
     "url": "https://www.sylvardennes.com/bois-vert-premier-choix.html",
     "motif": "LONG\\. 2m -+ (\\d+)€ / stère",
     "valeur": 30,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "hubo_caisse_statut": {
@@ -122,7 +122,7 @@
     "url": "https://www.hubo.be/fr/p/bois-de-chauffage-mix-sec-petite-caisse-1100dm/980441/",
     "motif": "410 - (Malheureusement plus disponible)",
     "attendu": "Malheureusement plus disponible",
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "valbiom_buche": {
@@ -133,7 +133,7 @@
     "attendu": "août 2026",
     "valeur": 126,
     "verifie_le": "2026-10-20",
-    "echecs": 36
+    "echecs": 42
   },
   "sylvardennes_transport_60": {
     "source": "Sylvardennes",
@@ -141,7 +141,7 @@
     "url": "https://www.sylvardennes.com/bois-vert-premier-choix.html",
     "motif": "0>60km -+ (\\d+)€/ stère",
     "valeur": 7,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "sylvardennes_transport_100": {
@@ -150,7 +150,7 @@
     "url": "https://www.sylvardennes.com/bois-vert-premier-choix.html",
     "motif": "60 >100km -+ (\\d+)€/ stère",
     "valeur": 9,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "bcb_vrac_sec": {
@@ -159,7 +159,7 @@
     "url": "https://www.boisdechauffagebelgique.be/",
     "motif": "Bois SEC en vrac livré par min 5st à partir de (\\d+)€/st",
     "valeur": 100,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "pp_moyenne_sac": {
@@ -168,7 +168,7 @@
     "url": "https://www.palette-pellets.be/prix-pellet",
     "motif": "(\\d+[.,]\\d+) €/sac \\* de 15 Kg de pellets premium",
     "valeur": 7.29,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "pp_moyenne_palette": {
@@ -177,7 +177,7 @@
     "url": "https://www.palette-pellets.be/prix-pellet",
     "motif": "pellets premium = (\\d+[.,]\\d+) €/palette \\(66 sacs\\)",
     "valeur": 481.14,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "creppe_excellence_1": {
@@ -186,7 +186,7 @@
     "url": "https://combustiblescreppe.be/prix-livraison/",
     "motif": "Excellence pellets \\(belge\\) sacs de 15 kg Palette\\(s\\) livrée\\(s\\) Prix Palette / Sac 1 \\(65 sacs\\) (\\d+) €",
     "valeur": 494,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "creppe_excellence_4": {
@@ -195,7 +195,7 @@
     "url": "https://combustiblescreppe.be/prix-livraison/",
     "motif": "Excellence pellets.*?4 \\(260 sacs\\) (\\d+) €",
     "valeur": 479,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "creppe_optimum_1": {
@@ -204,7 +204,7 @@
     "url": "https://combustiblescreppe.be/prix-livraison/",
     "motif": "OPTIMUM PELLETS \\( ?belge\\) sacs de 15 kg Palette\\(s\\) livrée\\(s\\) Prix Palette / Sac 1 \\(65 sacs\\) (\\d+) ?€",
     "valeur": 479,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "creppe_optimum_drive": {
@@ -213,7 +213,7 @@
     "url": "https://combustiblescreppe.be/prix-livraison/",
     "motif": "OPTIMUM PELLETS.*?Drive-in / Palette (\\d+) ?€",
     "valeur": 454,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "ppremium_badger": {
@@ -222,7 +222,7 @@
     "url": "https://www.pellet-premium.be/comparatif-prix-pellets-2026-quelle-marque-choisir-m59.html",
     "motif": "Badger Pellets (\\d[\\d ]*,\\d\\d) €",
     "valeur": 477.75,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "ppremium_comfo": {
@@ -231,7 +231,7 @@
     "url": "https://www.pellet-premium.be/comparatif-prix-pellets-2026-quelle-marque-choisir-m59.html",
     "motif": "Comfo Pellets (\\d[\\d ]*,\\d\\d) €",
     "valeur": 473.85,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "goffinet_vrac_12t": {
@@ -240,7 +240,7 @@
     "url": "https://www.goffinet-energies.be/prix-pellets",
     "motif": "Prix pellets en vrac \\(Belgique, par tonne\\) : 12 tonnes : (\\d[\\d ]*,\\d\\d) €",
     "valeur": 447.42,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "goffinet_vrac_5t": {
@@ -249,7 +249,7 @@
     "url": "https://www.goffinet-energies.be/prix-pellets",
     "motif": "Prix pellets en vrac \\(Belgique, par tonne\\) :.*? 5 tonnes : (\\d[\\d ]*,\\d\\d) €",
     "valeur": 457.92,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "goffinet_vrac_3t": {
@@ -258,7 +258,7 @@
     "url": "https://www.goffinet-energies.be/prix-pellets",
     "motif": "Prix pellets en vrac \\(Belgique, par tonne\\) :.*? 3 tonnes : (\\d[\\d ]*,\\d\\d) €",
     "valeur": 472.41,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "goffinet_vrac_1t": {
@@ -267,7 +267,7 @@
     "url": "https://www.goffinet-energies.be/prix-pellets",
     "motif": "Prix pellets en vrac \\(Belgique, par tonne\\) :.*? 1 tonne : (\\d[\\d ]*,\\d\\d) €",
     "valeur": 567.1,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "goffinet_palette_retrait": {
@@ -276,7 +276,7 @@
     "url": "https://www.goffinet-energies.be/prix-pellets-palette",
     "motif": "Pellets en palettes disponibles en Click & Collect à partir de (\\d+) ?€",
     "valeur": 459,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "valbiom_pellet_sac": {
@@ -286,7 +286,7 @@
     "motif": "MISE À JOUR : (\\S+ \\d{4})",
     "valeur": 6.19,
     "verifie_le": "2026-10-20",
-    "echecs": 36,
+    "echecs": 42,
     "attendu": "août 2026"
   },
   "valbiom_pellet_sac_janvier": {
@@ -296,7 +296,7 @@
     "motif": "MISE À JOUR : (\\S+ \\d{4})",
     "valeur": 5.99,
     "verifie_le": "2026-10-20",
-    "echecs": 36,
+    "echecs": 42,
     "attendu": "août 2026"
   },
   "petit_vrac_5t": {
@@ -306,7 +306,7 @@
     "motif": "Prix du pellet en vrac en Belgique (\\d+[.,]?\\d*) ?€ TVAC",
     "valeur": 413.4,
     "verifie_le": "2026-10-31",
-    "echecs": 3
+    "echecs": 9
   },
   "petit_sac_palette": {
     "source": "PETIT & Fils",
@@ -315,7 +315,7 @@
     "motif": "Prix du pellet en sac en Belgique (\\d+[.,]?\\d*) ?€ TVAC",
     "valeur": 6.763,
     "verifie_le": "2026-10-31",
-    "echecs": 3
+    "echecs": 9
   },
   "comptoir_pellet_sac": {
     "source": "Comptoir du Bois Européen",
@@ -323,7 +323,7 @@
     "url": "https://www.comptoirduboiseuropeen.be/pellet-et-buchette",
     "motif": "Sac de 15 kg : àpd (\\d+,\\d+) € TVAC départ entreprise",
     "valeur": 6.5,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "comptoir_pellet_palette": {
@@ -332,7 +332,7 @@
     "url": "https://www.comptoirduboiseuropeen.be/pellet-et-buchette",
     "motif": "Palette de 65 sacs : àpd (\\d+) € départ entreprise",
     "valeur": 385,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "comptoir_comfo_palette": {
@@ -341,7 +341,7 @@
     "url": "https://www.comptoirduboiseuropeen.be/pellet-et-buchette",
     "motif": "COMFO Pellets.*?En palette de 65 sacs au prix de (\\d+) €/TTC",
     "valeur": 415,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "comptoir_vanroje_palette": {
@@ -350,17 +350,17 @@
     "url": "https://www.comptoirduboiseuropeen.be/pellet-et-buchette",
     "motif": "VAN ROJE Pellets.*?En palette de 65 sacs au prix de (\\d+) €/TTC",
     "valeur": 415,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "comptoir_pauls_palette": {
     "source": "Comptoir du Bois Européen",
     "libelle": "Pauls, palette de 70 sacs",
     "url": "https://www.comptoirduboiseuropeen.be/pellet-et-buchette",
-    "motif": "PAULS Pellets en sac de 15 kg\\..*?En palette de 70 sacs au prix de (\\d+) €",
-    "valeur": 450,
-    "verifie_le": "2026-10-27",
-    "echecs": 11
+    "motif": "PAULS pellets.*?En palette de 70 sacs au prix de (\\d+) €",
+    "valeur": 540,
+    "verifie_le": "2026-11-03",
+    "echecs": 0
   },
   "trafic_green_statut": {
     "source": "Trafic",
@@ -368,7 +368,7 @@
     "url": "https://trafic.com/fr_BE/green-energy-classic-pellet-15-din",
     "motif": "(Pellet Green Energy Classic 15kg Vendu Par Palette De 65 Sacs)",
     "attendu": "Pellet Green Energy Classic 15kg Vendu Par Palette De 65 Sacs",
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "trafic_premium_statut": {
@@ -377,7 +377,7 @@
     "url": "https://trafic.com/fr_BE/premium-pellet-15kg-1",
     "motif": "(Pellet Premium 15kg Vendu Par Palette De 65 Sacs)",
     "attendu": "Pellet Premium 15kg Vendu Par Palette De 65 Sacs",
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "creppe_box_sec_1": {
@@ -386,7 +386,7 @@
     "url": "https://combustiblescreppe.be/prix-livraison/",
     "motif": "Box 2,1 m3 \\(3 stères\\) Sec \\(3 ans\\) En 30 cm ou 45 cm 1 (\\d+) €",
     "valeur": 374,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "creppe_box_sec_4": {
@@ -395,7 +395,7 @@
     "url": "https://combustiblescreppe.be/prix-livraison/",
     "motif": "Box 2,1 m3 \\(3 stères\\) Sec \\(3 ans\\) En 30 cm ou 45 cm 1 \\d+ € 2 \\d+ € 3 \\d+ € 4 (\\d+) €",
     "valeur": 359,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "creppe_box_demisec_1": {
@@ -404,7 +404,7 @@
     "url": "https://combustiblescreppe.be/prix-livraison/",
     "motif": "Demi-sec \\(1 ans\\) En 30 cm ou 45 cm 1 (\\d+) €",
     "valeur": 334,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "bcb_pal_sec_nlb_1": {
@@ -413,7 +413,7 @@
     "url": "https://www.boisdechauffagebelgique.be/prix/",
     "motif": "Frene et hetre sec Prix 1 palette Prix 2 palettes ou plus BXL \\+ BF \\d+€ \\d+€ Namur, liège et bw (\\d+)€",
     "valeur": 380,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "bcb_pal_sec_nlb_2": {
@@ -422,7 +422,7 @@
     "url": "https://www.boisdechauffagebelgique.be/prix/",
     "motif": "Frene et hetre sec Prix 1 palette Prix 2 palettes ou plus BXL \\+ BF \\d+€ \\d+€ Namur, liège et bw \\d+€ (\\d+)€",
     "valeur": 360,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "bcb_pal_sec_bxl_1": {
@@ -431,7 +431,7 @@
     "url": "https://www.boisdechauffagebelgique.be/prix/",
     "motif": "Frene et hetre sec Prix 1 palette Prix 2 palettes ou plus BXL \\+ BF (\\d+)€",
     "valeur": 390,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "bcb_pal_sec_place": {
@@ -440,7 +440,7 @@
     "url": "https://www.boisdechauffagebelgique.be/prix/",
     "motif": "Frene et hetre sec .*?Sur place (\\d+)€",
     "valeur": 310,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "bcb_pal_demisec_nlb_1": {
@@ -449,7 +449,7 @@
     "url": "https://www.boisdechauffagebelgique.be/prix/",
     "motif": "DEMI-SEC Prix 1 palette Prix 2 palettes ou plus\\. BXL \\+ BF \\d+€ \\d+€ Namur, liège et bw (\\d+)€",
     "valeur": 360,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "bcb_vrac_frais": {
@@ -458,7 +458,7 @@
     "url": "https://www.boisdechauffagebelgique.be/prix/",
     "motif": "A PARTIR DE (\\d+)€/STERE en bois frais",
     "valeur": 90,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "bcb_vrac_sec_nlb": {
@@ -467,7 +467,7 @@
     "url": "https://www.boisdechauffagebelgique.be/prix/",
     "motif": "Namur, liège,BW (\\d+)€",
     "valeur": 100,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "ardenwood_filmee": {
@@ -476,7 +476,7 @@
     "url": "https://www.ardenwood.be/prix-du-bois-de-chauffage",
     "motif": "Palette filmée - 2 stères - Hêtre À partir de (\\d+)€ / stère",
     "valeur": 120,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "ardenwood_rangee": {
@@ -485,7 +485,7 @@
     "url": "https://www.ardenwood.be/prix-du-bois-de-chauffage",
     "motif": "Tarif de (\\d+)€ / stère Bûches calibrées à 33 cm",
     "valeur": 140,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "ardenwood_vrac_t": {
@@ -494,7 +494,7 @@
     "url": "https://www.ardenwood.be/prix-du-bois-de-chauffage",
     "motif": "remorque : (\\d+)€ / tonne HTVA",
     "valeur": 315,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "goffinet_vrac_2t": {
@@ -503,7 +503,7 @@
     "url": "https://www.goffinet-energies.be/prix-pellets",
     "motif": "Prix pellets en vrac \\(Belgique, par tonne\\) :.*? 2 tonnes : (\\d[\\d ]*,\\d\\d) €",
     "valeur": 517.81,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "goffinet_arden_retrait": {
@@ -512,7 +512,7 @@
     "url": "https://www.goffinet-energies.be/prix-pellets-palette",
     "motif": "Arden Pellets[^€]{0,80}?(\\d{3}) ?\\W*€\\W*/ ?palette Palette 66",
     "valeur": 459,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "goffinet_pauls_retrait": {
@@ -521,7 +521,7 @@
     "url": "https://www.goffinet-energies.be/prix-pellets-palette",
     "motif": "Pauls Pellets[^€]{0,80}?(\\d{3}) ?\\W*€\\W*/ ?palette Palette 70",
     "valeur": 459,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "goffinet_crepito_40": {
@@ -530,7 +530,7 @@
     "url": "https://www.goffinet-energies.be/shop/category/bois-de-chauffage-16",
     "motif": "Bûche Prémium 40cm.*?(\\d[\\d ]*,\\d\\d) €",
     "valeur": 290,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "martiny_comfo_sac": {
@@ -539,7 +539,7 @@
     "url": "https://www.martiny.be/tarifs",
     "motif": "Comfo sac de 15 kg.{0,80}?par palette ([\\d.,]+)€",
     "valeur": 7.6,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "martiny_comfo_palette": {
@@ -548,7 +548,7 @@
     "url": "https://www.martiny.be/tarifs",
     "motif": "Comfo sac de 15 kg.{0,80}?par palette [\\d.,]+€ ([\\d.,]+)€",
     "valeur": 430,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "martiny_badger_sac": {
@@ -557,7 +557,7 @@
     "url": "https://www.martiny.be/tarifs",
     "motif": "Badger sac de 15 kg.{0,80}?par palette ([\\d.,]+)€",
     "valeur": 7.55,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "martiny_badger_palette": {
@@ -566,7 +566,7 @@
     "url": "https://www.martiny.be/tarifs",
     "motif": "Badger sac de 15 kg.{0,80}?par palette [\\d.,]+€ ([\\d.,]+)€",
     "valeur": 425,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "martiny_vanroje_palette": {
@@ -575,7 +575,7 @@
     "url": "https://www.martiny.be/tarifs",
     "motif": "Van Roje sac de 15 kg.{0,80}?par palette [\\d.,]+€ ([\\d.,]+)€",
     "valeur": 520,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "mls_wonter_sac": {
@@ -583,8 +583,8 @@
     "libelle": "Wonter pellet, sac de 15 kg (palettes de 65 sacs)",
     "url": "https://www.mls-pro.be/",
     "motif": "([\\d.,]+)€ le sacs / 65 sacs par palettes Wonter",
-    "valeur": 6.5,
-    "verifie_le": "2026-11-02",
+    "valeur": 6.75,
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "mls_wonter_palette": {
@@ -592,8 +592,8 @@
     "libelle": "Wonter pellet, palette de 65 sacs",
     "url": "https://www.mls-pro.be/",
     "motif": "Wonter pellet Prix ([\\d.,]+) €",
-    "valeur": 422.5,
-    "verifie_le": "2026-11-02",
+    "valeur": 438.75,
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "brico_centralpark_sac": {
@@ -602,7 +602,7 @@
     "url": "https://www.brico.be/fr/chauffage-climatisation/combustibles-chauffage/pellets/he016/",
     "motif": "Central Park 15 kg \\(\\d+\\) Reserve & Go PRIX BAS PERMANENT (\\d+, ?\\d+)",
     "valeur": 6.89,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "brico_rekord_sac": {
@@ -611,7 +611,7 @@
     "url": "https://www.brico.be/fr/chauffage-climatisation/combustibles-chauffage/pellets/he016/",
     "motif": "Rekord Premium 15kg \\(\\d+\\) Reserve & Go PRIX BAS PERMANENT (\\d+, ?\\d+)",
     "valeur": 7.49,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "atoutbois_vert_bouleau": {
@@ -621,7 +621,7 @@
     "motif": "Bouleau ou sapin en 33 ou 50cm .*? (\\d+)€/st\\s+Tel",
     "valeur": 76,
     "verifie_le": "2026-11-02",
-    "echecs": 0
+    "echecs": 6
   },
   "atoutbois_livr_neuf_5": {
     "source": "Atoutbois",
@@ -629,7 +629,7 @@
     "url": "https://atoutbois.be/?page_id=18",
     "motif": "Libramont, Neufchâteau, (\\d+) ?€",
     "valeur": 55,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "atoutbois_livr_neuf_25": {
@@ -638,7 +638,7 @@
     "url": "https://atoutbois.be/?page_id=18",
     "motif": "Libramont, Neufchâteau, \\d+ ?€ (\\d+) €",
     "valeur": 165,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "comptoir_comfo_sac": {
@@ -647,7 +647,7 @@
     "url": "https://www.comptoirduboiseuropeen.be/pellet-et-buchette",
     "motif": "COMFO Pellets.*?Disponible en sac de 15 kg au prix de (\\d+, ?\\d+) ?€",
     "valeur": 7.2,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "comptoir_vanroje_sac": {
@@ -656,31 +656,31 @@
     "url": "https://www.comptoirduboiseuropeen.be/pellet-et-buchette",
     "motif": "VAN ROJE Pellets.*?Disponible en sac de 15 kg au prix de (\\d+, ?\\d+) ?€",
     "valeur": 7.2,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "comptoir_box_2st": {
     "source": "Comptoir du Bois Européen",
     "url": "https://www.comptoirduboiseuropeen.be/pellet-et-buchette",
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0,
     "libelle": "Hêtre sec ±30 cm, box 2 stères, départ Tenneville",
     "motif": "Box de 2 stères - Coupe : ± 30 cm Prix: (\\d+) €",
-    "valeur": 240
+    "valeur": 220
   },
   "comptoir_box_3st": {
     "source": "Comptoir du Bois Européen",
     "url": "https://www.comptoirduboiseuropeen.be/pellet-et-buchette",
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0,
     "libelle": "Hêtre sec ±30 cm, box 3 stères, départ Tenneville",
     "motif": "Box de 3 stères - Coupe : ± 30 cm Prix: (\\d+) €",
-    "valeur": 360
+    "valeur": 330
   },
   "comptoir_buchette_5": {
     "source": "Comptoir du Bois Européen",
     "url": "https://www.comptoirduboiseuropeen.be/pellet-et-buchette",
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0,
     "libelle": "Bûchettes Enercobois, paquet de 5 (10 kg), départ Tenneville",
     "motif": "au prix de (\\d+,\\d+) € les 5 buchettes",
@@ -689,7 +689,7 @@
   "comptoir_buchette_palette": {
     "source": "Comptoir du Bois Européen",
     "url": "https://www.comptoirduboiseuropeen.be/pellet-et-buchette",
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0,
     "libelle": "Bûchettes Enercobois, palette de 100 pièces (1 t), départ Tenneville",
     "motif": "Par palette de 100 pcs, soit 1 tonne, (\\d+) €",
@@ -699,10 +699,10 @@
     "source": "Comptoir du Bois Européen",
     "libelle": "Pauls, sac de 15 kg au détail, départ Tenneville",
     "url": "https://www.comptoirduboiseuropeen.be/pellet-et-buchette",
-    "motif": "PAULS Pellets en sac de 15 kg\\..*?Disponible en sac de 15 kg au prix de (\\d+, ?\\d+) ?€",
-    "valeur": 7.5,
-    "verifie_le": "2026-10-27",
-    "echecs": 11
+    "motif": "PAULS pellets.*?En sac de 15 kg au prix de (\\d+(?:, ?\\d+)?) ?€",
+    "valeur": 9,
+    "verifie_le": "2026-11-03",
+    "echecs": 0
   },
   "atoutbois_livr_bertrix_5": {
     "source": "Atoutbois",
@@ -710,7 +710,7 @@
     "url": "https://atoutbois.be/?page_id=18",
     "motif": "Par 25st Bertrix (\\d+) ?€",
     "valeur": 25,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "atoutbois_livr_bertrix_25": {
@@ -719,7 +719,7 @@
     "url": "https://atoutbois.be/?page_id=18",
     "motif": "Par 25st Bertrix \\d+ ?€ (\\d+) ?€",
     "valeur": 70,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "renardiere_vrac_sec": {
@@ -728,7 +728,7 @@
     "url": "https://www.larenardiere.be/service-bois-chauffage/",
     "motif": "fendu 33 - 40 - 50 cm (\\d+) ?€",
     "valeur": 90,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "renardiere_transport_4": {
@@ -737,7 +737,7 @@
     "url": "https://www.larenardiere.be/service-bois-chauffage/",
     "motif": "de 0 à 5 km Bois chauffage coupé 1 mètre Bois chauffage VRAC coupé - fendu 33 (\\d+) €",
     "valeur": 15,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "renardiere_transport_20": {
@@ -746,7 +746,7 @@
     "url": "https://www.larenardiere.be/service-bois-chauffage/",
     "motif": "de 0 à 5 km Bois chauffage coupé 1 mètre Bois chauffage VRAC coupé - fendu 33 \\d+ € (\\d+) €",
     "valeur": 75,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "renardiere_transport_40km": {
@@ -755,7 +755,7 @@
     "url": "https://www.larenardiere.be/service-bois-chauffage/",
     "motif": "25 à 40 km Bois chauffage coupé 1 mètre Bois chauffage VRAC coupé - fendu 33 \\d+ € (\\d+) €",
     "valeur": 200,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "renardiere_sac_buches": {
@@ -764,7 +764,7 @@
     "url": "https://www.larenardiere.be/service-bois-chauffage/",
     "motif": "Sac bûches 25 cm \\(petit\\) 7dm³ (\\d+) €",
     "valeur": 7,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "renardiere_sac_allumage": {
@@ -773,7 +773,7 @@
     "url": "https://www.larenardiere.be/service-bois-chauffage/",
     "motif": "allumage \\(petit\\) 7dm³ (\\d+) €",
     "valeur": 4,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "ardenwood_rangee_zd": {
@@ -782,7 +782,7 @@
     "url": "https://www.ardenwood.be/prix-du-bois-de-chauffage",
     "motif": "Tarif de (\\d+)€ / stère Palette zéro déchet",
     "valeur": 155,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "allehout_classic_palette": {
@@ -791,17 +791,17 @@
     "url": "https://www.allehoutpellets.be/fr/products/ahp-classic-15kg/",
     "motif": "Commandez palette: € (\\d+,\\d\\d)",
     "valeur": 454.0,
-    "verifie_le": "2026-10-30",
-    "echecs": 5
+    "verifie_le": "2026-11-03",
+    "echecs": 0
   },
   "allehout_badger_palette": {
     "source": "Allehoutpellets",
     "libelle": "Badger DIN+ / ENplus A1, palette de 65 sacs de 15 kg (975 kg), boutique en ligne",
     "url": "https://www.allehoutpellets.be/fr/products/badger-pellets/",
     "motif": "Commandez palette: € (\\d+,\\d\\d)",
-    "valeur": 489.0,
-    "verifie_le": "2026-10-30",
-    "echecs": 5
+    "valeur": 499,
+    "verifie_le": "2026-11-03",
+    "echecs": 0
   },
   "winn_comfo_palette": {
     "source": "Pellets Winn",
@@ -809,7 +809,7 @@
     "url": "https://www.pellets-winn.be/palette-comfo-pellets-prix-livre-23.html",
     "motif": "65 sacs/Palette (\\d+,\\d\\d) €",
     "valeur": 473.85,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "ardenneflamme_vrac_sec_3": {
@@ -818,7 +818,7 @@
     "url": "https://ardenne-flamme.be/",
     "motif": "Bois en vrac prêt à brûler \\(min 3 stères\\) 30-33cm (\\d+) € stère",
     "valeur": 115,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "ardenneflamme_vrac_demisec_3": {
@@ -827,7 +827,7 @@
     "url": "https://ardenne-flamme.be/",
     "motif": "Bois demi-sec \\(min 3 stères\\) : 25-30-40-50cm\\. Spécifier la taille dans le formulaire (\\d+) € stère",
     "valeur": 100,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "ardenneflamme_palette_sec": {
@@ -836,7 +836,7 @@
     "url": "https://ardenne-flamme.be/",
     "motif": "Bois en palette \\(2,5 stères\\) prêt à brûler 30-33cm (\\d+) € palette",
     "valeur": 310,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "brico_pure_sac": {
@@ -845,7 +845,7 @@
     "url": "https://www.brico.be/fr/chauffage-climatisation/combustibles-chauffage/pellets/he016/",
     "motif": "Pure Pellets Din\\+ 15Kg \\(\\d+\\) Reserve & Go PRIX BAS PERMANENT (\\d+, ?\\d+)",
     "valeur": 6.99,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "pelletstock6690_swiss": {
@@ -854,7 +854,7 @@
     "url": "https://www.pelletstock.be/fr-BE/catalog/products/BE/6690/list.aspx",
     "motif": "Produit : --> Pellets Swiss --> .*?Palette\\(s\\) livrée\\(s\\) ([\\d.]+,\\d\\d) €",
     "valeur": 464,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "pelletstock6690_optimum": {
@@ -863,7 +863,7 @@
     "url": "https://www.pelletstock.be/fr-BE/catalog/products/BE/6690/list.aspx",
     "motif": "Produit : --> Optimum Pellets --> .*?Palette\\(s\\) livrée\\(s\\) ([\\d.]+,\\d\\d) €",
     "valeur": 479,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "hubo_bg_sac_euros": {
@@ -872,7 +872,7 @@
     "url": "https://www.hubo.be/fr/p/bg-pellets-bois-resineux-15kg/972023/",
     "motif": "Référence Hubo: 972023 .*?Toutes les caractéristiques (\\d+) \\d\\d [\\d,]+ par kg",
     "valeur": 7,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "hubo_bg_sac_cents": {
@@ -881,7 +881,7 @@
     "url": "https://www.hubo.be/fr/p/bg-pellets-bois-resineux-15kg/972023/",
     "motif": "Référence Hubo: 972023 .*?Toutes les caractéristiques \\d+ (\\d\\d) [\\d,]+ par kg",
     "valeur": 99,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "atoutbois_livr_aubange_5": {
@@ -890,7 +890,7 @@
     "url": "https://atoutbois.be/?page_id=18",
     "motif": "Messancy, Aubange (\\d+) €",
     "valeur": 125,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "atoutbois_livr_aubange_25": {
@@ -899,7 +899,7 @@
     "url": "https://atoutbois.be/?page_id=18",
     "motif": "Messancy, Aubange \\d+ € (\\d+) €",
     "valeur": 375,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "pelletstock6791_swiss": {
@@ -908,7 +908,7 @@
     "url": "https://www.pelletstock.be/fr-BE/catalog/products/BE/6791/list.aspx",
     "motif": "Produit : --> Pellets Swiss --> .*?Palette\\(s\\) livrée\\(s\\) ([\\d.]+,\\d\\d) €",
     "valeur": 464,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "pelletstock6791_optimum": {
@@ -917,7 +917,7 @@
     "url": "https://www.pelletstock.be/fr-BE/catalog/products/BE/6791/list.aspx",
     "motif": "Produit : --> Optimum Pellets --> .*?Palette\\(s\\) livrée\\(s\\) ([\\d.]+,\\d\\d) €",
     "valeur": 479,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "hubo_king_mini5": {
@@ -926,7 +926,7 @@
     "url": "https://www.hubo.be/fr/p/king-mini5-poele-a-pellets-5-5kw/996287/",
     "motif": "Référence Hubo: 996287 .*?Toutes les caractéristiques (\\d+) - Recupel",
     "valeur": 999,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "hubo_king_mk63": {
@@ -935,7 +935,7 @@
     "url": "https://www.hubo.be/fr/p/king-mk63-poele-a-pellets-6-9kw/1077404/",
     "motif": "Référence Hubo: 1077404 .*?Toutes les caractéristiques (\\d+) - Recupel",
     "valeur": 1099,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "hubo_king_variant8": {
@@ -944,7 +944,7 @@
     "url": "https://www.hubo.be/fr/p/king-variant8-poele-a-pellets-7-7kw/1121886/",
     "motif": "Référence Hubo: 1121886 .*?Toutes les caractéristiques (\\d+) - Recupel",
     "valeur": 1199,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "hubo_king_g12": {
@@ -953,7 +953,7 @@
     "url": "https://www.hubo.be/fr/p/king-king-g12-poele-a-pellets-11-6kw/1075971/",
     "motif": "Référence Hubo: 1075971 .*?Toutes les caractéristiques (\\d+) - Recupel",
     "valeur": 1599,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "misterpellets_ek63": {
@@ -962,12 +962,12 @@
     "url": "https://mister-pellets.be/poeles-pellets-arlon",
     "motif": "EK63 Spy 110\\+ Evo Best-seller .*?(\\d[\\d ]*) € TVAC",
     "valeur": 2746,
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0
   },
   "hubo_alexia": {
     "source": "Hubo",
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0,
     "libelle": "Alexia poêle à bois 6 kW (210 m³), prix national",
     "url": "https://www.hubo.be/fr/p/alexia-poele-a-bois-6kw/994968/",
@@ -976,7 +976,7 @@
   },
   "hubo_castilla": {
     "source": "Hubo",
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0,
     "libelle": "Castilla poêle à bois 8 kW (240 m³), prix national",
     "url": "https://www.hubo.be/fr/p/castilla-poele-a-bois-8kw/994971/",
@@ -985,7 +985,7 @@
   },
   "hubo_101s": {
     "source": "Hubo",
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0,
     "libelle": "101-S Ecodesign poêle à bois 8,9 kW (240 m³), prix national",
     "url": "https://www.hubo.be/fr/p/101-s-ecodesign-poele-a-bois-8-9kw/1096592/",
@@ -994,7 +994,7 @@
   },
   "hubo_livraison_poele_bois": {
     "source": "Hubo",
-    "verifie_le": "2026-11-02",
+    "verifie_le": "2026-11-03",
     "echecs": 0,
     "libelle": "Livraison à domicile d'un poêle à bois Hubo (fiche Castilla)",
     "url": "https://www.hubo.be/fr/p/castilla-poele-a-bois-8kw/994971/",

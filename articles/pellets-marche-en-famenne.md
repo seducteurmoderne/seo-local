@@ -1,7 +1,7 @@
 ---
 slug: pellets-marche-en-famenne
 title_seo: "Pellets à Marche-en-Famenne : livraison et prix 2026"
-meta_description: "À Marche-en-Famenne, le vrac livré s'affiche à 413 € la tonne et le sac se trouve dès 6,49 € en magasin. Qui livre, à quel prix, et comment comparer."
+meta_description: "À Marche-en-Famenne, deux livreurs nomment la ville et Brico vend le sac à emporter. Qui livre, à quel prix à la tonne, et comment comparer les offres."
 h1: "Acheter des pellets à Marche-en-Famenne : livraison, vrac et prix"
 categorie: Pellets
 besoin: pellets
@@ -28,10 +28,7 @@ statut: brouillon
 # Acheter des pellets à Marche-en-Famenne : livraison, vrac et prix
 
 > ### En bref
-> - **Deux livreurs nomment Marche-en-Famenne** : PETIT & Fils, qui souffle le vrac dans tous les villages de la commune, et le Groupe LMV, installé à On, qui livre des pellets Badger en sacs
-> - **Vrac livré : 413,40 € la tonne TVAC** pour 5 tonnes chez PETIT & Fils, minimum 2 tonnes, relevé le 30 septembre 2026
-> - **En sac, sans livraison : de 6,49 à 7,49 € les 15 kg** chez Brico, rue Borchamps, et de 5,92 à 6,42 € à la palette au Comptoir du Bois Européen, à Tenneville
-> - **Pour comparer**, ramenez chaque offre à la tonne livrée chez vous : c'est le seul chiffre qui tient compte du format et du transport
+> Deux livreurs nomment Marche-en-Famenne : PETIT & Fils souffle le vrac dans les villages de la commune à **{{calc:petit_vrac_5t}} € la tonne TVAC** pour 5 tonnes, et le Groupe LMV, à On, livre des pellets Badger en sacs. Sans livraison, le sac de 15 kg coûte de {{calc2:min(brico_centralpark_sac, brico_pure_sac, brico_rekord_sac)}} à {{calc2:max(brico_centralpark_sac, brico_pure_sac, brico_rekord_sac)}} € chez Brico, rue Borchamps (relevé du {{releve:brico_centralpark_sac}}). Ramenez chaque offre à la tonne livrée chez vous pour comparer.
 
 Marche-en-Famenne est mieux servie que la plupart des villes de la province pour les pellets. Deux entreprises livrent dans la commune et le disent sur leur site, deux magasins vendent le sac à emporter, et un dépôt de Tenneville affiche ses prix à la palette. Le choix dépend surtout de votre installation : silo pour le vrac, sacs pour un poêle. Nous avons relevé ce que chacun annonce, et ramené les prix à la même unité. Les bases sur les granulés, leurs normes et leurs formats, sont sur notre page consacrée aux [pellets](/pellets/) en Belgique.
 
@@ -51,27 +48,27 @@ Nous avons lu, le 30 septembre 2026, le site de chaque fournisseur et de chaque 
 
 Le Groupe LMV est le seul des quatre installé dans la commune même. Il livre les sacs, mais ne publie pas de prix : son formulaire de contact prévoit une « demande de prix ». PETIT & Fils vient du sud de la province, mais consacre une page entière à Marche-en-Famenne et Durbuy, avec un numéro de téléphone en 084 réservé aux pellets. Son offre concerne le vrac ; pour des sacs livrés, posez-lui la question.
 
-## Prix des pellets à Marche-en-Famenne en septembre 2026
+## Prix des pellets à Marche-en-Famenne à la tonne
 
-Chaque vendeur affiche son prix dans une unité différente : la tonne pour le vrac, la palette pour le dépôt, le sac pour le magasin. Nous avons tout ramené à la tonne, en comptant 15 kg par sac.
+Chaque vendeur affiche son prix dans une unité différente : la tonne pour le vrac, la palette pour le dépôt, le sac pour le magasin. Nous avons tout ramené à la tonne, en comptant 15 kg par sac, au relevé du {{releve}}.
 
 | Offre | Prix affiché | Prix à la tonne | Livraison |
 |---|---|---|---|
-| PETIT & Fils, vrac (5 tonnes) | 413,40 € la tonne TVAC | 413 € | Comprise |
-| Comptoir du Bois Européen, pellet sans marque EN Plus | 385 € la palette de 65 sacs | 395 € | En supplément |
-| Comptoir du Bois Européen, marques DIN+ | 405 à 450 € la palette | 415 à 429 € | En supplément |
-| Brico, Central Park ou Woodies | 6,49 € le sac | 433 € | Non, retrait |
-| Brico, Pure Pellets | 6,99 € le sac | 466 € | Non, retrait |
-| Brico, Rekord Premium | 7,49 € le sac | 499 € | Non, retrait |
+| PETIT & Fils, vrac (5 tonnes) | {{calc2:petit_vrac_5t}} € la tonne TVAC | {{calc:petit_vrac_5t}} € | Comprise |
+| Comptoir du Bois Européen, pellet sans marque EN Plus | {{prix:comptoir_pellet_palette}} € la palette de 65 sacs | {{calc:comptoir_pellet_palette/0.975}} € | En supplément |
+| Comptoir du Bois Européen, marques DIN+ | {{calc:min(comptoir_comfo_palette, comptoir_vanroje_palette, comptoir_pauls_palette)}} à {{calc:max(comptoir_comfo_palette, comptoir_vanroje_palette, comptoir_pauls_palette)}} € la palette | {{calc:min(comptoir_comfo_palette/0.975, comptoir_vanroje_palette/0.975, comptoir_pauls_palette/1.05)}} à {{calc:max(comptoir_comfo_palette/0.975, comptoir_vanroje_palette/0.975, comptoir_pauls_palette/1.05)}} € | En supplément |
+| Brico, Central Park | {{calc2:brico_centralpark_sac}} € le sac | {{calc:brico_centralpark_sac/0.015}} € | Non, retrait |
+| Brico, Pure Pellets | {{calc2:brico_pure_sac}} € le sac | {{calc:brico_pure_sac/0.015}} € | Non, retrait |
+| Brico, Rekord Premium | {{calc2:brico_rekord_sac}} € le sac | {{calc:brico_rekord_sac/0.015}} € | Non, retrait |
 
 ::chiffres
-413 € | la tonne de vrac livrée par PETIT & Fils, pour 5 tonnes
-6,19 € | le sac de 15 kg à la palette, moyenne wallonne d'août 2026 (Valbiom), soit 413 € la tonne hors livraison
-6,49 € | le sac le moins cher chez Brico à Marche, à emporter
+{{calc:petit_vrac_5t}} € | la tonne de vrac livrée par PETIT & Fils, pour 5 tonnes
+{{calc2:valbiom_pellet_sac}} € | le sac de 15 kg à la palette, moyenne wallonne d'août 2026 (Valbiom), soit {{calc:valbiom_pellet_sac/0.015}} € la tonne hors livraison
+{{calc2:min(brico_centralpark_sac, brico_pure_sac, brico_rekord_sac)}} € | le sac le moins cher chez Brico à Marche, à emporter
 
-Le vrac livré par PETIT & Fils revient donc au même prix que la moyenne wallonne du sac acheté à la palette, alors que cette moyenne ne comprend pas le transport. Si vous avez un silo, le vrac est l'offre à regarder en premier. Le prix appliqué est celui du jour de la commande, pas celui du jour de la livraison ; au-delà de 5 tonnes, l'entreprise fait une offre sur mesure.
+Le vrac livré par PETIT & Fils revient à {{calc:petit_vrac_5t}} € la tonne, transport compris, contre {{calc:valbiom_pellet_sac/0.015}} € pour la moyenne wallonne du sac acheté à la palette, transport non compris. Si vous avez un silo, le vrac est l'offre à regarder en premier. Le prix appliqué est celui du jour de la commande, pas celui du jour de la livraison ; au-delà de 5 tonnes, l'entreprise fait une offre sur mesure.
 
-Pour un poêle, le calcul se fait entre le magasin et le dépôt. Une palette achetée au Comptoir du Bois Européen coûte moins cher à la tonne que les sacs de Brico, mais il faut aller la chercher à Tenneville, à une vingtaine de kilomètres, ou payer la livraison. Les sacs de Brico coûtent plus cher, mais s'achètent au fil de l'hiver, sans rien stocker d'avance.
+Pour un poêle, le calcul se fait entre le magasin et le dépôt. Une palette sans marque du Comptoir du Bois Européen revient à {{calc:comptoir_pellet_palette/0.975}} € la tonne, contre {{calc:min(brico_centralpark_sac, brico_pure_sac, brico_rekord_sac)/0.015}} € pour le sac le moins cher de Brico. Il faut aller la chercher à Tenneville, à une vingtaine de kilomètres, ou payer la livraison. Les sacs de Brico s'achètent au fil de l'hiver, sans rien stocker d'avance.
 
 ## Livraison de pellets en vrac à Marche-en-Famenne
 
@@ -79,7 +76,7 @@ Le vrac ne se livre que dans un silo ou un local de stockage fermé, relié à u
 
 Le minimum de 2 tonnes exclut le vrac pour la plupart des poêles, qui n'ont pas de silo. Notre guide pour choisir entre [sac, palette ou vrac](/sac-palette-vrac-pellets/) détaille les contraintes de chaque format, et celui sur le [stockage des pellets](/stockage-pellets/) explique comment garder une palette au sec si vous optez pour les sacs.
 
-> 💡 Si vous chauffez une maison entière au pellet avec un silo, nous demanderions d'abord un prix à PETIT & Fils, puis au Groupe LMV pour comparer : le vrac livré y coûte autant que des sacs non livrés ailleurs. Pour un poêle d'appoint, la palette du Comptoir stockée à Tenneville, ou quelques sacs chez Brico, suffisent.
+> 💡 Si vous chauffez une maison entière au pellet avec un silo, nous demanderions d'abord un prix à PETIT & Fils, puis au Groupe LMV pour comparer : le vrac arrive dans le silo, sans sac à porter. Pour un poêle d'appoint, la palette du Comptoir stockée à Tenneville, ou quelques sacs chez Brico, suffisent.
 
 ## Badger, DIN+ ou ENplus A1 : quels pellets choisir
 
@@ -95,6 +92,11 @@ Si votre poêle brûle aussi des bûches, la page sur le [bois de chauffage à M
 
 <!--
 NOTES DE PRODUCTION
+
+PRIX DYNAMIQUES (03/11/2026) : converti par le pilote — petit_vrac_5t, comptoir_pellet_palette,
+  comptoir_comfo/vanroje/pauls_palette (65 sacs = 975 kg, Pauls 70 sacs = 1 050 kg), brico_centralpark/pure/rekord_sac,
+  valbiom_pellet_sac. Woodies retiré du tableau des prix (aucun prix suivi). En bref passé en paragraphe. Phrases
+  « au même prix que la moyenne » et « coûte autant » remplacées par des comparaisons à deux chiffres.
 
 PAGE LOCALE — méthode du 29/09/2026 (CSV + magasins + fournisseurs qui nomment la ville).
 Ligne « Marche-en-Famenne » du CSV terrain : fournisseurs_pellets = Comptoir du Bois

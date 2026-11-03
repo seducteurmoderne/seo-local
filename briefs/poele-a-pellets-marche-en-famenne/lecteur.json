@@ -1,0 +1,10 @@
+{"persona": "Propriétaire d'une maison à Marche-en-Famenne ou dans un village autour (Aye, Marloie, Waha, Hargimont, On), souvent une maison des années 1970-2000 chauffée au mazout, qui envisage un poêle à pellets en appoint ou en chauffage principal.",
+"situation": "Début de saison de chauffe, facture de mazout en tête. Il a vu des poêles en grande surface ou en ligne et veut voir un appareil en vrai, savoir qui le pose près de chez lui et à quel prix, avant l'hiver.",
+"intentions": [{"type": "locale", "part": 0.6, "description": "Trouver un showroom ou un installateur de poêle à pellets à Marche ou à moins de 20 km, avec adresse et horaires."},
+{"type": "commerciale", "part": 0.25, "description": "Connaître un prix posé, les marques disponibles, le délai de pose avant l'hiver."},
+{"type": "informationnelle", "part": 0.15, "description": "Savoir s'il existe encore une prime, ce que demande le conduit, qui fera l'entretien."}],
+"reponse_attendue": "Les noms et adresses des poêleries de Marche et des environs qui vendent et posent des poêles à pellets, les marques qu'on y voit, et un ordre de prix posé.",
+"questions": ["Où voir un poêle à pellets à Marche-en-Famenne ?", "Qui le pose et l'entretient ?", "Quelles marques sont exposées ?", "Combien coûte un poêle à pellets posé ?", "Faut-il un conduit, peut-on tuber la cheminée ?", "Quel délai avant l'hiver ?", "Y a-t-il encore une prime en Wallonie ?", "Où acheter les pellets ensuite ?"],
+"informations": ["adresses et horaires des showrooms", "marques par poêlerie", "services pose, entretien, dépannage", "prix publiés ou absence de prix", "délai de pose annoncé", "règle actuelle des aides wallonnes", "communes couvertes"],
+"objections": ["Aucune poêlerie ne publie de prix : peur d'un devis gonflé", "Peur de dépendre d'un installateur lointain pour le dépannage", "Doute sur la prime supprimée", "Un poêle de grande surface coûte moins cher"],
+"declencheur_devis": "Après le tableau des poêleries et la section prix : le visiteur constate que le prix dépend d'une visite et veut comparer plusieurs devis sans appeler chaque poêlerie. Formulaire fort après l'intro et en fin de page."}

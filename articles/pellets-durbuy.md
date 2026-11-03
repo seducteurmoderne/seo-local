@@ -35,7 +35,7 @@ statut: brouillon
 # Pellets à Durbuy : prix, livraison et fournisseurs
 
 > ### En bref
-> Dans la commune de Durbuy, Martiny à Barvaux et MLS Pro à Bomal vendent les pellets sur place, de **{{calc2:min(mls_wonter_sac, martiny_comfo_sac)}} à {{calc2:martiny_badger_sac}} € le sac** de 15 kg, et Martiny la palette de {{prix:martiny_comfo_palette}} à {{prix:martiny_vanroje_palette}} €. Pour une chaudière, PETIT & Fils et Goffinet Energies livrent le vrac à Durbuy.
+> Dans la commune de Durbuy, Martiny à Barvaux et MLS Pro à Bomal vendent les pellets sur place, de **{{calc2:min(mls_wonter_sac, martiny_comfo_sac, martiny_badger_sac)}} à {{calc2:max(mls_wonter_sac, martiny_comfo_sac, martiny_badger_sac)}} € le sac** de 15 kg, et Martiny la palette de {{prix:martiny_comfo_palette}} à {{prix:martiny_vanroje_palette}} €. Pour une chaudière, PETIT & Fils et Goffinet Energies livrent le vrac à Durbuy.
 
 Pour acheter des pellets à Durbuy, vous n'avez pas à sortir de la commune : Martiny vend le sac et la palette route de Marche à Barvaux, et MLS Pro a un dépôt à Bomal. Pour être livré, deux vendeurs de vrac citent Durbuy sur leur site, et deux autres livrent la palette dans toute la province.
 
