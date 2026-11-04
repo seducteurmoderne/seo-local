@@ -1,6 +1,7 @@
 <?php
 /**
  * Plugin Name: Demandes de devis — Devis Élagage Lux
+ * Version: 2
  * Généré par le moteur commun (python3 tools/autopilote.py plugin) depuis site.json : ne pas modifier à la main.
  * Description: Reçoit les formulaires de devis intégrés aux articles, les enregistre dans l'admin et les envoie par e-mail.
  *
@@ -44,7 +45,32 @@ add_action('rest_api_init', function () {
         array('methods' => 'POST', 'permission_callback' => '__return_true',
               'callback' => 'bcp_leads_recevoir'),
     ));
+    // Suivi des demandes pour le panel du parc (version 2) : réservé aux comptes connectés qui peuvent écrire des articles.
+    register_rest_route('leads/v1', '/lead/suivi', array(
+        'methods' => 'GET',
+        'permission_callback' => function () { return current_user_can('edit_posts'); },
+        'callback' => 'bcp_leads_suivi',
+    ));
 });
+
+// Date, page d'origine, besoins, code postal et délai de chaque demande. Ni nom, ni e-mail, ni téléphone, ni message :
+// rien qui permette de contacter la personne ne sort par l'API.
+function bcp_leads_suivi() {
+    $ids = get_posts(array('post_type' => 'bcp_lead', 'post_status' => 'private', 'numberposts' => -1,
+                           'fields' => 'ids', 'orderby' => 'date', 'order' => 'DESC', 'suppress_filters' => true));
+    $demandes = array();
+    foreach ($ids as $id) {
+        $demandes[] = array(
+            'id'      => $id,
+            'date'    => get_post_time('c', true, $id),
+            'source'  => (string) get_post_meta($id, 'bcp_source', true),
+            'besoins' => array_values((array) get_post_meta($id, 'bcp_besoins', true)),
+            'cp'      => (string) get_post_meta($id, 'bcp_cp', true),
+            'delai'   => (string) get_post_meta($id, 'bcp_delai', true),
+        );
+    }
+    return array('version' => 2, 'demandes' => $demandes);
+}
 
 function bcp_leads_erreur($message, $code = 400) {
     return new WP_REST_Response(array('ok' => false, 'message' => $message), $code);
