@@ -21,7 +21,8 @@ import os, re, json, html, urllib.request, urllib.parse
 
 import config
 
-UA = {"User-Agent": f"{config.SITE.get('nom', 'site')} (photos libres pour articles)"}
+# Identifiant sans accent : un nom de site accentué (« Élagage ») fait refuser la requête (403) par Pixabay et Openverse
+UA = {"User-Agent": "SEO-Local/1.0 (recherche de photos libres pour articles)"}
 LICENCES = {"cc0": "CC0", "pdm": "Domaine public", "by": "CC BY", "by-sa": "CC BY-SA", "pixabay": "Licence Pixabay"}
 MIN_LARGEUR, MIN_RATIO = 1200, 1.25
 PAR_SOURCE, MAX_CANDIDATS = 8, 24   # assez pour choisir, sans attendre des minutes
