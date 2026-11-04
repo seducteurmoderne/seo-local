@@ -703,6 +703,10 @@ def generer_plugin():
            .replace("__ROUTE__", m.group(2)).replace("__CP_LONGUEUR__", str(cp["longueur"]))
            .replace("__CP_REGEX__", cp["regex"].replace("/", "\\/")).replace("__CP_ERREUR__", cp["erreur"].replace("'", "\\'"))
            .replace("__LIBELLES__", libelles).replace("__DETAILS__", details))
+    # messages renvoyés au visiteur : traduits si site.json → formulaire.textes les remplace
+    for cle in ("err_expire", "err_trop", "err_nom", "err_prenom", "err_email", "err_tel", "err_accord_serveur", "err_besoin"):
+        if wp.TF[cle] != wp.TF_FR[cle]:
+            php = php.replace(_php(wp.TF_FR[cle]), _php(wp.TF[cle]))
     dest = os.path.join(ROOT, "setup", "mu-plugins", "leads.php")
     os.makedirs(os.path.dirname(dest), exist_ok=True)
     open(dest, "w", encoding="utf-8").write(php)

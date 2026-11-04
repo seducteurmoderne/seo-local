@@ -70,7 +70,8 @@ def radicaux(texte):
     t = texte.lower()
     for a, b in (("àâä", "a"), ("éèêë", "e"), ("îï", "i"), ("ôö", "o"), ("ùûü", "u"), ("ç", "c"), ("œ", "oe")):
         t = re.sub(f"[{a}]", b, t)
-    return {SYNONYMES.get(m[:5], m[:5]) for m in re.findall(r"[a-z0-9]+", t) if m not in MOTS_VIDES and len(m) > 1}
+    # lettres latines et cyrilliques (sites en bulgare) : un texte français donne exactement le même résultat
+    return {SYNONYMES.get(m[:5], m[:5]) for m in re.findall(r"[a-z0-9\u0430-\u045f]+", t) if m not in MOTS_VIDES and len(m) > 1}
 
 
 # ---------------------------------------------------------------- brief
@@ -111,7 +112,8 @@ def paragraphes(visible):
 
 
 def phrases(texte):
-    return [s for s in re.split(r"(?<=[.!?…])\s+(?=[A-ZÀ-Ý«\d])", texte) if s.strip()]
+    # une phrase commence par une majuscule latine ou cyrillique (А-Я, Ѐ-Џ), un guillemet ou un chiffre
+    return [s for s in re.split(r"(?<=[.!?…])\s+(?=[A-ZÀ-Ý«„\d\u0400-\u042f])", texte) if s.strip()]
 
 
 def mots(texte):

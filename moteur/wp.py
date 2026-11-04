@@ -228,6 +228,25 @@ BESOINS = [(b["cle"], b["libelle"]) for b in FORM["besoins"]]
 CHAMPS = {b["cle"]: [tuple(c) for c in b.get("champs", [])] for b in FORM["besoins"]}
 DELAIS = FORM["delais"]
 CP = FORM["code_postal"]
+# Textes affichés par le formulaire de devis, en français par défaut. Un site dans une autre langue les
+# remplace dans site.json → formulaire.textes (mêmes clés) ; les erreurs du plugin de réception aussi.
+TF = {
+    "choisir": "Choisir…", "besoin": "Vous avez besoin de", "code_postal": "Code postal", "delai": "Délai",
+    "prenom_nom": "Prénom et nom", "prenom": "Prénom", "nom": "Nom", "email": "E-mail", "telephone": "Téléphone",
+    "facultatif": "(facultatif)", "precisions": "Précisions", "informations": "Informations",
+    "message_simple": "Décrivez votre demande", "confidentialite": "Confidentialité", "site_web": "Site web",
+    "cp_aria": "Votre code postal", "continuer": "Continuer",
+    "err_besoin": "Cochez au moins un besoin.", "err_nom": "Indiquez votre nom.", "err_prenom": "Indiquez votre prénom.",
+    "err_email": "Vérifiez votre adresse e-mail.", "err_tel": "Indiquez un numéro de téléphone pour être rappelé.",
+    "err_accord": "Cochez la case d'accord : sans elle, nous ne pouvons pas transmettre votre demande.",
+    "envoi": "Envoi…", "err_envoi": "Envoi impossible pour le moment. Réessayez dans un instant.",
+    # renvoyées par le plugin de réception (setup/mu-plugins/leads.php)
+    "err_expire": "Le formulaire a expiré. Rechargez la page, puis recommencez.",
+    "err_trop": "Trop de demandes envoyées depuis votre connexion. Réessayez dans une heure.",
+    "err_accord_serveur": "Sans votre accord, nous ne pouvons pas transmettre votre demande.",
+}
+TF_FR = dict(TF)
+TF.update(FORM.get("textes", {}))
 
 CSS_FORM = (
     ".bcp-form{margin:2em 0;padding:1.2em 1.3em;border:1px solid __bord__;border-left:4px solid __accent__;background:__fond__;border-radius:4px}"
@@ -293,10 +312,13 @@ if SIMPLE:
 JS_FORM = (JS_FORM.replace("__ERREUR__", K["accent"]).replace("__SUCCES__", K["succes"])
            .replace("__CP_REGEX__", CP["regex"]).replace("__CP_ERREUR__", CP["erreur"])
            .replace("__SUCCES_MSG__", FORM["succes"]))
+for _cle in ("err_besoin", "err_nom", "err_prenom", "err_email", "err_tel", "err_accord", "envoi", "err_envoi"):
+    if TF[_cle] != TF_FR[_cle]:
+        JS_FORM = JS_FORM.replace(json.dumps(TF_FR[_cle], ensure_ascii=False), json.dumps(TF[_cle], ensure_ascii=False))
 
 
 def _select(name, label, options):
-    opts = '<option value="">Choisir…</option>' + "".join(f"<option>{html.escape(o)}</option>" for o in options)
+    opts = f'<option value="">{html.escape(TF["choisir"])}</option>' + "".join(f"<option>{html.escape(o)}</option>" for o in options)
     return f'<label>{html.escape(label)}<select name="{name}">{opts}</select></label>'
 
 
@@ -325,16 +347,16 @@ def b_formulaire(verticale, titre, sous="", bouton=FORM["bouton"]):
     h = (f'<div class="bcp-form"{ident} data-endpoint="{FORM["endpoint"]}">'
          + entete
          + '<form novalidate>'
-         f'<fieldset><legend>Vous avez besoin de</legend>{cases}</fieldset>{details}'
-         f'<div class="bcp-g"><label>Code postal<input type="text" name="cp" inputmode="numeric" maxlength="{CP["longueur"]}" autocomplete="postal-code" placeholder="{CP["exemple"]}"></label>'
-         + _select("delai", "Délai", DELAIS) + '</div>'
-         '<div class="bcp-g"><label>Prénom et nom<input type="text" name="nom" autocomplete="name"></label>'
-         '<label>E-mail<input type="email" name="email" autocomplete="email"></label>'
-         '<label><span>Téléphone <small>(facultatif)</small></span><input type="tel" name="tel" autocomplete="tel"></label></div>'
-         '<label><span>Précisions <small>(facultatif)</small></span><textarea name="message" rows="2"></textarea></label>'
-         '<label class="bcp-pot" aria-hidden="true">Site web<input type="text" name="site_web" tabindex="-1" autocomplete="off"></label>'
+         f'<fieldset><legend>{e(TF["besoin"])}</legend>{cases}</fieldset>{details}'
+         f'<div class="bcp-g"><label>{e(TF["code_postal"])}<input type="text" name="cp" inputmode="numeric" maxlength="{CP["longueur"]}" autocomplete="postal-code" placeholder="{CP["exemple"]}"></label>'
+         + _select("delai", TF["delai"], DELAIS) + '</div>'
+         f'<div class="bcp-g"><label>{e(TF["prenom_nom"])}<input type="text" name="nom" autocomplete="name"></label>'
+         f'<label>{e(TF["email"])}<input type="email" name="email" autocomplete="email"></label>'
+         f'<label><span>{e(TF["telephone"])} <small>{e(TF["facultatif"])}</small></span><input type="tel" name="tel" autocomplete="tel"></label></div>'
+         f'<label><span>{e(TF["precisions"])} <small>{e(TF["facultatif"])}</small></span><textarea name="message" rows="2"></textarea></label>'
+         f'<label class="bcp-pot" aria-hidden="true">{e(TF["site_web"])}<input type="text" name="site_web" tabindex="-1" autocomplete="off"></label>'
          f'<label class="bcp-ok"><input type="checkbox" name="consentement"><span>{FORM["consentement"]} '
-         f'<a href="{FORM["politique"]}">Confidentialité</a></span></label>'
+         f'<a href="{FORM["politique"]}">{e(TF["confidentialite"])}</a></span></label>'
          f'<button type="submit">{e(bouton)} →</button></form>'
          '<p class="bcp-form__msg" role="status" aria-live="polite"></p></div>')
     return "<!-- wp:html -->\n" + h + "\n<style>" + CSS_FORM + "</style>\n<script>" + JS_FORM + "</script>\n<!-- /wp:html -->"
@@ -349,15 +371,15 @@ def b_formulaire_simple(verticale, titre, ident, bouton):
          f'<p class="bcp-form__titre">{e(titre)}</p>' + (f'<p class="bcp-form__sous">{e(sous)}</p>' if sous else "")
          + '<form novalidate>'
          f'<input type="hidden" name="besoins" value="{e(verticale)}">'
-         '<div class="bcp-g"><label>Prénom<input type="text" name="prenom" autocomplete="given-name"></label>'
-         '<label>Nom<input type="text" name="nom" autocomplete="family-name"></label></div>'
-         '<div class="bcp-g"><label>E-mail<input type="email" name="email" autocomplete="email"></label>'
-         '<label>Téléphone<input type="tel" name="tel" autocomplete="tel"></label></div>'
-         '<label><span>Informations <small>(facultatif)</small></span>'
-         f'<textarea name="message" rows="3" placeholder="{e(FORM.get("placeholder_message", "Décrivez votre demande"))}"></textarea></label>'
-         '<label class="bcp-pot" aria-hidden="true">Site web<input type="text" name="site_web" tabindex="-1" autocomplete="off"></label>'
+         f'<div class="bcp-g"><label>{e(TF["prenom"])}<input type="text" name="prenom" autocomplete="given-name"></label>'
+         f'<label>{e(TF["nom"])}<input type="text" name="nom" autocomplete="family-name"></label></div>'
+         f'<div class="bcp-g"><label>{e(TF["email"])}<input type="email" name="email" autocomplete="email"></label>'
+         f'<label>{e(TF["telephone"])}<input type="tel" name="tel" autocomplete="tel"></label></div>'
+         f'<label><span>{e(TF["informations"])} <small>{e(TF["facultatif"])}</small></span>'
+         f'<textarea name="message" rows="3" placeholder="{e(FORM.get("placeholder_message", TF["message_simple"]))}"></textarea></label>'
+         f'<label class="bcp-pot" aria-hidden="true">{e(TF["site_web"])}<input type="text" name="site_web" tabindex="-1" autocomplete="off"></label>'
          f'<label class="bcp-ok"><input type="checkbox" name="consentement"><span>{FORM["consentement"]} '
-         f'<a href="{FORM["politique"]}">Confidentialité</a></span></label>'
+         f'<a href="{FORM["politique"]}">{e(TF["confidentialite"])}</a></span></label>'
          f'<button type="submit">{e(bouton)} →</button></form>'
          '<p class="bcp-form__msg" role="status" aria-live="polite"></p></div>')
     return "<!-- wp:html -->\n" + h + "\n<style>" + CSS_FORM + "</style>\n<script>" + JS_FORM + "</script>\n<!-- /wp:html -->"
@@ -367,8 +389,8 @@ def b_demarreur(question, lien):
     e = html.escape
     return ("<!-- wp:html -->\n"
             f'<div class="bcp-demarreur"><p><strong>{e(question)}</strong> {e(lien)} :</p>'
-            f'<form><input type="text" inputmode="numeric" maxlength="{CP["longueur"]}" placeholder="Code postal" aria-label="Votre code postal">'
-            '<button type="submit">Continuer →</button></form></div>'
+            f'<form><input type="text" inputmode="numeric" maxlength="{CP["longueur"]}" placeholder="{e(TF["code_postal"])}" aria-label="{e(TF["cp_aria"])}">'
+            f'<button type="submit">{e(TF["continuer"])} →</button></form></div>'
             "\n<!-- /wp:html -->")
 
 
