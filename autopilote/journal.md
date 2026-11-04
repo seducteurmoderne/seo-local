@@ -371,3 +371,23 @@
 - 2026-11-03 — prix : `pellets-marche-en-famenne` converti en prix dynamiques (plusieurs prix en dur étaient faux : Central Park 6,89 € et non 6,49 €, Comfo 415 €) ; En bref passé en paragraphe. La page garde 4 blocages du contrôle actuel, antérieurs à ces règles (pas de BRIEF SEO, pas de `ville`, une H2 sans l'objet, SERP non relevée). `pellets-virton`, dernier de `a-convertir.txt`, est repris à la main : au propriétaire de décider.
 - 2026-11-03 — prix : Pauls au Comptoir du Bois Européen passé à 540 € la palette de 70 sacs et 9 € le sac (motif réparé) ; `pellets-durbuy` : fourchette du sac corrigée (le Comfo à 7,60 € dépassait la borne haute).
 - 2026-11-03 — toujours en attente : reconnecter l'IA du moteur (`claude -p`, OAuth expiré) ; Valbiom octobre 2026 à saisir ; Atoutbois illisible depuis le 02/11 (motifs à revoir) ; accueil : ajouter les villes publiées à « dans votre ville ».
+- 2026-11-04 12:22 — prix : `atoutbois_vert_hcc` non relu chez Atoutbois depuis 7 jour(s), motif introuvable, à revoir — la page garde la date du 2026-11-02
+- 2026-11-04 12:22 — prix : `atoutbois_sec_hcc_statut` non relu chez Atoutbois depuis 7 jour(s), motif introuvable, à revoir — la page garde la date du 2026-11-02
+- 2026-11-04 12:22 — prix : `trafic_green_statut` non relu chez Trafic depuis 1 jour(s), page illisible (HTTP Error 403: Forbidden) — la page garde la date du 2026-11-03
+- 2026-11-04 12:22 — prix : `trafic_premium_statut` non relu chez Trafic depuis 1 jour(s), page illisible (HTTP Error 403: Forbidden) — la page garde la date du 2026-11-03
+- 2026-11-04 12:22 — prix : `atoutbois_vert_bouleau` non relu chez Atoutbois depuis 7 jour(s), motif introuvable, à revoir — la page garde la date du 2026-11-02
+- 2026-11-04 12:22 — prix : `allehout_classic_palette` non relu chez Allehoutpellets depuis 1 jour(s), page illisible (HTTP Error 403: Forbidden) — la page garde la date du 2026-11-03
+- 2026-11-04 12:22 — prix : `allehout_badger_palette` non relu chez Allehoutpellets depuis 1 jour(s), page illisible (HTTP Error 403: Forbidden) — la page garde la date du 2026-11-03
+- 2026-11-04 12:22 — prix : `hubo_king_mini5` non relu chez Hubo depuis 1 jour(s), motif introuvable, à revoir — la page garde la date du 2026-11-03
+- 2026-11-04 12:22 — prix : `hubo_king_mk63` non relu chez Hubo depuis 1 jour(s), motif introuvable, à revoir — la page garde la date du 2026-11-03
+- 2026-11-04 12:22 — prix : `hubo_king_variant8` non relu chez Hubo depuis 1 jour(s), motif introuvable, à revoir — la page garde la date du 2026-11-03
+- 2026-11-04 12:22 — prix : `hubo_king_g12` non relu chez Hubo depuis 1 jour(s), motif introuvable, à revoir — la page garde la date du 2026-11-03
+- 2026-11-04 12:22 — prix : `hubo_alexia` non relu chez Hubo depuis 1 jour(s), motif introuvable, à revoir — la page garde la date du 2026-11-03
+- 2026-11-04 12:22 — prix : `hubo_castilla` non relu chez Hubo depuis 1 jour(s), motif introuvable, à revoir — la page garde la date du 2026-11-03
+- 2026-11-04 12:22 — prix : `hubo_101s` non relu chez Hubo depuis 1 jour(s), motif introuvable, à revoir — la page garde la date du 2026-11-03
+- 2026-11-04 12:22 — maillage : 32 article(s) relié(s) aux pages publiées depuis
+- 2026-11-04 12:30 — `poele-a-bois-marche-en-famenne` planifié, sortie le 05/11 à 10:05 · 1 avertissement(s)
+- 2026-11-04 12:30 — maillage : 2 article(s) relié(s) aux pages publiées depuis
+- 2026-11-04 — pilote : `poele-a-bois-marche-en-famenne` rédigé (Colson-Roiseux, La Maison Goblet, Ets Sion à Rochefort ; repère de prix Hubo, rue du Parc Industriel ; L'Art du Feu écarté, aucun site propre ; Decofeu hors zone). Brief : google.be relevé dans le navigateur, IA du moteur non joignable (OAuth expiré), étapes 4 à 7 rédigées par le pilote.
+- 2026-11-04 — prix : motifs des 7 poêles Hubo (`hubo_king_*`, `hubo_alexia`, `hubo_castilla`, `hubo_101s`) réparés : la promo de 15 % (04/11 → 15/11) affichait les centimes et un bandeau « Promo ». Nouveaux prix lus (Alexia 509 €, Mini5 849 €…) ; phrases comparatives relues, toutes en balises, rien à corriger. `pellets-virton` (seul restant dans `a-convertir.txt`) reste repris à la main : non converti.
+- 2026-11-04 — toujours en attente : reconnecter l'IA du moteur (`claude -p`, OAuth expiré) ; Valbiom octobre 2026 à saisir ; Atoutbois illisible depuis le 02/11, Trafic et Allehout en 403 ; accueil : ajouter Marche-en-Famenne à « dans votre ville » ; décision sur `pellets-virton`.
