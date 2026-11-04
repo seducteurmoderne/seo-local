@@ -36,7 +36,23 @@
   th { font-size: 12px; font-weight: 600; color: var(--doux); text-transform: uppercase; letter-spacing: .02em; }
   th:first-child, td:first-child { text-align: left; }
   td.texte, th.texte { text-align: left; white-space: normal; }
-  td.alertes { min-width: 280px; }
+  td.groupe { text-align: left; white-space: normal; min-width: 150px; }
+  td.groupe b { font-size: 17px; }
+  td.groupe small, td.site small { display: block; color: var(--doux); font-size: 12px; margin-top: 2px; }
+  td.site { min-width: 190px; white-space: normal; }
+  td.site .alerte { margin-top: 6px; }
+  th.groupe { text-align: left; }
+  #parc td { vertical-align: top; }
+  /* Écran étroit : une carte par site, les trois blocs empilés sous le nom */
+  @media (max-width: 900px) {
+    #parc table, #parc tbody, #parc tr, #parc td { display: block; width: 100%; }
+    #parc thead { display: none; }
+    #parc tr { border-bottom: 1px solid var(--bord); padding: 6px 0; }
+    #parc tr:last-child { border-bottom: 0; }
+    #parc td { border: 0; padding: 6px 16px; min-width: 0; }
+    #parc td.groupe::before { content: attr(data-titre); display: block; font-size: 11px; font-weight: 600; color: var(--doux);
+                              text-transform: uppercase; letter-spacing: .02em; margin-bottom: 2px; }
+  }
   tbody tr:last-child td { border-bottom: 0; }
   tr.total td { font-weight: 600; background: var(--accent-fond); }
   .domaine { color: var(--doux); font-size: 12px; display: block; }
@@ -68,9 +84,7 @@
     <div class="chiffres" id="chiffres"></div>
     <div class="tableau"><table>
       <thead><tr>
-        <th>Site</th><th>En ligne</th><th>Programmés</th><th>Programmé jusqu'au</th><th>File</th>
-        <th>Clics</th><th>Impressions</th><th>Position</th><th>Rankent</th><th>À renforcer</th>
-        <th>Demandes</th><th>Total demandes</th><th>Dernière</th><th>Pour 100 clics</th><th class="texte">Alertes</th>
+        <th>Site</th><th class="groupe">Pages</th><th class="groupe">Search Console</th><th class="groupe">Demandes de devis</th>
       </tr></thead>
       <tbody id="lignes"></tbody>
     </table></div>
@@ -113,16 +127,39 @@ function evolution(clics, avant) {
   return ` <span class="${pct >= 0 ? "hausse" : "baisse"}">${pct >= 0 ? "+" : ""}${pct} %</span>`;
 }
 
+const pluriel = (v, un, plusieurs) => `${nb(v)} ${v > 1 ? plusieurs : un}`;
+const sous = parts => `<small>${parts.filter(Boolean).join(" · ")}</small>`;
+
+function celluleSite(nom, domaine, alertes) {
+  return `<td class="site"><b>${esc(nom)}</b>${domaine ? `<small>${esc(domaine)}</small>` : ""}`
+    + (alertes || []).map(a => `<span class="alerte">${esc(a)}</span>`).join("") + "</td>";
+}
+
+function cellulePages(w, jusquAu) {
+  if (!w || w.en_ligne === null || w.en_ligne === undefined) return `<td class="groupe vide" data-titre="Pages">—</td>`;
+  return `<td class="groupe" data-titre="Pages"><b>${nb(w.en_ligne)}</b> en ligne${sous([
+    pluriel(w.programmes, "programmée", "programmées") + (jusquAu ? ` jusqu'au ${jour(jusquAu)}` : ""),
+    `${nb(w.file)} en file`])}</td>`;
+}
+
+function celluleGsc(g) {
+  if (!g || g.clics === null || g.clics === undefined) return `<td class="groupe vide" data-titre="Search Console">—<small>pas encore relevée</small></td>`;
+  return `<td class="groupe" data-titre="Search Console"><b>${nb(g.clics)}</b> clics${evolution(g.clics, g.clics_avant)}${sous([
+    `${nb(g.impressions)} impressions`, g.position !== undefined && g.position !== null ? `position ${nb(g.position)}` : "",
+    `${nb(g.rankent)} rankent`, `${nb(g.renforcer)} à renforcer`])}</td>`;
+}
+
+function celluleDemandes(d, conversion, p) {
+  if (!d || d.total === null || d.total === undefined) return `<td class="groupe vide" data-titre="Demandes de devis">—<small>pas encore comptées</small></td>`;
+  return `<td class="groupe" data-titre="Demandes de devis"><b>${nb(d.periode)}</b> sur ${p} jours${sous([
+    `${nb(d.total)} au total`, d.derniere ? `dernière le ${jour(d.derniere)}` : "",
+    conversion !== null && conversion !== undefined ? `${nb(conversion)} pour 100 clics` : ""])}</td>`;
+}
+
 function ligneSite(s) {
-  const w = s.wp || {}, g = s.gsc || {}, d = s.demandes || {};
-  return `<tr>
-    <td>${esc(s.nom)}<span class="domaine">${esc(s.domaine)}</span></td>
-    <td>${nb(w.en_ligne)}</td><td>${nb(w.programmes)}</td><td>${jour(w.programme_jusqu_au)}</td><td>${nb(w.file)}</td>
-    <td>${nb(g.clics)}${evolution(g.clics, g.clics_avant)}</td><td>${nb(g.impressions)}</td><td>${nb(g.position)}</td>
-    <td>${nb(g.rankent)}</td><td>${nb(g.renforcer)}</td>
-    <td>${nb(d.periode)}</td><td>${nb(d.total)}</td><td>${jour(d.derniere)}</td><td>${nb(s.conversion)}</td>
-    <td class="texte alertes">${(s.alertes || []).map(a => `<span class="alerte">${esc(a)}</span>`).join("")}</td>
-  </tr>`;
+  const p = donnees.periode_jours;
+  return `<tr>${celluleSite(s.nom, s.domaine, s.alertes)}${cellulePages(s.wp, s.wp && s.wp.programme_jusqu_au)}`
+    + `${celluleGsc(s.gsc)}${celluleDemandes(s.demandes, s.conversion, p)}</tr>`;
 }
 
 function afficherParc() {
@@ -133,11 +170,8 @@ function afficherParc() {
     [t.demandes.total, "demandes depuis le début"], [t.alertes, "alertes"],
   ];
   $("chiffres").innerHTML = chiffres.map(([v, l]) => `<div class="chiffre"><b>${nb(v)}</b><span>${l}</span></div>`).join("");
-  $("lignes").innerHTML = donnees.sites.map(ligneSite).join("") + `<tr class="total">
-    <td>Parc</td><td>${nb(t.wp.en_ligne)}</td><td>${nb(t.wp.programmes)}</td><td></td><td>${nb(t.wp.file)}</td>
-    <td>${nb(t.gsc.clics)}${evolution(t.gsc.clics, t.gsc.clics_avant)}</td><td>${nb(t.gsc.impressions)}</td><td></td>
-    <td>${nb(t.gsc.rankent)}</td><td>${nb(t.gsc.renforcer)}</td>
-    <td>${nb(t.demandes.periode)}</td><td>${nb(t.demandes.total)}</td><td></td><td>${nb(t.conversion)}</td><td></td></tr>`;
+  $("lignes").innerHTML = donnees.sites.map(ligneSite).join("") + `<tr class="total">${celluleSite("Parc", `${t.sites} sites`, [])}`
+    + `${cellulePages(t.wp, null)}${celluleGsc(t.gsc)}${celluleDemandes(t.demandes, t.conversion, p)}</tr>`;
   $("note-parc").textContent = `Search Console : ${p} derniers jours disponibles du dernier relevé de chaque site (autopilote.py gsc). `
     + `Demandes : ${p} derniers jours. « Rankent » : pages du top 10 avec des clics, à laisser tranquilles.`;
 }
