@@ -1,6 +1,7 @@
 ---
 slug: politique-de-confidentialite
 type: page
+photos: non
 title_seo: "Politique de confidentialité"
 meta_description: "Ce que deviennent les coordonnées que vous laissez dans le formulaire de demande de devis de elagage-luxembourg.com, et comment exercer vos droits."
 h1: "Politique de confidentialité"

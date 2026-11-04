@@ -1,6 +1,7 @@
 ---
 slug: devis
 type: page
+photos: non
 title_seo: "Demander un devis d'élagage ou d'abattage d'arbre"
 meta_description: "Élagage, abattage, dessouchage, haubanage ou plantation : décrivez votre arbre, un professionnel de votre région vous rappelle pour une visite et un devis."
 h1: "Demander un devis d'élagage ou d'abattage"
