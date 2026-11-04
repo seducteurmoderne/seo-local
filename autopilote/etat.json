@@ -54,8 +54,8 @@
     "type": "page",
     "statut": "publié",
     "date_gmt": "2026-10-15T20:52:12",
-    "empreinte_contenu": "c6202a1a8a53a499",
-    "empreinte_rendu": "c6202a1a8a53a499",
+    "empreinte_contenu": "99c2e2b2b20eb85c",
+    "empreinte_rendu": "99c2e2b2b20eb85c",
     "empreinte_source": "9739338d2b57ada4",
     "modifie_le": "2026-10-15T21:50:03+00:00"
   },
@@ -83,8 +83,8 @@
     "type": "page",
     "statut": "publié",
     "date_gmt": "2026-10-16T07:31:43",
-    "empreinte_contenu": "86518cc5c65d90cc",
-    "empreinte_rendu": "86518cc5c65d90cc",
+    "empreinte_contenu": "aaedcd13c76c42d5",
+    "empreinte_rendu": "aaedcd13c76c42d5",
     "empreinte_source": "391b8f7a5fe7c8aa"
   },
   "abattage-arbre-luxembourg": {
@@ -120,8 +120,8 @@
     "type": "post",
     "statut": "publié",
     "date_gmt": "2026-10-20T12:37:14",
-    "empreinte_contenu": "5e433434f93fa666",
-    "empreinte_rendu": "5e433434f93fa666",
+    "empreinte_contenu": "928d537e2624e7fc",
+    "empreinte_rendu": "928d537e2624e7fc",
     "empreinte_source": "e8db0c6527364ccb"
   },
   "abattage-arbre-beckerich": {
@@ -138,8 +138,8 @@
     "type": "post",
     "statut": "publié",
     "date_gmt": "2026-10-22T10:33:29",
-    "empreinte_contenu": "922f5dd726b2eab1",
-    "empreinte_rendu": "922f5dd726b2eab1",
+    "empreinte_contenu": "0196099b26b9345b",
+    "empreinte_rendu": "0196099b26b9345b",
     "empreinte_source": "9d5057f8a257fa22"
   },
   "abattage-arbre-arlon": {
@@ -174,8 +174,8 @@
     "type": "post",
     "statut": "publié",
     "date_gmt": "2026-10-26T11:17:05",
-    "empreinte_contenu": "a3aff34e4f64ba8c",
-    "empreinte_rendu": "a3aff34e4f64ba8c",
+    "empreinte_contenu": "4018c25b823ac90b",
+    "empreinte_rendu": "4018c25b823ac90b",
     "empreinte_source": "dcf186b0db1a89d0"
   },
   "abattage-arbre-kehlen": {
@@ -192,8 +192,8 @@
     "type": "post",
     "statut": "publié",
     "date_gmt": "2026-10-28T18:39:39",
-    "empreinte_contenu": "9a7351ba4b8c5996",
-    "empreinte_rendu": "9a7351ba4b8c5996",
+    "empreinte_contenu": "5c7de94917d4485e",
+    "empreinte_rendu": "5c7de94917d4485e",
     "empreinte_source": "4546cffb02e6a48b"
   },
   "abattage-arbre-steinfort": {
@@ -228,8 +228,8 @@
     "type": "post",
     "statut": "publié",
     "date_gmt": "2026-11-01T16:03:24",
-    "empreinte_contenu": "7b83107cbfc6e968",
-    "empreinte_rendu": "7b83107cbfc6e968",
+    "empreinte_contenu": "7f98acc1c447e165",
+    "empreinte_rendu": "7f98acc1c447e165",
     "empreinte_source": "15ea61e3341e6025"
   },
   "abattage-arbre-helperknapp": {
@@ -244,10 +244,19 @@
   "elagage-habscht": {
     "id": 245,
     "type": "post",
-    "statut": "planifié",
+    "statut": "publié",
     "date_gmt": "2026-11-03T17:26:17",
     "empreinte_contenu": "1dbe70ddbef12560",
     "empreinte_rendu": "1dbe70ddbef12560",
     "empreinte_source": "9c98364d8e444b41"
+  },
+  "abattage-arbre-halanzy": {
+    "id": 257,
+    "type": "post",
+    "statut": "planifié",
+    "date_gmt": "2026-11-04T16:15:55",
+    "empreinte_contenu": "ddff340f076fdc46",
+    "empreinte_rendu": "ddff340f076fdc46",
+    "empreinte_source": "1b2b5ba9249c62a2"
   }
 }
