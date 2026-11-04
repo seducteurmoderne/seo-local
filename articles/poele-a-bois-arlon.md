@@ -1,7 +1,7 @@
 ---
 slug: poele-a-bois-arlon
 title_seo: "Poêle à bois à Arlon : poêleries, installation et prix"
-meta_description: "Trois showrooms à Arlon et Stockem, un poêlier à Habay : marques exposées, inserts, tubage, entretien, ce qui fait le prix posé. Devis d'installation gratuits."
+meta_description: "Acheter et faire poser un poêle à bois à Arlon : où voir les appareils, ce qui fait le prix posé, conduit, entretien. Devis d'installation gratuits."
 h1: "Poêle à bois à Arlon : poêleries, installation et prix"
 fil_ariane: "Poêle à bois à Arlon"
 categorie: Poêle à bois
@@ -34,66 +34,64 @@ statut: brouillon
 # Poêle à bois à Arlon : poêleries, installation et prix
 
 > ### En bref
-> À Arlon, trois poêleries exposent des poêles à bois et les posent : Vesta cheminées, rue de la Semois, SKOR et L'Esprit du Feu à Stockem. LTZ, à Rulles, se déplace aussi jusqu'à Arlon. Aucune ne publie de prix ; en magasin de bricolage, un poêle à bois seul commence à {{prix:hubo_alexia}} €, sans la pose ni le conduit.
+> Un poêle à bois à Arlon s'achète en showroom, au centre ou à Stockem, chez des poêleries qui le posent et l'entretiennent ensuite. Aucune ne publie de prix : en magasin de bricolage, l'appareil seul commence à {{prix:hubo_alexia}} €, et la facture posée dépend surtout du conduit. Un devis après visite reste le seul prix fiable.
 
-Un [poêle à bois](/poele-a-bois/) à Arlon se choisit dans l'un des trois showrooms de la commune, au centre ou à Stockem, où l'on vend, pose et souvent entretient le même appareil. Leurs gammes diffèrent nettement : poêles design, inserts pour un feu ouvert, poêles de masse. Cette page met côte à côte ce que chacun propose et vous permet de demander des devis de pose à plusieurs installateurs en une fois.
+Vous voulez acheter un [poêle à bois](/poele-a-bois/) à Arlon et le faire installer avant l'hiver ? La commune compte plusieurs showrooms où voir les appareils en vrai, et des poseurs qui travaillent dans tout le sud de la province. Décrivez votre projet dans le formulaire : nous le transmettons à plusieurs installateurs de la région, qui vous envoient leur devis.
 
 ::cta-fort Gratuit. Réponse rapide. Trouvez les meilleurs installateurs près de Arlon
 
 ## Où acheter un poêle à bois à Arlon ?
 
-Trois poêleries ont un showroom de poêles à bois dans la commune d'Arlon : Vesta cheminées au centre, SKOR et L'Esprit du Feu à Stockem. Toutes vendent aussi des inserts pour une cheminée existante. LTZ, installé à Rulles dans la commune de Habay, nomme Arlon parmi les communes où il pose. Le tableau reprend ce que chaque site annonçait le 1er novembre 2026.
+Trois poêleries ont un showroom de poêles à bois dans la commune d'Arlon, et un poseur de Habay se déplace jusqu'à la ville. Toutes vendent aussi des inserts pour une cheminée existante. Le tableau reprend ce que chacune annonçait sur son site le 1er novembre 2026.
 
 ::table-rotative
-| Poêlerie | Adresse | Appareils et marques | Pose · entretien |
+| Poêlerie | Commune | Appareils | Services annoncés |
 |---|---|---|---|
-| Vesta cheminées | Rue de la Semois 100, Arlon | Poêles à bois, inserts et foyers fermés : Stûv, KalFire, Bodart & Gonay | Installation, puis entretien et ramonage |
-| SKOR | Rue des Tilleuls 86, Stockem | Poêles à bois de 14 marques, dont Spartherm, RIKA, Skantherm et Bodart & Gonay | Vente, pose, tubage et entretien |
-| L'Esprit du Feu | Route de Bouillon 151, Stockem | Poêles à bois, poêles de masse, inserts et conduits : Aduro, Tulikivi, Charnwood, Dik Geurts… | Conseil et devis ; pose non détaillée sur le site |
-| LTZ | Rue du Waffret 26, Rulles (Habay) | Poêles à bois, cassettes, inserts et foyers, marques non nommées | Installation, tubage, entretien et ramonage |
+| Vesta cheminées | Arlon | Poêles à bois, inserts, foyers fermés | Pose, entretien, ramonage |
+| SKOR | Stockem (Arlon) | Poêles à bois de 14 marques | Pose, tubage, entretien |
+| L'Esprit du Feu | Stockem (Arlon) | Poêles à bois, poêles de masse, inserts | Conseil et devis |
+| LTZ | Rulles (Habay) | Poêles à bois, cassettes, inserts | Pose, tubage, entretien, ramonage |
 
-Les horaires décident souvent du choix. L'Esprit du Feu est le seul à publier des heures d'ouverture en journée, du lundi au samedi, avec une fermeture à 14 h le mercredi et le samedi. Vesta reçoit en semaine après 17 h et le samedi, sur rendez-vous. SKOR et LTZ ne publient pas d'horaires : appelez avant de passer.
-
-Chaque showroom a sa spécialité. Vesta est revendeur de la marque belge Stûv : d'après le site du fabricant, un poêle à bois 30-compact y est exposé à côté des poêles à pellets. Parmi les trois, seul L'Esprit du Feu présente des poêles de masse, ces appareils lourds qui restituent la chaleur des heures après la flambée. SKOR présente le catalogue le plus large, avec 14 marques de poêles à bois nommées sur son site.
+Le choix d'un appareil se fait sur place, mais le prix se compare sur devis. Notre formulaire vous évite de refaire la même demande chez chacun : un seul envoi, et ce sont les installateurs qui reviennent vers vous.
 
 ## Prix d'un poêle à bois posé à Arlon
 
-Aucune poêlerie de la zone ne publie de prix, ni pour l'appareil, ni pour la pose. Le prix d'un poêle à bois posé à Arlon se fixe donc après une visite chez vous. Pour situer l'appareil seul, nous avons relevé les prix de Hubo, qui a un magasin rue de l'Abattoir et livre ses poêles à domicile.
+Aucune poêlerie de la zone ne publie de prix, ni pour l'appareil, ni pour la pose. Le prix d'un poêle à bois posé à Arlon se fixe après une visite chez vous. Pour situer l'appareil seul, nous avons relevé les prix d'un magasin de bricolage de la ville, qui livre ses poêles à domicile.
 
 ::chiffres
-{{prix:hubo_alexia}} € | Alexia, 6 kW, pour une pièce de 210 m³ : l'appareil seul
-{{prix:hubo_castilla}} € | Castilla, 8 kW, pour 240 m³
-{{prix:hubo_101s}} € | 101-S Ecodesign, 8,9 kW, pour 240 m³
+{{prix:hubo_alexia}} € | poêle à bois de 6 kW : l'appareil seul, en entrée de gamme
+{{prix:hubo_castilla}} € | poêle à bois de 8 kW
+{{prix:hubo_101s}} € | poêle à bois Ecodesign de 8,9 kW
 
-Ces prix sont relevés le {{releve:hubo_alexia}}. La livraison à domicile coûte {{prix:hubo_livraison_poele_bois}} € de plus. Hubo vend l'appareil sans le poser : le raccordement reste à confier à un installateur, qui doit accepter un poêle qu'il n'a pas fourni.
+Ces prix sont relevés le {{releve:hubo_alexia}}. La livraison coûte {{prix:hubo_livraison_poele_bois}} € de plus, et le magasin ne pose pas : le raccordement reste à confier à un installateur, qui doit accepter un poêle qu'il n'a pas fourni.
 
-La facture posée dépend surtout de votre conduit. Une cheminée en bon état qui reçoit un tubage inox coûte bien moins qu'un conduit neuf à faire traverser l'étage et la toiture. Un insert glissé dans un feu ouvert évite souvent les deux. Notre guide du [prix du placement d'un poêle](/prix-placement-poele/) détaille ces postes ; seul le devis d'un poseur qui a vu la maison les chiffre.
+La facture posée dépend surtout de votre conduit. Une cheminée en bon état qui reçoit un tubage inox coûte bien moins qu'un conduit neuf à faire traverser l'étage et la toiture. Un insert glissé dans un feu ouvert évite souvent les deux. Notre guide du [prix du placement d'un poêle](/prix-placement-poele/) détaille ces postes.
 
-> 💡 Demandez au moins deux devis sur le même appareil et le même tracé de conduit. Sans cela, l'écart entre deux poêliers vient surtout de ce qu'ils ont prévu pour le conduit, pas du poêle.
+> 💡 Comparez des devis sur le même appareil et le même tracé de conduit. Sans cela, l'écart entre deux poêliers vient surtout de ce qu'ils ont prévu pour le conduit, pas du poêle.
 
 ## Installer un poêle à bois à Arlon : conduit, délais, règles
 
-Le conduit est la première question qu'un poseur d'Arlon vous posera. SKOR et LTZ annoncent le tubage, qui consiste à glisser un conduit inox dans une cheminée existante. Vesta et L'Esprit du Feu proposent des inserts pour les maisons qui ont déjà un feu ouvert. LTZ décrit aussi la démolition d'une ancienne cheminée avant la pose d'un appareil neuf.
+Le conduit est la première question qu'un poseur vous posera. Dans une maison arlonaise qui a déjà une cheminée, deux solutions reviennent chez les installateurs de la zone : le tubage, un conduit inox glissé dans l'ancien boisseau, ou l'insert, posé directement dans le feu ouvert. Une maison sans cheminée demande un conduit neuf.
 
-Aucune poêlerie d'Arlon ne publie de délai de pose. En début d'hiver, les agendas se remplissent vite : demandez la date d'intervention en même temps que le devis. Le guide sur l'[installation d'un poêle à bois](/installation-poele-a-bois/) reprend les étapes, de la visite à la première flambée.
+Aucun installateur de la zone ne publie de délai de pose. En début d'hiver, les agendas se remplissent vite : demandez la date d'intervention en même temps que le devis. Le guide sur l'[installation d'un poêle à bois](/installation-poele-a-bois/) reprend les étapes, de la visite à la première flambée.
 
 Il n'existe plus de prime wallonne pour un poêle à bois seul. Depuis le **1er octobre 2026**, l'aide régionale passe par deux prêts, le Rénopack et le Rénoprêt, calculés sur l'ensemble des travaux d'un logement. Un audit est obligatoire avant les travaux. Le logement doit aussi gagner en classe PEB : de G ou F vers D au moins, de E vers C au moins.
 
 ## Entretien et ramonage d'un poêle à bois à Arlon
 
-Deux poseurs de la zone annoncent eux-mêmes l'entretien et le ramonage des poêles qu'ils installent : Vesta à Arlon et LTZ à Rulles. SKOR annonce l'entretien des poêles à bois, sans parler de ramonage. Confier l'appareil et le conduit au même poseur évite deux rendez-vous chaque automne.
+La plupart des poêleries d'Arlon entretiennent les poêles qu'elles installent, et certaines ramonent aussi le conduit. Confier l'appareil et le conduit au même prestataire évite deux rendez-vous chaque automne : précisez-le dans votre demande de devis.
 
-Ce que vous faites vous-même entre deux visites est décrit dans notre guide de l'[entretien d'un poêle à bois](/entretien-poele-a-bois/). Pour le conduit seul, notre page sur le [ramonage à Arlon](/ramonage-arlon/) liste les ramoneurs de la ville.
+Ce que vous faites vous-même entre deux visites est décrit dans notre guide de l'[entretien d'un poêle à bois](/entretien-poele-a-bois/). Pour le conduit seul, notre page sur le [ramonage à Arlon](/ramonage-arlon/) fait le point sur l'offre de la ville.
 
 ## Poêle à bois autour d'Arlon : communes couvertes
 
-Les poêleries d'Arlon travaillent bien au-delà de la ville. SKOR annonce l'installation dans toute la province de Luxembourg. LTZ cite Léglise, Habay, Arlon et Virton, et se déplace dans la province. Si vous habitez Messancy, Attert ou Étalle, ces mêmes adresses restent les plus proches.
+Les poseurs d'Arlon travaillent bien au-delà de la ville, certains dans toute la province de Luxembourg. Si vous habitez Messancy, Attert ou Étalle, la demande de devis passe par le même formulaire : nous la transmettons aux installateurs qui se déplacent chez vous.
 
-Côté combustible, notre page sur le [bois de chauffage à Arlon](/bois-de-chauffage-arlon/) compare les fournisseurs qui livrent la ville. Si vous hésitez avec les granulés, le relevé du [poêle à pellets à Arlon](/poele-a-pellets-arlon/) présente les mêmes showrooms sous cet angle. Plus au sud, les pages [poêle à bois à Aubange](/poele-a-bois-aubange/) et [à Virton](/poele-a-bois-virton/) font le même travail pour leur commune.
+Côté combustible, notre page sur le [bois de chauffage à Arlon](/bois-de-chauffage-arlon/) compare les fournisseurs qui livrent la ville. Si vous hésitez avec les granulés, le relevé du [poêle à pellets à Arlon](/poele-a-pellets-arlon/) traite la même question sous cet angle. Plus au sud, les pages [poêle à bois à Aubange](/poele-a-bois-aubange/) et [à Virton](/poele-a-bois-virton/) font le même travail pour leur commune.
 
 ::cta-fort Gratuit. Réponse rapide. Trouvez les meilleurs installateurs près de Arlon
 
-*Sources : Vesta cheminées · Stûv · SKOR · L'Esprit du Feu · LTZ · Hubo · Gouvernement wallon, communiqué du 16 juillet 2026 — vérifié en novembre 2026.*
+*Sources : Vesta cheminées · SKOR · L'Esprit du Feu · LTZ · Hubo · Gouvernement wallon, communiqué du 16 juillet 2026 — vérifié en novembre 2026.*
 
 <!--
 NOTES DE PRODUCTION
@@ -136,6 +134,9 @@ URL DES SOURCES
 - Gouvernement wallon, communiqué du 16/07/2026 : https://neven.wallonie.be/home/communiques-de-presse/presses/renovation-energetique-la-wallonie-annonce-les-contours-de-son-futur-regime-de-soutien.html (régime au 01/10/2026 ; Rénopack C1-C3, Rénoprêt C4 ; audit préalable obligatoire ; G/F → D, E → C ; aide globale « et non plus poste par poste »), relu le 01/11/2026.
 - Écartés : Lamoline (Vaux-sur-Sûre, hors zone de 20 km) ; Trustup (annuaire, 403) ; Areltherme (sanitaire, article de blog de 2021, aucune offre de poêle à bois) ; Chaufalux Technics (Virton, ~25 km, hors des 20 km) ; ADAM Serge et Olivier et Ecoflamme (annuaire seul, cf. poele-a-pellets-arlon).
 - google.be relevé dans le navigateur le 01/11/2026 (sans CAPTCHA) ; IA du moteur non joignable (OAuth expiré) : étapes 4-7 rédigées par le pilote.
+
+RÉÉCRITURE DU 04/11/2026 (demande du propriétaire)
+- Moins de noms de sociétés : En bref, intro et sections générales ; les poêleries ne sont nommées que dans « Où acheter », en tableau court (commune, pas l'adresse ni les horaires), pour que le visiteur passe par le formulaire.
 
 PHOTOS À TROUVER
 - Aucune nécessaire.

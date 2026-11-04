@@ -473,8 +473,8 @@
     "type": "page",
     "statut": "publié",
     "date_gmt": "2026-10-29T07:40:23",
-    "empreinte_contenu": "985b1d6a9370fa30",
-    "empreinte_rendu": "985b1d6a9370fa30",
+    "empreinte_contenu": "4f0e100a2a2f36b7",
+    "empreinte_rendu": "4f0e100a2a2f36b7",
     "empreinte_source": "e2b2d0b90b6fb033",
     "modifie_le": "2026-10-31T11:30:33+00:00"
   },
@@ -510,9 +510,10 @@
     "type": "post",
     "statut": "publié",
     "date_gmt": "2026-11-02T12:27:50",
-    "empreinte_contenu": "b4ac4871aff51b05",
-    "empreinte_rendu": "b4ac4871aff51b05",
-    "empreinte_source": "f118f2075a5e8e32"
+    "empreinte_contenu": "1618cf3ba59c2590",
+    "empreinte_rendu": "1618cf3ba59c2590",
+    "empreinte_source": "32c94f3907f3893a",
+    "modifie_le": "2026-11-04T15:10:47+00:00"
   },
   "installation-poele-a-pellets": {
     "id": 30107,
@@ -528,17 +529,19 @@
     "type": "post",
     "statut": "planifié",
     "date_gmt": "2026-11-04T12:12:58",
-    "empreinte_contenu": "8e18190d6cc8d487",
-    "empreinte_rendu": "8e18190d6cc8d487",
-    "empreinte_source": "0a425cf72ca56b3a"
+    "empreinte_contenu": "0e77ab6a9bc916ae",
+    "empreinte_rendu": "0e77ab6a9bc916ae",
+    "empreinte_source": "bcfd10f957ca52d0",
+    "modifie_le": "2026-11-04T15:10:49+00:00"
   },
   "poele-a-bois-marche-en-famenne": {
     "id": 30189,
     "type": "post",
     "statut": "planifié",
     "date_gmt": "2026-11-05T09:05:57",
-    "empreinte_contenu": "d8878d27252d140e",
-    "empreinte_rendu": "d8878d27252d140e",
-    "empreinte_source": "f86c4a090ba083d8"
+    "empreinte_contenu": "f40c324a6340cab4",
+    "empreinte_rendu": "f40c324a6340cab4",
+    "empreinte_source": "e7a1d95a49f8df1a",
+    "modifie_le": "2026-11-04T15:10:50+00:00"
   }
 }

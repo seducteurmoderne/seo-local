@@ -1,7 +1,7 @@
 ---
 slug: poele-a-pellets-marche-en-famenne
 title_seo: "Poêle à pellets à Marche-en-Famenne : poêleries et prix"
-meta_description: "Un showroom de 300 m² à Marche, une poêlerie à Rochefort, un installateur qui couvre la province : marques, horaires, entretien. Devis de pose gratuits."
+meta_description: "Faire poser un poêle à pellets à Marche-en-Famenne : où voir les modèles, marques, prix posé, prime, entretien. Devis d'installation gratuits."
 h1: "Poêle à pellets à Marche-en-Famenne : poêleries, installation et prix"
 fil_ariane: "Poêle à pellets à Marche-en-Famenne"
 categorie: Poêle à pellets
@@ -35,62 +35,60 @@ statut: brouillon
 # Poêle à pellets à Marche-en-Famenne : poêleries, installation et prix
 
 > ### En bref
-> À Marche-en-Famenne, Colson-Roiseux expose plus de 150 appareils dans un showroom de 300 m² près du WEX et pose les poêles à pellets qu'il vend ; La Maison Goblet, rue Trinchevaux, installe aussi des appareils à granulés. Ets Sion à Rochefort et Mister Pellets, qui couvre la province, complètent l'offre. Aucun ne publie de prix posé : il se fixe après une visite.
+> À Marche-en-Famenne, des poêleries exposent et posent des poêles à pellets, dont un showroom de plus de 150 appareils près du WEX, et des installateurs de la province se déplacent jusqu'à la ville. Aucune ne publie de prix posé : il dépend de la puissance et du conduit, et se fixe après une visite. Notre formulaire envoie votre demande à plusieurs poseurs à la fois.
 
-Un poêle à pellets à Marche-en-Famenne se choisit d'abord chez Colson-Roiseux, l'ancien showroom des Ets Roiseux, ouvert depuis 1975 dans le parc d'activités. La Maison Goblet, au centre, et Ets Sion, à Rochefort, vendent et posent aussi. Cette page met leurs marques, leurs horaires et leurs services côte à côte, et vous permet de demander des devis de pose à plusieurs installateurs en une fois.
+Vous voulez faire installer un poêle à pellets à Marche-en-Famenne pour cet hiver ? La ville a de quoi voir les modèles en vrai, et plusieurs poseurs de la région s'occupent ensuite de l'entretien. Décrivez votre maison et votre projet dans le formulaire : nous le transmettons aux installateurs de la zone, qui vous envoient leur devis.
 
 ::cta-fort Gratuit. Réponse rapide. Trouvez les meilleurs installateurs près de Marche-en-Famenne
 
 ## Où acheter un poêle à pellets à Marche-en-Famenne ?
 
-Deux sociétés de Marche-en-Famenne vendent et installent des [poêles à granulés](/poele-a-pellets/) : Colson-Roiseux, rue des Deux Provinces, et La Maison Goblet, rue Trinchevaux. Ets Sion a un showroom à l'entrée de Rochefort, et Mister Pellets, basé à Fernelmont, pose dans toute la province de Luxembourg. Nous avons relevé chaque ligne du tableau sur le site de la société, le 3 novembre 2026.
+Deux sociétés de Marche-en-Famenne vendent et installent des [poêles à granulés](/poele-a-pellets/), une troisième a son showroom à Rochefort, et un installateur de Fernelmont pose dans toute la province de Luxembourg. Nous avons relevé chaque ligne sur le site de la société, le 3 novembre 2026.
 
 ::table-rotative
-| Poêlerie | Adresse | Marques citées | Pose · entretien |
+| Poêlerie | Commune | Appareils | Services annoncés |
 |---|---|---|---|
-| Colson-Roiseux | Rue des Deux Provinces 7, Marche-en-Famenne | Cadel, Extraflame, Jolly-Mec, MCZ, Austroflamm, Jøtul | Pose, entretien, dépannage, ramonage des conduits |
-| La Maison Goblet | Rue Trinchevaux 6, Marche-en-Famenne | Appareils au bois, au gaz ou aux granulés ; partenaire Kalfire | Installation et entretien |
-| Ets Sion | Rue de Ciney 119A, Rochefort | Stûv, MCZ, Palazzetti, Extraflame, Dovre, Nestor Martin | Pose, entretien, dépannage, ramonage |
-| Mister Pellets | Fernelmont, intervient à Marche | MCZ, Edilkamin, EK63, Girolami, Cadel, Austroflamm | Pose en une journée, devis sous 48 h |
+| Colson-Roiseux | Marche-en-Famenne | Poêles à pellets, dont MCZ et Cadel | Pose, entretien, dépannage, ramonage |
+| La Maison Goblet | Marche-en-Famenne | Poêles et cassettes au bois, au gaz ou aux granulés | Installation et entretien |
+| Ets Sion | Rochefort | Poêles à pellets, dont MCZ et Palazzetti | Pose, entretien, dépannage, ramonage |
+| Mister Pellets | Fernelmont | Poêles à pellets, dont MCZ et Cadel | Pose en une journée |
 
-Colson-Roiseux est le seul showroom de la commune consacré d'abord à la poêlerie et à la fumisterie. La page contact donne des heures du lundi au samedi, mais une autre page du site en annonce d'autres : appelez avant de vous déplacer. Ets Sion ouvre du lundi au samedi, de 9 h à 12 h et de 13 h à 18 h.
+Plusieurs de ces poseurs vendent les mêmes marques : un même poêle peut donc être chiffré par deux installateurs. Notre formulaire vous évite d'appeler chacun d'eux.
 
 ## Marques de poêle à pellets exposées à Marche-en-Famenne
 
-Colson-Roiseux nomme six marques de poêles à pellets sur sa page poêlerie, dont quatre italiennes (MCZ, Cadel, Extraflame, Jolly-Mec), l'autrichienne Austroflamm et la norvégienne Jøtul. C'est l'éventail le plus large de la zone. La Maison Goblet ne cite aucune marque de poêle à pellets : seule Kalfire, qui fait surtout des foyers au gaz et au bois, est présentée comme partenaire.
-
-À Rochefort, Ets Sion travaille avec Stûv, MCZ et Palazzetti, et montre un poêle à pellets MCZ Eiko sur son site. MCZ et Cadel se retrouvent chez deux poseurs de la zone, ce qui laisse le choix de l'installateur pour un même poêle.
+Les showrooms de la zone montrent surtout des marques italiennes, MCZ, Cadel, Extraflame, Palazzetti ou Jolly-Mec, à côté de l'autrichienne Austroflamm et de la norvégienne Jøtul. MCZ et Cadel se retrouvent chez plusieurs poseurs, ce qui laisse le choix de l'installateur pour un même modèle.
 
 > 💡 Prenez la marque que votre installateur connaît. Celui qui pose le poêle le dépannera en plein hiver : un modèle qu'il ne vend pas, il le connaît moins bien et attend plus longtemps ses pièces.
 
 ## Prix d'un poêle à pellets posé à Marche-en-Famenne
 
-Aucune poêlerie de Marche-en-Famenne ni de Rochefort ne publie de prix, ni pour l'appareil ni pour la pose : leurs sites renvoient vers une demande d'offre. Mister Pellets, qui couvre Marche, affiche ses appareils TVA comprise : **{{prix:misterpellets_ek63}} €** pour un EK63 de 10,5 kW, relevé le {{releve:misterpellets_ek63}}, la pose étant chiffrée sur devis.
+Aucune poêlerie de Marche-en-Famenne ni de Rochefort ne publie de prix, ni pour l'appareil ni pour la pose : leurs sites renvoient vers une demande d'offre. Un installateur qui couvre la province affiche ses appareils TVA comprise : **{{prix:misterpellets_ek63}} €** pour un poêle de 10,5 kW, relevé le {{releve:misterpellets_ek63}}, la pose étant chiffrée sur devis.
 
-La facture finale dépend de trois postes. La puissance fixe le prix de l'appareil. Le conduit pèse ensuite le plus, car tuber une cheminée existante coûte moins que percer un mur ou un toit. Le raccordement électrique s'y ajoute. Mister Pellets annonce une TVA de 6 % si le logement a plus de 10 ans. Le guide du [prix d'un poêle à pellets](/prix-poele-a-pellets/) compare les gammes.
+La facture finale dépend de trois postes. La puissance fixe le prix de l'appareil. Le conduit pèse ensuite le plus, car tuber une cheminée existante coûte moins que percer un mur ou un toit. Le raccordement électrique s'y ajoute. Le guide du [prix d'un poêle à pellets](/prix-poele-a-pellets/) compare les gammes.
 
 ## Installer un poêle à pellets à Marche-en-Famenne : conduit, délais, prime
 
-Mister Pellets est le seul à publier un calendrier pour la zone : devis chiffré sous 48 heures, puis pose en une journée par ses équipes de Fernelmont. Colson-Roiseux et Ets Sion n'annoncent pas de délai. En novembre, demandez la date de pose dès le premier rendez-vous.
+Un seul installateur de la zone publie un calendrier : devis chiffré sous 48 heures, puis pose en une journée. Les autres n'annoncent pas de délai. En novembre, demandez la date de pose dès le premier rendez-vous.
 
 ::chiffres
-300 m² | showroom de Colson-Roiseux, plus de 150 appareils exposés
-48 h | délai annoncé par Mister Pellets pour un devis chiffré
+300 m² | un showroom de poêles près du WEX, plus de 150 appareils
+48 h | délai de devis annoncé par un installateur de la province
 1er octobre 2026 | primes wallonnes remplacées par des prêts
 
-Une fermette de la périphérie a souvent une cheminée en pierre à tuber, ce que Colson-Roiseux fait lui-même. Une maison sans conduit peut recevoir un poêle étanche si le fabricant le permet. Le guide sur l'[installation d'un poêle à pellets](/installation-poele-a-pellets/) compare le tubage, le conduit neuf et la ventouse, jusqu'à la mise en service.
+Une fermette de la périphérie a souvent une cheminée en pierre à tuber. Une maison sans conduit peut recevoir un poêle étanche si le fabricant le permet. Le guide sur l'[installation d'un poêle à pellets](/installation-poele-a-pellets/) compare le tubage, le conduit neuf et la ventouse, jusqu'à la mise en service.
 
 Depuis le 1er octobre 2026, la Wallonie aide la rénovation par des prêts, le Rénopack et le Rénoprêt, et non plus par des primes, selon le Gouvernement wallon. Ils visent les logements classés PEB F ou G portés au moins au label D, ou E portés au label C, avec un audit avant les travaux. Un poêle posé seul n'y donne pas droit. La page sur la [prime pour un poêle à pellets](/prime-poele-a-pellets/) suit ces règles.
 
 ## Entretien d'un poêle à pellets à Marche-en-Famenne
 
-Colson-Roiseux assure l'entretien annuel et le dépannage des poêles qu'il installe, et tient un service de garde 7 jours sur 7, le dimanche par téléphone pour les urgences. Ses techniciens ramonent et débistrent aussi les conduits. Ets Sion propose l'entretien régulier, le dépannage et le ramonage depuis Rochefort. Ce que vous faites vous-même entre deux visites est décrit dans l'[entretien d'un poêle à pellets](/entretien-poele-a-pellets/). Si l'appareil s'arrête en pleine saison, voyez le [dépannage d'un poêle à pellets](/depannage-poele-a-pellets/).
+Les poêleries de la zone assurent l'entretien annuel et le dépannage des poêles qu'elles installent, et deux d'entre elles ramonent aussi les conduits. L'une d'elles tient un service de garde 7 jours sur 7. Ce que vous faites vous-même entre deux visites est décrit dans l'[entretien d'un poêle à pellets](/entretien-poele-a-pellets/). Si l'appareil s'arrête en pleine saison, voyez le [dépannage d'un poêle à pellets](/depannage-poele-a-pellets/).
 
 ## Poêle à pellets autour de Marche-en-Famenne : communes couvertes
 
-Colson-Roiseux cite sa zone : Marche-en-Famenne, Durbuy, Somme-Leuze, Havelange et Clavier, son siège étant à Méan. La Maison Goblet travaille à Marche et dans les communes voisines, sans les nommer. Mister Pellets se déplace dans toute la province, d'Arlon à Marche en passant par Bastogne. Plus au nord, notre page sur le [poêle à pellets à Durbuy](/poele-a-pellets-durbuy/) fait le relevé de la vallée de l'Ourthe, celle sur le [poêle à pellets à Bastogne](/poele-a-pellets-bastogne/) celui de l'Ardenne.
+Certains poseurs de Marche travaillent aussi à Durbuy, Somme-Leuze, Havelange et Clavier, et un installateur de la province se déplace d'Arlon à Marche en passant par Bastogne. Plus au nord, notre page sur le [poêle à pellets à Durbuy](/poele-a-pellets-durbuy/) fait le relevé de la vallée de l'Ourthe, celle sur le [poêle à pellets à Bastogne](/poele-a-pellets-bastogne/) celui de l'Ardenne.
 
-Si vous hésitez encore entre bûches et granulés, la page sur le [poêle à bois à Marche-en-Famenne](/poele-a-bois-marche-en-famenne/) reprend les mêmes poêleries côté bois. Une fois le poêle posé, la page sur les [pellets à Marche-en-Famenne](/pellets-marche-en-famenne/) compare les fournisseurs qui livrent la ville.
+Si vous hésitez encore entre bûches et granulés, la page sur le [poêle à bois à Marche-en-Famenne](/poele-a-bois-marche-en-famenne/) traite la même question côté bois. Une fois le poêle posé, la page sur les [pellets à Marche-en-Famenne](/pellets-marche-en-famenne/) compare les fournisseurs qui livrent la ville.
 
 ::cta-fort Gratuit. Réponse rapide. Trouvez les meilleurs installateurs près de Marche-en-Famenne
 
@@ -136,6 +134,8 @@ URL DES SOURCES
 - Gouvernement wallon, communiqué du 16/07/2026 : https://neven.wallonie.be/home/communiques-de-presse/presses/renovation-energetique-la-wallonie-annonce-les-contours-de-son-futur-regime-de-soutien.html (régime au 01/10/2026, prêt Rénopack / Rénoprêt, PEB G/F → D au moins, E → C au moins, audit préalable obligatoire). Relu le 03/11/2026.
 - Écartés : DLD Poêlerie (Rochefort, site injoignable le 03/11/2026, erreur TLS) ; L'Art du Feu (Hotton/Marenne, fiche wallux seule, aucun site propre) ; Frederick (Marloie), Chauffage Mouzon (Aye), Tout feu tout flamme (Rendeux) : annuaires et registres seuls, aucun site ; Multitravaux-Léonard (Bastogne, à plus de 30 km).
 - Google.be non relevé (pas de navigateur utilisé) ; brief sur DuckDuckGo, IA du moteur non joignable (OAuth expiré) : étapes 4 à 7 rédigées par le pilote.
+
+RÉÉCRITURE DU 04/11/2026 (demande du propriétaire) : sociétés nommées seulement dans « Où acheter », tableau sans adresse ni horaires.
 
 PHOTOS À TROUVER
 - Aucune nécessaire.

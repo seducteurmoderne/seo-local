@@ -18,26 +18,26 @@ statut: brouillon
 # Poêle à bois à {VILLE} : poêleries, installation et prix
 
 > ### En bref
-> [2 à 3 phrases qui répondent à « poêle à bois {ville} » : combien de poêleries vendent et posent à {VILLE} ou autour, ce que coûte un poêle posé (source, mois), et le point propre à la ville. Pas de liste.]
+> [2 à 3 phrases générales qui répondent à « poêle à bois {ville} » : ce que trouve le visiteur à {VILLE} (showrooms, poseurs), ce que coûte un poêle posé ou l'appareil seul (balise de prix suivi), le point propre à la ville, et que le devis est le seul prix fiable. AUCUN NOM DE SOCIÉTÉ ici (demande du propriétaire, 04/11/2026). Pas de liste.]
 
-[Introduction, 2 à 3 phrases. La première nomme « poêle à bois à {VILLE} » et donne la réponse : où le voir, qui le pose. La dernière dit ce que la page permet de faire : comparer les installateurs et demander des devis de pose.]
+[Introduction, 2 à 3 phrases, au ton général : « Vous voulez acheter / faire poser … à {VILLE} ? ». La première nomme « poêle à bois à {VILLE} ». La dernière renvoie au formulaire : une seule demande, transmise à plusieurs installateurs de la région. AUCUN NOM DE SOCIÉTÉ ici (demande du propriétaire, 04/11/2026).]
 
 ::cta-fort Gratuit. Réponse rapide. Trouvez les meilleurs installateurs près de {VILLE}
 
 ## Où acheter un poêle à bois à {VILLE} ?
 
-[Réponse directe, 40 à 60 mots : combien de poêleries et de showrooms dans la commune et à moins de 20 km, ce qu'on y voit (marques, poêles, inserts, poêles de masse), qui pose et qui entretient. Pas de paragraphe par poêlerie : le tableau suffit. Chaque ligne est vérifiée sur le site de la poêlerie, jamais reprise d'un annuaire seul.]
+[Réponse directe, 40 à 60 mots : combien de poêleries et de showrooms dans la commune et à moins de 20 km, ce qu'on y voit (marques, poêles, inserts, poêles de masse), qui pose et qui entretient. Pas de paragraphe par poêlerie : le tableau suffit. Chaque ligne est vérifiée sur le site de la poêlerie, jamais reprise d'un annuaire seul. C'est la SEULE section qui nomme les installateurs : 2 à 3 phrases, puis le tableau.]
 
 ::table-rotative
-| Poêlerie | Adresse | Marques exposées | Pose · entretien |
+| Poêlerie | Commune | Appareils | Services annoncés |
 |---|---|---|---|
-| [Nom] | [Rue, commune] | [Marques citées sur son site] | [Pose, entretien, ramonage : ce que son site annonce] |
+| [Nom] | [Commune] | [Types d'appareils, au plus 2 ou 3 marques] | [Pose, entretien, ramonage : ce que son site annonce] |
 
-[Un paragraphe au plus : ce qui distingue l'offre à {VILLE} (aucun showroom dans la commune, beaucoup d'inserts pour les feux ouverts des maisons anciennes…).]
+[Une ou deux phrases au plus, sans nom : ce qui distingue l'offre à {VILLE}, puis l'argument du formulaire (une demande au lieu d'appeler chacun). Pas d'adresse complète, de téléphone ni d'horaires dans la page : la commune suffit.]
 
 ## Prix d'un poêle à bois posé à {VILLE}
 
-[Réponse directe : les prix publiés par les poêleries de la zone (modèle, prix, mois du relevé, en balise de prix suivi), la pose quand elle est chiffrée. Si personne ne publie de prix : le dire, expliquer ce qui fait varier la facture (poêle, insert dans un feu ouvert, conduit à tuber ou à créer) et renvoyer vers le [prix du placement](/prix-placement-poele/) et le devis.]
+[Réponse directe : les prix publiés par les poêleries de la zone (modèle, prix, mois du relevé, en balise de prix suivi), la pose quand elle est chiffrée. Si personne ne publie de prix : le dire, expliquer ce qui fait varier la facture (poêle, insert dans un feu ouvert, conduit à tuber ou à créer) et renvoyer vers le [prix du placement](/prix-placement-poele/) et le devis. Sans nommer les installateurs : « les installateurs de la zone », « plusieurs d'entre eux ».]
 
 ## Installer un poêle à bois à {VILLE} : conduit, délais, règles
 
@@ -45,11 +45,11 @@ statut: brouillon
 
 ## Entretien et ramonage d'un poêle à bois à {VILLE}
 
-[Qui entretient et ramone dans la zone (les poêleries du tableau qui l'annoncent, les ramoneurs), en lien avec l'[entretien d'un poêle à bois](/entretien-poele-a-bois/) et `ramonage-<ville>` s'il existe dans la sitemap. 2 à 3 phrases.]
+[Qui entretient et ramone dans la zone (les poêleries du tableau qui l'annoncent, les ramoneurs), en lien avec l'[entretien d'un poêle à bois](/entretien-poele-a-bois/) et `ramonage-<ville>` s'il existe dans la sitemap. 2 à 3 phrases. Sans nommer les installateurs : « les installateurs de la zone », « plusieurs d'entre eux ».]
 
 ## Poêle à bois autour de {VILLE} : communes couvertes
 
-[Les communes voisines couvertes par les mêmes installateurs, un lien vers la page `bois-de-chauffage-<ville>` pour le combustible si elle existe dans la sitemap et vers les pages des villes proches qui existent dans la sitemap.]
+[Les communes voisines couvertes par les mêmes installateurs, un lien vers la page `bois-de-chauffage-<ville>` pour le combustible si elle existe dans la sitemap et vers les pages des villes proches qui existent dans la sitemap. Sans nommer les installateurs : « les installateurs de la zone », « plusieurs d'entre eux ».]
 
 ::cta-fort Gratuit. Réponse rapide. Trouvez les meilleurs installateurs près de {VILLE}
 

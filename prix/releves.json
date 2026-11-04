@@ -6,7 +6,7 @@
     "motif": "charme en 33 ou 50cm .*?(\\d+)€/st Bouleau",
     "valeur": 86,
     "verifie_le": "2026-11-02",
-    "echecs": 9
+    "echecs": 10
   },
   "atoutbois_sec_hcc_statut": {
     "source": "Atoutbois",
@@ -15,7 +15,7 @@
     "motif": "charme en 33 ou 50cm \\d+€/st (.{0,40}?) \\d+€/st Bouleau",
     "attendu": "Rupture de stock Rupture de stock",
     "verifie_le": "2026-11-02",
-    "echecs": 9
+    "echecs": 10
   },
   "atoutbois_livr_sh_5": {
     "source": "Atoutbois",
@@ -87,7 +87,7 @@
     "motif": "(Rupture de stock)\\W*Crépito bois de chauffage - Bûche Prémium 40cm",
     "attendu": "Rupture de stock",
     "verifie_le": "2026-10-28",
-    "echecs": 17
+    "echecs": 18
   },
   "bcb_palette_lux": {
     "source": "Bois de Chauffage Belgique",
@@ -133,7 +133,7 @@
     "attendu": "août 2026",
     "valeur": 126,
     "verifie_le": "2026-10-20",
-    "echecs": 45
+    "echecs": 46
   },
   "sylvardennes_transport_60": {
     "source": "Sylvardennes",
@@ -286,7 +286,7 @@
     "motif": "MISE À JOUR : (\\S+ \\d{4})",
     "valeur": 6.19,
     "verifie_le": "2026-10-20",
-    "echecs": 45,
+    "echecs": 46,
     "attendu": "août 2026"
   },
   "valbiom_pellet_sac_janvier": {
@@ -296,7 +296,7 @@
     "motif": "MISE À JOUR : (\\S+ \\d{4})",
     "valeur": 5.99,
     "verifie_le": "2026-10-20",
-    "echecs": 45,
+    "echecs": 46,
     "attendu": "août 2026"
   },
   "petit_vrac_5t": {
@@ -306,7 +306,7 @@
     "motif": "Prix du pellet en vrac en Belgique (\\d+[.,]?\\d*) ?€ TVAC",
     "valeur": 413.4,
     "verifie_le": "2026-10-31",
-    "echecs": 12
+    "echecs": 13
   },
   "petit_sac_palette": {
     "source": "PETIT & Fils",
@@ -315,7 +315,7 @@
     "motif": "Prix du pellet en sac en Belgique (\\d+[.,]?\\d*) ?€ TVAC",
     "valeur": 6.763,
     "verifie_le": "2026-10-31",
-    "echecs": 12
+    "echecs": 13
   },
   "comptoir_pellet_sac": {
     "source": "Comptoir du Bois Européen",
@@ -369,7 +369,7 @@
     "motif": "(Pellet Green Energy Classic 15kg Vendu Par Palette De 65 Sacs)",
     "attendu": "Pellet Green Energy Classic 15kg Vendu Par Palette De 65 Sacs",
     "verifie_le": "2026-11-03",
-    "echecs": 3
+    "echecs": 4
   },
   "trafic_premium_statut": {
     "source": "Trafic",
@@ -378,7 +378,7 @@
     "motif": "(Pellet Premium 15kg Vendu Par Palette De 65 Sacs)",
     "attendu": "Pellet Premium 15kg Vendu Par Palette De 65 Sacs",
     "verifie_le": "2026-11-03",
-    "echecs": 3
+    "echecs": 4
   },
   "creppe_box_sec_1": {
     "source": "Combustibles Creppe",
@@ -621,7 +621,7 @@
     "motif": "Bouleau ou sapin en 33 ou 50cm .*? (\\d+)€/st\\s+Tel",
     "valeur": 76,
     "verifie_le": "2026-11-02",
-    "echecs": 9
+    "echecs": 10
   },
   "atoutbois_livr_neuf_5": {
     "source": "Atoutbois",
@@ -792,7 +792,7 @@
     "motif": "Commandez palette: € (\\d+,\\d\\d)",
     "valeur": 454.0,
     "verifie_le": "2026-11-03",
-    "echecs": 3
+    "echecs": 4
   },
   "allehout_badger_palette": {
     "source": "Allehoutpellets",
@@ -801,7 +801,7 @@
     "motif": "Commandez palette: € (\\d+,\\d\\d)",
     "valeur": 499,
     "verifie_le": "2026-11-03",
-    "echecs": 3
+    "echecs": 4
   },
   "winn_comfo_palette": {
     "source": "Pellets Winn",

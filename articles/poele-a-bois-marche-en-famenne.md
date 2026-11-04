@@ -1,7 +1,7 @@
 ---
 slug: poele-a-bois-marche-en-famenne
 title_seo: "Poêle à bois à Marche-en-Famenne : poêleries et prix"
-meta_description: "Deux poêleries à Marche, une à Rochefort : marques exposées, inserts pour cheminée ouverte, tubage, entretien et ramonage. Devis de pose gratuits."
+meta_description: "Faire poser un poêle à bois à Marche-en-Famenne : showrooms, insert ou tubage pour une cheminée ouverte, prix, entretien. Devis de pose gratuits."
 h1: "Poêle à bois à Marche-en-Famenne : poêleries, installation et prix"
 fil_ariane: "Poêle à bois à Marche-en-Famenne"
 categorie: Poêle à bois
@@ -35,67 +35,65 @@ statut: brouillon
 # Poêle à bois à Marche-en-Famenne : poêleries, installation et prix
 
 > ### En bref
-> À Marche-en-Famenne, Colson-Roiseux expose des poêles à bois d'une dizaine de marques près du WEX et pose les conduits, et La Maison Goblet installe inserts, poêles et cassettes depuis la rue Trinchevaux. Ets Sion, à Rochefort, complète l'offre. Aucun ne publie de prix ; chez Hubo, rue du Parc Industriel, un poêle à bois seul coûte {{prix:hubo_alexia}} € au premier prix, sans la pose.
+> À Marche-en-Famenne, plusieurs poêleries exposent des poêles à bois, les posent et les entretiennent, dont un showroom de 300 m² près du WEX. Beaucoup de maisons de la région ont un feu ouvert : un insert ou un poêle tubé le transforme sans casser la cheminée. L'appareil seul commence à {{prix:hubo_alexia}} € en magasin de bricolage ; le prix posé se fixe sur devis.
 
-Un poêle à bois à Marche-en-Famenne se voit d'abord chez Colson-Roiseux, dans le showroom de 300 m² ouvert par les Ets Roiseux en 1975. La Maison Goblet, au centre, travaille surtout dans les maisons qui ont déjà un feu ouvert. Nous avons relevé ce que chaque poseur annonce sur son site, et vous pouvez demander des devis à plusieurs installateurs en une fois.
+Vous voulez installer un poêle à bois à Marche-en-Famenne, dans une fermette des villages ou une maison du centre ? Les poseurs de la région proposent aussi bien le poêle classique que l'insert pour une cheminée existante. Décrivez votre projet dans le formulaire : nous le transmettons à plusieurs installateurs de la zone, qui vous envoient leur devis.
 
 ::cta-fort Gratuit. Réponse rapide. Trouvez les meilleurs installateurs près de Marche-en-Famenne
 
 ## Où acheter un poêle à bois à Marche-en-Famenne ?
 
-Deux sociétés de Marche-en-Famenne vendent et posent des poêles à bois : Colson-Roiseux, rue des Deux Provinces, et La Maison Goblet, rue Trinchevaux. Une troisième, Ets Sion, a son showroom à Rochefort, à une quinzaine de kilomètres. Toutes les trois entretiennent ce qu'elles installent. Le tableau reprend leur site, consulté le 4 novembre 2026.
+Deux poêleries de Marche-en-Famenne vendent et posent des poêles à bois, et une troisième a son showroom à Rochefort, à une quinzaine de kilomètres. Toutes entretiennent ce qu'elles installent. Le tableau reprend leur site, consulté le 4 novembre 2026.
 
 ::table-rotative
-| Poêlerie | Adresse | Appareils et marques | Pose · entretien |
+| Poêlerie | Commune | Appareils | Services annoncés |
 |---|---|---|---|
-| Colson-Roiseux | Rue des Deux Provinces 7, Marche-en-Famenne | Poêles à bois Stûv, Dovre, Nestor Martin, Jøtul, Scan, Barbas… ; poêles de masse Tulikivi ; inserts | Pose des conduits, tubage, entretien, ramonage et débistrage |
-| La Maison Goblet | Rue Trinchevaux 6, Marche-en-Famenne | Inserts, poêles et cassettes au bois ; partenaire Kalfire | Installation et entretien, du lundi au vendredi |
-| Ets Sion | Rue de Ciney 119A, Rochefort | Stûv, Dovre, Nestor Martin ; poêles de masse | Pose, entretien, dépannage, ramonage et débistrage |
+| Colson-Roiseux | Marche-en-Famenne | Poêles à bois, poêles de masse, inserts | Pose, tubage, entretien, ramonage |
+| La Maison Goblet | Marche-en-Famenne | Inserts, poêles et cassettes au bois | Installation et entretien |
+| Ets Sion | Rochefort | Poêles à bois, poêles de masse | Pose, entretien, dépannage, ramonage |
 
-Pour comparer des modèles côte à côte, Colson-Roiseux montre le plus large choix : onze marques de poêles figurent sur sa page « poêlerie et fumisterie ». Stûv, Dovre et Nestor Martin se retrouvent aussi chez Ets Sion, ce qui permet de faire chiffrer le même appareil par deux poseurs.
-
-Ets Sion est le seul à publier ses horaires : du lundi au samedi, de 9 h à 12 h et de 13 h à 18 h. Plus de repères sur les types d'appareils figurent sur notre page consacrée au [poêle à bois en Wallonie](/poele-a-bois/).
+Les marques belges Stûv, Dovre et Nestor Martin se retrouvent chez deux de ces poseurs : un même appareil peut donc être chiffré par deux installateurs. Notre formulaire vous évite de refaire la demande chez chacun. Plus de repères sur les types d'appareils figurent sur notre page consacrée au [poêle à bois en Wallonie](/poele-a-bois/).
 
 ## Poêle à bois dans une cheminée ouverte à Marche-en-Famenne : insert ou tubage
 
 Beaucoup de maisons de la commune, dans les villages d'Aye, de Waha ou d'On, ont encore un feu ouvert. Un feu ouvert chauffe mal : l'essentiel de la chaleur part dans le conduit. Deux solutions le transforment sans casser la cheminée, et les poseurs de Marche les proposent toutes les deux.
 
-La première est l'insert, ou cassette, glissé dans l'âtre et fermé par une vitre. La Maison Goblet en a fait sa spécialité, avec des cassettes à bois à foyer ouvert ou fermé. Colson-Roiseux présente ses inserts à bois comme une « intégration dans une cheminée existante ». Notre guide de l'[insert de cheminée](/insert-cheminee/) explique comment le choisir selon la taille de l'âtre.
+La première est l'insert, ou cassette, glissé dans l'âtre et fermé par une vitre. Il existe à foyer ouvert ou fermé, et se règle sur la taille de l'âtre. Notre guide de l'[insert de cheminée](/insert-cheminee/) explique comment le choisir.
 
-La seconde est un poêle posé devant la cheminée, raccordé par un tubage. Ce conduit souple en inox descend dans l'ancien boisseau et protège la maçonnerie des fumées. Colson-Roiseux annonce le tubage flexible et des conduits émaillés pour les poêles apparents. Une maison récente sans cheminée demande un conduit neuf, en inox double paroi, qui se pose par l'extérieur ou à travers l'étage.
+La seconde est un poêle posé devant la cheminée, raccordé par un tubage. Ce conduit souple en inox descend dans l'ancien boisseau et protège la maçonnerie des fumées. Une maison récente sans cheminée demande un conduit neuf, en inox double paroi, qui se pose par l'extérieur ou à travers l'étage.
 
 > 💡 Avant le premier rendez-vous, mesurez la largeur, la hauteur et la profondeur de votre âtre. Le poseur saura tout de suite si un insert y entre ou s'il faut partir sur un poêle et un tubage.
 
 ## Prix d'un poêle à bois posé à Marche-en-Famenne
 
-Aucune des trois poêleries ne publie de prix, ni pour l'appareil, ni pour la pose : Ets Sion renvoie vers une « offre de prix », les deux autres vers un formulaire. Pour situer le seul appareil, nous avons relevé les prix de Hubo, qui a un magasin rue du Parc Industriel et livre ses poêles à domicile.
+Aucune poêlerie de la zone ne publie de prix, ni pour l'appareil, ni pour la pose : toutes renvoient vers une demande d'offre. Pour situer l'appareil seul, nous avons relevé les prix d'un magasin de bricolage du parc industriel de Marche, qui livre ses poêles à domicile.
 
 ::chiffres
-{{prix:hubo_alexia}} € | Alexia, 6 kW : le premier prix de Hubo, appareil seul
-{{prix:hubo_castilla}} € | Castilla, 8 kW, appareil seul
-{{prix:hubo_101s}} € | 101-S Ecodesign, 8,9 kW
+{{prix:hubo_alexia}} € | poêle à bois de 6 kW : le premier prix, appareil seul
+{{prix:hubo_castilla}} € | poêle à bois de 8 kW
+{{prix:hubo_101s}} € | poêle à bois Ecodesign de 8,9 kW
 
-Ces prix datent du {{releve:hubo_alexia}}. Hubo facture {{prix:hubo_livraison_poele_bois}} € la livraison et ne pose pas : il faut ensuite trouver un installateur qui accepte un appareil qu'il n'a pas vendu. Une poêlerie, elle, chiffre l'appareil, le conduit et la pose ensemble, et garantit l'ensemble.
+Ces prix datent du {{releve:hubo_alexia}}. La livraison coûte {{prix:hubo_livraison_poele_bois}} €, et le magasin ne pose pas : il faut ensuite trouver un installateur qui accepte un appareil qu'il n'a pas vendu. Une poêlerie chiffre l'appareil, le conduit et la pose ensemble, et garantit l'ensemble.
 
 La pose coûte surtout par le conduit. Un tubage dans une cheminée saine reste le cas le plus simple ; un conduit neuf qui traverse l'étage et le toit ajoute de la main-d'œuvre et des éléments en inox. Le guide du [prix du placement d'un poêle](/prix-placement-poele/) décompose ces postes, que seul un poseur venu chez vous peut chiffrer.
 
 ## Installer un poêle à bois à Marche-en-Famenne : délais et prime
 
-Aucun des trois poseurs n'annonce de délai d'installation sur son site. La Maison Goblet intervient du lundi au vendredi. En novembre, les agendas se remplissent avec les premiers froids : demandez la date de pose dans la même visite que le devis. Le guide sur l'[installation d'un poêle à bois](/installation-poele-a-bois/) décrit chaque étape, du métré à la première flambée.
+Aucun poseur de la zone n'annonce de délai d'installation sur son site. En novembre, les agendas se remplissent avec les premiers froids : demandez la date de pose dans la même visite que le devis. Le guide sur l'[installation d'un poêle à bois](/installation-poele-a-bois/) décrit chaque étape, du métré à la première flambée.
 
 Il n'existe plus de prime pour un poêle à bois en 2026 : posé seul, il ne donne droit à aucune aide wallonne. Depuis le **1er octobre 2026**, la Région finance la rénovation par deux prêts, le Rénopack et le Rénoprêt, calculés sur l'ensemble des travaux. Le logement doit passer d'un label PEB G ou F à D au moins, ou de E à C au moins, avec un audit avant les travaux.
 
 ## Entretien et ramonage d'un poêle à bois à Marche-en-Famenne
 
-Colson-Roiseux et Ets Sion entretiennent l'appareil et le conduit : ramonage, débistrage, contrôle du tirage. Les techniciens de Colson-Roiseux dépannent aussi les appareils qu'ils suivent. La Maison Goblet annonce l'entretien de ce qu'elle installe. Un seul prestataire pour le poêle et la cheminée, c'est une visite par an au lieu de deux.
+Les poêleries de la zone entretiennent les appareils qu'elles posent, et la plupart ramonent et débistrent aussi le conduit. Un seul prestataire pour le poêle et la cheminée, c'est une visite par an au lieu de deux : précisez-le dans votre demande.
 
 Entre deux passages, le nettoyage de la vitre et du cendrier vous revient : notre guide de l'[entretien d'un poêle à bois](/entretien-poele-a-bois/) le détaille. La fréquence et le certificat du conduit sont expliqués dans la page sur le [ramonage d'un poêle à bois](/ramonage-poele-a-bois/).
 
 ## Poêle à bois autour de Marche-en-Famenne : communes couvertes
 
-Colson-Roiseux, également implanté à Méan, travaille à Marche, Durbuy, Somme-Leuze, Havelange et Clavier. La Maison Goblet se déplace dans les communes voisines de Marche, sans les nommer. Ets Sion ne publie pas de zone : depuis Rochefort, demandez-lui s'il se déplace jusqu'à votre village.
+Certains poseurs de Marche travaillent aussi à Durbuy, Somme-Leuze, Havelange ou Clavier, et dans les communes voisines. Si vous habitez Hotton, Nassogne ou Rochefort, la demande passe par le même formulaire : nous la transmettons aux installateurs qui se déplacent chez vous.
 
-Pour le combustible, la page sur le [bois de chauffage à Marche-en-Famenne](/bois-de-chauffage-marche-en-famenne/) compare les fournisseurs qui livrent la ville. Si vous hésitez avec les granulés, celle sur le [poêle à pellets à Marche-en-Famenne](/poele-a-pellets-marche-en-famenne/) présente les mêmes showrooms côté pellets. Plus au nord, le relevé du [poêle à bois à Durbuy](/poele-a-bois-durbuy/) couvre la vallée de l'Ourthe, et celui de [La Roche-en-Ardenne](/poele-a-bois-la-roche-en-ardenne/) l'Ardenne au sud.
+Pour le combustible, la page sur le [bois de chauffage à Marche-en-Famenne](/bois-de-chauffage-marche-en-famenne/) compare les fournisseurs qui livrent la ville. Si vous hésitez avec les granulés, celle sur le [poêle à pellets à Marche-en-Famenne](/poele-a-pellets-marche-en-famenne/) traite la même question côté pellets. Plus au nord, le relevé du [poêle à bois à Durbuy](/poele-a-bois-durbuy/) couvre la vallée de l'Ourthe, et celui de [La Roche-en-Ardenne](/poele-a-bois-la-roche-en-ardenne/) l'Ardenne au sud.
 
 ::cta-fort Gratuit. Réponse rapide. Trouvez les meilleurs installateurs près de Marche-en-Famenne
 
@@ -141,6 +139,8 @@ URL DES SOURCES
 - Gouvernement wallon, communiqué du 16/07/2026 : https://neven.wallonie.be/home/communiques-de-presse/presses/renovation-energetique-la-wallonie-annonce-les-contours-de-son-futur-regime-de-soutien.html (régime au 01/10/2026 ; Rénopack C1-C3, Rénoprêt C4 ; audit préalable ; G/F → D au moins, E → C au moins ; aide calculée globalement, non poste par poste). Relu le 04/11/2026.
 - Écartés : L'Art du Feu (Grand-Route 113, pack local Google ; aucun site propre trouvé, fiche wallux seule, déjà écarté le 03/11) ; Mister Pellets (pellets seulement) ; Decofeu (Fernelmont, > 30 km) ; Frederick (Marloie), Chauffage Mouzon, Tout feu tout flamme (annuaires seuls) ; DLD Poêlerie (Rochefort, site injoignable le 03/11).
 - google.be relevé dans le navigateur le 04/11/2026 (sans CAPTCHA, bannière laissée sans réponse) ; IA du moteur non joignable (OAuth expiré) : étapes 4 à 7 rédigées par le pilote.
+
+RÉÉCRITURE DU 04/11/2026 (demande du propriétaire) : sociétés nommées seulement dans « Où acheter », tableau sans adresse ni horaires.
 
 PHOTOS À TROUVER
 - Aucune nécessaire.
