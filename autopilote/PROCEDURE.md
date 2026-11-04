@@ -10,7 +10,16 @@ Toutes les commandes se lancent depuis le dossier du projet :
 
 - La commande publie d'abord les articles programmés restés en retard (le cron WordPress ne tourne qu'avec des visites).
 - Si elle échoue sur une erreur de connexion (HTTP 401/403, site injoignable) : envoie la notification « Pilote bois : WordPress refuse la connexion, mot de passe d'application à vérifier » et arrête-toi.
-- Si **2 articles ou plus sont déjà programmés**, ne rédige rien aujourd'hui : passe à l'étape 6.
+- Si **2 articles ou plus sont déjà programmés**, ne rédige rien aujourd'hui : fais les étapes 1 bis et 2, puis passe à l'étape 6.
+
+## 1 bis. Photos de rattrapage : 2 articles par exécution
+À faire à chaque exécution, même les jours où rien n'est rédigé.
+
+`python3 tools/autopilote.py photos manquantes` liste les articles en ligne sans photo, les plus anciens d'abord. Prends les **deux premiers** et donne à chacun de 1 à 4 photos, avec les règles de la section « Photos » de l'étape 4 : recherche (`photos commune` pour une page de ville, puis le service ; `photos chercher` sinon), vignettes regardées, `photos prendre`, ligne placée après le premier paragraphe de la section que la photo illustre, `image_une` et `image_une_alt` en front-matter.
+
+**Ne change rien d'autre dans ces articles** : ni texte, ni titres, ni liens. On laisse tranquilles les pages déjà en ligne. Lance `python3 tools/autopilote.py verifier <slug>` et corrige seulement les points qui parlent de photo, de nom de fichier ou de texte alternatif ; un vieil article peut avoir d'autres points, laisse-les.
+
+L'étape 2 (Maillage) envoie ensuite ces articles avec leurs photos. Après elle, pose leur nouvelle image à la une : `python3 tools/autopilote.py une <slug>`. Aucune photo qui convienne pour un article : note-le au journal et prends le suivant de la liste.
 
 ## 2. Maillage
 `python3 tools/autopilote.py maillage`
@@ -96,7 +105,7 @@ Si le cœur de l'article repose sur des données introuvables (page prix sans au
 `python3 tools/autopilote.py publier <slug>` : programme l'article à une heure aléatoire, au moins 18 h après le précédent, jamais entre 22 h et 7 h. Aucune autre voie de publication.
 
 ## 6. Compte rendu
-Termine par trois lignes au plus : l'article programmé et sa date de sortie · ce qui a été bloqué et pourquoi · ce qui attend le propriétaire (d'après `etat` : menu, `/devis/`, articles bloqués).
+Termine par trois lignes au plus : l'article programmé et sa date de sortie, les deux articles qui ont reçu leurs photos · ce qui a été bloqué et pourquoi · ce qui attend le propriétaire (d'après `etat` : menu, `/devis/`, articles bloqués).
 
 Le **lundi** (commande `date`), lance aussi `python3 tools/autopilote.py audit`.
 

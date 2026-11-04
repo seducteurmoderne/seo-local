@@ -4,6 +4,7 @@ title_seo: "Politique de confidentialité"
 meta_description: "Les données collectées par nos formulaires de devis, pourquoi, à qui nous les transmettons, combien de temps nous les gardons et comment exercer vos droits."
 h1: "Politique de confidentialité"
 type: page
+photos: non
 requete_cible: "politique de confidentialité"
 statut: brouillon
 mis_a_jour: 2026-10-04
