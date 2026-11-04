@@ -41,6 +41,10 @@ SEUILS = {
     "doublon_avert": 0.35,       # part du texte d'une page locale déjà présente dans une autre
     "doublon_max": 0.50,         # (bloquant au-delà)
     "brief_locales_facultatif": False,  # True : pages locales sans analyse SERP ni brief exigés (avertissement)
+    "photos_min": 1,             # photos dans le texte d'un article (schémas SVG non comptés), bloquant hors limites
+    "photos_max": 4,
+    "photo_format": "600",       # un seul format de photo sur le site (moteur/images.py → FORMATS)
+    "photo_reemploi_max": 3,     # une même photo dans 3 articles au plus (bloquant au-delà)
     **config.SITE.get("seo", {}),
 }
 
@@ -263,14 +267,24 @@ def controler(fm, body, visible, art_dir, parse):
         elif absents:
             avert.append(f"termes du brief absents : {', '.join(absents)}")
 
-    # 6. Images : un nom de fichier et un texte alternatif qui disent ce qu'on voit
+    # 6. Images : de 1 à 4 photos, toutes au même format, un nom de fichier et un texte alternatif qui disent ce
+    # qu'on voit et qui nomment l'objet de l'article, jamais la même photo sur trop de pages
     noms_vagues = re.compile(r"^(img|dsc|dcim|pxl|image|photo|picture|capture|screenshot|canva|essai|test|untitled|sans-titre|design)"
                              r"[-_ ]?\d*$|^[0-9a-f_-]{12,}$|^\d+$", re.I)
+    photos = 0
     for m in re.finditer(r"^!\[\[(.+?)\]\]\s*$", visible, re.M):
         p = [x.strip() for x in m.group(1).split("|")] + ["", "", ""]
         chemin, alt = p[0], p[2]
         if chemin.lower().endswith(".svg"):
             continue
+        photos += 1
+        if (p[3] or S["photo_format"]) != S["photo_format"]:
+            bloq.append(f"photo au format « {p[3]} » : toutes les photos du site sont au format « {S['photo_format']} » ({os.path.basename(chemin)})")
+        ailleurs = [f for f in glob.glob(os.path.join(art_dir, "*.md"))
+                    if os.path.basename(f) != f"{fm.get('slug', '')}.md" and f"[[{chemin}|" in open(f, encoding="utf-8").read()]
+        if len(ailleurs) >= S["photo_reemploi_max"]:
+            bloq.append(f"la photo {os.path.basename(chemin)} est déjà dans {len(ailleurs)} autres articles "
+                        f"({S['photo_reemploi_max']} articles au plus par photo) : en choisir une autre")
         nom = os.path.splitext(os.path.basename(chemin))[0]
         mots_nom = [x for x in re.split(r"[-_ ]+", nom) if x]
         if noms_vagues.match(nom) or len(mots_nom) < 3:
@@ -280,9 +294,14 @@ def controler(fm, body, visible, art_dir, parse):
         elif not 25 <= len(alt) <= 140:
             avert.append(f"texte alternatif de {len(alt)} caractères (25 à 140) : « {alt[:50]} »")
         if alt and not (nomme_entite(alt, ents) or nomme_entite(" ".join(mots_nom), ents)):
-            avert.append(f"ni le nom ni le texte alternatif de {os.path.basename(chemin)} ne nomment l'objet de l'article : glisser le mot-clé s'il décrit l'image")
+            bloq.append(f"ni le nom ni le texte alternatif de {os.path.basename(chemin)} ne nomment l'objet de l'article (ou sa ville) : glisser le mot-clé s'il décrit l'image")
         if len(re.findall(re.escape(fm.get("requete_cible", "~")), alt.lower())) > 1:
             avert.append(f"mot-clé répété dans le texte alternatif de {os.path.basename(chemin)}")
+
+    if photos < S["photos_min"]:
+        bloq.append(f"aucune photo dans l'article ({S['photos_min']} au moins) : `photos chercher`, puis `photos prendre`")
+    elif photos > S["photos_max"]:
+        bloq.append(f"{photos} photos dans l'article ({S['photos_max']} au plus)")
 
     # 7. Pages locales : texte propre à la ville
     if config.est_locale(fm):
