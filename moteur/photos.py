@@ -6,6 +6,10 @@
         (Pixabay, CC0, domaine public, CC BY, CC BY-SA). Télécharge les vignettes dans
         briefs/<slug>/photos/ pour qu'on les regarde avant de choisir.
 
+    python3 tools/autopilote.py photos commune <slug> "<Commune>" ["<section ou village>"…]
+        Photos de la commune sur Wikimedia Commons (sa catégorie et ses sous-catégories) : église, place, vue du village.
+        Pour les pages de ville : une photo que n'a aucune autre page, qui ancre la page dans sa commune.
+
     python3 tools/autopilote.py photos prendre <slug> <n°> <nom-descriptif> "<texte alternatif>" [600|banniere|large]
         Télécharge la photo n° en grand dans photos/<nom-descriptif>.jpg, note son crédit dans
         photos/credits.json et donne la ligne à coller dans l'article (légende avec le crédit).
@@ -89,13 +93,28 @@ def commons(q):
 SOURCES = [("Pixabay", pixabay), ("Openverse", openverse), ("Wikimedia Commons", commons)]
 
 
+def commune(nom):
+    """Photos d'une commune sur Commons : sa catégorie d'abord, puis son nom, puis ses sous-catégories (plus bruyantes :
+    événements, sport). Le tri se fait ensuite à l'œil sur les vignettes."""
+    out, vus = [], set()
+    for q in (f'incategory:"{nom}"', f'"{nom}"', f'deepcat:"{nom}"'):
+        for c in commons(q):
+            if c["id"] not in vus:
+                vus.add(c["id"])
+                out.append(c)
+    return out
+
+
+SOURCES_COMMUNE = [("Wikimedia Commons", commune)]
+
+
 # ---------------------------------------------------------------- chercher
-def chercher(slug, requetes):
+def chercher(slug, requetes, sources=SOURCES):
     d = os.path.join(config.ROOT, "briefs", slug, "photos")
     os.makedirs(d, exist_ok=True)
     cands, vus = [], set()
     for q in requetes:
-        for nom, f in SOURCES:
+        for nom, f in sources:
             try:
                 res = f(q)
             except Exception as e:
@@ -177,6 +196,8 @@ def prendre(slug, n, nom, alt, fmt="600"):
 def main(args):
     if len(args) >= 3 and args[0] == "chercher":
         chercher(args[1], args[2:])
+    elif len(args) >= 3 and args[0] == "commune":
+        chercher(args[1], args[2:], SOURCES_COMMUNE)
     elif len(args) >= 5 and args[0] == "prendre":
         prendre(args[1], args[2], args[3], args[4], args[5] if len(args) > 5 else "600")
     else:

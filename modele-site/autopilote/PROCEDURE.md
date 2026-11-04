@@ -43,9 +43,14 @@ Si le cœur de l'article repose sur des données introuvables : `python3 tools/a
 
 **Liens internes, toujours dans les phrases** : jamais de bloc « À lire aussi », jamais de ligne `→`, jamais de liste de liens en fin de section (contrôle bloquant). L'ancre reprend le mot-clé de la page cible. D'abord la page mère, dans le premier tiers du texte (contrôle bloquant), puis 2 à 3 guides de la même verticale. Utilise les slugs de la sitemap même si ces pages ne sont pas encore publiées : le rendu retire les liens vers des pages absentes, le maillage les réactive le jour où elles sortent. Vérifie que l'article reçoit au moins un lien entrant d'un article existant.
 
-**Image à la une** : rien à faire, `publier` la génère (dessin sans texte, un motif par verticale). Une photo du propriétaire dans `photos/` peut la remplacer : `image_une: photos/<fichier>` et `image_une_alt: <description>`.
-
-**Photos** : seulement celles du propriétaire (`photos/`), intégrées par `![[photos/<fichier>|légende|texte alternatif]]`. Ne télécharge jamais de photo depuis le web : note le besoin sous « PHOTOS À TROUVER ».
+**Photos : de 1 à 4 par article, cherchées à chaque rédaction** (`verifier` bloque en dehors de ces limites).
+1. **Chercher.** Page de ville : d'abord une photo **de la commune** (église, place, vue du village, paysage du coin), `python3 tools/autopilote.py photos commune <slug> "<Commune>" ["<section ou village>"…]`, puis une photo **du service**. Page mère, guide : l'objet ou le geste dont parle la page. Pour le service et l'objet : `python3 tools/autopilote.py photos chercher <slug> "<requête en anglais>" ["<autre requête>"…]`.
+2. **Regarder** chaque vignette retenue (outil Read sur `briefs/<slug>/photos/cNN.jpg`) et ne garder qu'une photo qui montre exactement le sujet de sa section. Pour une photo de commune, vérifier sur sa page source (`candidats.json`) qu'elle montre bien cette commune ; pour un nom ambigu, ajouter le pays à la requête. Écarter : logo ou marque d'une entreprise (sauf ce que le `CLAUDE.md` du site autorise), texte ou filigrane sur l'image, visage reconnaissable en gros plan, décor visiblement étranger à la zone (camion américain, palmiers…), photo floue ou mal cadrée.
+3. **Prendre** : `python3 tools/autopilote.py photos prendre <slug> <n°> <nom-descriptif> "<texte alternatif>"`. Nom : ce qu'on voit, avec le mot-clé ou la ville (ex. `eglise-saint-donat-arlon`, `livraison-steres-bois-de-chauffage`). Texte alternatif : ce qu'on voit, en nommant l'objet de l'article ou la ville, de 25 à 140 caractères. Un seul format sur le site (`600`, celui que donne la commande) : n'en mets pas d'autre.
+4. **Placer** la ligne donnée dans la section concernée, en complétant la légende (le crédit reste dans la légende).
+5. **Pas la même photo partout** : 3 articles au plus par photo (contrôlé). Une photo de service déjà employée trois fois : en prendre une autre.
+6. **Image à la une** : la meilleure photo de l'article, pour une page de ville celle de la commune, en front-matter `image_une: photos/<fichier>.jpg` et `image_une_alt: <description>`. Sans photo qui convienne, `publier` garde le dessin généré.
+7. Aucune photo qui convienne (commune sans photo libre, sujet introuvable) : `bloquer <slug> "aucune photo libre"` plutôt qu'une photo hors sujet. Jamais une image copiée d'un autre site : seulement les commandes `photos`, qui ne prennent que des licences libres et notent le crédit.
 
 **Schémas** : un SVG seulement s'il montre un mécanisme mieux qu'un paragraphe, un par article au plus, dans `visuels/`.
 
