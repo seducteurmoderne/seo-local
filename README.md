@@ -12,6 +12,7 @@ SEO LOCAL/               dépôt GitHub partagé
 ├── tache-planifiee.md   texte de la tâche planifiée à dupliquer
 ├── nouveau_site.py      crée un dossier de site dans sites/ depuis le modèle
 ├── panel/               panel de suivi du parc (stats par site, demandes de devis)
+├── guides/              arriver sur le projet, une session de production par lots
 ├── archives/            anciennes versions des outils (hors du dépôt)
 └── sites/
     └── <site>/          un dossier par site

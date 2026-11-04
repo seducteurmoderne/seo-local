@@ -102,17 +102,25 @@ En prose, l'action se met **en gras** : le lecteur pressé scanne quand même.
 
 ## Images
 
-Trois sortes d'images, chacune avec son rôle (décision du propriétaire, 24 septembre 2026) :
+Trois sortes d'images, chacune avec son rôle :
 
 | Image | Quand | D'où elle vient |
 |---|---|---|
-| **Image à la une** | Tous les articles, automatiquement | Dessin généré par `tools/images.py`, **sans aucun texte** (Discover, partages). Un motif par verticale : bûches, granulés, cheminée, collines de l'Ardenne pour le local. Remplacée par une vraie photo quand elle existe (`image_une:` dans le front-matter) |
+| **Photo** | **Chaque article : 1 photo au moins, 4 au plus** (contrôle bloquant), là où le lecteur doit voir quelque chose de réel | Cherchée à chaque rédaction (`photos commune`, `photos chercher`), choisie à l'œil sur les vignettes, licence libre, crédit dans la légende (`photos prendre`) |
+| **Image à la une** | Tous les articles | La meilleure photo de l'article (`image_une:` dans le front-matter) ; à défaut, le dessin généré **sans aucun texte** (Discover, partages) |
 | **Schéma SVG** | De temps en temps, quand un mécanisme se montre mieux qu'il ne s'écrit | Écrit en code : conversion d'unités, points d'entretien, courbe de prix |
-| **Photo** | Quand le lecteur doit **voir** quelque chose de réel : reconnaître, comparer, vérifier | D'abord les photos du propriétaire (`photos/`). À défaut, une photo documentaire d'une banque libre (Commons, Unsplash, Pexels), sujet vérifié, crédit en texte, téléchargée seulement avec son accord |
 
-**Jamais** : la photo d'ambiance décorative (feu de cheminée, tas de bûches au soleil), une photo de banque sur une page locale (elle ferait croire à un lieu réel), une image générée qui imite une photo.
+**Ce que montre la photo, selon la page :**
+- **Page de ville** : d'abord une photo **de la commune** (église, place, vue du village, paysage du coin), vérifiée sur sa page source ; elle ancre la page dans sa commune et aucune autre page ne l'a. Puis une photo **du service**.
+- **Page mère, guide** : l'objet ou le geste dont parle la page (le produit, l'outil, le chantier).
 
-Les photos sont redressées, recadrées en 3:2, réduites à 1 600 px, converties en WebP et débarrassées de leurs métadonnées (GPS compris) par `tools/images.py`. Chaque image : `alt` descriptif et honnête, `width`/`height` explicites.
+**Une photo ne ment jamais sur ce qu'elle montre.** Une photo de service sur une page de ville illustre le métier : sa légende ne dit pas qu'elle a été prise dans la commune. Une photo de commune nomme le lieu exact qu'elle montre.
+
+**On écarte** : logo ou marque d'une entreprise (sauf exception écrite dans le `CLAUDE.md` du site), texte ou filigrane sur l'image, visage reconnaissable en gros plan, décor visiblement étranger à la zone (camion américain, palmiers), photo floue ou mal cadrée, photo d'ambiance décorative qui n'apprend rien, image générée qui imite une photo. Jamais une image copiée d'un autre site : seulement des licences libres (Pixabay, CC0, domaine public, CC BY, CC BY-SA).
+
+**Toutes les photos d'un site ont le même format** (`600` : 600 × 400 à l'affichage, préparée en 1 200 × 800). **Une même photo dans 3 articles au plus.** Nom de fichier : ce qu'on voit, avec le mot-clé ou la ville (`eglise-saint-donat-arlon.jpg`). Texte alternatif : ce qu'on voit, en nommant l'objet de l'article ou la ville, de 25 à 140 caractères. Tout cela est contrôlé par `verifier`.
+
+Les photos sont redressées, recadrées, converties en WebP et débarrassées de leurs métadonnées (GPS compris) par le moteur. Une page utilitaire (devis, confidentialité) se dispense de photo par `photos: non` dans le front-matter.
 
 ## Jamais de H2 collé à un H3
 
