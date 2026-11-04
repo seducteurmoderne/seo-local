@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Parc SEO local</title>
+<style>
+  :root {
+    --fond: #f6f7f5; --carte: #ffffff; --texte: #1d2320; --doux: #66706b; --bord: #e1e5e2;
+    --accent: #2f6f5e; --accent-fond: #e6f0ec; --alerte: #a4461d; --alerte-fond: #fbeee6; --hausse: #1f7a4d; --baisse: #b23a2b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fond: #141816; --carte: #1c211f; --texte: #e7ebe9; --doux: #9aa5a0; --bord: #2c3330;
+      --accent: #7cc4ad; --accent-fond: #1f2f2a; --alerte: #f0a37c; --alerte-fond: #33241c; --hausse: #6fd3a0; --baisse: #f08a7c;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--fond); color: var(--texte); font: 15px/1.45 -apple-system, "Segoe UI", Roboto, sans-serif; }
+  header { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; padding: 18px 24px; border-bottom: 1px solid var(--bord); background: var(--carte); }
+  h1 { font-size: 18px; margin: 0 12px 0 0; }
+  nav { display: flex; gap: 4px; }
+  nav button { border: 0; background: none; color: var(--doux); font: inherit; padding: 6px 12px; border-radius: 8px; cursor: pointer; }
+  nav button[aria-selected="true"] { background: var(--accent-fond); color: var(--accent); font-weight: 600; }
+  .maj { margin-left: auto; color: var(--doux); font-size: 13px; display: flex; gap: 10px; align-items: center; }
+  .bouton { border: 1px solid var(--bord); background: var(--carte); color: var(--texte); font: inherit; font-size: 13px; padding: 6px 12px; border-radius: 8px; cursor: pointer; text-decoration: none; }
+  .bouton:hover { border-color: var(--accent); }
+  main { padding: 20px 24px 40px; max-width: 1500px; }
+  .chiffres { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin-bottom: 20px; }
+  .chiffre { background: var(--carte); border: 1px solid var(--bord); border-radius: 12px; padding: 14px 16px; }
+  .chiffre b { display: block; font-size: 26px; font-variant-numeric: tabular-nums; }
+  .chiffre span { color: var(--doux); font-size: 13px; }
+  .tableau { background: var(--carte); border: 1px solid var(--bord); border-radius: 12px; overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; }
+  th, td { padding: 9px 12px; text-align: right; white-space: nowrap; border-bottom: 1px solid var(--bord); }
+  th { font-size: 12px; font-weight: 600; color: var(--doux); text-transform: uppercase; letter-spacing: .02em; }
+  th:first-child, td:first-child { text-align: left; }
+  td.texte, th.texte { text-align: left; white-space: normal; }
+  td.alertes { min-width: 280px; }
+  tbody tr:last-child td { border-bottom: 0; }
+  tr.total td { font-weight: 600; background: var(--accent-fond); }
+  .domaine { color: var(--doux); font-size: 12px; display: block; }
+  .vide { color: var(--doux); }
+  .hausse { color: var(--hausse); font-size: 12px; } .baisse { color: var(--baisse); font-size: 12px; }
+  .alerte { display: inline-block; background: var(--alerte-fond); color: var(--alerte); border-radius: 6px; padding: 2px 8px; font-size: 12px; margin: 2px 4px 2px 0; white-space: normal; }
+  .filtres { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 14px; }
+  select { font: inherit; font-size: 14px; padding: 6px 8px; border-radius: 8px; border: 1px solid var(--bord); background: var(--carte); color: var(--texte); }
+  .grille { display: grid; grid-template-columns: 220px 1fr; gap: 16px; align-items: start; }
+  @media (max-width: 800px) { .grille { grid-template-columns: 1fr; } header, main { padding-left: 16px; padding-right: 16px; } }
+  .note { color: var(--doux); font-size: 13px; margin-top: 12px; }
+  .chargement { padding: 40px; text-align: center; color: var(--doux); }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Parc SEO local</h1>
+  <nav role="tablist">
+    <button role="tab" aria-selected="true" data-onglet="parc">Stats</button>
+    <button role="tab" aria-selected="false" data-onglet="demandes">Demandes</button>
+  </nav>
+  <div class="maj"><span id="maj"></span><button class="bouton" id="rafraichir">Rafraîchir</button></div>
+</header>
+<main>
+  <div id="chargement" class="chargement">Lecture des sites…</div>
+
+  <section id="parc" hidden>
+    <div class="chiffres" id="chiffres"></div>
+    <div class="tableau"><table>
+      <thead><tr>
+        <th>Site</th><th>En ligne</th><th>Programmés</th><th>Programmé jusqu'au</th><th>File</th>
+        <th>Clics</th><th>Impressions</th><th>Position</th><th>Rankent</th><th>À renforcer</th>
+        <th>Demandes</th><th>Total demandes</th><th>Dernière</th><th>Pour 100 clics</th><th class="texte">Alertes</th>
+      </tr></thead>
+      <tbody id="lignes"></tbody>
+    </table></div>
+    <p class="note" id="note-parc"></p>
+  </section>
+
+  <section id="demandes" hidden>
+    <div class="filtres">
+      <select id="f-site"><option value="">Tous les sites</option></select>
+      <select id="f-periode">
+        <option value="7">7 derniers jours</option><option value="28" selected>28 derniers jours</option>
+        <option value="90">90 derniers jours</option><option value="365">12 derniers mois</option><option value="">Depuis le début</option>
+      </select>
+      <span id="compte" class="vide"></span>
+      <a class="bouton" id="export" href="#">Exporter en CSV</a>
+    </div>
+    <div class="grille">
+      <div class="tableau"><table>
+        <thead><tr><th>Mois</th><th>Demandes</th></tr></thead><tbody id="mois"></tbody>
+      </table></div>
+      <div class="tableau"><table>
+        <thead><tr><th>Date</th><th class="texte">Site</th><th class="texte">Page</th><th class="texte">Besoins</th><th>Code postal</th><th class="texte">Délai</th></tr></thead>
+        <tbody id="liste"></tbody>
+      </table></div>
+    </div>
+    <p class="note">Sans nom, e-mail ni téléphone : le détail de chaque demande reste dans l'admin WordPress de son site.</p>
+  </section>
+</main>
+<script>
+let donnees = null;
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"}[c]));
+const nb = v => v === null || v === undefined ? '<span class="vide">—</span>' : Number(v).toLocaleString("fr-BE");
+const jour = iso => iso ? new Date(iso).toLocaleDateString("fr-BE", {day: "2-digit", month: "2-digit", year: "2-digit"}) : '<span class="vide">—</span>';
+const url = p => p === "/" ? "/" : `/${p}/`;
+
+function evolution(clics, avant) {
+  if (clics === null || clics === undefined || avant === null || avant === undefined || avant === 0) return "";
+  const pct = Math.round(100 * (clics - avant) / avant);
+  return ` <span class="${pct >= 0 ? "hausse" : "baisse"}">${pct >= 0 ? "+" : ""}${pct} %</span>`;
+}
+
+function ligneSite(s) {
+  const w = s.wp || {}, g = s.gsc || {}, d = s.demandes || {};
+  return `<tr>
+    <td>${esc(s.nom)}<span class="domaine">${esc(s.domaine)}</span></td>
+    <td>${nb(w.en_ligne)}</td><td>${nb(w.programmes)}</td><td>${jour(w.programme_jusqu_au)}</td><td>${nb(w.file)}</td>
+    <td>${nb(g.clics)}${evolution(g.clics, g.clics_avant)}</td><td>${nb(g.impressions)}</td><td>${nb(g.position)}</td>
+    <td>${nb(g.rankent)}</td><td>${nb(g.renforcer)}</td>
+    <td>${nb(d.periode)}</td><td>${nb(d.total)}</td><td>${jour(d.derniere)}</td><td>${nb(s.conversion)}</td>
+    <td class="texte alertes">${(s.alertes || []).map(a => `<span class="alerte">${esc(a)}</span>`).join("")}</td>
+  </tr>`;
+}
+
+function afficherParc() {
+  const t = donnees.total, p = donnees.periode_jours;
+  const chiffres = [
+    [t.sites, "sites"], [t.wp.en_ligne, "pages en ligne"], [t.wp.programmes, "pages programmées"],
+    [t.gsc.clics, `clics Search Console (${p} j)`], [t.demandes.periode, `demandes (${p} j)`],
+    [t.demandes.total, "demandes depuis le début"], [t.alertes, "alertes"],
+  ];
+  $("chiffres").innerHTML = chiffres.map(([v, l]) => `<div class="chiffre"><b>${nb(v)}</b><span>${l}</span></div>`).join("");
+  $("lignes").innerHTML = donnees.sites.map(ligneSite).join("") + `<tr class="total">
+    <td>Parc</td><td>${nb(t.wp.en_ligne)}</td><td>${nb(t.wp.programmes)}</td><td></td><td>${nb(t.wp.file)}</td>
+    <td>${nb(t.gsc.clics)}${evolution(t.gsc.clics, t.gsc.clics_avant)}</td><td>${nb(t.gsc.impressions)}</td><td></td>
+    <td>${nb(t.gsc.rankent)}</td><td>${nb(t.gsc.renforcer)}</td>
+    <td>${nb(t.demandes.periode)}</td><td>${nb(t.demandes.total)}</td><td></td><td>${nb(t.conversion)}</td><td></td></tr>`;
+  $("note-parc").textContent = `Search Console : ${p} derniers jours disponibles du dernier relevé de chaque site (autopilote.py gsc). `
+    + `Demandes : ${p} derniers jours. « Rankent » : pages du top 10 avec des clics, à laisser tranquilles.`;
+}
+
+function filtrees() {
+  const site = $("f-site").value, jours = $("f-periode").value;
+  const depuis = jours ? new Date(Date.now() - jours * 864e5) : null;
+  return donnees.demandes.filter(d => (!site || d.site === site) && (!depuis || new Date(d.date) >= depuis));
+}
+
+function afficherDemandes() {
+  const liste = filtrees();
+  $("compte").textContent = `${liste.length} demande${liste.length > 1 ? "s" : ""}`;
+  $("liste").innerHTML = liste.length ? liste.map(d => `<tr>
+      <td>${new Date(d.date).toLocaleString("fr-BE", {day: "2-digit", month: "2-digit", year: "2-digit", hour: "2-digit", minute: "2-digit"})}</td>
+      <td class="texte">${esc(d.site)}</td><td class="texte">${esc(url(d.page))}</td>
+      <td class="texte">${esc(d.besoins.join(" + "))}</td><td>${esc(d.cp)}</td><td class="texte">${esc(d.delai)}</td></tr>`).join("")
+    : `<tr><td colspan="6" class="texte vide">Aucune demande sur cette période.</td></tr>`;
+  const mois = {};
+  donnees.demandes.filter(d => !$("f-site").value || d.site === $("f-site").value)
+    .forEach(d => { mois[d.date.slice(0, 7)] = (mois[d.date.slice(0, 7)] || 0) + 1; });
+  const cles = Object.keys(mois).sort().reverse();
+  $("mois").innerHTML = cles.length ? cles.map(m => `<tr><td>${new Date(m + "-01T12:00:00").toLocaleDateString("fr-BE", {month: "long", year: "numeric"})}</td><td>${nb(mois[m])}</td></tr>`).join("")
+    : `<tr><td colspan="2" class="vide">—</td></tr>`;
+  const q = new URLSearchParams();
+  if ($("f-site").value) q.set("site", $("f-site").value);
+  if ($("f-periode").value) q.set("depuis", new Date(Date.now() - $("f-periode").value * 864e5).toISOString().slice(0, 10));
+  $("export").href = "/api/demandes.csv" + (q.toString() ? "?" + q : "");
+}
+
+async function charger(rafraichir) {
+  $("rafraichir").disabled = true;
+  $("maj").textContent = "Lecture des sites…";
+  try {
+    const r = await fetch("/api/parc" + (rafraichir ? "?rafraichir=1" : ""));
+    donnees = await r.json();
+    const sel = $("f-site"), choisi = sel.value;
+    sel.innerHTML = `<option value="">Tous les sites</option>` + donnees.sites.map(s => `<option value="${esc(s.nom)}">${esc(s.nom)}</option>`).join("");
+    sel.value = choisi;
+    afficherParc();
+    afficherDemandes();
+    $("chargement").hidden = true;
+    montrer(document.querySelector('nav [aria-selected="true"]').dataset.onglet);
+    $("maj").textContent = "Lu à " + new Date(donnees.genere_le).toLocaleTimeString("fr-BE", {hour: "2-digit", minute: "2-digit"});
+  } catch (e) {
+    $("maj").textContent = "Lecture impossible : " + e.message;
+  } finally {
+    $("rafraichir").disabled = false;
+  }
+}
+
+function montrer(onglet) {
+  document.querySelectorAll("nav button").forEach(b => b.setAttribute("aria-selected", b.dataset.onglet === onglet));
+  $("parc").hidden = onglet !== "parc";
+  $("demandes").hidden = onglet !== "demandes";
+}
+
+document.querySelectorAll("nav button").forEach(b => b.addEventListener("click", () => { if (donnees) montrer(b.dataset.onglet); }));
+$("rafraichir").addEventListener("click", () => charger(true));
+$("f-site").addEventListener("change", afficherDemandes);
+$("f-periode").addEventListener("change", afficherDemandes);
+charger(false);
+</script>
+</body>
+</html>

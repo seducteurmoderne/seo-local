@@ -31,6 +31,7 @@ Tout site et toute évolution du moteur servent ces principes.
 
 ## Dépôt Git partagé (GitHub privé, depuis le 31/10/2026)
 - Le propriétaire y travaille avec un associé. Le dépôt contient le moteur, `designs/`, `modele-site/`, la doc et les nouveaux sites. `archives/` et `brouillons/` restent hors du dépôt (`.gitignore`), comme les sites gardés en local.
+- **Le panel du parc** (`python3 panel/panel.py`, détail dans `README.md`) suit tous les sites : stats par site, demandes de devis. Lecture seule.
 - **Avant de travailler : `git pull`. Après : commit puis `git push`.** Un travail qui dure plus d'une session passe par une branche.
 - **Jamais d'identifiants dans Git** : les `setup/.env` sont exclus ; chacun garde les siens en local.
 - **Un site, un seul pilote, sur une seule machine.** Le `CLAUDE.md` du site dit sur quelle machine tourne sa tâche planifiée : sur une deuxième machine, elle publierait une deuxième fois.
