@@ -19,7 +19,7 @@ SEO LOCAL/               dépôt GitHub partagé
 
 Chaque site pointe vers le moteur par `site.json` → `"moteur": "../../moteur"`.
 
-Un associé peut garder des sites hors du dépôt partagé, dans `sites/` sur sa machine : chacun a alors son propre dépôt Git local, exclu par `.git/info/exclude` (jamais par `.gitignore`), et il les décrit dans son `CLAUDE.local.md`, jamais commité.
+`bois-chauffage` et `elagage` servent d'exemples aux nouveaux sites. Un associé peut aussi garder des sites hors du dépôt partagé, dans `sites/` sur sa machine : chacun a alors son propre dépôt Git local, exclu par `.git/info/exclude` (jamais par `.gitignore`), et il les décrit dans son `CLAUDE.local.md`, jamais commité.
 
 ## Démarrer sur une nouvelle machine
 ```bash

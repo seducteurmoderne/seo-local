@@ -5,7 +5,14 @@ Sites WordPress de **génération de leads locaux** (demandes de devis transmise
 Les sites d'affiliation et de médias (gruptis, tobines, jm-date-replay, youre-precious) ont été séparés le 31/10/2026, à la demande du propriétaire : ils vivent dans `../SEO AFFILIATION/`, avec leur propre moteur. Rien n'est partagé entre les deux dossiers.
 
 ## Les sites
-Les sites du dépôt partagé sont dans `sites/`. Un associé peut aussi garder des sites **hors du dépôt**, sur sa machine : ils sont décrits dans son `CLAUDE.local.md` (à lire s'il existe), exclus par `.git/info/exclude`, jamais cités dans un fichier ou un message de commit du dépôt partagé.
+| Dossier | Domaine | Tâche planifiée (machine) | Design |
+|---|---|---|---|
+| `sites/bois-chauffage/` | bois-de-chauffage-et-pellets.be | `pilote-bois-chauffage` (propriétaire) | direction C (`designs/c-melange.html`) |
+| `sites/elagage/` | elagage-luxembourg.com | `pilote-elagage-luxembourg` (propriétaire) | direction A (`designs/a-editorial.html`) |
+
+Ces deux sites, les premiers, servent d'**exemples** pour les nouveaux : article modèle, modèles de pages locales (`articles/_modeles/`), procédure du pilote, thème. Leurs pilotes tournent chaque jour sur la machine du propriétaire et ne commitent pas leur production : le propriétaire la commite et la pousse en session ; l'associé ne lance jamais ces pilotes.
+
+Un associé peut aussi garder des sites **hors du dépôt**, sur sa machine : ils sont décrits dans son `CLAUDE.local.md` (à lire s'il existe), exclus par `.git/info/exclude`, jamais cités dans un fichier ou un message de commit du dépôt partagé.
 
 Chaque site a son propre `CLAUDE.md` : il fait foi pour ce site (règles, charte, accès). Le lire avant de travailler sur un site.
 
