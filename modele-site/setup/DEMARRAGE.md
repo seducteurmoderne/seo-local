@@ -28,6 +28,7 @@ Principe à suivre : « Principe d'un site local » dans `../../CLAUDE.md`.
 - [ ] Le propriétaire le dépose dans `wp-content/mu-plugins/` et ajoute `define('BCP_LEADS_EMAIL', 'adresse@domaine');` dans `wp-config.php`
 - [ ] Page `/politique-de-confidentialite/` publiée
 - Tant que ces deux éléments manquent, les formulaires restent masqués automatiquement.
+- [ ] Le site apparaît dans le panel du parc (`python3 panel/panel.py`), sans alerte « plugin à mettre à jour »
 
 ## Activer le pilote
 - [ ] `python3 tools/autopilote.py etat` répond « Connexion WordPress OK »

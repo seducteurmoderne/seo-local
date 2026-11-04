@@ -11,6 +11,7 @@ SEO LOCAL/               dépôt GitHub partagé
 ├── charte-base.md       charte de rédaction de départ
 ├── tache-planifiee.md   texte de la tâche planifiée à dupliquer
 ├── nouveau_site.py      crée un dossier de site dans sites/ depuis le modèle
+├── panel/               panel de suivi du parc (stats par site, demandes de devis)
 ├── archives/            anciennes versions des outils (hors du dépôt)
 └── sites/
     └── <site>/          un dossier par site
@@ -35,6 +36,18 @@ Python 3 suffit pour le moteur. Pour chaque site sur lequel tu travailles, crée
 | Formulaire de devis et son plugin de réception (généré depuis `site.json`) | Charte, articles, visuels, photos, données terrain |
 
 Chaque site garde `tools/autopilote.py` et `tools/images.py` : ce sont des **lanceurs** identiques (`moteur/lanceur.py`) qui exécutent le moteur sur ce site. Les commandes restent donc les mêmes partout : `python3 tools/autopilote.py etat`, `verifier`, `publier`…
+
+## Panel du parc
+```bash
+python3 panel/panel.py
+```
+puis ouvrir http://127.0.0.1:8765. Deux pages :
+- **Stats** : une ligne par site et le total du parc. Pages en ligne, programmées (et jusqu'à quand), restant en file ; clics, impressions, position, pages qui rankent et à renforcer (dernier relevé `gsc`) ; demandes sur 28 jours et depuis le début, demandes pour 100 clics ; alertes (connexion refusée, formulaires masqués, rien de programmé, plugin à mettre à jour).
+- **Demandes** : toutes les demandes du parc, avec leur site, leur page d'origine, leurs besoins, code postal et délai, par période et par site, avec le total par mois et un export CSV.
+
+Lecture seule, sur la machine seulement (127.0.0.1) : le panel ne modifie rien. Il montre les sites de `sites/` dont la machine a le `setup/.env`. Les demandes n'y portent ni nom, ni e-mail, ni téléphone : le détail reste dans l'admin WordPress de chaque site.
+
+Pour compter les demandes, le plugin de devis doit être en **version 2** (route `/suivi`, réservée aux comptes connectés) : `python3 tools/autopilote.py plugin` le régénère dans `setup/mu-plugins/leads.php`, à redéposer dans `wp-content/mu-plugins/` à la place de l'ancien (même nom de fichier, jamais deux copies).
 
 ## Créer un site
 Depuis la racine du dépôt :
