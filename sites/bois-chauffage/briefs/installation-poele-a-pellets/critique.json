@@ -1,0 +1,138 @@
+{
+ "problemes": [
+  "La section « soi-même » avait un titre d'accroche : reformulée sur la question réelle de la SERP",
+  "Deux listes prévues (étapes + checklist) : la section prix passe en prose, une seule liste",
+  "L'En bref en puces contredit la charte (paragraphe depuis le 16/10/2026)",
+  "La H2 du tableau ne disait pas à quoi on raccorde"
+ ],
+ "brief": {
+  "intention": "Informationnelle à visée pratique, avec un glissement commercial : le lecteur veut savoir si un poêle à pellets peut s'installer chez lui (avec ou sans cheminée), ce que la pose demande et coûte, et qui peut la faire. Il finit par demander un devis de pose.",
+  "format_serp": "Guides pas à pas, presque tous français ou génériques (9 sur 10) ; une page belge d'installateur. Aucune page wallonne neutre. (sources : duckduckgo be-fr, google.be relevé dans le navigateur)",
+  "structure_serp": "Médiane 1 491 mots, 5 H2 ; 3 pages sur 10 ont un tableau, 2 une liste numérotée ; les plans suivent tous préparation, conduit, électricité, mise en service, puis débordent sur l'entretien et le dépannage.",
+  "entites": [
+   "poêle à pellets"
+  ],
+  "variantes": [
+   "installation d'un poêle à pellets",
+   "installation poêle à granulés",
+   "installation poêle à pellets sans cheminée",
+   "poêle à granulés étanche ventouse",
+   "installation poêle à granulés dans une cheminée",
+   "prix installation poêle à pellets",
+   "normes installation poêle à granulés",
+   "aide installation poêle à pellets",
+   "installateur poêle à pellets"
+  ],
+  "termes": [
+   "conduit de fumée",
+   "tubage",
+   "ventouse",
+   "poêle étanche",
+   "prise d'air extérieure",
+   "matériaux combustibles",
+   "plaque de sol",
+   "230 V",
+   "mise en service",
+   "notice du fabricant",
+   "garantie",
+   "TVA 6 %",
+   "Rénopack"
+  ],
+  "questions": [
+   "Peut-on installer un poêle à pellets sans cheminée ?",
+   "Comment installer un poêle à granulés dans une cheminée ?",
+   "Quel est le coût de l'installation d'un poêle à granulés ?",
+   "Peut-on installer un poêle à pellets soi-même ?",
+   "Quelle aide pour l'installation d'un poêle à pellets en Wallonie ?"
+  ],
+  "en_bref": [
+   "Paragraphe de 2-3 phrases : avec ou sans cheminée (tubage, conduit neuf, ventouse) ; pose par un professionnel pour la garantie ; prix fixé par le conduit, donc devis sur place"
+  ],
+  "plan": [
+   {
+    "h2": "Les 3 façons de raccorder un poêle à pellets au conduit de fumée",
+    "contenu": "Réponse à la question n°1 du lecteur : tubage d'une cheminée existante, conduit neuf (intérieur ou le long de la façade), ventouse sur un poêle étanche. Pour chacune : quand elle s'applique, ce qu'elle demande, ce qui fait varier le coût.",
+    "forme": "tableau",
+    "image": "",
+    "donnees_a_chercher": [
+     "Diamètre de sortie des fumées d'une notice de fabricant",
+     "Longueur maximale d'un conduit concentrique d'après une notice"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Installation d'un poêle à pellets sans cheminée",
+    "contenu": "Réponse directe 40-60 mots : oui, avec un conduit neuf ou une ventouse si le modèle est étanche et que le règlement communal le permet. Renvoi à la commune pour une sortie en façade.",
+    "forme": "réponse directe",
+    "image": "",
+    "donnees_a_chercher": [],
+    "h3": []
+   },
+   {
+    "h2": "Installation d'un poêle à pellets dans une cheminée existante",
+    "contenu": "Tubage inox, contrôle du conduit par un ramoneur avant la pose, lien vers le tubage et le ramonage.",
+    "forme": "paragraphe",
+    "image": "",
+    "donnees_a_chercher": [],
+    "h3": []
+   },
+   {
+    "h2": "Où placer un poêle à pellets : distances, sol, électricité et air",
+    "contenu": "Distances aux parois tirées d'une notice réelle (inflammable / non inflammable), protection de sol, prise murale 230 V accessible, arrivée d'air (grille ou raccordement direct). Préciser que chaque notice fixe ses valeurs.",
+    "forme": "chiffres clés",
+    "image": "",
+    "donnees_a_chercher": [
+     "Distances aux parois d'une notice MCZ",
+     "Section de la grille de ventilation et diamètre de prise d'air"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Les étapes de l'installation d'un poêle à pellets",
+    "contenu": "Visite technique, devis, conduit, mise en place, raccordement, premier allumage avec le client. Durée annoncée par un installateur.",
+    "forme": "liste numérotée",
+    "image": "",
+    "donnees_a_chercher": [
+     "Durée de pose et délai annoncés par un installateur"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Peut-on installer un poêle à pellets soi-même ?",
+    "contenu": "Les notices réservent l'installation à un personnel qualifié ; la garantie d'un poêle de magasin exige une mise en service par un chauffagiste agréé ; assurance habitation.",
+    "forme": "réponse directe",
+    "image": "",
+    "donnees_a_chercher": [
+     "Condition de garantie Hubo",
+     "Mention de la notice MCZ sur le personnel qualifié"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Prix de l'installation d'un poêle à pellets",
+    "contenu": "Aucun installateur wallon ne publie de prix de pose : ce qui fait varier la facture, ce que doit contenir le devis (appareil, conduit, pose, mise en service, livraison), forfait de livraison publié. En prose : la liste de l'article est déjà prise par les étapes.",
+    "forme": "paragraphe",
+    "image": "",
+    "donnees_a_chercher": [
+     "Forfait de livraison publié par un installateur"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Aide et TVA pour l'installation d'un poêle à pellets en Wallonie",
+    "contenu": "Fin des primes par poste au 01/10/2026, Rénopack / Rénoprêt, TVA 6 % sur la rénovation d'un logement de plus de 10 ans sous conditions.",
+    "forme": "paragraphe",
+    "image": "",
+    "donnees_a_chercher": [
+     "Communiqué du Gouvernement wallon du 16/07/2026",
+     "SPF Finances, TVA 6 %"
+    ],
+    "h3": []
+   }
+  ],
+  "cta": "Guide : CTA doux après l'introduction (« vous cherchez quelqu'un pour la pose ? »), CTA fort en fin de page.",
+  "faq": [],
+  "longueur_cible": 1400,
+  "decision": "Un guide wallon qui répond d'abord à « avec ou sans cheminée », compare les 3 raccordements dans un tableau, donne des valeurs tirées d'une vraie notice au lieu de généralités, et chiffre ce qui peut l'être (aides, TVA, livraison). Pas de section entretien ni dépannage : elles ont leurs guides. Le lecteur repart avec la liste de ce qu'un devis de pose doit contenir."
+ }
+}

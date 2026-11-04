@@ -1,0 +1,112 @@
+{
+ "problemes": [
+  "Deux tableaux se suivent dans les deux premières sections : les séparer par un paragraphe qui dit ce que le premier tableau ne montre pas (les prix absents).",
+  "Les sections format et livraison risquent de se recouper : la première dit quoi acheter, la seconde comment ça arrive chez vous.",
+  "Ne pas présenter Dasnois comme magasin Aveve sans source : nommer l'adresse et Allehoutpellets, qui le liste comme point de vente."
+ ],
+ "brief": {
+  "intention": "Locale et transactionnelle : trouver un vendeur de pellets installé à Bertrix ou qui la livre, savoir ce qui se retire sur place, comparer le prix d'une palette et du vrac ramené à la tonne.",
+  "format_serp": "Pages de vendeurs de Bertrix (Mécagricola, Mazout Etienne), annuaire (entreprise-chauffage-belgique), boutiques en ligne qui livrent la Belgique (pellets-winn, augranuledebois), point de vente Allehoutpellets à Bertrix. (sources : duckduckgo be-fr)",
+  "structure_serp": "Pages courtes (médiane 549 mots), 1 H2 en moyenne, aucun prix chez les vendeurs locaux, aucune comparaison. Détail dans briefs/pellets-bertrix/serp.md",
+  "entites": [
+   "pellets",
+   "granulés de bois"
+  ],
+  "variantes": [
+   "pellets bertrix",
+   "bois et pellets bertrix",
+   "aveve bertrix pellets",
+   "comfo pellets bertrix",
+   "livraison pellets bertrix",
+   "prix pellets bertrix"
+  ],
+  "termes": [
+   "palette de 65 sacs",
+   "sac de 15 kg",
+   "vrac",
+   "camion souffleur",
+   "silo",
+   "ENplus A1",
+   "DINplus",
+   "TVAC",
+   "retrait",
+   "point de vente"
+  ],
+  "questions": [
+   "Qui vend des pellets à Bertrix ?",
+   "Combien coûte une palette de pellets à Bertrix ?",
+   "Peut-on acheter des sacs sur place ?",
+   "Qui livre le vrac à Bertrix ?",
+   "Peut-on acheter à l'usine ERDA ?",
+   "Quelles communes autour de Bertrix sont livrées ?"
+  ],
+  "en_bref": [
+   "Trois vendeurs dans la commune (Mazout Etienne, le point de vente Allehoutpellets de la rue de la Fèche, Mécagricola), le prix d'une palette publié, le vrac livré par Goffinet et PETIT & Fils, l'usine ERDA qui ne vend pas en direct."
+  ],
+  "plan": [
+   {
+    "h2": "Qui vend des pellets à Bertrix ?",
+    "contenu": "Réponse directe : combien de vendeurs dans la commune, combien de l'extérieur. Tableau rotatif : point de vente, où, ce que son site annonce.",
+    "forme": "tableau",
+    "image": "",
+    "donnees_a_chercher": [
+     "sites de Mazout Etienne, Allehoutpellets, Mécagricola, Goffinet, PETIT & Fils, Koenig, Brico Libramont"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Prix des pellets à Bertrix en 2026",
+    "contenu": "Les prix publiés ramenés à la tonne : palettes Allehoutpellets, vrac Goffinet et PETIT & Fils, sac Brico, comparés à la moyenne Valbiom. Les vendeurs de la commune qui ne publient pas de prix.",
+    "forme": "tableau",
+    "image": "",
+    "donnees_a_chercher": [
+     "prix palettes Allehoutpellets",
+     "grille vrac Goffinet",
+     "prix PETIT & Fils",
+     "Valbiom août 2026"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Pellets ERDA fabriqués à Bertrix : où les acheter",
+    "contenu": "L'usine de Rouvrou, ses 4 marques, ses caractéristiques publiées, la vente par distributeurs exclusifs ; Koenig livre des Erda.",
+    "forme": "paragraphe",
+    "image": "",
+    "donnees_a_chercher": [
+     "erda.be, gamme et distribution"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Sac, palette ou vrac : quel format choisir à Bertrix ?",
+    "contenu": "Ce qui existe réellement à Bertrix pour chaque format (sac à emporter rue de la Brasserie ou rue de la Fèche, palette livrée, vrac pour silo), puis l'avis de la rédaction en encadré. Les explications générales restent sur le guide des formats.",
+    "forme": "notre avis",
+    "image": "",
+    "donnees_a_chercher": [],
+    "h3": []
+   },
+   {
+    "h2": "Livraison de pellets à Bertrix : délais et accès",
+    "contenu": "Conditions publiées par chaque vendeur : jours de livraison, hayon jusqu'au trottoir, minimum de 2 tonnes pour le vrac PETIT & Fils, horaires de retrait. Une donnée absente se dit absente.",
+    "forme": "paragraphe",
+    "image": "",
+    "donnees_a_chercher": [
+     "conditions de livraison de chaque vendeur"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Pellets autour de Bertrix : communes desservies",
+    "contenu": "Communes voisines couvertes et liens vers les pages des villes proches.",
+    "forme": "paragraphe",
+    "image": "",
+    "donnees_a_chercher": [],
+    "h3": []
+   }
+  ],
+  "cta": "CTA fort après l'introduction et en fin de page : la plupart des vendeurs ne publient pas le prix d'une palette livrée à Bertrix.",
+  "faq": [],
+  "longueur_cible": 1100,
+  "decision": "La seule page qui réunit les vendeurs de pellets de la commune de Bertrix, ramène leurs prix à la tonne et explique pourquoi l'usine ERDA, installée à Bertrix, ne vend pas aux particuliers."
+ }
+}

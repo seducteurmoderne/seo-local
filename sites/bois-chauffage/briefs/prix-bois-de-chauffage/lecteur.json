@@ -1,0 +1,10 @@
+{"persona": "Ménage wallon ou bruxellois qui chauffe au poêle ou à l'insert, parfois en chauffage principal, et qui doit refaire son stock de bûches.",
+ "situation": "Automne : il a reçu un prix d'un fournisseur ou vu une annonce et veut savoir si c'est cher. Il compare souvent une palette, un box et du vrac sans savoir les ramener à la même unité.",
+ "intentions": [{"type": "informationnelle", "part": 0.55, "description": "Connaître le prix actuel d'un stère de bois sec, livré ou non"},
+                {"type": "commerciale", "part": 0.35, "description": "Comparer les vendeurs et les formats (palette, box, vrac)"},
+                {"type": "locale", "part": 0.10, "description": "Trouver un vendeur qui livre chez lui"}],
+ "reponse_attendue": "Le prix du jour d'un stère de bois sec livré, en un chiffre, puis l'écart selon le format et le vendeur.",
+ "questions": ["Combien coûte un stère de bois de chauffage en ce moment ?", "Quel est le prix moyen du stère en Belgique ?", "Combien coûte une palette de bois livrée ?", "Le vrac est-il moins cher que la palette ?", "Quelle différence de prix entre bois sec et bois vert ?", "Pourquoi les prix varient-ils autant ?"],
+ "informations": ["Prix au stère ramené pour chaque offre, livraison comprise ou non", "TVA comprise ou non", "Repère Valbiom", "Effet de la longueur, de l'essence, du séchage, du conditionnement et de la quantité"],
+ "objections": ["Les vendeurs n'affichent pas tous la TVA", "Un stère de bûches courtes ne contient pas autant de bois qu'un stère d'un mètre", "Le bois annoncé sec ne l'est pas toujours", "Les escroqueries aux acomptes"],
+ "declencheur_devis": "Après le tableau des palettes, pour qui veut le prix livré à son adresse ; et en fin de page."}

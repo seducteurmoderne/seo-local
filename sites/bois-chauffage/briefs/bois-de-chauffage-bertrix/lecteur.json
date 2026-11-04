@@ -1,0 +1,10 @@
+{"persona": "Ménage de la commune de Bertrix ou d'un village voisin (Cugnon, Auby, Jehonville, Orgeo, Herbeumont, Paliseul) qui se chauffe au poêle ou à l'insert à bûches, souvent en appoint d'un mazout.",
+"situation": "Fin octobre : la réserve est entamée ou le fournisseur habituel est en rupture de bois sec. La personne cherche quelqu'un dans la commune même, pour payer peu de transport, et a entendu parler d'une vente de bois de la commune.",
+"intentions": [{"type": "locale", "part": 0.5, "description": "Trouver qui vend et livre du bois de chauffage à Bertrix, de préférence installé dans la commune."},
+{"type": "commerciale", "part": 0.3, "description": "Comparer le prix du stère livré, sec ou vert, et le coût du transport."},
+{"type": "informationnelle", "part": 0.2, "description": "Savoir comment marche la vente de bois de chauffage de la commune et si elle convient à un particulier."}],
+"reponse_attendue": "Les vendeurs installés à Bertrix, le prix du stère livré à Bertrix chez chacun et ce qui est disponible sec maintenant.",
+"questions": ["Qui vend du bois de chauffage à Bertrix ?", "Combien coûte un stère livré à Bertrix ?", "Y a-t-il encore du bois sec cet automne ?", "Combien coûte la livraison et à partir de quelle quantité ?", "Comment fonctionne la vente de bois de chauffage de la commune ?", "Puis-je venir chercher le bois moi-même ?"],
+"informations": ["Prix au stère TVA comprise, sec et vert", "Frais de livraison dans la commune selon la quantité", "Disponibilité du bois sec", "Longueurs proposées", "Possibilité de retrait sur place", "Conditions de la vente communale"],
+"objections": ["Les prix affichés sont-ils HTVA ou TVAC ?", "Le bois dit sec l'est-il vraiment ?", "Un stère de bûches de 33 cm contient-il autant qu'un stère d'un mètre ?", "La vente communale demande-t-elle d'abattre soi-même ?"],
+"declencheur_devis": "Après le tableau des prix livrés : quand le bois sec manque ou que la personne veut un prix pour sa rue et sa quantité, le formulaire transmet sa demande aux fournisseurs qui livrent Bertrix."}

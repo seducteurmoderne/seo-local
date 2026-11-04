@@ -1,0 +1,111 @@
+{
+  "problemes": [
+    "La question « meilleure marque de pellets en Belgique » ne doit pas devenir un classement : neutralité d'intermédiaire. La section qualité donne les certifications à exiger et ce que chaque vendeur annonce, sans ordre de préférence.",
+    "« Le prix va-t-il baisser ? » : ne rien prédire soi-même ; seulement la tendance mesurée et l'avis publié de Valbiom, daté.",
+    "Badger Pellets écarté : présenté comme « situé à Arlon » par un distributeur, mais produit à Virton selon les sources trouvées. Ne pas l'écrire sans source primaire.",
+    "La prime pour un poêle à pellets (Autres questions posées) est hors sujet pour une page d'achat de combustible : ne pas l'ajouter ici.",
+    "La section « communes voisines » du modèle local fusionne avec la livraison : pas assez de données propres pour une section entière.",
+    "Fixer le titre du tableau sur ce que le lecteur compare : vend sur place, livre Arlon, vrac."
+  ],
+  "brief": {
+    "intention": "Locale et commerciale à 65 % : qui vend ou livre des pellets à Arlon, à quel prix. Informationnelle à 25 % : quand acheter, quel format, quelle qualité. Navigationnelle à 10 % : retrouver un fournisseur.",
+    "format_serp": "Annuaires et sites de fournisseurs ; aucune page ne répond vraiment à la requête",
+    "structure_serp": "Listes d'entreprises sans tri, pages de fournisseurs centrées sur eux-mêmes, pas de prix du combustible, pas de tableau ; médiane sous 700 mots",
+    "entites": [
+      "pellets",
+      "Arlon"
+    ],
+    "variantes": [
+      "pellets arlon",
+      "pellets en vrac arlon",
+      "acheter des pellets à arlon",
+      "livraison pellets arlon",
+      "prix pellets arlon"
+    ],
+    "termes": [
+      "livraison",
+      "vrac",
+      "camion souffleur",
+      "sac de 15 kg",
+      "palette",
+      "prix",
+      "DIN+",
+      "ENplus A1",
+      "fournisseur",
+      "magasin"
+    ],
+    "questions": [
+      "Où acheter des pellets à Arlon ?",
+      "Combien coûtent les pellets à Arlon ?",
+      "Le prix des pellets va-t-il baisser ?",
+      "Qui livre des pellets en vrac à Arlon ?",
+      "Quelle qualité de pellets acheter ?"
+    ],
+    "en_bref": [
+      "4 adresses : 2 à Arlon même (Areltherme, Brico), 2 qui livrent Arlon (Petit & Fils, Goffinet)",
+      "6,49 à 7,49 € le sac de 15 kg en magasin à Arlon ; moyenne wallonne 6,19 € par palette (août 2026)",
+      "Vrac au camion souffleur chez 3 d'entre eux",
+      "Aucun prix livré publié : seul un devis le donne"
+    ],
+    "plan": [
+      {
+        "h2": "Où acheter des pellets à Arlon ?",
+        "contenu": "Réponse directe : les vendeurs à Arlon même et ceux qui livrent Arlon, avec leur format. Tableau rotatif (neutralité) : vendeur, où, sac, vrac au camion souffleur, livraison à Arlon.",
+        "forme": "réponse directe + tableau",
+        "donnees_a_chercher": [
+          "Areltherme : adresse, formats, marque (site areltherme.be)",
+          "Brico Arlon, Petit & Fils, Goffinet : formats (sources déjà relevées)"
+        ],
+        "h3": []
+      },
+      {
+        "h2": "Prix des pellets à Arlon en 2026",
+        "contenu": "Le seul prix public (Brico), comparé à la moyenne wallonne Valbiom ; ce qui manque (prix livrés) et comment l'obtenir.",
+        "forme": "réponse directe",
+        "donnees_a_chercher": [
+          "Valbiom août 2026 : 6,19 €/sac par palette"
+        ],
+        "h3": []
+      },
+      {
+        "h2": "Faut-il acheter ses pellets maintenant à Arlon ?",
+        "contenu": "Tendance des prix 2026 (hausse continue depuis janvier, stabilité attendue par Valbiom pour l'hiver) ; acheter avant les tournées d'automne.",
+        "forme": "paragraphe",
+        "donnees_a_chercher": [
+          "Valbiom : 5,99 € en janvier → 6,19 € en août 2026, stabilité attendue"
+        ],
+        "h3": []
+      },
+      {
+        "h2": "Pellets en vrac à Arlon : qui livre et à partir de quelle quantité",
+        "contenu": "Qui livre au camion souffleur, minimum de commande quand il est publié, accès du camion et silo.",
+        "forme": "paragraphe",
+        "donnees_a_chercher": [
+          "Petit & Fils : minimum 2 tonnes",
+          "Goffinet, Areltherme : vrac au camion souffleur, minimum non publié"
+        ],
+        "h3": []
+      },
+      {
+        "h2": "Quelle qualité de pellets acheter à Arlon ?",
+        "contenu": "Exiger DIN+ ou ENplus A1 ; ce que chaque vendeur annonce ; aucun classement de marques (neutralité) ; lien vers la page certifications.",
+        "forme": "paragraphe",
+        "donnees_a_chercher": [
+          "certifications annoncées par chaque vendeur"
+        ],
+        "h3": []
+      },
+      {
+        "h2": "Livraison de pellets à Arlon et dans les communes voisines",
+        "contenu": "Rayons de livraison publiés (Petit & Fils 50 km, Goffinet province), délais non publiés : à demander ; renvoi vers les villes proches (Virton).",
+        "forme": "paragraphe",
+        "donnees_a_chercher": [],
+        "h3": []
+      }
+    ],
+    "cta": "Formulaire après l'introduction (page locale) ; rappel après la section prix : « aucun prix livré publié, recevez jusqu'à 3 prix livrés sans appeler chacun ».",
+    "faq": [],
+    "longueur_cible": 900,
+    "decision": "Aucune page ne répond à « pellets Arlon » : nous faisons la seule page qui rassemble les vendeurs d'Arlon et ceux qui livrent la ville, avec le prix du moment et le bon moment pour acheter. La recherche a trouvé un vendeur à Arlon même (Areltherme) que notre page ignorait : la page actuelle affirme à tort qu'Arlon n'a pas de dépôt."
+  }
+}

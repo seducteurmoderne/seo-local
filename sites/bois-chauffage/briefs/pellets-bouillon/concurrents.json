@@ -1,0 +1,7 @@
+{"types": {"guide": 0, "service": 5, "annuaire": 3, "autre": 1},
+"intention_recompensee": "Locale et transactionnelle : Google montre les sites de fournisseurs et de distributeurs de la région (CT Serson, PETIT & Fils, ERDA) et des annuaires par commune. Le visiteur veut un vendeur qui livre Bouillon.",
+"incontournables": ["Nom des fournisseurs qui livrent la région", "Produits proposés (sac, palette, vrac) et marques", "Contact ou point de vente"],
+"differenciants": ["Tableau des offres par commune (bois-de-chauffage.net, mais pour la commune française de Bouillon 64)", "Mise en avant d'un producteur local (ERDA, pellets résineux)", "Shop où acheter au détail (PETIT & Fils, Baranzy)"],
+"lacunes": ["Aucune page ne dit qui livre réellement la commune belge de Bouillon", "Aucun prix daté ramené à la tonne et comparé", "Aucune distance aux magasins et dépôts depuis Bouillon", "Rien sur le minimum de commande et l'accès du camion dans la vallée"],
+"faiblesses": ["Pages de fournisseurs centrées sur l'entreprise, pas sur Bouillon", "Annuaires bloqués ou hors sujet (Bouillon dans les Pyrénées-Atlantiques)", "Peu de prix publiés, aucun comparatif", "Pages courtes (médiane 611 mots)"],
+"longueur_cible": 1100}

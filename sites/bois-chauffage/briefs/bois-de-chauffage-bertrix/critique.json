@@ -1,0 +1,115 @@
+{
+ "problemes": [
+  "Prix HTVA et TVAC mélangés chez les vendeurs : le plan doit imposer une base TVAC commune",
+  "Section vente communale : la page de la commune ne se lit pas, ne rien affirmer au-delà des catalogues Wallowood",
+  "Deux tableaux consécutifs dans les deux premières sections : les séparer par un paragraphe",
+  "Annuaires (Bois & Pellet SRL) à écarter faute de site"
+ ],
+ "brief": {
+  "intention": "Locale et transactionnelle : trouver un vendeur de bois de chauffage installé à Bertrix, comparer le stère livré dans la commune, savoir ce qui reste sec cet automne et si la vente de bois de la commune est ouverte aux particuliers.",
+  "format_serp": "Pages de vendeurs de Bertrix (La Renardière, Atoutbois), annuaires (infobel, entreprise-chauffage-belgique, atout-commerces), fiches de ventes publiques Wallowood, page de la commune, notre page de Neufchâteau.",
+  "structure_serp": "Pages courtes (médiane ~400 mots), 2 à 4 titres, tarifs en tableaux bruts, aucune comparaison au stère livré.",
+  "entites": [
+   "bois de chauffage"
+  ],
+  "variantes": [
+   "bois de chauffage bertrix",
+   "vente de bois de chauffage bertrix",
+   "livraison bois de chauffage bertrix",
+   "prix bois de chauffage bertrix",
+   "petit bois de chauffage",
+   "bois de chauffage belgique prix"
+  ],
+  "termes": [
+   "stère",
+   "bois sec",
+   "bois vert",
+   "bois frais",
+   "vrac",
+   "palette filmée",
+   "palette rangée",
+   "bois d'allumage",
+   "houppiers",
+   "vente publique",
+   "HTVA",
+   "TVAC",
+   "coupé-fendu"
+  ],
+  "questions": [
+   "Qui vend du bois de chauffage à Bertrix ?",
+   "Combien coûte un stère livré à Bertrix ?",
+   "Reste-t-il du bois sec cet automne ?",
+   "Combien coûte la livraison dans la commune ?",
+   "Comment fonctionne la vente de bois de chauffage de la commune de Bertrix ?",
+   "Peut-on retirer son bois sur place ?"
+  ],
+  "en_bref": [
+   "Trois vendeurs installés dans la commune, prix du stère livré à Bertrix TVAC, et ce qui est sec maintenant."
+  ],
+  "plan": [
+   {
+    "h2": "Qui livre du bois de chauffage à Bertrix ?",
+    "contenu": "Réponse directe : 3 vendeurs installés dans la commune (La Renardière, Atoutbois, Ardenwood) et 2 de l'extérieur qui livrent la province (Bois de Chauffage Belgique, Goffinet Energies). Tableau rotatif. Écarter Bois & Pellet SRL (annuaire seul, aucun site).",
+    "forme": "tableau",
+    "image": "",
+    "donnees_a_chercher": [
+     "Sites des vendeurs : produits, formats, zone"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Prix du stère de bois de chauffage à Bertrix en 2026",
+    "contenu": "Réponse directe avec le stère livré à Bertrix chez chaque vendeur, TVA comprise quand c'est possible, et la moyenne Valbiom. Tableau prix publié / prix au stère livré. Ardenwood et Bois de Chauffage Belgique affichent HTVA : ajouter les 6 % et le dire.",
+    "forme": "tableau",
+    "image": "",
+    "donnees_a_chercher": [
+     "Tarifs et barèmes de transport",
+     "Valbiom"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Vente de bois de chauffage de la commune de Bertrix",
+    "contenu": "Ce que montrent les catalogues Wallowood : les grandes ventes s'adressent aux professionnels, les houppiers réservés à une vente aux habitants. Dire ce que nous n'avons pas pu lire. Ne pas inventer de prix ni de date pour la vente aux habitants.",
+    "forme": "paragraphe",
+    "image": "",
+    "donnees_a_chercher": [
+     "Fiches Wallowood 2024 et 2026"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Essence et longueur de bûches : que commander à Bertrix ?",
+    "contenu": "Bois sec disponible ou non chez chaque vendeur, longueurs proposées, petit bois d'allumage en sac. Avis 💡.",
+    "forme": "notre avis",
+    "image": "",
+    "donnees_a_chercher": [
+     "Disponibilités"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Livraison de bois de chauffage à Bertrix : frais, quantité et retrait",
+    "contenu": "Barèmes de transport dans la commune, quantités, retrait sur place chez Ardenwood et La Renardière, délais Ardenwood.",
+    "forme": "paragraphe",
+    "image": "",
+    "donnees_a_chercher": [
+     "Barèmes"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Bois de chauffage autour de Bertrix : communes desservies",
+    "contenu": "Herbeumont, Paliseul, Libramont, Neufchâteau au barème d'Atoutbois ; rayon de 40 km de La Renardière ; liens vers les villes voisines.",
+    "forme": "paragraphe",
+    "image": "",
+    "donnees_a_chercher": [],
+    "h3": []
+   }
+  ],
+  "cta": "::cta-fort après l'intro et en fin de page, texte fixe des pages locales.",
+  "faq": [],
+  "longueur_cible": 1100,
+  "decision": "La seule page qui réunit les trois vendeurs installés à Bertrix, ramène leurs offres au stère livré dans la commune et explique ce que la commune vend réellement aux particuliers."
+ }
+}

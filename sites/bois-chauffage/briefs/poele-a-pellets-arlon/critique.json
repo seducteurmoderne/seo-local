@@ -1,0 +1,127 @@
+{
+ "problemes": [
+  "Risque de doublon avec /poele-a-pellets-pas-cher-arlon/ (mêmes poêleries) : cette page porte sur les showrooms, les marques, les horaires et le suivi, la page pas cher sur les prix magasin ; aucun paragraphe repris.",
+  "Section marques ajoutée au modèle : c'est la question « marque poêle à pellet » des recherches associées et ce qui distingue les showrooms.",
+  "Prime : s'en tenir au communiqué du 16/07/2026 (régime au 01/10/2026, PEB E/F/G, audit), sans montant hors source."
+ ],
+ "brief": {
+  "intention": "Locale : trouver une poêlerie qui montre, pose et entretient un poêle à pellets à Arlon, puis obtenir un prix posé. Le visiteur compare les prestataires et demande des devis.",
+  "format_serp": "Pages de service de poêleries locales (SKOR, Vesta cheminées), page locale d'un installateur wallon (Mister Pellets), un chauffagiste hors sujet ; aucune page neutre qui compare les poêleries de la zone.",
+  "structure_serp": "Médiane 383 mots, 6 H2, aucun tableau, une liste numérotée (étapes de pose), pas de FAQ.",
+  "entites": [
+   "poêle à pellets"
+  ],
+  "variantes": [
+   "poêle à pellets arlon",
+   "poêle à pellet arlon",
+   "vendeur de poêle à pellets",
+   "magasin poêle à pellet",
+   "marque poêle à pellet",
+   "prix poêle à pellets",
+   "comment installer un poêle à pellets",
+   "entretien poêle à pellets",
+   "poêle à pellets étanche"
+  ],
+  "termes": [
+   "poêlerie",
+   "showroom",
+   "sur rendez-vous",
+   "revendeur",
+   "pose",
+   "mise en service",
+   "tubage",
+   "ventouse",
+   "étanche",
+   "canalisable",
+   "SAV",
+   "entretien annuel",
+   "ramonage",
+   "Rénopack",
+   "audit",
+   "label PEB"
+  ],
+  "questions": [
+   "Où acheter un poêle à pellets à Arlon ?",
+   "Quelles marques de poêle à pellets voir à Arlon ?",
+   "Combien coûte un poêle à pellets posé à Arlon ?",
+   "Quel délai pour faire installer un poêle à pellets à Arlon ?",
+   "Qui entretient un poêle à pellets à Arlon ?",
+   "Y a-t-il une prime pour un poêle à pellets en 2026 ?"
+  ],
+  "en_bref": [
+   "Deux poêleries à Arlon et Stockem, un installateur qui couvre Arlon depuis Namur, marques exposées",
+   "Aucun prix posé publié : seul le devis le donne",
+   "Plus de prime par appareil depuis le 1er octobre 2026"
+  ],
+  "plan": [
+   {
+    "h2": "Où acheter un poêle à pellets à Arlon ?",
+    "contenu": "Réponse directe : nombre de poêleries dans la commune, ce qu'on y voit, qui pose. Tableau des poêleries vérifiées, puis un paragraphe sur ce qui distingue l'offre (showrooms sur rendez-vous, pas de prix en ligne, magasins de bricolage renvoyés à la page pas cher).",
+    "forme": "tableau",
+    "image": "",
+    "donnees_a_chercher": [
+     "poêleries d'Arlon et à moins de 20 km vérifiées sur leur site",
+     "marques exposées",
+     "horaires du showroom"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Marques de poêle à pellets exposées à Arlon",
+    "contenu": "Ce que chaque showroom montre : Stûv chez Vesta (P-10, P-20), RIKA et Nordic Fire chez SKOR, marques italiennes chez Mister Pellets. Ce que la marque change pour le SAV : le revendeur qui la pose la suit.",
+    "forme": "paragraphe",
+    "image": "",
+    "donnees_a_chercher": [
+     "modèles exposés listés par Stûv",
+     "marques sur le site de SKOR et de Mister Pellets"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Prix d'un poêle à pellets posé à Arlon",
+    "contenu": "Réponse directe : aucune poêlerie de la zone ne publie de prix posé ; un prix appareil publié (Mister Pellets, en balise), ce qui fait varier la facture, renvoi au prix d'un poêle à pellets et à la page pas cher. Ne pas reprendre les prix Hubo de la page pas cher : un lien suffit.",
+    "forme": "réponse directe",
+    "image": "",
+    "donnees_a_chercher": [
+     "prix publiés dans la zone"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Installer un poêle à pellets à Arlon : conduit, délais, prime",
+    "contenu": "Délai annoncé (Mister Pellets 2 à 3 semaines), étapes de la pose, conduit selon la maison, prime : nouveau régime au 01/10/2026 réservé aux logements PEB E, F ou G avec saut de label et audit. Les étapes de pose en liste numérotée seulement si elles ne doublonnent pas la page installation : ici, une phrase suffit.",
+    "forme": "chiffres clés",
+    "image": "",
+    "donnees_a_chercher": [
+     "délai de pose annoncé",
+     "communiqué du Gouvernement wallon du 16/07/2026"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Entretien d'un poêle à pellets à Arlon",
+    "contenu": "Qui annonce l'entretien (SKOR, Vesta avec ramonage, SAV Mister Pellets 48-72 h), lien ramonage-arlon et entretien.",
+    "forme": "paragraphe",
+    "image": "",
+    "donnees_a_chercher": [
+     "services d'entretien annoncés"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Poêle à pellets autour d'Arlon : communes couvertes",
+    "contenu": "Zones annoncées (SKOR toute la province, Mister Pellets 6700/6704/6706), Chaufalux à Virton pour le sud, liens Aubange, Virton, pellets-arlon.",
+    "forme": "paragraphe",
+    "image": "",
+    "donnees_a_chercher": [
+     "zones couvertes par chaque installateur"
+    ],
+    "h3": []
+   }
+  ],
+  "cta": "Formulaire fort après l'intro et en fin de page : devis de pose par des installateurs autour d'Arlon.",
+  "faq": [],
+  "longueur_cible": 950,
+  "decision": "Page de ville qui fait ce qu'aucune poêlerie ne fait : mettre côte à côte les showrooms et installateurs d'Arlon, leurs marques, leurs horaires et leurs services, dire honnêtement qu'aucun ne publie de prix posé et mener au devis. L'angle prix bas reste à la page pas cher, reliée."
+ }
+}

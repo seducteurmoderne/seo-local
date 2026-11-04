@@ -1,0 +1,34 @@
+{
+  "types": {"guide": 0, "service": 6, "annuaire": 3, "autre": 1},
+  "intention_recompensee": "Commerciale et locale : Google classe des pages de prestataires (Groupasol, VDK Chauffconfort, Experts Pellet, Atelier de la Flamme, Ciret) et des annuaires (Pages d'Or, 2ememain, TrustUp), souvent déclinés par ville. Il récompense « qui peut venir chez moi, combien, comment se passe l'intervention », pas l'explication de la panne.",
+  "incontournables": [
+    "Présentation du service de dépannage / entretien et appel à l'action (demande d'intervention, téléphone)",
+    "Déroulement de l'intervention (ce que fait le technicien)",
+    "Prix ou tarifs (VDK, Experts Pellet : entretien annuel 170 €, occasionnel 195 €)",
+    "Zone desservie / ville",
+    "Rapidité d'intervention et marques prises en charge (réassurance)"
+  ],
+  "differenciants": [
+    "Durée d'une intervention (VDK : « combien de temps dure une maintenance complète ? »)",
+    "Tarifs affichés en clair (Experts Pellet)",
+    "Contenu détaillé de l'entretien en tableau (Groupasol)",
+    "FAQ (Experts Pellet)"
+  ],
+  "lacunes": [
+    "Aucune page n'aide à diagnostiquer la panne : pas de causes par symptôme (ne s'allume pas, s'éteint, fume, surchauffe)",
+    "Aucune page n'explique les codes d'erreur ni le réarmement (reset), pourtant dans les « Autres questions posées »",
+    "Aucune page ne dit ce qu'on peut vérifier soi-même ni les gestes dangereux à éviter",
+    "Aucune page ne compare plusieurs prestataires : chaque prestataire parle de lui, les annuaires listent sans aider à choisir",
+    "Aucune page ne dit quoi préparer avant d'appeler (marque, modèle, code, vérifications faites)",
+    "Pas de distinction claire entre dépannage, entretien annuel et ramonage"
+  ],
+  "faiblesses": [
+    "Pages courtes ou creuses : médiane autour de 550 mots, annuaires de 160 à 640 mots",
+    "Plans pauvres : 0 à 7 H2, souvent des slogans (« Planifiez votre tranquillité d'esprit », « GRATUIT* »)",
+    "Contenu centré sur l'entretien plutôt que sur le dépannage : la requête est mal servie",
+    "Annuaires hors sujet (garages, carrosseries listés à « entretien poêles à pellet »)",
+    "Aucune réponse directe aux questions, aucun tableau de pannes, aucune liste d'étapes",
+    "Plusieurs pages françaises (Loiret) ou génériques dans un top belge : peu de concurrence locale solide"
+  ],
+  "longueur_cible": 1300
+}

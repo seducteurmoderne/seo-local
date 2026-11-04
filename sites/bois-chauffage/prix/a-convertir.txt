@@ -1,0 +1,3 @@
+# Articles dont les prix sont encore écrits en dur, à passer en balises {{prix:…}} (un par exécution du pilote).
+# Le plus récent d'abord : ses sources sont déjà dans prix/releves.json.
+pellets-virton

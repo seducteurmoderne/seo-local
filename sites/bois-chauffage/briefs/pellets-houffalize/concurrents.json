@@ -1,0 +1,7 @@
+{"types": {"guide": 0, "service": 6, "annuaire": 0, "autre": 1},
+ "intention_recompensee": "Locale et transactionnelle : les pages lues sont celles de vendeurs (PETIT & Fils, Goffinet, Comptoir du Bois Européen, Creppe, Pellet Premium, Multi Travaux) ; une seule nomme Houffalize dans son titre. Le visiteur veut savoir qui le livre et à quel prix.",
+ "incontournables": ["Le prix du vrac à la tonne ou de la palette", "La zone de livraison et le minimum de commande", "Les certifications des granulés"],
+ "differenciants": ["La liste des communes livrées (Goffinet, PETIT & Fils)", "Le stockage de la palette au dépôt (Comptoir)", "Le poêlier de Bastogne qui vend aussi des pellets et intervient à Houffalize (Multi Travaux)"],
+ "lacunes": ["Aucune page ne compare les vendeurs qui couvrent Houffalize", "Aucune ne ramène palette, vrac et sac au même prix de 15 kg", "Aucune ne dit où trouver quelques sacs à emporter près de Houffalize", "Aucune ne parle des villages de la commune ni de l'accès du camion"],
+ "faiblesses": ["Pages centrées sur une seule offre", "Prix sans transport ou sans date", "Aucune réponse directe à « qui livre Houffalize »"],
+ "longueur_cible": 1000}

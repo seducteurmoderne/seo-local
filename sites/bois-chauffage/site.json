@@ -1,0 +1,248 @@
+{
+  "nom": "bois-de-chauffage-et-pellets.be",
+  "moteur": "../../moteur",
+  "fuseau": "Europe/Brussels",
+  "verticales": [
+    {
+      "categorie": "Bois de chauffage",
+      "besoin": "bois",
+      "mere": "bois-de-chauffage",
+      "sitemap": "Bois",
+      "motif": "bois"
+    },
+    {
+      "categorie": "Pellets",
+      "besoin": "pellets",
+      "mere": "pellets",
+      "sitemap": "Pellets",
+      "motif": "pellets"
+    },
+    {
+      "categorie": "Ramonage",
+      "besoin": "ramonage",
+      "mere": "ramonage",
+      "sitemap": "Ramonage",
+      "motif": "ramonage"
+    },
+    {
+      "categorie": "Poêle à pellets",
+      "besoin": "poelier",
+      "mere": "poele-a-pellets",
+      "sitemap": "Poêle à pellets",
+      "motif": "poele-pellets"
+    },
+    {
+      "categorie": "Poêle à bois",
+      "besoin": "poelier",
+      "mere": "poele-a-bois",
+      "sitemap": "Poêle à bois",
+      "motif": "poele-bois"
+    },
+    {
+      "categorie": "Fournisseurs",
+      "besoin": "bois",
+      "mere": "fournisseurs",
+      "sitemap": "Fournisseurs",
+      "motif": "fournisseur"
+    }
+  ],
+  "categorie_locale": {
+    "cluster": "Ville",
+    "motif": "local"
+  },
+  "motif_defaut": "bois",
+  "alt_images_une": {
+    "local": "Illustration : collines boisées de l'Ardenne",
+    "poele-pellets": "Illustration : poêle à pellets allumé dans un salon",
+    "poele-bois": "Illustration : poêle à bois en fonte, feu de bûches derrière la vitre",
+    "fournisseur": "Illustration : palettes de sacs de pellets et bûches empilées devant un dépôt"
+  },
+  "formulaire": {
+    "titre": "Recevez les meilleures offres",
+    "endpoint": "/wp-json/bcp/v1/lead",
+    "politique": "/politique-de-confidentialite/",
+    "besoins": [
+      {
+        "cle": "bois",
+        "libelle": "Bois de chauffage",
+        "libelle_court": "Bois de chauffage",
+        "champs": [
+          [
+            "bois_essence",
+            "Essence",
+            [
+              "Indifférent",
+              "Chêne",
+              "Hêtre",
+              "Charme",
+              "Frêne",
+              "Mélange de feuillus durs"
+            ]
+          ],
+          [
+            "bois_longueur",
+            "Longueur des bûches",
+            [
+              "25 cm",
+              "33 cm",
+              "40 cm",
+              "50 cm",
+              "1 m",
+              "Je ne sais pas"
+            ]
+          ],
+          [
+            "bois_quantite",
+            "Quantité",
+            [
+              "1 stère",
+              "2 à 3 stères",
+              "4 à 6 stères",
+              "Plus de 6 stères",
+              "Je ne sais pas"
+            ]
+          ]
+        ]
+      },
+      {
+        "cle": "pellets",
+        "libelle": "Pellets",
+        "libelle_court": "Pellets",
+        "champs": [
+          [
+            "pellets_conditionnement",
+            "Conditionnement",
+            [
+              "Sacs de 15 kg",
+              "Palette",
+              "Vrac (camion souffleur)",
+              "Je ne sais pas"
+            ]
+          ],
+          [
+            "pellets_quantite",
+            "Quantité",
+            [
+              "Moins d'une palette",
+              "1 palette",
+              "2 palettes",
+              "3 palettes ou plus",
+              "Je ne sais pas"
+            ]
+          ]
+        ]
+      },
+      {
+        "cle": "ramonage",
+        "libelle": "Ramonage",
+        "libelle_court": "Ramonage",
+        "champs": [
+          [
+            "ramonage_appareil",
+            "Appareil",
+            [
+              "Poêle à bois",
+              "Insert ou cassette",
+              "Poêle à pellets",
+              "Chaudière",
+              "Feu ouvert"
+            ]
+          ],
+          [
+            "ramonage_dernier",
+            "Dernier ramonage",
+            [
+              "Moins d'un an",
+              "1 à 2 ans",
+              "Plus de 2 ans",
+              "Je ne sais pas"
+            ]
+          ]
+        ]
+      },
+      {
+        "cle": "poelier",
+        "libelle": "Entretien ou installation de poêle",
+        "libelle_court": "Poêlier",
+        "champs": [
+          [
+            "poelier_besoin",
+            "Votre besoin",
+            [
+              "Entretien annuel",
+              "Dépannage",
+              "Installation d'un appareil",
+              "Remplacement"
+            ]
+          ],
+          [
+            "poelier_appareil",
+            "Appareil",
+            [
+              "Poêle à pellets",
+              "Poêle à bois",
+              "Insert",
+              "Chaudière"
+            ]
+          ]
+        ]
+      }
+    ],
+    "delais": [
+      "Dès que possible",
+      "Dans le mois",
+      "Avant l'hiver",
+      "Pas pressé"
+    ],
+    "code_postal": {
+      "regex": "^[1-9][0-9]{3}$",
+      "longueur": 4,
+      "exemple": "4000",
+      "erreur": "Indiquez un code postal belge à 4 chiffres."
+    },
+    "consentement": "J’accepte que ma demande soit transmise à trois professionnels au plus de ma zone, uniquement pour recevoir leurs devis.",
+    "bouton": "Recevoir mes devis gratuits",
+    "succes": "Demande envoyée. Les professionnels de votre zone vont vous contacter."
+  },
+  "couleurs": {
+    "accent": "#B4501F",
+    "accent_fonce": "#963F15",
+    "fond": "#E3EEE6",
+    "bord": "#DCD8CC",
+    "bord_champ": "#DCD8CC",
+    "texte_champ": "#1A1F1C",
+    "succes": "#2B5640"
+  },
+  "habillage_css": "",
+  "design": 2,
+  "theme": {
+    "slug": "twentytwentyfive",
+    "polices": [
+      {
+        "nom": "Fraunces",
+        "slug": "fraunces",
+        "pile": "Fraunces, Georgia, serif",
+        "fichier": "polices/fraunces-latin.woff2",
+        "graisse": "600 800"
+      },
+      {
+        "nom": "Figtree",
+        "slug": "figtree",
+        "pile": "Figtree, system-ui, sans-serif",
+        "fichier": "polices/figtree-latin.woff2",
+        "graisse": "400 800"
+      }
+    ]
+  },
+  "publication": {
+    "delai_min_heures": 2,
+    "ecart_min_heures": 18,
+    "fenetre_heures": 12,
+    "heure_debut": 7,
+    "heure_fin": 22
+  },
+  "audit_exclus": [
+    "home-perso"
+  ],
+  "formules_bannies_en_plus": []
+}

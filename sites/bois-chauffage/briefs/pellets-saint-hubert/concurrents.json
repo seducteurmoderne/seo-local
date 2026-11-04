@@ -1,0 +1,7 @@
+{"types": {"guide": 0, "service": 1, "annuaire": 3, "autre": 1},
+ "intention_recompensee": "Locale et transactionnelle : Google met en tête un fournisseur qui nomme Saint-Hubert dans sa zone de livraison (PETIT & Fils), puis des annuaires de combustibles (Pages d'Or, Infobel, Obodo) et un pack local de marchands de mazout. Le visiteur veut savoir qui livre des pellets chez lui et à quel prix.",
+ "incontournables": ["Nom des fournisseurs qui livrent Saint-Hubert et ses villages", "Prix à la tonne en vrac et au sac par palette", "Minimum de commande en vrac", "Délai de livraison"],
+ "differenciants": ["Liste des villages desservis (Arville, etc.) chez PETIT & Fils", "Délai annoncé de 24 h à 15 jours", "Certification ENplus du distributeur"],
+ "lacunes": ["Aucune page ne compare plusieurs vendeurs qui livrent Saint-Hubert", "Aucun repère de prix wallon pour juger un tarif", "Personne ne dit où acheter un sac de dépannage près de Saint-Hubert", "Aucun conseil sur palette ou vrac selon l'appareil", "Aucune mention du dépôt de Tenneville tout proche, avec stockage gratuit"],
+ "faiblesses": ["Annuaires sans prix ni vérification de ce que vend chaque marchand de mazout", "Page fournisseur centrée sur sa propre offre", "Fiches d'entreprise (Companyweb, Infobel) sans contenu utile", "Une seule page avec un prix"],
+ "longueur_cible": 1100}

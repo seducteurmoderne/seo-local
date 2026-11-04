@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-label="Comparaison entre un creuset propre, dont les perforations laissent passer l'air de combustion et produisent une flamme vive et verticale, et un creuset encrassé dont les perforations bouchées par le mâchefer étouffent la flamme et laissent des granulés non brûlés s'accumuler.">
+<defs>
+<marker id="up" viewBox="0 0 10 10" refX="5" refY="1" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,9 L5,0 L10,9" fill="none" stroke="#3A83B8" stroke-width="2"/></marker>
+<marker id="upx" viewBox="0 0 10 10" refX="5" refY="1" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,9 L5,0 L10,9" fill="none" stroke="#C9531A" stroke-width="2"/></marker>
+</defs>
+
+<text x="190" y="34" text-anchor="middle" font-size="14" font-weight="700" fill="#2E8B62" letter-spacing=".5">CREUSET PROPRE</text>
+<text x="570" y="34" text-anchor="middle" font-size="14" font-weight="700" fill="#C9531A" letter-spacing=".5">CREUSET ENCRASSÉ</text>
+<line x1="380" y1="50" x2="380" y2="370" stroke="currentColor" stroke-width="1" opacity=".2"/>
+
+<!-- ================= PROPRE ================= -->
+<path d="M190,150 C176,124 200,112 190,92 C210,112 214,132 206,150 C214,142 216,130 214,120 C226,138 224,150 216,160 Z" fill="#2E8B62" opacity=".9"/>
+<path d="M190,160 C172,130 202,116 188,84 C216,112 224,140 212,164 Z" fill="none" stroke="#2E8B62" stroke-width="1.5" opacity=".55"/>
+<text x="252" y="118" font-size="12" fill="currentColor" opacity=".75">flamme vive,</text>
+<text x="252" y="133" font-size="12" fill="currentColor" opacity=".75">tirant droit</text>
+
+<circle cx="168" cy="176" r="5" fill="currentColor" opacity=".45"/>
+<circle cx="186" cy="172" r="5" fill="currentColor" opacity=".45"/>
+<circle cx="204" cy="177" r="5" fill="currentColor" opacity=".45"/>
+<circle cx="177" cy="186" r="5" fill="currentColor" opacity=".45"/>
+<circle cx="196" cy="187" r="5" fill="currentColor" opacity=".45"/>
+
+<path d="M140,164 L240,164 L226,244 L154,244 Z" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<line x1="158" y1="244" x2="222" y2="244" stroke="currentColor" stroke-width="1" opacity=".3"/>
+<g fill="none" stroke="currentColor" stroke-width="2" opacity=".7">
+<line x1="163" y1="244" x2="163" y2="236"/><line x1="180" y1="244" x2="180" y2="236"/>
+<line x1="197" y1="244" x2="197" y2="236"/><line x1="214" y1="244" x2="214" y2="236"/>
+<line x1="146" y1="196" x2="153" y2="196"/><line x1="234" y1="196" x2="227" y2="196"/>
+<line x1="149" y1="218" x2="156" y2="218"/><line x1="231" y1="218" x2="224" y2="218"/>
+</g>
+
+<g stroke="#3A83B8" stroke-width="2.2" marker-end="url(#up)">
+<line x1="163" y1="300" x2="163" y2="252"/><line x1="180" y1="300" x2="180" y2="252"/>
+<line x1="197" y1="300" x2="197" y2="252"/><line x1="214" y1="300" x2="214" y2="252"/>
+</g>
+<text x="190" y="330" text-anchor="middle" font-size="12.5" fill="#3A83B8" font-weight="600">l'air de combustion passe</text>
+<text x="190" y="362" text-anchor="middle" font-size="12.5" fill="currentColor" opacity=".8">Les granulés brûlent complètement.</text>
+<text x="190" y="380" text-anchor="middle" font-size="12.5" fill="currentColor" opacity=".8">Rendement nominal.</text>
+
+<!-- ================= ENCRASSÉ ================= -->
+<path d="M570,158 C548,146 552,132 566,128 C580,120 596,132 590,144 C600,140 604,150 596,158 Z" fill="#C9531A" opacity=".85"/>
+<text x="632" y="132" font-size="12" fill="currentColor" opacity=".75">flamme molle,</text>
+<text x="632" y="147" font-size="12" fill="currentColor" opacity=".75">orange, écrasée</text>
+
+<circle cx="544" cy="180" r="5" fill="currentColor" opacity=".45"/>
+<circle cx="562" cy="174" r="5" fill="currentColor" opacity=".45"/>
+<circle cx="580" cy="180" r="5" fill="currentColor" opacity=".45"/>
+<circle cx="598" cy="175" r="5" fill="currentColor" opacity=".45"/>
+<circle cx="553" cy="190" r="5" fill="currentColor" opacity=".45"/>
+<circle cx="571" cy="191" r="5" fill="currentColor" opacity=".45"/>
+<circle cx="589" cy="190" r="5" fill="currentColor" opacity=".45"/>
+<text x="646" y="186" font-size="12" fill="#C9531A" font-weight="600">granulés</text>
+<text x="646" y="201" font-size="12" fill="#C9531A" font-weight="600">non brûlés</text>
+
+<path d="M520,164 L620,164 L606,244 L534,244 Z" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<path d="M536,230 C556,222 580,238 604,230 L606,244 L534,244 Z" fill="#C9531A" opacity=".45"/>
+<g fill="none" stroke="currentColor" stroke-width="2" opacity=".7">
+<line x1="526" y1="196" x2="533" y2="196"/><line x1="614" y1="196" x2="607" y2="196"/>
+<line x1="529" y1="218" x2="536" y2="218"/><line x1="611" y1="218" x2="604" y2="218"/>
+</g>
+<text x="662" y="243" font-size="12" fill="#C9531A" font-weight="600">mâchefer</text>
+
+<g stroke="#C9531A" stroke-width="2.2" marker-end="url(#upx)" opacity=".85">
+<line x1="543" y1="300" x2="543" y2="266"/><line x1="560" y1="300" x2="560" y2="266"/>
+<line x1="577" y1="300" x2="577" y2="266"/><line x1="594" y1="300" x2="594" y2="266"/>
+</g>
+<g stroke="#C9531A" stroke-width="2.4">
+<line x1="562" y1="252" x2="578" y2="268"/><line x1="578" y1="252" x2="562" y2="268"/>
+</g>
+<text x="570" y="330" text-anchor="middle" font-size="12.5" fill="#C9531A" font-weight="600">l'air ne passe plus</text>
+<text x="570" y="362" text-anchor="middle" font-size="12.5" fill="currentColor" opacity=".8">Combustion incomplète, encrassement</text>
+<text x="570" y="380" text-anchor="middle" font-size="12.5" fill="currentColor" opacity=".8">accéléré, rendement en chute.</text>
+</svg>

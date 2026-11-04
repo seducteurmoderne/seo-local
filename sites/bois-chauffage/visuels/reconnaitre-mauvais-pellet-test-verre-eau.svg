@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-label="Test du verre d'eau : à gauche un pellet de bonne qualité plongé dans l'eau reste globalement intact et se ramollit lentement, l'eau garde une teinte claire. À droite un pellet de mauvaise qualité se délite presque aussitôt en sciure et en miettes, l'eau devient trouble.">
+<defs>
+<clipPath id="glassL"><path d="M130,120 L250,120 L238,320 L142,320 Z"/></clipPath>
+<clipPath id="glassR"><path d="M510,120 L630,120 L618,320 L522,320 Z"/></clipPath>
+</defs>
+
+<text x="190" y="34" text-anchor="middle" font-size="14" font-weight="700" fill="#2E8B62" letter-spacing=".5">BON PELLET</text>
+<text x="570" y="34" text-anchor="middle" font-size="14" font-weight="700" fill="#C9531A" letter-spacing=".5">MAUVAIS PELLET</text>
+<text x="380" y="34" text-anchor="middle" font-size="12" fill="currentColor" opacity=".55">test du verre d'eau</text>
+<line x1="380" y1="50" x2="380" y2="380" stroke="currentColor" stroke-width="1" opacity=".2"/>
+
+<!-- ================= BON PELLET ================= -->
+<g clip-path="url(#glassL)">
+<rect x="120" y="170" width="140" height="150" fill="#3A83B8" opacity=".16"/>
+</g>
+<path d="M130,120 L250,120 L238,320 L142,320 Z" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<line x1="130" y1="120" x2="250" y2="120" stroke="currentColor" stroke-width="2.2"/>
+
+<!-- pellet intact, légèrement effiloché à une extrémité -->
+<rect x="172" y="255" width="14" height="42" rx="7" fill="#2E8B62" opacity=".9" transform="rotate(-8 179 276)"/>
+<path d="M175,254 q-3,-6 2,-9 q5,3 2,9" fill="#2E8B62" opacity=".5"/>
+
+<text x="190" y="352" text-anchor="middle" font-size="12.5" fill="currentColor" opacity=".85">reste globalement intact,</text>
+<text x="190" y="368" text-anchor="middle" font-size="12.5" fill="currentColor" opacity=".85">se ramollit lentement</text>
+<text x="190" y="400" text-anchor="middle" font-size="12.5" fill="#3A83B8" font-weight="600">eau reste claire</text>
+
+<!-- ================= MAUVAIS PELLET ================= -->
+<g clip-path="url(#glassR)">
+<rect x="500" y="170" width="140" height="150" fill="#C9531A" opacity=".22"/>
+<circle cx="545" cy="300" r="4" fill="#7A5230" opacity=".7"/>
+<circle cx="558" cy="292" r="5" fill="#7A5230" opacity=".7"/>
+<circle cx="572" cy="303" r="3.5" fill="#7A5230" opacity=".7"/>
+<circle cx="585" cy="294" r="4.5" fill="#7A5230" opacity=".7"/>
+<circle cx="597" cy="305" r="3" fill="#7A5230" opacity=".7"/>
+<circle cx="552" cy="308" r="3" fill="#7A5230" opacity=".6"/>
+<circle cx="578" cy="312" r="3.5" fill="#7A5230" opacity=".6"/>
+<circle cx="565" cy="280" r="3" fill="#7A5230" opacity=".55"/>
+</g>
+<path d="M510,120 L630,120 L618,320 L522,320 Z" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<line x1="510" y1="120" x2="630" y2="120" stroke="currentColor" stroke-width="2.2"/>
+
+<text x="570" y="352" text-anchor="middle" font-size="12.5" fill="currentColor" opacity=".85">se délite presque aussitôt</text>
+<text x="570" y="368" text-anchor="middle" font-size="12.5" fill="currentColor" opacity=".85">en sciure et en miettes</text>
+<text x="570" y="400" text-anchor="middle" font-size="12.5" fill="#C9531A" font-weight="600">eau devient trouble</text>
+
+</svg>

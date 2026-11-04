@@ -1,0 +1,192 @@
+{
+  "lues": [
+    {
+      "url": "https://www.mecagricola.be/fr/pellets-75",
+      "titre": "Pellets Bertrix, Neufchâteau | Mécagricola SPRL",
+      "titres": [
+        [
+          "h2",
+          "Nos pellets"
+        ],
+        [
+          "h2",
+          "Plus de 10 ans de savoir-faire"
+        ]
+      ],
+      "mots": 206,
+      "tables": 0,
+      "ol": 0,
+      "ul": 4,
+      "images": 0,
+      "videos": 0,
+      "faq": false,
+      "schemas": [
+        "LocalBusiness"
+      ],
+      "source": "duckduckgo be-fr",
+      "rang": 1
+    },
+    {
+      "url": "https://www.mazoutetienne.be/fr/bertrix",
+      "titre": "Mazout Etienne – Bertrix - livraison mazout pellets charbon",
+      "titres": [
+        [
+          "h1",
+          "Mazout etienne bertrix"
+        ],
+        [
+          "h3",
+          "Un service rapide et de qualité."
+        ],
+        [
+          "h3",
+          "Faites le plein près de chez vous."
+        ],
+        [
+          "h2",
+          "Combustibles à retirer sur place"
+        ]
+      ],
+      "mots": 359,
+      "tables": 0,
+      "ol": 0,
+      "ul": 0,
+      "images": 22,
+      "videos": 0,
+      "faq": false,
+      "schemas": [],
+      "source": "duckduckgo be-fr",
+      "rang": 3
+    },
+    {
+      "url": "https://www.entreprise-chauffage-belgique.be/luxembourg/bertrix/boispellets/",
+      "titre": "bois&pellets - Entreprise de chauffage et bois de chauffage à Bertrix",
+      "titres": [
+        [
+          "h1",
+          "bois&pellets : Entreprise de chauffage à Bertrix"
+        ],
+        [
+          "h2",
+          "Produits proposés et usages"
+        ],
+        [
+          "h2",
+          "Localisation et services associés"
+        ],
+        [
+          "h2",
+          "Zone d'activité en Wallonie"
+        ],
+        [
+          "h2",
+          "Heures d'ouverture"
+        ],
+        [
+          "h2",
+          "Les avis clients"
+        ],
+        [
+          "h2",
+          "Autres Chauffagistes à Bertrix"
+        ],
+        [
+          "h2",
+          "Entreprise de chauffage: recevez des devis gratuis"
+        ]
+      ],
+      "mots": 549,
+      "tables": 0,
+      "ol": 0,
+      "ul": 0,
+      "images": 0,
+      "videos": 0,
+      "faq": false,
+      "schemas": [
+        "LocalBusiness"
+      ],
+      "source": "duckduckgo be-fr",
+      "rang": 5
+    },
+    {
+      "url": "https://www.pellets-winn.be/palette-pellet-cozy-erda-livraison-46.html",
+      "titre": "Pellets COZY ERDA (Palette 65 sacs) | Prix bas et Livraison",
+      "titres": [
+        [
+          "h1",
+          "Palette de Pellets COZY Livraison Comprise"
+        ],
+        [
+          "h2",
+          "Recevoir un devis"
+        ]
+      ],
+      "mots": 784,
+      "tables": 7,
+      "ol": 0,
+      "ul": 0,
+      "images": 33,
+      "videos": 0,
+      "faq": false,
+      "schemas": [
+        "Product"
+      ],
+      "source": "duckduckgo be-fr",
+      "rang": 8
+    },
+    {
+      "url": "https://www.augranuledebois.be/",
+      "titre": "Au Granule de Bois - Vente de pellets Comfo Pellet à Orp-Jauche",
+      "titres": [
+        [
+          "h1",
+          "Votre spécialiste Comfo Pellet"
+        ],
+        [
+          "h3",
+          "Nos produits"
+        ],
+        [
+          "h3",
+          "A propos"
+        ],
+        [
+          "h3",
+          "Notre horaire"
+        ]
+      ],
+      "mots": 725,
+      "tables": 2,
+      "ol": 0,
+      "ul": 3,
+      "images": 19,
+      "videos": 0,
+      "faq": false,
+      "schemas": [],
+      "source": "duckduckgo be-fr",
+      "rang": 9
+    }
+  ],
+  "sautees": [
+    {
+      "url": "https://www.mecagricola.be/fr/livraison-de-pellets",
+      "raison": "trop peu de contenu (1825 mots)"
+    },
+    {
+      "url": "https://www.mazoutetienne.be/fr",
+      "raison": "trop peu de contenu (121 mots)"
+    },
+    {
+      "url": "https://www.pelletstock.be/fr-BE/catalog/products/BE/6880/list.aspx",
+      "raison": "trop peu de contenu (10 mots)"
+    },
+    {
+      "url": "https://www.bizique.be/bois-et-pellets-martin-j-s-p-r-l-0495-18-93-40",
+      "raison": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.allehoutpellets.be/fr/distribution-points/btx/",
+      "raison": "trop peu de contenu (85 mots)"
+    }
+  ]
+}

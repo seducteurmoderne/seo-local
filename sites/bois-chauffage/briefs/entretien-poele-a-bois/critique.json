@@ -1,0 +1,152 @@
+{
+ "problemes": [
+  "H3 de la section intérieure sans l'objet de l'article : reformulés",
+  "Section cendres : préciser l'enjeu de sécurité dans le titre",
+  "Aucun prix de ramonage sourcé récent : ne pas chiffrer, renvoyer au devis"
+ ],
+ "brief": {
+  "intention": "Informationnelle pratique : savoir quoi nettoyer sur son poêle à bois, avec quoi et à quel rythme, et ce qui revient au ramoneur. Intention commerciale secondaire : trouver un ramoneur ou un poêlier avant la saison.",
+  "format_serp": "Guides (8/10), deux pages de services de poêliers. Tous français.",
+  "structure_serp": "Médiane 1 600 mots, 5 H2 ; tableaux sur 6 pages ; fréquences, vitre, cendres, joints, ramonage, professionnel.",
+  "entites": [
+   "poêle à bois"
+  ],
+  "variantes": [
+   "entretien d'un poêle à bois",
+   "nettoyage d'un poêle à bois",
+   "comment nettoyer la vitre d'un poêle à bois",
+   "comment nettoyer l'intérieur d'un poêle à bois",
+   "entretien d'un poêle à bois en fonte",
+   "comment nettoyer la fonte d'un poêle à bois",
+   "durée de vie d'un poêle à bois"
+  ],
+  "termes": [
+   "cendres",
+   "vitre",
+   "joints",
+   "déflecteur",
+   "briques réfractaires",
+   "chambre de combustion",
+   "ramonage",
+   "conduit",
+   "bistre",
+   "suie",
+   "goudrons",
+   "tirage",
+   "arrivées d'air",
+   "bois sec"
+  ],
+  "questions": [
+   "À quelle fréquence entretenir un poêle à bois ?",
+   "Comment nettoyer la vitre d'un poêle à bois ?",
+   "Comment nettoyer l'intérieur d'un poêle à bois ?",
+   "Le ramonage d'un poêle à bois est-il obligatoire en Wallonie ?",
+   "Pourquoi la vitre de mon poêle à bois noircit-elle ?"
+  ],
+  "en_bref": [
+   "Cendres : retirer l'excédent, poêle froid, en gardant un lit fin",
+   "Vitre : chiffon humide et cendre froide, jamais sur les joints",
+   "Chaque mois en saison : déflecteur, joints, arrivées d'air",
+   "Ramonage du conduit au moins une fois par an par un professionnel, facture à garder",
+   "Le bois sec réduit tout le reste"
+  ],
+  "plan": [
+   {
+    "h2": "À quelle fréquence entretenir un poêle à bois ?",
+    "contenu": "Réponse directe 40-60 mots, puis calendrier par rythme",
+    "forme": "réponse directe + tableau",
+    "image": "",
+    "donnees_a_chercher": [
+     "Fréquence ramonage recommandée en Wallonie (La Maîtrise du feu, Valbiom)"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Vider les cendres d'un poêle à bois sans risque",
+    "contenu": "Poêle froid, garder un lit fin, seau métallique, usage au jardin avec parcimonie",
+    "forme": "paragraphe + alerte",
+    "image": "",
+    "donnees_a_chercher": [],
+    "h3": []
+   },
+   {
+    "h2": "Comment nettoyer la vitre d'un poêle à bois ?",
+    "contenu": "Méthode cendre humide en liste numérotée ; vitre qui noircit = mauvaise combustion",
+    "forme": "liste numérotée",
+    "image": "",
+    "donnees_a_chercher": [
+     "Méthode et mise en garde joints (La Maîtrise du feu)"
+    ],
+    "h3": [
+     {
+      "titre": "Pourquoi la vitre d'un poêle à bois noircit",
+      "contenu": "Bois humide, bûches contre la vitre, air trop fermé"
+     }
+    ]
+   },
+   {
+    "h2": "Nettoyer l'intérieur d'un poêle à bois : déflecteur, briques et joints",
+    "contenu": "Transition puis trois sous-points",
+    "forme": "paragraphe",
+    "image": "",
+    "donnees_a_chercher": [],
+    "h3": [
+     {
+      "titre": "Nettoyer le déflecteur d'un poêle à bois",
+      "contenu": "Dépose, brossage de la suie, repose dans le bon sens"
+     },
+     {
+      "titre": "Contrôler les briques réfractaires",
+      "contenu": "Fissures fines normales, morceau manquant = remplacement"
+     },
+     {
+      "titre": "Tester les joints de porte du poêle à bois",
+      "contenu": "Test de la feuille de papier"
+     }
+    ]
+   },
+   {
+    "h2": "Entretenir la fonte extérieure d'un poêle à bois",
+    "contenu": "Poêle froid, brosse douce, pas d'eau stagnante, peinture haute température pour retouche",
+    "forme": "paragraphe",
+    "image": "",
+    "donnees_a_chercher": [],
+    "h3": []
+   },
+   {
+    "h2": "Ramonage d'un poêle à bois en Wallonie : obligation et preuve",
+    "contenu": "Une fois par an minimum, deux en usage fréquent ; AGW 2009 vise le chauffage central ; facture = certificat ; assurance",
+    "forme": "tableau",
+    "image": "",
+    "donnees_a_chercher": [
+     "AGW 29/01/2009 art. 2 et 13",
+     "SPW Énergie facture = certificat",
+     "Valbiom deux ramonages"
+    ],
+    "h3": []
+   },
+   {
+    "h2": "Les signes d'un poêle à bois encrassé",
+    "contenu": "Liste à puces des symptômes",
+    "forme": "checklist à vérifier / à éviter",
+    "image": "",
+    "donnees_a_chercher": [],
+    "h3": []
+   },
+   {
+    "h2": "Le bois sec, premier entretien du poêle à bois",
+    "contenu": "Humidité ~20 % après deux ans sous abri ; bois humide = suies, goudrons, vitre noire",
+    "forme": "notre avis",
+    "image": "",
+    "donnees_a_chercher": [
+     "Humidité bois sec (SPW Énergie/Valbiom, Les bûches)"
+    ],
+    "h3": []
+   }
+  ],
+  "cta": "CTA doux après l'intro vers ramoneurs/poêliers ; CTA fort en fin de page",
+  "faq": [],
+  "longueur_cible": 1500,
+  "decision": "Guide wallon, calendrier en tableau dès le haut, méthode courte par poste, cadre wallon du ramonage sourcé que les pages françaises n'ont pas, et lien bois sec / encrassement."
+ }
+}

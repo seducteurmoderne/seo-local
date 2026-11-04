@@ -1,0 +1,7 @@
+{"types": {"guide": 0, "service": 4, "annuaire": 3, "autre": 3},
+ "intention_recompensee": "Locale et transactionnelle : Google met en tête les vendeurs installés à Durbuy ou qui nomment Durbuy (Martiny à Barvaux, MLS Pro à Somme-Leuze, PETIT & Fils), puis des annuaires et des comparateurs de prix du jour. Le visiteur veut un vendeur, un prix et un mode de livraison.",
+ "incontournables": ["Noms et adresses des vendeurs proches", "Prix du sac et de la palette", "Mode d'achat : livraison, retrait, stockage au dépôt", "Prix du vrac à la tonne pour les chaudières"],
+ "differenciants": ["Stockage de la palette chez le vendeur, avec retrait progressif (Martiny)", "Prix du vrac affiché à la tonne (PETIT & Fils)", "Prix du jour par code postal (Groupasol)", "Évolution du prix dans le temps"],
+ "lacunes": ["Aucune page ne compare les vendeurs entre eux ni ne ramène les palettes au sac de 15 kg", "Aucune ne distingue le prix enlevé du prix livré", "Aucune ne situe les prix par rapport à la moyenne wallonne", "Les annuaires mélangent poêliers, marchands de mazout et vendeurs de pellets sans dire qui vend quoi", "Aucune ne dit qui livre quels villages de la commune"],
+ "faiblesses": ["Pages de vendeurs très courtes (166 à 684 mots), centrées sur leur seule offre", "Annuaires sans prix ni vérification", "Comparateurs génériques dont le texte ne change que le code postal", "Pas de réponse directe à « qui livre à Durbuy »"],
+ "longueur_cible": 1000}

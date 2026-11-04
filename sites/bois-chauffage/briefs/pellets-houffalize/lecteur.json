@@ -1,0 +1,10 @@
+{"persona": "Un habitant de la commune de Houffalize (centre, Mabompré, Tavigny, Wibrin, Nadrin, Achouffe) ou le propriétaire d'une seconde résidence, équipé d'un poêle à pellets ou d'une chaudière à silo.",
+ "situation": "Fin octobre, le stock baisse ou la saison démarre. Il a constaté qu'aucun magasin de la commune ne vend de pellets en palette et cherche qui accepte de livrer jusqu'à son village, à quel prix, et dans quel délai.",
+ "intentions": [{"type": "locale", "part": 0.6, "description": "Trouver un vendeur qui livre Houffalize ou un dépôt proche"},
+  {"type": "commerciale", "part": 0.3, "description": "Comparer les prix au sac, à la palette et en vrac, livraison comprise"},
+  {"type": "informationnelle", "part": 0.1, "description": "Savoir quel format convient et quelles conditions de livraison s'appliquent"}],
+ "reponse_attendue": "Les noms des vendeurs qui livrent Houffalize, le prix relevé ramené au sac de 15 kg, le minimum de commande du vrac.",
+ "questions": ["Qui livre des pellets à Houffalize ?", "Combien coûte une palette ou une tonne de pellets livrée à Houffalize ?", "Où acheter quelques sacs près de Houffalize ?", "Quel minimum pour le vrac ?", "En combien de temps suis-je livré ?", "Mon village est-il desservi ?"],
+ "informations": ["Zone de livraison de chaque vendeur, d'après son site", "Prix relevés et date", "Moyenne wallonne Valbiom du mois", "Minimum et délai du vrac", "Points de vente les plus proches"],
+ "objections": ["Les vendeurs sont tous hors de la commune : livreront-ils vraiment un village isolé ?", "Le prix affiché inclut-il le transport ?", "Le pellet le moins cher est-il de bonne qualité ?"],
+ "declencheur_devis": "Juste après l'introduction, puis en fin de page : l'offre est mince dans la commune, le formulaire trouve le fournisseur qui livre le village."}

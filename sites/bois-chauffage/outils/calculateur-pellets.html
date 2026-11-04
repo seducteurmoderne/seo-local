@@ -1,0 +1,388 @@
+<title>Combien de pellets pour mon hiver ?</title>
+
+<style>
+/* ============================================================
+   CALCULATEUR DE CONSOMMATION DE PELLETS
+   Widget autonome pour WordPress (widget HTML Elementor).
+
+   Volontairement discret : pas de police chargée, pas de carte,
+   pas de titre propre. Il hérite de la typo de la page et commence
+   directement au formulaire — le H1 appartient à la page, pas à l'outil.
+
+   ⚠️  AVANT MISE EN LIGNE : mettre à jour PRIX_TONNE dans le script.
+   ============================================================ */
+
+:root{
+  --pk-ink:#1A1D1F;
+  --pk-soft:#666C71;
+  --pk-faint:#979DA2;
+  --pk-line:#E3E5E7;
+  --pk-line-2:#CFD3D6;
+  --pk-panel:#F6F7F8;
+  --pk-accent:#A8431A;
+  --pk-accent-2:#8E3813;
+  --pk-focus:#2C6E9B;
+  --pk-page:#FFFFFF;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --pk-ink:#E6E8EA;
+    --pk-soft:#A0A7AD;
+    --pk-faint:#787F85;
+    --pk-line:#2C3134;
+    --pk-line-2:#3D4347;
+    --pk-panel:#1B1F21;
+    --pk-accent:#D9743E;
+    --pk-accent-2:#E88951;
+    --pk-focus:#5FA3D0;
+    --pk-page:#131618;
+  }
+}
+:root[data-theme="dark"]{
+  --pk-ink:#E6E8EA;
+  --pk-soft:#A0A7AD;
+  --pk-faint:#787F85;
+  --pk-line:#2C3134;
+  --pk-line-2:#3D4347;
+  --pk-panel:#1B1F21;
+  --pk-accent:#D9743E;
+  --pk-accent-2:#E88951;
+  --pk-focus:#5FA3D0;
+  --pk-page:#131618;
+}
+
+body{background:var(--pk-page);margin:0;}
+
+.pk{
+  font-family:inherit;
+  color:var(--pk-ink);
+  max-width:38rem;
+  margin:0 auto;
+  padding:2rem 1.25rem 3rem;
+  line-height:1.5;
+  font-size:1rem;
+}
+.pk *,.pk *::before,.pk *::after{box-sizing:border-box;}
+
+.pk-block{padding:1.5rem 0;border-top:1px solid var(--pk-line);}
+.pk-block:first-of-type{border-top:0;padding-top:0;}
+.pk-stack{display:flex;flex-direction:column;gap:1.25rem;}
+
+.pk-step{
+  font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--pk-faint);margin:0 0 1.25rem;font-weight:600;
+}
+
+.pk-field{display:flex;flex-direction:column;gap:.4rem;}
+.pk-label{font-weight:600;font-size:.9375rem;}
+.pk-hint{font-size:.8125rem;color:var(--pk-faint);margin:0;}
+
+.pk-input,.pk-select{
+  font-family:inherit;font-size:1rem;color:var(--pk-ink);
+  background:var(--pk-page);
+  border:1px solid var(--pk-line-2);border-radius:2px;
+  padding:.6rem .7rem;width:100%;
+}
+.pk-select{
+  appearance:none;cursor:pointer;padding-right:2.25rem;
+  background-image:linear-gradient(45deg,transparent 50%,currentColor 50%),linear-gradient(135deg,currentColor 50%,transparent 50%);
+  background-position:calc(100% - 16px) 55%,calc(100% - 11px) 55%;
+  background-size:5px 5px,5px 5px;background-repeat:no-repeat;
+}
+.pk-input:focus-visible,.pk-select:focus-visible,.pk-btn:focus-visible,.pk-seg label:has(:focus-visible){
+  outline:2px solid var(--pk-focus);outline-offset:1px;
+}
+.pk-row{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;}
+@media (max-width:32rem){.pk-row{grid-template-columns:1fr;}}
+
+.pk-seg{display:flex;flex-wrap:wrap;}
+.pk-seg label{
+  flex:1 1 7rem;cursor:pointer;position:relative;
+  border:1px solid var(--pk-line-2);
+  padding:.5rem .6rem;font-size:.875rem;text-align:center;
+  margin-left:-1px;
+}
+.pk-seg label:first-child{margin-left:0;}
+.pk-seg input{position:absolute;opacity:0;width:0;height:0;}
+.pk-seg label:hover{background:var(--pk-panel);}
+.pk-seg label:has(input:checked){
+  border-color:var(--pk-ink);background:var(--pk-panel);font-weight:600;z-index:1;
+}
+.pk-seg small{display:block;font-size:.75rem;color:var(--pk-faint);font-weight:400;}
+
+/* --- résultat : sobre, typographique --- */
+.pk-out{background:var(--pk-panel);padding:1.25rem;border-radius:2px;}
+.pk-out-main{display:flex;align-items:baseline;gap:.4rem;}
+.pk-val{
+  font-size:2.5rem;font-weight:700;line-height:1;
+  letter-spacing:-.03em;font-variant-numeric:tabular-nums;
+}
+.pk-val-u{font-size:1rem;font-weight:500;color:var(--pk-soft);}
+.pk-band{font-size:.8125rem;color:var(--pk-soft);margin:.5rem 0 0;font-variant-numeric:tabular-nums;}
+
+.pk-facts{
+  display:flex;flex-wrap:wrap;gap:1.5rem;
+  margin-top:1.1rem;padding-top:1.1rem;border-top:1px solid var(--pk-line);
+}
+.pk-fact-k{
+  display:block;font-size:.75rem;letter-spacing:.04em;text-transform:uppercase;
+  color:var(--pk-faint);margin-bottom:.15rem;
+}
+.pk-fact-v{font-size:1.125rem;font-weight:600;font-variant-numeric:tabular-nums;}
+.pk-fact-v small{font-weight:400;font-size:.875rem;color:var(--pk-soft);}
+
+.pk-lead-in{margin:0;font-size:.9375rem;}
+.pk-lead-in strong{font-weight:600;}
+
+.pk-btn{
+  font-family:inherit;font-size:.9375rem;font-weight:600;
+  background:var(--pk-accent);color:#fff;border:1px solid var(--pk-accent);
+  border-radius:2px;padding:.75rem 1.1rem;cursor:pointer;width:100%;
+}
+.pk-btn:hover{background:var(--pk-accent-2);border-color:var(--pk-accent-2);}
+.pk-btn[disabled]{background:transparent;border-color:var(--pk-line-2);color:var(--pk-faint);cursor:not-allowed;}
+.pk-btn-2{background:transparent;color:var(--pk-soft);border-color:var(--pk-line-2);font-weight:500;}
+.pk-btn-2:hover{background:var(--pk-panel);color:var(--pk-ink);border-color:var(--pk-line-2);}
+
+.pk-note{font-size:.8125rem;color:var(--pk-faint);margin:0;}
+
+.pk-off{display:none;}
+
+.pk-detail{margin-top:1.75rem;border-top:1px solid var(--pk-line);}
+.pk-detail summary{
+  cursor:pointer;padding:1rem 0;font-size:.875rem;font-weight:600;
+  list-style:none;display:flex;justify-content:space-between;gap:1rem;
+}
+.pk-detail summary::-webkit-details-marker{display:none;}
+.pk-detail summary::after{content:"+";color:var(--pk-faint);}
+.pk-detail[open] summary::after{content:"−";}
+.pk-detail-body{padding-bottom:1.25rem;font-size:.8125rem;color:var(--pk-soft);display:flex;flex-direction:column;gap:.85rem;}
+.pk-detail-body p{margin:0;}
+.pk-formula{
+  font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.75rem;
+  color:var(--pk-ink);background:var(--pk-panel);padding:.6rem .7rem;
+  border-radius:2px;overflow-x:auto;
+}
+.pk-tw{overflow-x:auto;}
+.pk-detail table{border-collapse:collapse;width:100%;font-size:.75rem;min-width:18rem;}
+.pk-detail th,.pk-detail td{text-align:left;padding:.35rem .6rem .35rem 0;border-bottom:1px solid var(--pk-line);}
+.pk-detail th{font-weight:600;color:var(--pk-faint);text-transform:uppercase;letter-spacing:.05em;font-size:.6875rem;}
+.pk-detail td:last-child{text-align:right;padding-right:0;font-variant-numeric:tabular-nums;}
+
+@media (prefers-reduced-motion:reduce){.pk *{transition:none!important;animation:none!important;}}
+</style>
+
+<div class="pk">
+  <form id="pkf" novalidate>
+
+    <div class="pk-block pk-stack">
+      <p class="pk-step">Votre logement</p>
+      <div class="pk-row">
+        <div class="pk-field">
+          <label class="pk-label" for="pk-s">Surface chauffée (m²)</label>
+          <input class="pk-input" type="number" id="pk-s" value="140" min="10" max="1000" step="5" inputmode="numeric">
+        </div>
+        <div class="pk-field">
+          <label class="pk-label" for="pk-i">Isolation</label>
+          <select class="pk-select" id="pk-i">
+            <option value="230">Aucune — avant 1970</option>
+            <option value="170">Faible — 1970 à 1990</option>
+            <option value="120" selected>Moyenne — 1990 à 2010</option>
+            <option value="80">Bonne — après 2010</option>
+            <option value="45">Très bonne — PEB A</option>
+          </select>
+        </div>
+      </div>
+      <p class="pk-hint">Dans le doute sur l'isolation, choisissez l'option juste en dessous de votre estimation.</p>
+    </div>
+
+    <div class="pk-block pk-stack">
+      <p class="pk-step">Votre appareil</p>
+      <div class="pk-field">
+        <span class="pk-label">Type</span>
+        <div class="pk-seg" role="radiogroup" aria-label="Type d'appareil">
+          <label><input type="radio" name="pka" value="0.87" checked>Poêle<small>87 %</small></label>
+          <label><input type="radio" name="pka" value="0.85">Insert hydro<small>85 %</small></label>
+          <label><input type="radio" name="pka" value="0.92">Chaudière<small>92 %</small></label>
+        </div>
+      </div>
+      <div class="pk-field">
+        <span class="pk-label">Part du chauffage assurée</span>
+        <div class="pk-seg" role="radiogroup" aria-label="Part du chauffage assurée">
+          <label><input type="radio" name="pkp" value="0.35">Appoint<small>une pièce</small></label>
+          <label><input type="radio" name="pkp" value="0.70" checked>Partiel<small>avec appoint</small></label>
+          <label><input type="radio" name="pkp" value="1">Total<small>seule source</small></label>
+        </div>
+      </div>
+    </div>
+
+    <div class="pk-block" aria-live="polite">
+      <div class="pk-out">
+        <div class="pk-out-main">
+          <span class="pk-val" id="pk-t">1,4</span>
+          <span class="pk-val-u">tonne de pellets par an</span>
+        </div>
+        <p class="pk-band" id="pk-b">soit 1,2 à 1,6 t selon l'hiver et vos habitudes</p>
+        <div class="pk-facts">
+          <div><span class="pk-fact-k">Sacs de 15 kg</span><span class="pk-fact-v" id="pk-sc">93</span></div>
+          <div><span class="pk-fact-k">Palettes</span><span class="pk-fact-v" id="pk-pl">1,4</span></div>
+          <div><span class="pk-fact-k">Budget indicatif</span><span class="pk-fact-v" id="pk-c">420 €<small> – 590 €</small></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pk-block pk-stack">
+      <p class="pk-step">Votre prix réel</p>
+      <p class="pk-lead-in">Le prix livré dépend de la quantité et de la distance : aucun fournisseur ne peut l'afficher à l'avance. Indiquez votre code postal pour recevoir jusqu'à <strong>3 offres pour <span id="pk-e">1,4 tonne</span></strong>.</p>
+      <div class="pk-field">
+        <label class="pk-label" for="pk-cp">Code postal</label>
+        <input class="pk-input" type="text" id="pk-cp" placeholder="4000" maxlength="4" inputmode="numeric" autocomplete="postal-code">
+        <p class="pk-hint" id="pk-cph">Sert uniquement à trouver les fournisseurs qui livrent chez vous.</p>
+      </div>
+      <button class="pk-btn" type="button" id="pk-go" disabled>Voir les fournisseurs de ma région</button>
+      <p class="pk-note">Gratuit, sans engagement, sans démarchage téléphonique. Réponse sous 48 h.</p>
+    </div>
+
+    <div class="pk-block pk-stack pk-off" id="pk-ct">
+      <p class="pk-step">Où envoyer les offres</p>
+      <div class="pk-row">
+        <div class="pk-field"><label class="pk-label" for="pk-n">Prénom et nom</label><input class="pk-input" type="text" id="pk-n" autocomplete="name"></div>
+        <div class="pk-field"><label class="pk-label" for="pk-m">E-mail</label><input class="pk-input" type="email" id="pk-m" autocomplete="email"></div>
+      </div>
+      <div class="pk-field"><label class="pk-label" for="pk-tel">Téléphone <span style="font-weight:400;color:var(--pk-faint)">— facultatif</span></label><input class="pk-input" type="tel" id="pk-tel" autocomplete="tel"></div>
+      <p class="pk-note">Vos coordonnées sont transmises aux fournisseurs de votre zone dans le seul but d'établir un devis. Suppression sur simple demande.</p>
+      <button class="pk-btn" type="submit">Recevoir mes offres</button>
+      <button class="pk-btn pk-btn-2" type="button" id="pk-bk">Modifier mon estimation</button>
+    </div>
+
+    <div class="pk-block pk-off" id="pk-dn">
+      <p class="pk-lead-in" id="pk-dnm"></p>
+    </div>
+  </form>
+
+  <details class="pk-detail">
+    <summary>Comment ce calcul est fait</summary>
+    <div class="pk-detail-body">
+      <p>Le besoin de chauffage est estimé par la surface et un indice de consommation au mètre carré, puis converti en masse de pellets selon le pouvoir calorifique et le rendement de l'appareil.</p>
+      <p class="pk-formula">pellets (kg) = surface × indice × part assurée ÷ (4,8 kWh/kg × rendement)</p>
+      <div class="pk-tw">
+        <table>
+          <thead><tr><th>Isolation</th><th>Indice retenu</th></tr></thead>
+          <tbody>
+            <tr><td>Aucune (avant 1970)</td><td>230 kWh/m²/an</td></tr>
+            <tr><td>Faible (1970-1990)</td><td>170 kWh/m²/an</td></tr>
+            <tr><td>Moyenne (1990-2010)</td><td>120 kWh/m²/an</td></tr>
+            <tr><td>Bonne (après 2010)</td><td>80 kWh/m²/an</td></tr>
+            <tr><td>Très bonne (PEB A)</td><td>45 kWh/m²/an</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Pouvoir calorifique retenu : 4,8 kWh/kg, valeur courante d'un pellet certifié ENplus A1. Une palette est comptée à 65 sacs de 15 kg, soit 975 kg — ce conditionnement varie d'un fournisseur à l'autre.</p>
+      <p>La fourchette de ±12 % n'est pas une marge d'erreur de calcul : elle traduit ce qu'aucune formule ne capte, la rigueur de l'hiver, la température de consigne et les habitudes du foyer. Cette estimation sert à commander la bonne quantité, pas à prévoir au kilo près.</p>
+    </div>
+  </details>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ⚠️  À METTRE À JOUR depuis le relevé de prix.
+     Valeurs de départ volontairement larges — à remplacer. */
+  var PRIX_TONNE = { min: 300, max: 420 };
+
+  var PCI = 4.8, SAC = 15, PALETTE = 975, BANDE = 0.12;
+
+  var $ = function(i){ return document.getElementById(i); };
+  var f1 = new Intl.NumberFormat("fr-BE",{maximumFractionDigits:1});
+  var f0 = new Intl.NumberFormat("fr-BE",{maximumFractionDigits:0});
+  var kg = 0;
+
+  function pick(n){
+    var e = document.querySelector('input[name="'+n+'"]:checked');
+    return e ? parseFloat(e.value) : 0;
+  }
+
+  function calc(){
+    var s = Math.min(1000, Math.max(10, parseFloat($("pk-s").value) || 0));
+    kg = (s * parseFloat($("pk-i").value) * pick("pkp")) / (PCI * pick("pka"));
+    var t = kg / 1000;
+
+    $("pk-t").textContent = f1.format(t);
+    $("pk-b").textContent = "soit " + f1.format(t*(1-BANDE)) + " à " + f1.format(t*(1+BANDE)) +
+                            " t selon l'hiver et vos habitudes";
+    $("pk-sc").textContent = f0.format(Math.ceil(kg / SAC));
+    $("pk-pl").textContent = f1.format(kg / PALETTE);
+    $("pk-c").innerHTML = f0.format(Math.round(t*PRIX_TONNE.min/10)*10) + " €<small> – " +
+                          f0.format(Math.round(t*PRIX_TONNE.max/10)*10) + " €</small>";
+    $("pk-e").textContent = f1.format(t) + (t < 2 ? " tonne" : " tonnes");
+  }
+
+  function cpOk(){ return /^[1-9][0-9]{3}$/.test(($("pk-cp").value||"").trim()); }
+
+  function cpMaj(){
+    var v = ($("pk-cp").value||"").trim(), h = $("pk-cph");
+    $("pk-go").disabled = !cpOk();
+    if (v.length === 4 && !cpOk()){
+      h.textContent = "Ce code postal ne correspond à aucune commune belge.";
+      h.style.color = "var(--pk-accent)";
+    } else {
+      h.textContent = "Sert uniquement à trouver les fournisseurs qui livrent chez vous.";
+      h.style.color = "";
+    }
+  }
+
+  var form = $("pkf"), ct = $("pk-ct");
+  function onChange(e){
+    if (e.target === $("pk-cp")){ cpMaj(); return; }
+    if (ct.contains(e.target)) return;
+    calc();
+  }
+  form.addEventListener("input", onChange);
+  form.addEventListener("change", onChange);
+
+  $("pk-go").addEventListener("click", function(){
+    ct.classList.remove("pk-off");
+    ct.scrollIntoView({behavior:"smooth", block:"nearest"});
+    $("pk-n").focus({preventScroll:true});
+  });
+  $("pk-bk").addEventListener("click", function(){
+    ct.classList.add("pk-off");
+    $("pk-s").scrollIntoView({behavior:"smooth", block:"center"});
+  });
+
+  form.addEventListener("submit", function(e){
+    e.preventDefault();
+    var lead = {
+      produit:"pellets", kg:Math.round(kg), tonnes:+(kg/1000).toFixed(2),
+      sacs:Math.ceil(kg/SAC), surface:parseFloat($("pk-s").value),
+      isolation:$("pk-i").options[$("pk-i").selectedIndex].text,
+      rendement:pick("pka"), part:pick("pkp"),
+      cp:$("pk-cp").value.trim(), nom:$("pk-n").value.trim(),
+      email:$("pk-m").value.trim(), tel:$("pk-tel").value.trim()
+    };
+
+    /* --------------------------------------------------------
+       BRANCHEMENT À FAIRE : envoyer `lead` au back-office.
+
+       fetch("/wp-json/bcp/v1/lead", {
+         method:"POST",
+         headers:{"Content-Type":"application/json"},
+         body:JSON.stringify(lead)
+       });
+
+       Tant que ce n'est pas branché, rien n'est envoyé.
+       -------------------------------------------------------- */
+    console.log("Lead à transmettre :", lead);
+
+    ct.classList.add("pk-off");
+    $("pk-dn").classList.remove("pk-off");
+    $("pk-dnm").innerHTML = "<strong>Demande enregistrée.</strong> Les fournisseurs qui livrent le " +
+      lead.cp + " vous répondent sous 48 heures avec un prix pour " +
+      f1.format(lead.tonnes) + " t de pellets.";
+    $("pk-dn").scrollIntoView({behavior:"smooth", block:"nearest"});
+  });
+
+  calc(); cpMaj();
+})();
+</script>

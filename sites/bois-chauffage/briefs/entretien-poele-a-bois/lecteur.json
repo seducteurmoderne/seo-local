@@ -1,0 +1,30 @@
+{"persona": "Propriétaire wallon d'un poêle à bûches (fonte ou acier, souvent installé depuis quelques années, parfois hérité avec la maison), qui se chauffe en appoint ou en chauffage principal.",
+"situation": "Début de saison de chauffe (octobre) ou en pleine saison : la vitre noircit vite, le poêle tire moins bien, ou il se demande simplement ce qu'il doit faire lui-même et ce qui revient à un professionnel. Il a déjà vidé les cendres et essayé un produit pour la vitre, sans savoir s'il oublie quelque chose d'important (ramonage, joints, déflecteur).",
+"intentions": [
+ {"type": "informationnelle", "part": 0.7, "description": "Savoir quoi nettoyer, avec quoi, et à quelle fréquence : cendres, vitre, déflecteur, joints, fonte extérieure."},
+ {"type": "commerciale", "part": 0.2, "description": "Savoir si un entretien par un professionnel est nécessaire, ce qu'il couvre, et trouver un ramoneur ou un poêlier."},
+ {"type": "réglementaire", "part": 0.1, "description": "Savoir ce qui est obligatoire (ramonage, attestation pour l'assurance) en Wallonie."}],
+"reponse_attendue": "Un calendrier clair : ce que je fais à chaque feu, chaque semaine, une fois par an, et ce qui revient au ramoneur, avec la distinction entretien de l'appareil / ramonage du conduit.",
+"questions": [
+ "À quelle fréquence faut-il entretenir un poêle à bois ?",
+ "Faut-il vider toutes les cendres ou en laisser un lit ?",
+ "Comment nettoyer la vitre d'un poêle à bois sans l'abîmer ?",
+ "Comment nettoyer l'intérieur : déflecteur, chambre de combustion, briques réfractaires ?",
+ "Comment savoir si les joints de porte sont usés ?",
+ "Comment entretenir la fonte à l'extérieur ?",
+ "Le ramonage est-il obligatoire, et combien de fois par an ?",
+ "Un poêle à bois a-t-il besoin d'un entretien par un professionnel comme une chaudière ?",
+ "Pourquoi ma vitre noircit-elle si vite ?"],
+"informations": [
+ "Un calendrier par fréquence (chaque feu / semaine / mois / année)",
+ "La règle des cendres : en laisser une fine couche pour le bois",
+ "La méthode de la cendre humide pour la vitre",
+ "Le test du papier pour les joints",
+ "Le lien entre bois humide, bistre et encrassement",
+ "Ce que fait le ramoneur et ce qu'il remet (attestation)"],
+"objections": [
+ "Mon poêle marche bien, je n'ai pas besoin d'y toucher.",
+ "Le ramonage une fois tous les deux ans suffit.",
+ "Les produits du commerce pour vitre font mieux.",
+ "Un professionnel coûte cher pour ce que c'est."],
+"declencheur_devis": "Après la section sur le ramonage et le contrôle annuel : le lecteur réalise qu'il doit faire ramoner avant la saison et obtenir une attestation ; un CTA doux après l'intro pour ceux qui cherchent directement un ramoneur ou un poêlier, et un CTA fort en fin de page."}

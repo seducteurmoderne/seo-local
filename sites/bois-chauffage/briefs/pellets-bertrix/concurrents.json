@@ -1,0 +1,7 @@
+{"types": {"guide": 0, "service": 3, "annuaire": 1, "autre": 1},
+"intention_recompensee": "Locale et transactionnelle : Google montre les vendeurs de pellets installés à Bertrix (Mécagricola, Mazout Etienne, Bois et Pellets Martin via annuaire) et des boutiques en ligne qui livrent la Belgique.",
+"incontournables": ["Les noms des vendeurs installés à Bertrix", "La livraison à domicile par palette", "Le retrait sur place", "La marque de pellets vendue"],
+"differenciants": ["Un prix de palette livrée publié (pellets-winn)", "Les horaires de retrait (Mazout Etienne, augranuledebois)", "Les combustibles vendus au dépôt (Mazout Etienne)"],
+"lacunes": ["Aucune page ne compare les vendeurs de Bertrix entre eux", "Aucun prix ramené à la tonne ou au sac", "Aucune page ne dit qui livre le vrac pour une chaudière", "Aucune information sur les certifications des marques locales", "Aucune page ne compare au prix moyen wallon"],
+"faiblesses": ["Pages courtes (médiane 549 mots), une seule H2 en moyenne", "Pas de prix chez les vendeurs locaux", "Annuaire générique sans information vérifiée", "Boutiques en ligne sans ancrage à Bertrix"],
+"longueur_cible": 1100}

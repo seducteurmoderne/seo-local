@@ -1,0 +1,81 @@
+{
+  "settings": {
+    "color": {
+      "palette": {
+        "theme": [
+          {"slug": "base", "name": "Fond", "color": "#F6F4EE"},
+          {"slug": "contrast", "name": "Encre", "color": "#1A1F1C"},
+          {"slug": "accent-1", "name": "Flamme vive", "color": "#E07A3F"},
+          {"slug": "accent-2", "name": "Sauge", "color": "#E3EEE6"},
+          {"slug": "accent-3", "name": "Forêt", "color": "#1D3A2C"},
+          {"slug": "accent-4", "name": "Gris", "color": "#56605A"},
+          {"slug": "accent-5", "name": "Pêche", "color": "#FCE5D6"},
+          {"slug": "accent-6", "name": "Filet", "color": "#DCD8CC"}
+        ],
+        "custom": [
+          {"slug": "foret", "name": "Forêt", "color": "#1D3A2C"},
+          {"slug": "foret-2", "name": "Forêt claire", "color": "#2B5640"},
+          {"slug": "fond", "name": "Fond", "color": "#F6F4EE"},
+          {"slug": "encre", "name": "Encre", "color": "#1A1F1C"},
+          {"slug": "gris", "name": "Gris", "color": "#56605A"},
+          {"slug": "filet", "name": "Filet", "color": "#DCD8CC"},
+          {"slug": "flamme", "name": "Flamme", "color": "#B4501F"},
+          {"slug": "flamme-vive", "name": "Flamme vive", "color": "#E07A3F"},
+          {"slug": "creme", "name": "Crème", "color": "#FFF8EE"},
+          {"slug": "sauge", "name": "Sauge", "color": "#E3EEE6"},
+          {"slug": "peche", "name": "Pêche", "color": "#FCE5D6"},
+          {"slug": "blanc", "name": "Blanc", "color": "#FFFFFF"}
+        ]
+      }
+    },
+    "layout": {"contentSize": "760px", "wideSize": "1080px"}
+  },
+  "styles": {
+    "color": {"background": "var:preset|color|fond", "text": "var:preset|color|encre"},
+    "typography": {
+      "fontFamily": "var:preset|font-family|figtree",
+      "fontSize": "1.1875rem",
+      "fontWeight": "400",
+      "lineHeight": "1.7",
+      "letterSpacing": "normal"
+    },
+    "spacing": {
+      "blockGap": "1.25rem",
+      "padding": {"top": "0px", "bottom": "0px", "left": "20px", "right": "20px"}
+    },
+    "elements": {
+      "link": {
+        "color": {"text": "var:preset|color|flamme"},
+        "typography": {"textDecoration": "underline"},
+        ":hover": {"color": {"text": "#963F15"}}
+      },
+      "heading": {
+        "color": {"text": "var:preset|color|encre"},
+        "typography": {
+          "fontFamily": "var:preset|font-family|fraunces",
+          "fontWeight": "700",
+          "letterSpacing": "-0.015em",
+          "lineHeight": "1.15"
+        }
+      },
+      "h1": {"typography": {"fontSize": "clamp(2.25rem, 1.5rem + 2.8vw, 3.6rem)", "lineHeight": "1.06"}},
+      "h2": {"typography": {"fontSize": "clamp(1.75rem, 1.35rem + 1.5vw, 2.375rem)", "lineHeight": "1.12"}},
+      "h3": {"typography": {"fontSize": "1.5rem", "lineHeight": "1.2"}},
+      "h4": {"typography": {"fontSize": "1.25rem", "lineHeight": "1.25"}},
+      "button": {
+        "color": {"background": "var:preset|color|flamme", "text": "#FFFFFF"},
+        "border": {"radius": "99px"},
+        "typography": {"fontFamily": "var:preset|font-family|figtree", "fontWeight": "800", "fontSize": "1.0625rem", "lineHeight": "1.2"},
+        "spacing": {"padding": {"top": "0.9rem", "bottom": "0.9rem", "left": "1.6rem", "right": "1.6rem"}},
+        ":hover": {"color": {"background": "#963F15", "text": "#FFFFFF"}}
+      },
+      "caption": {"typography": {"fontSize": "0.9rem"}, "color": {"text": "var:preset|color|gris"}}
+    },
+    "blocks": {
+      "core/navigation": {"typography": {"fontSize": "1rem", "fontWeight": "700"}},
+      "core/post-title": {"typography": {"fontWeight": "700"}},
+      "core/quote": {"typography": {"fontSize": "1.1875rem"}},
+      "core/separator": {"color": {"text": "var:preset|color|filet"}}
+    }
+  }
+}

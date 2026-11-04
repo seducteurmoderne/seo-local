@@ -1,0 +1,750 @@
+{
+  "lues": [
+    {
+      "url": "https://www.codagribois.be/",
+      "titre": "Bois de chauffage & pellets livrés en Wallonie | CodagriBois",
+      "titres": [
+        [
+          "h1",
+          "Bois & pellets premium, livrés depuis Braine-le-Comte"
+        ],
+        [
+          "h3",
+          "Qualité Premium Garantie"
+        ],
+        [
+          "h3",
+          "Livraison Rapide & Fiable"
+        ],
+        [
+          "h3",
+          "Paiement à la livraison"
+        ],
+        [
+          "h3",
+          "Entreprise familiale locale"
+        ],
+        [
+          "h2",
+          "Votre spécialiste du bois & pellets"
+        ],
+        [
+          "h2",
+          "Le quotidien de CodagriBois"
+        ],
+        [
+          "h2",
+          "Pellets & Bûches"
+        ],
+        [
+          "h3",
+          "Bois de Chauffage Sec"
+        ],
+        [
+          "h3",
+          "Pellets Certifiés"
+        ],
+        [
+          "h3",
+          "Offres Saisonnières"
+        ],
+        [
+          "h2",
+          "Notre sélection pellets"
+        ],
+        [
+          "h3",
+          "Palette \"Omnium Pellets\""
+        ],
+        [
+          "h3",
+          "Palette \"My Pellets\""
+        ],
+        [
+          "h3",
+          "Palette \"Arden\""
+        ],
+        [
+          "h3",
+          "Palette \"Total\""
+        ],
+        [
+          "h3",
+          "Palette bois de chauffage"
+        ],
+        [
+          "h3",
+          "On livre chez vous ?"
+        ],
+        [
+          "h2",
+          "Questions fréquentes"
+        ],
+        [
+          "h3",
+          "Quels sont les délais ?"
+        ],
+        [
+          "h3",
+          "Livrez-vous partout ?"
+        ],
+        [
+          "h3",
+          "Comment se passe le paiement ?"
+        ],
+        [
+          "h3",
+          "Peut-on faire des achats groupés ?"
+        ],
+        [
+          "h2",
+          "Ferme Cosijn - Codagri"
+        ],
+        [
+          "h3",
+          "Adresse"
+        ],
+        [
+          "h3",
+          "Horaires"
+        ]
+      ],
+      "mots": 618,
+      "tables": 0,
+      "ol": 0,
+      "ul": 2,
+      "images": 22,
+      "videos": 0,
+      "faq": true,
+      "schemas": [
+        "FAQPage",
+        "LocalBusiness"
+      ],
+      "source": "duckduckgo be-fr",
+      "rang": 1
+    },
+    {
+      "url": "https://www.ericbois.be/",
+      "titre": "Vente et livraison de bois de chauffage | EricBois",
+      "titres": [
+        [
+          "h2",
+          "Bienvenue sur"
+        ],
+        [
+          "h1",
+          "EricBois"
+        ],
+        [
+          "h2",
+          "Vente et livraison de bois de chauffage et de pellets"
+        ],
+        [
+          "h2",
+          "Vente de bois de chauffage"
+        ],
+        [
+          "h2",
+          "Vente de pellets"
+        ],
+        [
+          "h2",
+          "Livraison"
+        ],
+        [
+          "h2",
+          "À voir"
+        ]
+      ],
+      "mots": 199,
+      "tables": 0,
+      "ol": 1,
+      "ul": 1,
+      "images": 9,
+      "videos": 0,
+      "faq": false,
+      "schemas": [],
+      "source": "duckduckgo be-fr",
+      "rang": 2
+    },
+    {
+      "url": "https://www.walwood.be/",
+      "titre": "Walwood",
+      "titres": [
+        [
+          "h3",
+          "Pellet Erda 100% Résineux, 15 kg"
+        ],
+        [
+          "h3",
+          "Pellet Arden 100% Résineux, 15 kg"
+        ],
+        [
+          "h3",
+          "Pellet Badger 100% Résineux, 15 kg"
+        ],
+        [
+          "h3",
+          "Wallipellet 100% Résineux, 15 kg"
+        ],
+        [
+          "h3",
+          "Bois de chauffage sur palette — 100% Hêtre SEC, 2 m³"
+        ],
+        [
+          "h3",
+          "Bois de chauffage sur palette — 1 m³, Sec"
+        ],
+        [
+          "h3",
+          "Bois de chauffage sur palette — 2 m³, Demi-sec"
+        ],
+        [
+          "h3",
+          "Bois de chauffage sur palette — SEC, 2 m³"
+        ],
+        [
+          "h3",
+          "Bûches en filet — 18 dm³, Feuillus"
+        ],
+        [
+          "h3",
+          "PIZZERIA — Bouleau sur palette, SEC, 2 m³"
+        ],
+        [
+          "h3",
+          "Bois de chauffage Crépito"
+        ],
+        [
+          "h3",
+          "Bûches compressées rondes 10kg/sac"
+        ],
+        [
+          "h3",
+          "Bûches compressées rectangle 10kg/sac"
+        ],
+        [
+          "h3",
+          "Bûches en filet 18dm3/sac. Chêne ou charme"
+        ],
+        [
+          "h3",
+          "Allume feu naturel 72 pièces carton"
+        ],
+        [
+          "h3",
+          "Allume feu naturel 82 pièces fibre de bois"
+        ],
+        [
+          "h3",
+          "Allume feu naturel"
+        ],
+        [
+          "h3",
+          "Allume feu naturel tout en un"
+        ],
+        [
+          "h3",
+          "Allume feu naturel 32 pièces bois et cire végétal"
+        ],
+        [
+          "h3",
+          "Allume feu paraffine 32 pièces"
+        ],
+        [
+          "h3",
+          "Bois d'allumage 4,5dm3"
+        ],
+        [
+          "h3",
+          "Bois d'allumage 12dm3"
+        ],
+        [
+          "h3",
+          "Charbon ECOFLAM 12-22 | 10kgs/sacs"
+        ],
+        [
+          "h3",
+          "Charbon ECOFLAM 12-22 | 25kgs/sacs"
+        ],
+        [
+          "h3",
+          "Charbon ECOFLAM 20-30 | 25kgs/sacs"
+        ],
+        [
+          "h3",
+          "Briquette Lignite 10kg/pack"
+        ],
+        [
+          "h3",
+          "Charbon de bois épuré 3kgs/sac"
+        ],
+        [
+          "h3",
+          "Charbon de bois épuré 4kgs/sac"
+        ],
+        [
+          "h3",
+          "Charbon de bois épuré 10kgs/sac"
+        ],
+        [
+          "h3",
+          "Briquette de charbon de bois"
+        ],
+        [
+          "h3",
+          "Perel hepa filter TC 90 602 - 12cm"
+        ],
+        [
+          "h3",
+          "Perel hepa filter TC 90 600 - 16cm"
+        ],
+        [
+          "h3",
+          "Perel hepa filter TC 90 700 - 11cm"
+        ],
+        [
+          "h3",
+          "Nettoyeur vitre 500ml"
+        ],
+        [
+          "h3",
+          "Mousse décapante 500ml"
+        ],
+        [
+          "h3",
+          "Lave glace FOREVER 1L"
+        ],
+        [
+          "h3",
+          "Buche de ramonage 1,1kg"
+        ],
+        [
+          "h3",
+          "Pellets de ramonage"
+        ],
+        [
+          "h3",
+          "Ramonage continu"
+        ],
+        [
+          "h3",
+          "Aspirateur à cendres 1200w - 20L"
+        ]
+      ],
+      "mots": 840,
+      "tables": 0,
+      "ol": 0,
+      "ul": 1,
+      "images": 40,
+      "videos": 0,
+      "faq": false,
+      "schemas": [],
+      "source": "duckduckgo be-fr",
+      "rang": 3
+    },
+    {
+      "url": "https://www.codagribois.be/livraison-wallonie/",
+      "titre": "Livraison bois & pellets en Wallonie | CodagriBois",
+      "titres": [
+        [
+          "h1",
+          "Livraison bois & pellets en Wallonie"
+        ],
+        [
+          "h2",
+          "5 provinces desservies"
+        ],
+        [
+          "h3",
+          "Hainaut"
+        ],
+        [
+          "h3",
+          "Brabant wallon"
+        ],
+        [
+          "h3",
+          "Namur"
+        ],
+        [
+          "h3",
+          "Liège"
+        ],
+        [
+          "h3",
+          "Luxembourg"
+        ],
+        [
+          "h2",
+          "Une livraison simple, partout en Wallonie"
+        ],
+        [
+          "h2",
+          "Vérifiez votre code postal"
+        ],
+        [
+          "h3",
+          "On livre chez vous ?"
+        ],
+        [
+          "h2",
+          "Commandez votre bois en Wallonie"
+        ],
+        [
+          "h2",
+          "Ferme Cosijn - Codagri"
+        ],
+        [
+          "h3",
+          "Adresse"
+        ],
+        [
+          "h3",
+          "Horaires"
+        ]
+      ],
+      "mots": 314,
+      "tables": 0,
+      "ol": 0,
+      "ul": 1,
+      "images": 1,
+      "videos": 0,
+      "faq": false,
+      "schemas": [
+        "LocalBusiness"
+      ],
+      "source": "duckduckgo be-fr",
+      "rang": 4
+    },
+    {
+      "url": "https://www.apbois.be/",
+      "titre": "Apbois",
+      "titres": [
+        [
+          "h1",
+          "bois de chauffage et pellets"
+        ],
+        [
+          "h2",
+          "Pourquoi se chauffer au bois ou au pellet ?"
+        ],
+        [
+          "h3",
+          "réduction des émissions de gaz"
+        ],
+        [
+          "h3",
+          "sources d'énergie disponibles localement"
+        ],
+        [
+          "h3",
+          "Ce sont Des produits éco-durables"
+        ],
+        [
+          "h2",
+          "Bois de chauffage en Vrac"
+        ],
+        [
+          "h2",
+          "Arden Pellets en palette"
+        ],
+        [
+          "h2",
+          "Bois de chauffage en palette"
+        ],
+        [
+          "h2",
+          "Sacs de petit bois d'allumage"
+        ],
+        [
+          "h2",
+          "un choix responsable pour l'environnement"
+        ],
+        [
+          "h3",
+          "Produits Belges"
+        ],
+        [
+          "h3",
+          "Réalisez des économies"
+        ],
+        [
+          "h3",
+          "Service de conseils"
+        ],
+        [
+          "h2",
+          "Découvrez les personnes derrière apbois"
+        ],
+        [
+          "h2",
+          "Le Papa"
+        ],
+        [
+          "h2",
+          "Le Fils"
+        ],
+        [
+          "h2",
+          "Avis clients"
+        ],
+        [
+          "h2",
+          "Vente de bois de chauffage et de pellets à Pont-à-Celles et dans la région"
+        ],
+        [
+          "h3",
+          "Fondée par un père et son fils"
+        ],
+        [
+          "h3",
+          "Service de livraisons rapides et fiables"
+        ],
+        [
+          "h3",
+          "Qualité et durabilité"
+        ],
+        [
+          "h2",
+          "Nos offres du moment !"
+        ],
+        [
+          "h3",
+          "Localisation"
+        ],
+        [
+          "h3",
+          "OUVERTURE DU DRIVE-IN SUR RENDEZ-VOUS"
+        ],
+        [
+          "h3",
+          "Appelez-nous après 17h"
+        ]
+      ],
+      "mots": 882,
+      "tables": 0,
+      "ol": 0,
+      "ul": 0,
+      "images": 14,
+      "videos": 0,
+      "faq": false,
+      "schemas": [],
+      "source": "duckduckgo be-fr",
+      "rang": 5
+    },
+    {
+      "url": "https://www.servicesecowood.be/",
+      "titre": "Services Eco Wood SRL, livraison de bois de chauffage en Wallonie et à Bruxelles",
+      "titres": [
+        [
+          "h1",
+          "Bois de chauffage 25/33/40/50cm+Fagot de1M 100% Refendu à partir 85€ M - D/Sec Prix départ (5150 Franiére)"
+        ],
+        [
+          "h1",
+          "Bois de chauffage sec / demi secBois de première qualité sans déchets"
+        ],
+        [
+          "h1",
+          "Bois d'allumage et buches en sacBois de première qualité sans déchets"
+        ],
+        [
+          "h1",
+          "Bois pour four à pizzaBois de première qualité sans déchets"
+        ],
+        [
+          "h3",
+          "Fort de notre expérience sur 3 générations"
+        ],
+        [
+          "h3",
+          "Bon à savoir"
+        ],
+        [
+          "h3",
+          "Vous avez des questions ? Nous avons les réponses"
+        ],
+        [
+          "h2",
+          "Prêt à Commander?"
+        ]
+      ],
+      "mots": 601,
+      "tables": 0,
+      "ol": 0,
+      "ul": 5,
+      "images": 10,
+      "videos": 0,
+      "faq": false,
+      "schemas": [],
+      "source": "duckduckgo be-fr",
+      "rang": 6
+    },
+    {
+      "url": "https://bois-de-chauffage-et-pellets.be/",
+      "titre": "Bois de Chauffage et Pellets Belgique -",
+      "titres": [
+        [
+          "h1",
+          "Les guides"
+        ],
+        [
+          "h2",
+          "Bois de chauffage à Durbuy : prix, livraison et fournisseurs"
+        ],
+        [
+          "h2",
+          "ENplus A1 ou DINplus : que garantit chaque certification de pellets ?"
+        ],
+        [
+          "h2",
+          "Pellets à Saint-Hubert : prix, livraison et fournisseurs"
+        ],
+        [
+          "h2",
+          "Bois de chauffage à Saint-Hubert : prix, livraison et fournisseurs"
+        ],
+        [
+          "h2",
+          "Pellets à Bouillon : prix, livraison et fournisseurs"
+        ],
+        [
+          "h2",
+          "Bois de chauffage à Bouillon : prix, livraison et fournisseurs"
+        ],
+        [
+          "h2",
+          "Entretien d’un poêle à bois : que nettoyer, et à quel rythme ?"
+        ],
+        [
+          "h2",
+          "Acheter des pellets à Virton : livraison, vrac et points de vente en Gaume"
+        ],
+        [
+          "h2",
+          "Acheter du bois de chauffage à Virton : fournisseurs, prix et livraison en Gaume"
+        ],
+        [
+          "h2",
+          "Acheter des pellets à Neufchâteau : qui livre, à quel prix"
+        ]
+      ],
+      "mots": 349,
+      "tables": 0,
+      "ol": 0,
+      "ul": 1,
+      "images": 10,
+      "videos": 0,
+      "faq": false,
+      "schemas": [],
+      "source": "duckduckgo be-fr",
+      "rang": 7
+    },
+    {
+      "url": "https://bois-de-chauffage-et-pellets.be/bois-de-chauffage/",
+      "titre": "Bois de chauffage : prix 2026 et achat en Wallonie",
+      "titres": [
+        [
+          "h2",
+          "Pourquoi deux devis au même prix ne se valent pas"
+        ],
+        [
+          "h2",
+          "Ce que coûte le chauffage au bois"
+        ],
+        [
+          "h2",
+          "Qui se chauffe au bois en Wallonie"
+        ],
+        [
+          "h2",
+          "Les essences : ce qui change vraiment"
+        ],
+        [
+          "h2",
+          "Le séchage, et comment vérifier qu’on ne vous raconte pas d’histoires"
+        ],
+        [
+          "h2",
+          "Où acheter du bois de chauffage près de chez vous"
+        ]
+      ],
+      "mots": 1472,
+      "tables": 1,
+      "ol": 0,
+      "ul": 4,
+      "images": 0,
+      "videos": 0,
+      "faq": false,
+      "schemas": [],
+      "source": "duckduckgo be-fr",
+      "rang": 8
+    },
+    {
+      "url": "https://servicesecowood.be/pellet.php",
+      "titre": "Services Eco Wood SRL, livraison de bois de chauffage en Wallonie et à Bruxelles",
+      "titres": [
+        [
+          "h1",
+          "Un pellet local, performant et 100% résineux"
+        ],
+        [
+          "h1",
+          "Combustible #MadeInBelgium pour le confort de la maison!"
+        ],
+        [
+          "h1",
+          "Nos pellets sont certifiés DINpluset Enplus A1"
+        ],
+        [
+          "h3",
+          "Les caractéristiques de notre pellet"
+        ],
+        [
+          "h3",
+          "Les caractéristiques de notre 2ème pellet"
+        ],
+        [
+          "h2",
+          "Prêt à Commander?"
+        ]
+      ],
+      "mots": 240,
+      "tables": 0,
+      "ol": 0,
+      "ul": 2,
+      "images": 6,
+      "videos": 0,
+      "faq": false,
+      "schemas": [],
+      "source": "duckduckgo be-fr",
+      "rang": 9
+    },
+    {
+      "url": "https://myscape.be/services/energie",
+      "titre": "Vente et livraison de bois de chauffage et pellets en Belgique",
+      "titres": [
+        [
+          "h1",
+          "Energie"
+        ],
+        [
+          "h3",
+          "Transformez vos extérieurs grâce à myScape"
+        ]
+      ],
+      "mots": 356,
+      "tables": 0,
+      "ol": 0,
+      "ul": 0,
+      "images": 2,
+      "videos": 0,
+      "faq": false,
+      "schemas": [],
+      "source": "duckduckgo be-fr",
+      "rang": 10
+    }
+  ],
+  "sautees": []
+}

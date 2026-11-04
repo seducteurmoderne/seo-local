@@ -1,0 +1,278 @@
+/* Design C — bois-de-chauffage-et-pellets.be. Envoyé dans les styles globaux par `autopilote.py theme pousser`. */
+:root{--foret:#1D3A2C;--foret-2:#2B5640;--fond:#F6F4EE;--encre:#1A1F1C;--gris:#56605A;--filet:#DCD8CC;--flamme:#B4501F;--flamme-f:#963F15;--flamme-v:#E07A3F;--creme:#FFF8EE;--sauge:#E3EEE6;--peche:#FCE5D6;--rouge:#A93226;--titres:Fraunces,Georgia,serif;--texte:Figtree,system-ui,sans-serif;--large:min(1080px,100vw - 40px)}
+body{overflow-x:clip}
+.wp-site-blocks > *{margin-block-start:0}
+.bcp-main{padding-bottom:96px}
+
+/* ---------------------------------------------------------------- en-tête */
+.bcp-logo{margin:0;font-family:var(--titres);font-weight:800;font-size:1.45rem;line-height:1.2}
+.bcp-logo a{color:#fff;text-decoration:none}
+.bcp-logo span{color:var(--flamme-v)}
+.bcp-header__droite{gap:24px}
+.bcp-menu a{color:#E6EEE8;text-decoration:none}
+.bcp-menu a:hover,.bcp-menu a:focus{color:#fff;text-decoration:underline;text-underline-offset:6px}
+.bcp-header__cta .wp-block-button__link{background:var(--flamme-v);color:var(--encre);padding:.7rem 1.2rem;font-size:1rem}
+.bcp-header__cta .wp-block-button__link:hover{background:#fff;color:var(--encre)}
+.bcp-header .wp-block-navigation__responsive-container-open svg{fill:#fff}
+.bcp-header .wp-block-navigation__responsive-container.is-menu-open{padding:24px}
+.bcp-header .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item{font-size:1.4rem}
+@media (max-width:599px){.bcp-header__cta{display:none}}
+
+/* ---------------------------------------------------------------- pied de page */
+.bcp-footer{margin-top:0}
+.bcp-footer a{color:#E6EEE8}
+.bcp-footer a:hover{color:#fff}
+.bcp-footer__texte{color:#C9D6CD;font-size:1rem;max-width:420px}
+.bcp-footer__titre{font-size:.8rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#9FC2AD;margin:0 0 .6rem}
+.bcp-footer__liens{list-style:none;padding:0;margin:0;font-size:1rem;line-height:2}
+.bcp-footer__liens a{text-decoration:none}
+.bcp-footer__bas{border-top:1px solid rgba(255,255,255,.15);padding-top:20px;margin-top:40px;font-size:.875rem;color:#9FC2AD}
+
+/* ---------------------------------------------------------------- listes d'articles (catégories, recherche) */
+.bcp-hero{padding:56px 20px 64px;margin-bottom:48px}
+.bcp-hero h1,.bcp-hero .wp-block-query-title{color:#fff;margin:0 0 .4em}
+.bcp-hero p,.bcp-hero .wp-block-term-description{color:#D4E0D7;font-size:1.125rem;max-width:640px}
+.bcp-cartes{gap:20px}
+.bcp-carte{background:#fff;border-radius:16px;overflow:hidden;height:100%;padding-bottom:20px}
+.bcp-carte .wp-block-post-featured-image{margin:0 0 16px}
+.bcp-carte > :not(.wp-block-post-featured-image){margin-left:22px;margin-right:22px}
+.bcp-carte__cat{font-size:.8rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.bcp-carte__cat a{color:var(--flamme);text-decoration:none}
+.bcp-carte__titre{font-size:1.35rem;margin:.3em 22px .4em}
+.bcp-carte__titre a{color:var(--encre);text-decoration:none}
+.bcp-carte__titre a:hover{color:var(--flamme)}
+.bcp-carte__extrait{font-size:1rem;color:var(--gris);line-height:1.55}
+.bcp-carte__extrait .wp-block-post-excerpt__more-text{display:none}
+.wp-block-query-pagination{margin-top:40px;font-weight:700}
+.bcp-404{padding-bottom:40px}
+.bcp-404__liens{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.bcp-404__liens a{display:block;background:#fff;border-radius:12px;padding:16px 18px;color:var(--encre);text-decoration:none;font-weight:700}
+.bcp-404__liens a:hover{background:var(--sauge)}
+
+/* ---------------------------------------------------------------- articles : cadre */
+.bcp-article{font-family:var(--texte);color:var(--encre)}
+.bcp-article > *{margin-top:0;margin-bottom:1.25rem}
+.bcp-article a{color:var(--flamme);text-underline-offset:3px;text-decoration-thickness:1px}
+.bcp-article a:hover{color:var(--flamme-f);text-decoration-thickness:2px}
+.bcp-article h2{margin:3.2rem 0 1rem;scroll-margin-top:24px}
+.bcp-article h3{margin:2.2rem 0 .7rem}
+.bcp-article strong{color:var(--encre)}
+.bcp-article ul.wp-block-list,.bcp-article ol{padding-left:1.3em}
+.bcp-article li{margin:.35em 0}
+.bcp-article li::marker{color:var(--flamme)}
+.bcp-article figure{margin:2.2rem 0}
+.bcp-article figure img{border-radius:16px}
+.bcp-article figcaption{font-size:.9rem;color:var(--gris);margin-top:.6em}
+.bcp-article hr.wp-block-separator{border:0;border-top:1px solid var(--filet);margin:2.5rem 0}
+
+/* En-tête de l'article : bandeau vert sur toute la largeur */
+.bcp-entete{margin:0 calc(50% - 50vw) 0;padding:40px max(20px,calc(50vw - 380px)) 120px;background:var(--foret);color:#fff}
+.bcp-ariane ol{list-style:none;margin:0 0 1rem;padding:0;display:flex;flex-wrap:wrap;gap:.2em .5em;font-size:.95rem;color:#B9CBBF}
+.bcp-ariane li{margin:0}
+.bcp-ariane li+li::before{content:"›";margin-right:.5em;opacity:.7}
+.bcp-article .bcp-ariane a{color:#B9CBBF;text-decoration:none}
+.bcp-article .bcp-ariane a:hover{color:#fff;text-decoration:underline}
+.bcp-ariane [aria-current]{color:#fff}
+.bcp-article .bcp-titre{font-family:var(--titres);font-weight:700;font-size:clamp(2.25rem,1.5rem + 2.8vw,3.6rem);line-height:1.06;letter-spacing:-.015em;color:#fff;margin:0 0 1.2rem}
+.bcp-byline{display:flex;align-items:center;gap:12px}
+.bcp-byline p{margin:0;line-height:1.4}
+.bcp-byline__nom{font-weight:700;color:#fff}
+.bcp-article .bcp-byline__nom a{color:#fff}
+.bcp-byline__role{display:block;font-weight:400;font-size:.9rem;color:#D4E0D7}
+.bcp-byline__dates{font-size:.95rem;color:#D4E0D7}
+.bcp-avatar{flex:none;width:44px;height:44px;border-radius:50%;object-fit:cover;background:var(--flamme-v);color:var(--encre);display:inline-flex;align-items:center;justify-content:center;font-weight:800}
+
+/* En bref : carte blanche qui chevauche le bandeau */
+.bcp-bref{position:relative;background:#fff;border-radius:18px;padding:26px 28px 18px;margin:2rem 0;box-shadow:0 18px 40px rgba(29,58,44,.14)}
+.bcp-entete + .bcp-bref{margin-top:-88px}
+.bcp-bref__label{font-family:var(--titres);font-weight:700;font-size:1.35rem;margin:0 0 .6rem;color:var(--encre)}
+.bcp-bref ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px}
+.bcp-bref li{background:var(--fond);border-radius:12px;padding:14px 16px;margin:0;font-size:1.0625rem;line-height:1.5}
+.bcp-bref li strong{font-weight:800;color:var(--foret)}
+.bcp-bref p{margin:.4em 0}
+
+/* Pages prix : le titre daté en carte, puis la carte du prix du jour, tout en haut */
+.bcp-entete--carte{margin:28px 0 0;padding:28px 32px 24px;border-radius:20px}
+.bcp-entete--carte .bcp-titre{margin:0 0 .5rem}
+.bcp-prixjour{background:#fff;border-radius:20px;padding:26px 32px 22px;margin:14px 0 2rem;box-shadow:0 18px 40px rgba(29,58,44,.14);border-top:6px solid var(--flamme-v)}
+.bcp-prixjour p{margin:0}
+.bcp-prixjour__valeur{font-family:var(--titres);font-weight:800;font-size:clamp(3rem,2rem + 4vw,4.6rem);line-height:1;color:var(--flamme)}
+.bcp-prixjour__texte{font-size:1.125rem;color:var(--encre);margin-top:.45em!important}
+.bcp-prixjour__reperes{list-style:none;margin:20px 0 0;padding:18px 0 0;border-top:1px solid var(--filet);display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px 24px}
+.bcp-prixjour__reperes li{margin:0;font-size:.98rem;line-height:1.45;color:var(--gris)}
+.bcp-prixjour__val{display:block;font-family:var(--titres);font-weight:800;font-size:1.6rem;line-height:1.15;color:var(--foret)}
+
+/* Sommaire */
+.bcp-sommaire{background:#fff;border-radius:16px;padding:20px 24px;margin:2rem 0}
+.bcp-sommaire__label{margin:0 0 .5rem;font-size:.8rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--flamme)}
+.bcp-sommaire ol{margin:0;padding-left:1.3em;columns:2 16em;column-gap:2em;font-size:1rem}
+.bcp-sommaire li{margin:.3em 0;break-inside:avoid}
+.bcp-article .bcp-sommaire a{color:var(--encre);text-decoration:none}
+.bcp-article .bcp-sommaire a:hover{color:var(--flamme);text-decoration:underline}
+
+/* Encadrés astuce / alerte / à savoir */
+.bcp-encadre{border-radius:16px;padding:20px 24px;margin:2rem 0}
+.bcp-encadre p{margin:.3em 0}
+.bcp-encadre__label{font-size:.8rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
+.bcp-encadre--astuce{background:var(--sauge)}.bcp-encadre--astuce .bcp-encadre__label{color:var(--foret-2)}
+.bcp-encadre--alerte{background:var(--peche)}.bcp-encadre--alerte .bcp-encadre__label{color:#8A3A13}
+.bcp-encadre--info{background:#E2ECF3}.bcp-encadre--info .bcp-encadre__label{color:#2F4E66}
+
+/* Composants larges : débordent jusqu'à 1080 px quand la place existe */
+.bcp-chiffres,.bcp-choix,.bcp-duo{margin-left:min(0px,calc((760px - var(--large)) / 2));margin-right:min(0px,calc((760px - var(--large)) / 2))}
+
+/* Chiffres clés */
+.bcp-chiffres{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px;margin-top:2rem;margin-bottom:2rem}
+.bcp-chiffre{background:#fff;border-radius:16px;padding:22px;border-top:5px solid var(--foret-2)}
+.bcp-chiffre:nth-child(2n){border-top-color:var(--flamme-v)}
+.bcp-chiffre p{margin:0}
+.bcp-chiffre__valeur{font-family:var(--titres);font-weight:800;font-size:2.4rem;line-height:1.05;color:var(--foret)}
+.bcp-chiffre__valeur strong{color:inherit}
+.bcp-chiffre__texte{font-size:1rem;color:var(--gris);margin-top:.5em!important;line-height:1.45}
+
+/* Tableaux */
+.bcp-table{background:#fff;border-radius:18px;padding:8px 8px 4px;margin:2rem 0;overflow-x:auto}
+.bcp-table figure{margin:0}
+.bcp-table table{width:100%;min-width:520px;border-collapse:collapse;font-size:1rem}
+.bcp-table th{text-align:left;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--gris);font-weight:800;padding:12px 14px;border:0;border-bottom:2px solid var(--filet);background:none}
+.bcp-table td{padding:13px 14px;border:0;border-bottom:1px solid var(--filet);vertical-align:top}
+.bcp-table tr:last-child td{border-bottom:0}
+.bcp-table td:first-child{font-weight:600;color:var(--gris)}
+
+/* Citations */
+.bcp-article blockquote.wp-block-quote{border:0;margin:2.5rem 0;padding:0;text-align:center;font-family:var(--titres);font-weight:600;font-size:clamp(1.4rem,1.1rem + 1.2vw,1.9rem);line-height:1.3;color:var(--foret)}
+.bcp-article blockquote.wp-block-quote::before{content:"“";display:block;font-size:4rem;line-height:.6;color:var(--flamme-v);margin-bottom:.2em}
+.bcp-article blockquote.wp-block-quote cite{display:block;font-family:var(--texte);font-size:.85rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--gris);font-style:normal;margin-top:1em}
+
+/* FAQ */
+.bcp-faq{margin:3rem 0}
+.bcp-faq__item{background:#fff;border-radius:14px;margin:.7rem 0;overflow:hidden}
+.bcp-faq__item summary{cursor:pointer;list-style:none;padding:18px 56px 18px 22px;font-weight:700;position:relative}
+.bcp-faq__item summary::-webkit-details-marker{display:none}
+.bcp-faq__item summary::after{content:"+";position:absolute;right:18px;top:50%;transform:translateY(-50%);width:28px;height:28px;border-radius:50%;background:var(--sauge);color:var(--foret);text-align:center;line-height:28px;font-weight:800}
+.bcp-faq__item[open] summary::after{content:"–"}
+.bcp-faq__reponse{padding:0 22px 16px}
+.bcp-faq__reponse p{margin:0}
+
+/* Sources et auteur */
+.bcp-sources{margin:3rem 0 0;padding:16px 20px;background:#fff;border-radius:12px;font-size:.9rem;color:var(--gris);line-height:1.55}
+.bcp-sources em{font-style:normal}
+.bcp-auteur{display:flex;gap:18px;align-items:flex-start;background:var(--creme);border-radius:16px;padding:24px;margin:2.5rem 0 0}
+.bcp-auteur p{margin:0}
+.bcp-auteur .bcp-avatar{width:72px;height:72px;font-size:1.4rem}
+.bcp-auteur__label{font-size:.8rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--flamme)}
+.bcp-auteur__nom{font-family:var(--titres);font-weight:700;font-size:1.3rem}
+.bcp-auteur__role{font-size:.95rem;color:var(--gris)}
+.bcp-auteur__bio{margin-top:.5em!important;font-size:1rem}
+
+/* ---------------------------------------------------------------- formulaire de devis (habillage C par-dessus le style du moteur) */
+.bcp-article .bcp-form{background:var(--sauge);border:0;border-radius:16px;padding:22px 24px;margin:2rem 0}
+.bcp-article .bcp-form__titre{font-family:var(--titres);font-weight:700;font-size:1.3rem;line-height:1.2;margin:0 0 .25em}
+.bcp-article .bcp-form__sous{opacity:1;color:var(--gris);font-size:.95rem}
+.bcp-article .bcp-form__accroche{color:var(--encre)}
+.bcp-article .bcp-form legend{font-size:.95rem}
+.bcp-article .bcp-form label{font-size:.9rem}
+.bcp-article .bcp-form fieldset label{background:#fff;border-radius:10px;padding:7px 12px;font-weight:700;font-size:.92rem;border:2px solid transparent;cursor:pointer}
+.bcp-article .bcp-form fieldset label:has(input:checked){border-color:var(--foret-2)}
+.bcp-article .bcp-form input[type=text],.bcp-article .bcp-form input[type=email],.bcp-article .bcp-form input[type=tel],.bcp-article .bcp-form select,.bcp-article .bcp-form textarea{border:2px solid #fff;border-radius:10px;padding:.5em .75em;min-height:42px;font-size:.95rem}
+.bcp-article .bcp-form input:focus,.bcp-article .bcp-form select:focus,.bcp-article .bcp-form textarea:focus{outline:none;border-color:var(--foret-2)}
+.bcp-article .bcp-form button{background:var(--flamme);border-radius:99px;padding:.75rem 1.5rem;font-weight:800;min-height:46px}
+.bcp-article .bcp-form button:hover{background:var(--flamme-f)}
+.bcp-article .bcp-demarreur{background:#fff;border:0;border-radius:14px;padding:16px 20px;margin:1.6rem 0}
+.bcp-article .bcp-demarreur input{border:2px solid var(--filet);border-radius:10px;min-height:42px;padding:.5em .8em}
+.bcp-article .bcp-demarreur button{background:var(--flamme);border-radius:99px;padding:.7em 1.4em;font-weight:800}
+
+@media (max-width:600px){
+ .bcp-entete{padding-top:28px;padding-bottom:104px}
+ .bcp-bref{padding:22px 18px 14px}
+ .bcp-entete--carte{margin-top:16px;padding:22px 20px 18px}
+ .bcp-prixjour{padding:22px 20px 18px}
+ .bcp-article .bcp-form{padding:18px 16px}
+ .bcp-article .bcp-form .bcp-g{grid-template-columns:repeat(2,minmax(0,1fr));gap:.5em}
+ .bcp-article .bcp-form fieldset{gap:.4em}
+ .bcp-article .bcp-form fieldset label{padding:6px 10px;font-size:.88rem}
+ .bcp-article .bcp-form__titre{font-size:1.2rem}
+ .bcp-article .bcp-form__sous{font-size:.9rem}
+ .bcp-auteur{flex-direction:column}
+}
+
+/* Gabarit « avec titre » : contenus repris à la main, sans en-tête généré */
+.bcp-hero--article .wp-block-post-title{color:#fff;margin:0 0 .5rem}
+.bcp-hero .bcp-hero__date,.bcp-hero .bcp-hero__date a{color:#D4E0D7;font-size:.95rem}
+.bcp-hero__date::before{content:"Mis à jour le "}
+.bcp-hero--article ~ .wp-block-post-content .entry-title{display:none}
+
+/* Contraste AA : sur les fonds sauge et pêche, l'orange des liens passe au foncé (5,8:1) */
+.bcp-article .bcp-form a,.bcp-article .bcp-encadre a,.bcp-article .bcp-demarreur a{color:var(--flamme-f)}
+.bcp-article .bcp-form label small{opacity:1;color:var(--gris)}
+
+/* ---------------------------------------------------------------- composants visuels du design C */
+.bcp-ico{width:20px;height:20px;flex:none;margin-top:4px;fill:none;stroke:currentColor;stroke-width:2.8;stroke-linecap:round;stroke-linejoin:round}
+.bcp-duo,.bcp-choix{margin-left:min(0px,calc((760px - var(--large)) / 2));margin-right:min(0px,calc((760px - var(--large)) / 2))}
+/* Avantages / inconvénients, checklist */
+.bcp-duo{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-top:2rem;margin-bottom:2rem}
+.bcp-duo > div{border-radius:16px;padding:22px 24px}
+.bcp-duo__plus{background:var(--sauge)}
+.bcp-duo__moins{background:var(--peche)}
+.bcp-duo--checklist > div{background:#fff}
+.bcp-duo__titre{font-family:var(--titres);font-weight:700;font-size:1.3rem;margin:0 0 .7rem}
+.bcp-duo__plus .bcp-duo__titre,.bcp-duo__plus .bcp-ico{color:var(--foret-2)}
+.bcp-duo__moins .bcp-duo__titre,.bcp-duo__moins .bcp-ico{color:#8A3A13}
+.bcp-duo--checklist .bcp-duo__moins .bcp-duo__titre,.bcp-duo--checklist .bcp-duo__moins .bcp-ico{color:var(--rouge)}
+.bcp-duo ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.bcp-duo li{display:flex;gap:10px;margin:0;font-size:1.0625rem;line-height:1.5}
+/* Cartes de choix */
+.bcp-choix{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:2.2rem;margin-bottom:2rem}
+.bcp-choix__carte{position:relative;background:#fff;border-radius:16px;padding:24px 22px;border:2px solid transparent}
+.bcp-choix__carte--avant{border-color:var(--flamme)}
+.bcp-choix__badge{position:absolute;top:-13px;left:20px;background:var(--flamme);color:#fff;font-size:.8rem;font-weight:800;padding:3px 12px;border-radius:99px}
+.bcp-choix__titre{font-family:var(--titres);font-weight:700;font-size:1.45rem;line-height:1.15;margin:0 0 .3rem}
+.bcp-choix__sous{font-weight:800;color:var(--flamme);margin:0 0 .6rem;font-size:1rem}
+.bcp-choix__texte{margin:0;font-size:1rem;line-height:1.55;color:var(--gris)}
+/* Citation mise en avant */
+.bcp-citation{margin:2.8rem 0;text-align:center}
+.bcp-citation blockquote{margin:0;font-family:var(--titres);font-weight:600;font-size:clamp(1.4rem,1.1rem + 1.2vw,1.9rem);line-height:1.28;color:var(--foret);border:0;padding:0}
+.bcp-citation blockquote::before{content:"“";display:block;font-size:4rem;line-height:.6;color:var(--flamme-v);margin-bottom:.15em}
+.bcp-citation figcaption{font-size:.85rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--gris);margin-top:1rem}
+/* Notre avis */
+.bcp-avis{background:var(--creme);border-radius:16px;padding:20px 24px;margin:2rem 0}
+.bcp-avis__label{font-family:var(--titres);font-weight:700;font-size:1.15rem;margin:0 0 .3rem!important}
+.bcp-avis p{margin:0}
+/* Tableau : colonne mise en avant */
+.bcp-table--avant-1 tr > :nth-child(2),.bcp-table--avant-2 tr > :nth-child(3),.bcp-table--avant-3 tr > :nth-child(4),.bcp-table--avant-4 tr > :nth-child(5){background:var(--sauge);color:var(--foret);font-weight:800}
+/* Étapes numérotées */
+.bcp-article ol.wp-block-list{list-style:none;padding:0;counter-reset:etape;display:grid;gap:10px;margin:1.6rem 0}
+.bcp-article ol.wp-block-list > li{counter-increment:etape;position:relative;background:#fff;border-radius:12px;padding:12px 16px 12px 58px;margin:0}
+.bcp-article ol.wp-block-list > li::before{content:counter(etape);position:absolute;left:14px;top:50%;transform:translateY(-50%);width:30px;height:30px;border-radius:50%;background:var(--foret);color:#fff;display:grid;place-items:center;font-weight:800;font-size:.95rem}
+/* Tableaux en cartes sur téléphone */
+@media (max-width:600px){
+ .bcp-table{background:none;padding:0}
+ .bcp-table table{min-width:0}
+ .bcp-table thead{display:none}
+ .bcp-table tr{display:block;background:#fff;border-radius:14px;padding:6px 14px;margin-bottom:10px}
+ .bcp-table td{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid var(--filet);padding:9px 0;text-align:right}
+ .bcp-table td:last-child{border-bottom:0}
+ .bcp-table td::before{content:attr(data-label);font-weight:700;color:var(--gris);text-align:left;flex:none;max-width:45%}
+ .bcp-table td:first-child{font-family:var(--titres);font-size:1.15rem;color:var(--encre);justify-content:flex-start;text-align:left}
+ .bcp-table td:first-child::before{display:none}
+}
+
+/* Images d'article : 600 × 400 centrée, bannière 3:1, pleine largeur */
+.bcp-article .bcp-img--600{max-width:600px;margin-left:auto!important;margin-right:auto!important}
+.bcp-article .bcp-img img{border-radius:16px;display:block}
+.bcp-article .bcp-img--banniere{margin-left:min(0px,calc((760px - var(--large)) / 2))!important;margin-right:min(0px,calc((760px - var(--large)) / 2))!important}
+.bcp-article .bcp-img--banniere img{aspect-ratio:3/1;object-fit:cover}
+.bcp-article .bcp-img figcaption{text-align:center}
+/* ---------------------------------------------------------------- accueil (`entete: accueil`, 16/10/2026) : bandeau photo, chapô, formulaire en carte */
+.bcp-entete--accueil{padding:88px max(20px,calc(50vw - 540px)) 160px;
+ background:linear-gradient(100deg,rgba(18,36,27,.9) 0%,rgba(18,36,27,.7) 55%,rgba(18,36,27,.3) 100%),url(/wp-content/uploads/2026/10/bois-de-chauffage-range-sous-abri.webp) center/cover no-repeat}
+.bcp-entete--accueil .bcp-ariane,.bcp-entete--accueil .bcp-byline,.bcp-entete--accueil .bcp-byline__dates{display:none}
+.bcp-entete--accueil .bcp-titre{max-width:720px;font-size:clamp(2.6rem,1.7rem + 3.4vw,4.4rem);line-height:1.02;margin-bottom:22px}
+.bcp-chapo{max-width:620px;margin:0;font-size:1.3rem;line-height:1.5;color:#E3EEE6}
+.bcp-entete--accueil::after{content:"Gratuit · Sans engagement · Prix relevés chaque jour";display:block;margin-top:26px;font-size:.85rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--flamme-v)}
+.bcp-entete--accueil + .bcp-form{position:relative;margin-top:-110px;box-shadow:0 18px 40px rgba(29,58,44,.18)}
+.bcp-entete--accueil ~ .bcp-sommaire{display:none}
+.bcp-entete--accueil ~ h2{margin-top:4rem}
+.bcp-choix__titre a{color:var(--encre);text-decoration:none}
+.bcp-choix__titre a:hover{color:var(--flamme)}
+@media (max-width:781px){.bcp-entete--accueil{padding:56px 20px 130px}.bcp-chapo{font-size:1.1rem}}
