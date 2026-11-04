@@ -303,7 +303,11 @@ class Panel(BaseHTTPRequestHandler):
 
 def main():
     port = int(sys.argv[1]) if len(sys.argv) > 1 else 8765
-    serveur = ThreadingHTTPServer(("127.0.0.1", port), Panel)
+    try:
+        serveur = ThreadingHTTPServer(("127.0.0.1", port), Panel)
+    except OSError:
+        sys.exit(f"Le port {port} est déjà pris : le panel tourne sans doute déjà, ouvrir http://127.0.0.1:{port}\n"
+                 f"(ou le lancer sur un autre port : python3 panel/panel.py {port + 1})")
     print(f"Panel du parc : http://127.0.0.1:{port}  (Ctrl+C pour arrêter)")
     try:
         serveur.serve_forever()
