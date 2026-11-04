@@ -41,7 +41,8 @@ SEUILS = {
     "doublon_avert": 0.35,       # part du texte d'une page locale déjà présente dans une autre
     "doublon_max": 0.50,         # (bloquant au-delà)
     "brief_locales_facultatif": False,  # True : pages locales sans analyse SERP ni brief exigés (avertissement)
-    "photos_min": 1,             # photos dans le texte d'un article (schémas SVG non comptés), bloquant hors limites
+    "photos_min": 1,             # photos dans le texte d'un article (schémas SVG non comptés), bloquant hors limites ;
+                                 # une page utilitaire (devis, confidentialité) s'en dispense par `photos: non`
     "photos_max": 4,
     "photo_format": "600",       # un seul format de photo sur le site (moteur/images.py → FORMATS)
     "photo_reemploi_max": 3,     # une même photo dans 3 articles au plus (bloquant au-delà)
@@ -298,7 +299,7 @@ def controler(fm, body, visible, art_dir, parse):
         if len(re.findall(re.escape(fm.get("requete_cible", "~")), alt.lower())) > 1:
             avert.append(f"mot-clé répété dans le texte alternatif de {os.path.basename(chemin)}")
 
-    if photos < S["photos_min"]:
+    if photos < S["photos_min"] and str(fm.get("photos", "")).lower() not in ("non", "false"):
         bloq.append(f"aucune photo dans l'article ({S['photos_min']} au moins) : `photos chercher`, puis `photos prendre`")
     elif photos > S["photos_max"]:
         bloq.append(f"{photos} photos dans l'article ({S['photos_max']} au plus)")

@@ -10,6 +10,10 @@
         Photos de la commune sur Wikimedia Commons (sa catégorie et ses sous-catégories) : église, place, vue du village.
         Pour les pages de ville : une photo que n'a aucune autre page, qui ancre la page dans sa commune.
 
+    python3 tools/autopilote.py photos manquantes
+        Articles en ligne ou programmés, envoyés par le moteur, sans photo dans le texte : les plus anciens d'abord.
+        Un article repris à la main n'y figure pas, ni une page dispensée de photo (`photos: non` en front-matter).
+
     python3 tools/autopilote.py photos prendre <slug> <n°> <nom-descriptif> "<texte alternatif>" [600|banniere|large]
         Télécharge la photo n° en grand dans photos/<nom-descriptif>.jpg, note son crédit dans
         photos/credits.json et donne la ligne à coller dans l'article (légende avec le crédit).
@@ -194,8 +198,28 @@ def prendre(slug, n, nom, alt, fmt="600"):
     print(f"URL de la page source (notes de production) : {c['page']}")
 
 
+def manquantes():
+    import wp, images
+    chemin = os.path.join(config.ROOT, "autopilote", "etat.json")
+    etat = json.load(open(chemin, encoding="utf-8")) if os.path.exists(chemin) else {}
+    out = []
+    for slug, e in etat.items():
+        src = os.path.join(config.ROOT, "articles", f"{slug}.md")
+        if e.get("statut") not in ("publié", "planifié") or e.get("manuel") or not os.path.exists(src):
+            continue
+        fm, body = wp.parse_article(src)
+        if str(fm.get("photos", "")).lower() in ("non", "false") or images.photos_article(body):
+            continue
+        out.append((e.get("date_gmt") or "", slug, "ville" if config.est_locale(fm) else fm.get("type", "post"), fm.get("ville", "")))
+    for date, slug, sorte, ville in sorted(out):
+        print(f"  {slug} — {sorte}{' (' + ville + ')' if ville else ''}, en ligne depuis le {date[:10]}")
+    print(f"{len(out)} article(s) sans photo")
+
+
 def main(args):
-    if len(args) >= 3 and args[0] == "chercher":
+    if args[:1] == ["manquantes"]:
+        manquantes()
+    elif len(args) >= 3 and args[0] == "chercher":
         chercher(args[1], args[2:])
     elif len(args) >= 3 and args[0] == "commune":
         chercher(args[1], args[2:], SOURCES_COMMUNE)
