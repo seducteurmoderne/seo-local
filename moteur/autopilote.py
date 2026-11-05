@@ -213,14 +213,15 @@ def _termes(texte):
     t = texte.lower()
     for a, b in (("àâä", "a"), ("éèêë", "e"), ("îï", "i"), ("ôö", "o"), ("ùûü", "u"), ("ç", "c")):
         t = re.sub(f"[{a}]", b, t)
-    return {m[:5] for m in re.findall(r"[a-z0-9]+", t) if m not in MOTS_VIDES and len(m) > 1}
+    return {m[:5] for m in re.findall(r"[a-z0-9\u0430-\u045f]+", t) if m not in MOTS_VIDES and len(m) > 1}
 
 
 def h2_cibles(fm, visible):
     """(H2 qui reprennent la requête cible, H2 hors FAQ). Une H2 compte si elle contient au moins
     la moitié des termes de la requête (radicaux de 5 lettres, mots vides exclus)."""
+    import seo
     cible = _termes(fm.get("requete_cible", ""))
-    h2 = [h for h in re.findall(r"^##\s+(.+)$", visible, re.M) if not re.match(r"(Questions fréquentes|FAQ)", h)]
+    h2 = [h for h in re.findall(r"^##\s+(.+)$", visible, re.M) if not re.match(f"({seo.FAQ_RE})", h)]
     if not cible:
         return [], h2
     return [h for h in h2 if len(cible & _termes(h)) * 2 >= len(cible)], h2
