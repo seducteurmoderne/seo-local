@@ -109,12 +109,21 @@ def file_attente():
 
 
 # ---------------------------------------------------------------- WordPress
-def fetch(kind):
-    s, items = wp.api(f"/wp-json/wp/v2/{kind}?per_page=100&status=any&context=edit")
-    if s != 200:
-        code = items.get("code") if isinstance(items, dict) else ""
-        raise SystemExit(f"ERREUR API ({kind}) : HTTP {s} {code} — connexion WordPress refusée ou site injoignable")
-    return items
+def fetch(kind, par_page=5):
+    """Tous les contenus d'un type, par paquets : une page avec formulaires pèse ~150 Ko en contexte edit,
+    et certains hébergeurs renvoient une réponse vide au-delà d'environ 1 Mo."""
+    out, n = [], 1
+    while True:
+        s, items = wp.api(f"/wp-json/wp/v2/{kind}?per_page={par_page}&page={n}&status=any&context=edit")
+        if s == 400 and n > 1 and isinstance(items, dict) and items.get("code") == "rest_post_invalid_page_number":
+            return out
+        if s != 200:
+            code = items.get("code") if isinstance(items, dict) else ""
+            raise SystemExit(f"ERREUR API ({kind}) : HTTP {s} {code} — connexion WordPress refusée ou site injoignable")
+        out.extend(items)
+        if len(items) < par_page:
+            return out
+        n += 1
 
 
 def live_paths(posts, pages):
