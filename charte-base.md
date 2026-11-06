@@ -219,6 +219,7 @@ Quand elle existe : section `## Questions fréquentes`, rendue en accordéon, av
 | H1 | Unique, la requête formulée naturellement. Différent du title |
 | Slug | Celui de la sitemap, jamais modifié après publication |
 | Catégorie | Bois / Pellets / Ramonage / Poêlier |
+| `categorie_principale`, `categories` | Facultatifs. `categorie_principale: Guides` fait de « Guides » la catégorie principale (Yoast, fil d'Ariane) ; `categories:` (liste) ajoute des catégories secondaires. `categorie` reste la verticale du sujet |
 | Liens internes | **Toujours dans les phrases**, jamais en bloc. L'ancre reprend le mot-clé de la page cible (« taux de cendres », « ramonage d'un poêle à pellets »), pas « ici » ni un titre entier. La mère d'abord, dans le premier tiers. Puis 2-3 sœurs. 1-2 liens vers une autre verticale si le sujet l'appelle vraiment. Ancres variées |
 | Schema | FAQPage seulement si la FAQ se justifie (voir « La FAQ »). HowTo si procédure |
 | `mots_cles_secondaires` | Les recherches associées reprises dans les H2 |

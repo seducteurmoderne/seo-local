@@ -139,6 +139,16 @@ def categories():
     return {c["name"]: c["id"] for c in cats}
 
 
+def categories_article(fm):
+    """Catégories WordPress d'un article, la principale d'abord : `categorie_principale` (facultative, ex. « Guides »),
+    puis `categorie` (la verticale : besoin, page mère, image), puis la liste `categories` (catégories secondaires)."""
+    autres = fm.get("categories") or []
+    if isinstance(autres, str):
+        autres = [autres]
+    noms = [fm.get("categorie_principale") or fm.get("categorie"), fm.get("categorie"), *autres]
+    return list(dict.fromkeys(n for n in noms if n))
+
+
 def liens_homepage():
     try:
         req = urllib.request.Request(wp.URL + "/", headers={"User-Agent": "Mozilla/5.0"})
@@ -485,9 +495,14 @@ def publier(slug, brouillon=False):
         payload["featured_media"] = image_une(slug, fm)
     if kind == "posts":
         cats = categories()
-        if fm["categorie"] not in cats:
-            sys.exit(f"Catégorie inconnue dans WordPress : {fm['categorie']}")
-        payload["categories"] = [cats[fm["categorie"]]]
+        noms = categories_article(fm)
+        inconnues = [n for n in noms if n not in cats]
+        if inconnues:
+            sys.exit(f"Catégorie inconnue dans WordPress : {', '.join(inconnues)}")
+        payload["categories"] = [cats[n] for n in noms]
+        if len(noms) > 1:
+            # catégorie principale de Yoast (fil d'Ariane du balisage) : sans elle, Yoast choisit seul
+            payload["meta"]["_yoast_wpseo_primary_category"] = str(cats[noms[0]])
     if existant and existant["status"] in ("publish", "future"):
         pass  # mise à jour sans toucher au statut ni à la date
     elif brouillon:
@@ -504,6 +519,9 @@ def publier(slug, brouillon=False):
         rafraichir_yoast(kind, r["id"], payload["featured_media"])
     if r.get("meta", {}).get("_yoast_wpseo_title") != fm["title_seo"]:
         print("⚠️ Le title Yoast n'a pas été enregistré (mu-plugin absent ?)")
+    primaire = payload.get("meta", {}).get("_yoast_wpseo_primary_category")
+    if primaire and r.get("meta", {}).get("_yoast_wpseo_primary_category") != primaire:
+        print("⚠️ Catégorie principale Yoast non enregistrée : mettre à jour le mu-plugin expose-yoast-rest.php sur le serveur")
 
     statut = STATUTS.get(r["status"], r["status"])
     etat[slug] = {"id": r["id"], "type": kind[:-1], "statut": statut, "date_gmt": r["date_gmt"],

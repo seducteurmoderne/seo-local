@@ -58,11 +58,17 @@ def fil_ariane(fm):
     mere = config.CATEGORIE_MERE.get(fm.get("categorie", ""))
     if not mere and besoin:
         mere = next((f"/{v['mere']}/" for v in config.VERTICALES if v["besoin"] == besoin), None)
-    if mere and fm.get("type") != "page" and mere != f"/{fm.get('slug')}/":
+    principale = fm.get("categorie_principale")
+    if principale and fm.get("type") != "page" and principale != fm.get("categorie"):
+        # catégorie principale propre (ex. « Guides ») : son étape remplace celle de la verticale ;
+        # lien vers sa page si site.json → pages_categories la donne
+        page = (config.SITE.get("pages_categories") or {}).get(principale)
+        etapes.append((principale, f"/{page}/" if page else None))
+    elif mere and fm.get("type") != "page" and mere != f"/{fm.get('slug')}/":
         nom = next(v["categorie"] for v in config.VERTICALES if f"/{v['mere']}/" == mere)
         etapes.append((nom, mere))
     court = fm.get("fil_ariane") or re.split(r"\s[:?]\s?|\s—\s", fm.get("h1", ""))[0].strip()
-    items = "".join(f'<li><a href="{h}">{e(n)}</a></li>' for n, h in etapes)
+    items = "".join(f'<li><a href="{h}">{e(n)}</a></li>' if h else f"<li>{e(n)}</li>" for n, h in etapes)
     return f'<nav class="bcp-ariane" aria-label="{T["fil_ariane"]}"><ol>{items}<li aria-current="page">{e(court)}</li></ol></nav>'
 
 

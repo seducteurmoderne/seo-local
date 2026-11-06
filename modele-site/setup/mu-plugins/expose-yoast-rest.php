@@ -1,7 +1,7 @@
 <?php
-// wp-content/mu-plugins/expose-yoast-rest.php — rend title, meta description et mot-clé Yoast modifiables par l'API.
+// wp-content/mu-plugins/expose-yoast-rest.php — rend title, meta description, mot-clé et catégorie principale Yoast modifiables par l'API.
 add_action('init', function () {
-    $keys = ['_yoast_wpseo_title', '_yoast_wpseo_metadesc', '_yoast_wpseo_focuskw'];
+    $keys = ['_yoast_wpseo_title', '_yoast_wpseo_metadesc', '_yoast_wpseo_focuskw', '_yoast_wpseo_primary_category'];
     foreach (['post', 'page'] as $type) {
         foreach ($keys as $key) {
             register_post_meta($type, $key, [
